@@ -1,0 +1,2423 @@
+{
+  "upstream_sha": "bc3313601fb80ee96a91c35417ec6900cad6c4c2",
+  "rules": [
+    {
+      "source": "geo-lite/geosite/private.json",
+      "field": "domain_regex",
+      "value": "^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/alphabet.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/alphabet.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/alphabet@cn.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/alphabet@cn.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/amazon.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-[0-9][0-9]\\.(co\\.uk|com|net|org)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/amazon.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/amazon.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/amazon@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/amazon@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/aws-cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/aws-cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/aws-cn@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/aws-cn@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/aws.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-[0-9][0-9]\\.(co\\.uk|com|net|org)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/aws.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/aws.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/aws@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/aws@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/bilibili2.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)bilibili3(0[1-9]|1[0-2])\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-ads-all.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-ads-all@ads.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-ads.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-ads@ads.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-ai-!cn.json",
+      "field": "domain_regex",
+      "value": "^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-ai-chat-!cn.json",
+      "field": "domain_regex",
+      "value": "^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-[0-9][0-9]\\.(co\\.uk|com|net|org)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies.json",
+      "field": "domain_regex",
+      "value": "^ewcdn[0-9]+\\.nowe\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies@cn.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-companies@cn.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-container.json",
+      "field": "domain_regex",
+      "value": ".+\\.dkr\\.ecr\\.[^\\.]+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-dev.json",
+      "field": "domain_regex",
+      "value": ".+\\.dkr\\.ecr\\.[^\\.]+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment-cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment-cn@cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "^[0-9]+vod-adaptive\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "^ewcdn[0-9]+\\.nowe\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment.json",
+      "field": "domain_regex",
+      "value": "^hses[1-7]?\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment@cn.json",
+      "field": "domain_regex",
+      "value": "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-entertainment@cn.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games-!cn.json",
+      "field": "domain_regex",
+      "value": "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games-!cn.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games-!cn.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games-!cn@cn.json",
+      "field": "domain_regex",
+      "value": "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games-!cn@cn.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games-cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games-cn@cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games.json",
+      "field": "domain_regex",
+      "value": "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games@cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games@cn.json",
+      "field": "domain_regex",
+      "value": "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-games@cn.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-number-verification-cn.json",
+      "field": "domain_regex",
+      "value": "^nis.+\\.10010\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)13mei[5-7]\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)18j[efg]\\.life$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)18jmttios[0-9]{2}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)18tv[1-5]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)1[0-9]{2}\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)2024(3[0-9]|4[0-9]|6[0-9]|7[0-9])\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)3[0-9]{2}\\.icu$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)3[0-9]{2}\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)69bag[0-1][1-9]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)783([a-z][a-z]?)?\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)7mm0([0-1][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)8dgo[1-57-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91cg([1-9]|[0-9][1-9])?.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91p[0-9][0-9]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porn[0-9]?\\.store$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porn[0-9]{3}\\.me$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porn[fvxy]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porn\\.(best|com|cool|fun|group|party|plus|site|tw|work)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porna[1-7]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91sew1[1-6]\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91wang[1-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)989[a-z]?\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)99pp[1-9][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)9cha[0-9]{2}\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[1-5]gaoap\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[1-9]+aipai\\.(com|net)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[1-9]+zipai\\.(com|net)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[1-9]00caocao\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[3-9]0000sao\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[a-z]?fulibl\\.(cc|com|org|net|xyz)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[a-z][1-9][0-9][a-z]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)aipa(111|222|333|444|555|666|777|888|999)\\.life$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)aisejushi(2|3|5|6)\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)aiwei[1-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)aqdk[0-9]{3}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)avcc1[0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)avstar0[1-9]\\.(com|me)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)awjd[1-9]?\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)awwcn[1-9]?\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)banyinjia[0-9]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)bhzyk[1-9]?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)bibeidh1[6-8]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)bilibili3(0[1-9]|1[0-2])\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)bjini[0-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)byy[0-9][0-9]?\\.icu$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)cav1(0[2-9]|1[0-9])\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)cgbb([1-9]|1[0-9]|20)\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)chuzs[1-9]{0,2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)cosaa[a-z]\\.cyou$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)doufuru[0-9]?\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)doufuru[0-9]{2}?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)douyintt[0-9]\\.me$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)fby[1-9]?[0-9]\\.icu$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)fby[1-9]?[0-9]\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)fi11sm([0-9]+)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)fiftymvapi\\..+$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)flsq[0-9]{2}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)forduck[0-1][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)gaogediao\\.(com|me|net|org)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)gossipfuli[0-9]{3,4}\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)guifw3[1-3]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)h5ccav[1-5]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)hhmen[1-3]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)hkfg[1-7]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)hs[1-9]{2}\\.vip$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jav777\\.(cc|tv|work)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jb[1-9][0-9]\\.lol$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jbk0([0-1][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jdyy[1-9]?\\.me$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jiuse[0-9]{1,3}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jmtt\\.(app|live|tv|vip)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jstv[0-9]{2}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)kdfl[0-9]{2}\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)kimoav([1-9][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)kpkuang\\.(bond|fun|info|one|us)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)ksyp0[1-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)lianren[1-7]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)llyysp[0-9]{4}\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)loibus(100|101|202|505|606)\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)loibus\\.(cc|com|link)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)luchuxue([0-9]{0,5})\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)maa18[0-2][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)madouqu[0-9]{2}\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mdyy[0-1][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mdyy[0-9][0-9]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mimi[0-9]{3}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mimi\\.(cfd|lol|onl|sbs|so|vc)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mitao[1-3]\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mmtv[1-5]\\.life$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mmwz\\.(fun|in|la|me|one|pro|pw|run|tv|ws)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)momotk([1-9][0-9]?)?\\.uno$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)nnbw[0-2]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)putaozy([1-9][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)qqbs([0-9]{2})?\\.vip$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)qqsp0[1-3]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)rbp[1-9][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)rbyh[1-9]\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)rule34\\.(asia|us|world|xxx|xyz)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)sao[1-6]0000\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)sbyjs2[6-9]\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)sg11[3-9]\\.me$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)shdd[0-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)shuangmawei[0-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)smgsp[0-2]?\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)spankwire[1-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)ssphb[0-9]{2}\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)supxxx[0-9]{0,2}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)sycf[0-9]?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)syjc1[1-6]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)tianbiav([1-9]|1[0-6])?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)tqav[1-9][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)tt[1-2][0-9]\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)ttghg[1-9][0-9]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)tttv([1-9][0-9]?|100)\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)twav[1-9]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)twseb([1-9][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)uu[a-z][1-9][0-9]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)whtdh0[1-3]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)wmm33[0-5]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)wyfuli[1-9]\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xaa[0-9]?\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xaxy[0-9]{2}\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xg[0-9]{2}\\.vip$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xgyy([0-9]{2})?\\.vip$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xingdh([0-9]{3})?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xlywz[1-9]?\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xomfsp[1-9]?\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xv[0-9]{4}\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xxxyaom[0-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)yiren[1-9][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)youyuapi\\..+$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)yrrj[1-9]?\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)yygc[0-9]?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zayy([0-9]{0,3})?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zh9[0-7]\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zy[0-9]{4}\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zztt[1-6][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zzz[1-9][0-9]\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "javdb\\d+\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-speedtest.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-speedtest@ads.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/cavporn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)cav1(0[2-9]|1[0-9])\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/disney.json",
+      "field": "domain_regex",
+      "value": "^hses[1-7]?\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/epicgames.json",
+      "field": "domain_regex",
+      "value": "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/epicgames.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/epicgames.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/epicgames@cn.json",
+      "field": "domain_regex",
+      "value": "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/epicgames@cn.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)13mei[5-7]\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)18j[efg]\\.life$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)18jmttios[0-9]{2}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)18tv[1-5]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)1[0-9]{2}\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)2024(3[0-9]|4[0-9]|6[0-9]|7[0-9])\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)3[0-9]{2}\\.icu$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)3[0-9]{2}\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)69bag[0-1][1-9]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)783([a-z][a-z]?)?\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)7mm0([0-1][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)8dgo[1-57-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91cg([1-9]|[0-9][1-9])?.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91p[0-9][0-9]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porn[0-9]?\\.store$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porn[0-9]{3}\\.me$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porn[fvxy]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porn\\.(best|com|cool|fun|group|party|plus|site|tw|work)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91porna[1-7]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91sew1[1-6]\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)91wang[1-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)989[a-z]?\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)99pp[1-9][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)9cha[0-9]{2}\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[1-5]gaoap\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[1-9]+aipai\\.(com|net)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[1-9]+zipai\\.(com|net)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[1-9]00caocao\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[3-9]0000sao\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[a-z]?fulibl\\.(cc|com|org|net|xyz)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)[a-z][1-9][0-9][a-z]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)aipa(111|222|333|444|555|666|777|888|999)\\.life$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)aisejushi(2|3|5|6)\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)aiwei[1-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)aqdk[0-9]{3}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)avcc1[0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)avstar0[1-9]\\.(com|me)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)awjd[1-9]?\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)awwcn[1-9]?\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)banyinjia[0-9]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)bhzyk[1-9]?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)bibeidh1[6-8]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)bilibili3(0[1-9]|1[0-2])\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)bjini[0-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)byy[0-9][0-9]?\\.icu$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)cav1(0[2-9]|1[0-9])\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)cgbb([1-9]|1[0-9]|20)\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)chuzs[1-9]{0,2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)cosaa[a-z]\\.cyou$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)doufuru[0-9]?\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)doufuru[0-9]{2}?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)douyintt[0-9]\\.me$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)fby[1-9]?[0-9]\\.icu$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)fby[1-9]?[0-9]\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)fi11sm([0-9]+)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)fiftymvapi\\..+$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)flsq[0-9]{2}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)forduck[0-1][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)gaogediao\\.(com|me|net|org)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)gossipfuli[0-9]{3,4}\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)guifw3[1-3]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)h5ccav[1-5]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)hhmen[1-3]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)hkfg[1-7]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)hs[1-9]{2}\\.vip$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jav777\\.(cc|tv|work)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jb[1-9][0-9]\\.lol$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jbk0([0-1][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jdyy[1-9]?\\.me$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jiuse[0-9]{1,3}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jmtt\\.(app|live|tv|vip)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)jstv[0-9]{2}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)kdfl[0-9]{2}\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)kimoav([1-9][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)kpkuang\\.(bond|fun|info|one|us)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)ksyp0[1-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)lianren[1-7]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)llyysp[0-9]{4}\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)loibus(100|101|202|505|606)\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)loibus\\.(cc|com|link)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)luchuxue([0-9]{0,5})\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)maa18[0-2][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)madouqu[0-9]{2}\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mdyy[0-1][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mdyy[0-9][0-9]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mimi[0-9]{3}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mimi\\.(cfd|lol|onl|sbs|so|vc)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mitao[1-3]\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mmtv[1-5]\\.life$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)mmwz\\.(fun|in|la|me|one|pro|pw|run|tv|ws)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)momotk([1-9][0-9]?)?\\.uno$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)nnbw[0-2]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)putaozy([1-9][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)qqbs([0-9]{2})?\\.vip$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)qqsp0[1-3]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)rbp[1-9][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)rbyh[1-9]\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)rule34\\.(asia|us|world|xxx|xyz)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)sao[1-6]0000\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)sbyjs2[6-9]\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)sg11[3-9]\\.me$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)shdd[0-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)shuangmawei[0-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)smgsp[0-2]?\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)spankwire[1-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)ssphb[0-9]{2}\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)supxxx[0-9]{0,2}\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)sycf[0-9]?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)syjc1[1-6]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)tianbiav([1-9]|1[0-6])?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)tqav[1-9][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)tt[1-2][0-9]\\.tv$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)ttghg[1-9][0-9]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)tttv([1-9][0-9]?|100)\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)twav[1-9]\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)twseb([1-9][0-9]?)?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)uu[a-z][1-9][0-9]?\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)whtdh0[1-3]\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)wmm33[0-5]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)wyfuli[1-9]\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xaa[0-9]?\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xaxy[0-9]{2}\\.one$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xg[0-9]{2}\\.vip$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xgyy([0-9]{2})?\\.vip$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xingdh([0-9]{3})?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xlywz[1-9]?\\.cc$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xomfsp[1-9]?\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xv[0-9]{4}\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)xxxyaom[0-9]{2}\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)yiren[1-9][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)youyuapi\\..+$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)yrrj[1-9]?\\.buzz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)yygc[0-9]?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zayy([0-9]{0,3})?\\.xyz$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zh9[0-7]\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zy[0-9]{4}\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zztt[1-6][0-9]\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)zzz[1-9][0-9]\\.top$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-[0-9][0-9]\\.(co\\.uk|com|net|org)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.dkr\\.ecr\\.[^\\.]+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "^[0-9]+vod-adaptive\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "^epicgames-download\\d\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "^ewcdn[0-9]+\\.nowe\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "^hses[1-7]?\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "javdb\\d+\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-cn@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-cn@cn.json",
+      "field": "domain_regex",
+      "value": ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-cn@cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/google-play.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/google-play.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/google-play@cn.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/google-play@cn.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/google.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/google.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/google@cn.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/google@cn.json",
+      "field": "domain_regex",
+      "value": "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/hotstar.json",
+      "field": "domain_regex",
+      "value": "^hses[1-7]?\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/javdb.json",
+      "field": "domain_regex",
+      "value": "javdb\\d+\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/kinopub.json",
+      "field": "domain_regex",
+      "value": "(\\w+)-static-[0-9]+\\.cdntogo\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/mihoyo-cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/mihoyo-cn@cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/mihoyo.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/mihoyo@cn.json",
+      "field": "domain_regex",
+      "value": "^.+-mihayo\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/netflix.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/netflix.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/netflix.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/netflix.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/okaapps.json",
+      "field": "domain_regex",
+      "value": "^(.+\\.)*zh\\.okaapps\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/okaapps@cn.json",
+      "field": "domain_regex",
+      "value": "^(.+\\.)*zh\\.okaapps\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/ookla-speedtest.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/ookla-speedtest@ads.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/openai.json",
+      "field": "domain_regex",
+      "value": "^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/pccw.json",
+      "field": "domain_regex",
+      "value": "^ewcdn[0-9]+\\.nowe\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/private.json",
+      "field": "domain_regex",
+      "value": "^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/speedtest.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/speedtest@ads.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/vimeo.json",
+      "field": "domain_regex",
+      "value": "^[0-9]+vod-adaptive\\.akamaized\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/viu.json",
+      "field": "domain_regex",
+      "value": "^ewcdn[0-9]+\\.nowe\\.com$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+# Generated Surge RULE-SET. No policy is embedded.
+# Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS19662.json
+# Status: complete; emitted: 40; unsupported: 0
+IP-CIDR,198.161.21.0/24,no-resolve
+IP-CIDR,198.162.16.0/22,no-resolve
+IP-CIDR,199.166.227.0/24,no-resolve
+IP-CIDR,199.166.228.0/24,no-resolve
+IP-CIDR,199.185.1.0/24,no-resolve
+IP-CIDR,199.60.19.0/24,no-resolve
+IP-CIDR,199.60.230.0/23,no-resolve
+IP-CIDR,204.174.112.0/24,no-resolve
+IP-CIDR,204.174.204.0/23,no-resolve
+IP-CIDR,204.174.222.0/24,no-resolve
+IP-CIDR,204.174.35.0/24,no-resolve
+IP-CIDR,204.174.36.0/24,no-resolve
+IP-CIDR,204.174.80.0/20,no-resolve
+IP-CIDR,204.174.96.0/22,no-resolve
+IP-CIDR,204.209.150.0/24,no-resolve
+IP-CIDR,204.239.166.0/24,no-resolve
+IP-CIDR,204.239.30.0/24,no-resolve
+IP-CIDR,204.239.40.0/23,no-resolve
+IP-CIDR,204.239.42.0/24,no-resolve
+IP-CIDR,207.200.128.0/19,no-resolve
+IP-CIDR,208.87.52.0/22,no-resolve
+IP-CIDR,216.113.192.0/19,no-resolve
+IP-CIDR,216.210.96.0/20,no-resolve
+IP-CIDR,216.86.96.0/19,no-resolve
+IP-CIDR,216.99.32.0/20,no-resolve
+IP-CIDR6,2605:1000:1000::/36,no-resolve
+IP-CIDR6,2605:1000:100::/40,no-resolve
+IP-CIDR6,2605:1000:10::/44,no-resolve
+IP-CIDR6,2605:1000:2000::/35,no-resolve
+IP-CIDR6,2605:1000:200::/39,no-resolve
+IP-CIDR6,2605:1000:20::/43,no-resolve
+IP-CIDR6,2605:1000:4000::/34,no-resolve
+IP-CIDR6,2605:1000:400::/38,no-resolve
+IP-CIDR6,2605:1000:40::/42,no-resolve
+IP-CIDR6,2605:1000:8000::/33,no-resolve
+IP-CIDR6,2605:1000:800::/37,no-resolve
+IP-CIDR6,2605:1000:80::/41,no-resolve
+IP-CIDR6,2605:1000:8::/47,no-resolve
+IP-CIDR6,2605:1000::/45,no-resolve
+IP-CIDR6,2605:1000:c::/46,no-resolve

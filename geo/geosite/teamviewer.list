@@ -1,0 +1,8 @@
+# Generated Surge RULE-SET. No policy is embedded.
+# Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/teamviewer.json
+# Status: complete; emitted: 5; unsupported: 0
+DOMAIN,client-teamviewer-com.trafficmanager.net
+DOMAIN,teamviewer.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,teamviewer.cn
+DOMAIN-SUFFIX,teamviewer.com
+DOMAIN-SUFFIX,teamviewer.us

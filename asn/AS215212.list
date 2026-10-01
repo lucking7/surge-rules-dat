@@ -1,0 +1,15 @@
+# Generated Surge RULE-SET. No policy is embedded.
+# Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS215212.json
+# Status: complete; emitted: 12; unsupported: 0
+IP-CIDR,85.155.99.0/24,no-resolve
+IP-CIDR6,2a0f:85c1:3ab::/48,no-resolve
+IP-CIDR6,2a0f:9400:6000::/48,no-resolve
+IP-CIDR6,2a0f:9400:600a::/48,no-resolve
+IP-CIDR6,2a0f:9400:6010::/46,no-resolve
+IP-CIDR6,2a0f:9400:6014::/47,no-resolve
+IP-CIDR6,2a0f:9400:6016::/48,no-resolve
+IP-CIDR6,2a0f:9400:6018::/47,no-resolve
+IP-CIDR6,2a0f:9400:6020::/48,no-resolve
+IP-CIDR6,2a0f:9400:6053::/48,no-resolve
+IP-CIDR6,2a0f:9400:60ff::/48,no-resolve
+IP-CIDR6,2a0f:b240:1c::/48,no-resolve
