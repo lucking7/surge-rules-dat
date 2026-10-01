@@ -38,10 +38,10 @@ python3 scripts/validate.py dist --surge-cli /Applications/Surge.app/Contents/Ap
 ## 设计
 
 - 读取上游 `sing` 分支公开的 JSON 源格式，避免解码二进制 `.srs`。
-- 检查 JSON 与 SRS 分类一一对应，拒绝缺失目录、未知字段、混合 IP/domain 条件、异常 CIDR 和重复归档路径。
+- 检查 JSON 与 SRS 分类一一对应，拒绝缺失目录、未知字段、异常 CIDR 和重复归档路径，并检查 Surge 单集合 100 万条规则的上限。
 - 一一保留分类路径；规则排序去重；IPv4 和 IPv6 分别输出正确类型。
 - 来源、校验值、规则数量及正则缺口保存在 `manifest.json` 和 `unsupported.json`。
-- [上游转换器](https://github.com/MetaCubeX/meta-rules-converter)说明数据生成过程。[Surge RULE-SET 文档](https://manual.nssurge.com/rule/ruleset.html)说明目标格式。
+- [上游转换器](https://github.com/MetaCubeX/meta-rules-converter)说明数据生成过程。[Surge RULE-SET 文档](https://manual.nssurge.com/rules/ruleset.html)说明目标格式。
 
 ## 许可
 

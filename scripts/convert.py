@@ -51,10 +51,8 @@ def convert_rules(data):
     for rule in data["rules"]:
         if not isinstance(rule, dict) or not rule or set(rule) - FIELDS:
             raise ValueError(f"unsupported rule fields: {rule!r}")
-        # sing-box combines an IP condition with a domain condition using AND.
-        # A flat Surge list uses OR, so reject such a future schema change.
-        if "ip_cidr" in rule and any(k in rule for k in FIELDS - {"ip_cidr"}):
-            raise ValueError("mixed IP/domain conditions cannot be flattened")
+        # sing-box ORs these supported domain and destination IP conditions.
+        # Fields from other matcher groups are rejected above, not flattened.
         for key in sorted(rule):
             for value in values(rule[key]):
                 if not value or any(c in value for c in "\r\n\x00"):
@@ -126,6 +124,8 @@ def convert_archive(archive, output, sha):
             json_paths.add(path)
             raw = tar.extractfile(member).read()
             rules, unsupported, counts = convert_rules(json.loads(raw))
+            if len(rules) > 1_000_000:
+                raise ValueError(f"Surge's per-rule-set limit exceeded: {path}")
             target = str(PurePosixPath(path).with_suffix(".list"))
             groups[str(PurePosixPath(path).parent)] += 1
             field_counts.update(counts)

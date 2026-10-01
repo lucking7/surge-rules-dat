@@ -36,9 +36,13 @@ class RuleConversionTests(unittest.TestCase):
         self.assertEqual(unsupported[0]["value"], expression)
         self.assertEqual(counts["domain_regex"], 1)
 
+    def test_domain_and_destination_ip_conditions_preserve_or(self):
+        rules, unsupported, _ = convert_rules(rule_set(domain="example.com", ip_cidr="192.0.2.0/24"))
+        self.assertEqual(rules, ["DOMAIN,example.com", "IP-CIDR,192.0.2.0/24,no-resolve"])
+        self.assertFalse(unsupported)
+
     def test_future_incompatible_rules_fail_closed(self):
-        cases = [rule_set(domain=["example.com"], ip_cidr=["192.0.2.0/24"]),
-                 rule_set(type="logical", rules=[]), rule_set(invert=True, domain="example.com"),
+        cases = [rule_set(type="logical", rules=[]), rule_set(invert=True, domain="example.com"),
                  rule_set(domain_suffix=".example.com"), rule_set(domain="a,b"),
                  rule_set(domain=[42]), rule_set(ip_cidr="192.0.2.1/24"),
                  rule_set(ip_cidr="192.0.2.1"), {"version": 99, "rules": [{"domain": "a"}]}]
