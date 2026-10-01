@@ -1,0 +1,50 @@
+name: Sync Surge rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */6 * * *'
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-surge-rules
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Test converter and publication
+        run: python3 -m unittest discover -s tests -v
+      - name: Convert a pinned upstream snapshot
+        run: python3 scripts/convert.py --output dist
+      - name: Validate all generated rules
+        run: python3 scripts/validate.py dist
+      - name: Render catalog and provenance
+        run: python3 scripts/catalog.py dist --repository "$GITHUB_REPOSITORY"
+      - name: Publish the release branch
+        run: bash scripts/publish.sh dist
+      - name: Write job summary
+        if: success()
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          manifest = json.loads(Path('dist/manifest.json').read_text())
+          summary = manifest['summary']
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              out.write('## Surge rules published\n\n')
+              out.write(f"Upstream: `{manifest['upstream']['sha']}`\n\n")
+              out.write(f"Rule sets: {summary['rule_sets']:,}\n\n")
+              out.write(f"Emitted rules: {summary['emitted_rules']:,}\n\n")
+              out.write(f"Unsupported regex records: {summary['unsupported_rules']:,}\n")
+          PY
