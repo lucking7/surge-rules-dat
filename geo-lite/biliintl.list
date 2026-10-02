@@ -1,0 +1,15 @@
+# Generated Surge RULE-SET. No policy is embedded.
+# Union of same-name geo-lite domain and IP categories.
+# Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geosite/biliintl.json
+# Status: complete; emitted: 11; unsupported: 0
+DOMAIN-SUFFIX,api.global.bilibili.com
+DOMAIN-SUFFIX,apm-misaka.biliapi.net
+DOMAIN-SUFFIX,app.global.bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biliintl.com
+DOMAIN-SUFFIX,bstarstatic.com
+DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
+DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,upos-sz-mirroralibstar1.bilivideo.com
+DOMAIN-SUFFIX,upos-sz-mirrorcosbstar1.bilivideo.com
