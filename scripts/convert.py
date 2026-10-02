@@ -24,6 +24,14 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def file_digest(path):
+    checksum = hashlib.sha256()
+    with Path(path).open("rb") as source:
+        while chunk := source.read(1024 * 1024):
+            checksum.update(chunk)
+    return checksum.hexdigest()
+
+
 def values(value):
     if isinstance(value, str):
         return [value]
@@ -109,6 +117,21 @@ def read_rules(path):
             if line and not line.startswith("#")]
 
 
+def rule_set_content(rules, sources, unsupported, *, merged=False):
+    status = "complete"
+    if unsupported:
+        status = "partial" if rules else "unsupported_only"
+    header = ["# Generated Surge RULE-SET. No policy is embedded."]
+    if merged:
+        header.append("# Union of same-name geo-lite domain and IP categories.")
+    for source in sources:
+        header.append(f"# Source: https://raw.githubusercontent.com/{UPSTREAM}/{BRANCH}/{source}")
+    header.append(f"# Status: {status}; emitted: {len(rules)}; unsupported: {unsupported}")
+    if unsupported:
+        header.append("# DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.")
+    return ("\n".join(header + rules) + "\n").encode(), status
+
+
 def merge_geo_lite(output, files):
     merged = []
     for name, sources in geo_lite_groups(files).items():
@@ -116,15 +139,8 @@ def merge_geo_lite(output, files):
         if len(rules) > 1_000_000:
             raise ValueError(f"Surge's per-rule-set limit exceeded: geo-lite/{name}")
         unsupported = sum(source["unsupported"] for source in sources)
-        status = "complete" if not unsupported else "partial" if rules else "unsupported_only"
-        header = ["# Generated Surge RULE-SET. No policy is embedded.",
-                  "# Union of same-name geo-lite domain and IP categories."]
-        for source in sources:
-            header.append(f"# Source: https://raw.githubusercontent.com/{UPSTREAM}/{BRANCH}/{source['source']}")
-        header.append(f"# Status: {status}; emitted: {len(rules)}; unsupported: {unsupported}")
-        if unsupported:
-            header.append("# DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.")
-        content = ("\n".join(header + rules) + "\n").encode()
+        content, status = rule_set_content(rules, [source["source"] for source in sources],
+                                          unsupported, merged=True)
         target = "geo-lite/" + name
         (output / target).write_bytes(content)
         merged.append({"path": target, "sources": [source["path"] for source in sources],
@@ -145,10 +161,6 @@ def convert_archive(archive, output, sha):
     json_paths, srs_paths = set(), set()
     unsupported_records = []
     field_counts = Counter()
-    groups = Counter()
-    input_total = 0
-    output_total = 0
-    duplicate_total = 0
     with tarfile.open(archive, "r:gz") as tar:
         for member in tar:
             if not member.isfile() or not member.name.endswith((".json", ".srs")):
@@ -167,21 +179,10 @@ def convert_archive(archive, output, sha):
             if len(rules) > 1_000_000:
                 raise ValueError(f"Surge's per-rule-set limit exceeded: {path}")
             target = str(PurePosixPath(path).with_suffix(".list"))
-            groups[str(PurePosixPath(path).parent)] += 1
             field_counts.update(counts)
             input_count = sum(counts.values())
-            input_total += input_count
-            output_total += len(rules)
             duplicates = input_count - len(unsupported) - len(rules)
-            duplicate_total += duplicates
-            status = "complete" if not unsupported else "partial" if rules else "unsupported_only"
-            source_url = f"https://raw.githubusercontent.com/{UPSTREAM}/{BRANCH}/{path}"
-            header = ["# Generated Surge RULE-SET. No policy is embedded.",
-                      f"# Source: {source_url}",
-                      f"# Status: {status}; emitted: {len(rules)}; unsupported: {len(unsupported)}"]
-            if unsupported:
-                header.append("# DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.")
-            content = ("\n".join(header + rules) + "\n").encode()
+            content, status = rule_set_content(rules, [path], len(unsupported))
             dest = output / target
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_bytes(content)
@@ -200,15 +201,18 @@ def convert_archive(archive, output, sha):
     merged_files = merge_geo_lite(output, files)
     unsupported_records.sort(key=lambda record: (record["source"], record["value"]))
     manifest = {"format_version": 1, "upstream": {"repository": UPSTREAM, "branch": BRANCH,
-                "sha": sha, "archive_sha256": digest(Path(archive).read_bytes())},
+                "sha": sha, "archive_sha256": file_digest(archive)},
                 "converter_sha256": digest(Path(__file__).read_bytes()),
-                "summary": {"rule_sets": len(files), "source_rules": input_total,
-                            "emitted_rules": output_total, "unsupported_rules": len(unsupported_records),
-                            "deduplicated_rules": duplicate_total,
+                "summary": {"rule_sets": len(files),
+                            "source_rules": sum(record["input_rules"] for record in files),
+                            "emitted_rules": sum(record["rules"] for record in files),
+                            "unsupported_rules": len(unsupported_records),
+                            "deduplicated_rules": sum(record["deduplicated"] for record in files),
                             "merged_rule_sets": len(merged_files),
                             "merged_rules": sum(record["rules"] for record in merged_files),
                             "statuses": dict(sorted(Counter(f["status"] for f in files).items())),
-                            "groups": dict(sorted(groups.items())),
+                            "groups": dict(sorted(Counter(str(PurePosixPath(record["source"]).parent)
+                                                          for record in files).items())),
                             "fields": dict(sorted(field_counts.items()))},
                 "files": files, "merged_files": merged_files}
     write_json(output / "manifest.json", manifest)
