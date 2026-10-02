@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS7377.json
-# Status: complete; emitted: 779; unsupported: 0
+# Status: complete; emitted: 786; unsupported: 0
 IP-CIDR,128.54.0.0/16,no-resolve
 IP-CIDR,132.239.0.0/16,no-resolve
 IP-CIDR,137.110.0.0/16,no-resolve
@@ -22,7 +22,7 @@ IP-CIDR,216.151.38.0/24,no-resolve
 IP-CIDR,216.21.14.0/24,no-resolve
 IP-CIDR,44.0.0.0/16,no-resolve
 IP-CIDR,44.1.0.0/24,no-resolve
-IP-CIDR,44.1.11.0/24,no-resolve
+IP-CIDR,44.1.10.0/23,no-resolve
 IP-CIDR,44.1.12.0/22,no-resolve
 IP-CIDR,44.1.128.0/17,no-resolve
 IP-CIDR,44.1.16.0/20,no-resolve
@@ -346,6 +346,7 @@ IP-CIDR,44.30.123.0/24,no-resolve
 IP-CIDR,44.30.124.0/24,no-resolve
 IP-CIDR,44.30.129.0/24,no-resolve
 IP-CIDR,44.30.130.0/24,no-resolve
+IP-CIDR,44.30.132.0/24,no-resolve
 IP-CIDR,44.30.144.0/23,no-resolve
 IP-CIDR,44.30.147.0/24,no-resolve
 IP-CIDR,44.30.148.0/24,no-resolve
@@ -365,12 +366,18 @@ IP-CIDR,44.30.204.0/24,no-resolve
 IP-CIDR,44.30.207.0/24,no-resolve
 IP-CIDR,44.30.208.0/24,no-resolve
 IP-CIDR,44.30.21.0/24,no-resolve
+IP-CIDR,44.30.211.0/24,no-resolve
 IP-CIDR,44.30.212.0/24,no-resolve
 IP-CIDR,44.30.214.0/24,no-resolve
 IP-CIDR,44.30.217.0/24,no-resolve
 IP-CIDR,44.30.218.0/23,no-resolve
-IP-CIDR,44.30.220.0/22,no-resolve
-IP-CIDR,44.30.224.0/19,no-resolve
+IP-CIDR,44.30.220.0/23,no-resolve
+IP-CIDR,44.30.223.0/24,no-resolve
+IP-CIDR,44.30.225.0/24,no-resolve
+IP-CIDR,44.30.226.0/23,no-resolve
+IP-CIDR,44.30.228.0/22,no-resolve
+IP-CIDR,44.30.232.0/21,no-resolve
+IP-CIDR,44.30.240.0/20,no-resolve
 IP-CIDR,44.30.25.0/24,no-resolve
 IP-CIDR,44.30.32.0/24,no-resolve
 IP-CIDR,44.30.37.0/24,no-resolve
@@ -379,6 +386,7 @@ IP-CIDR,44.30.40.0/23,no-resolve
 IP-CIDR,44.30.43.0/24,no-resolve
 IP-CIDR,44.30.45.0/24,no-resolve
 IP-CIDR,44.30.5.0/24,no-resolve
+IP-CIDR,44.30.50.0/24,no-resolve
 IP-CIDR,44.30.53.0/24,no-resolve
 IP-CIDR,44.30.54.0/24,no-resolve
 IP-CIDR,44.30.59.0/24,no-resolve
@@ -415,7 +423,6 @@ IP-CIDR,44.31.19.0/24,no-resolve
 IP-CIDR,44.31.193.0/24,no-resolve
 IP-CIDR,44.31.198.0/23,no-resolve
 IP-CIDR,44.31.20.0/23,no-resolve
-IP-CIDR,44.31.201.0/24,no-resolve
 IP-CIDR,44.31.208.0/23,no-resolve
 IP-CIDR,44.31.210.0/24,no-resolve
 IP-CIDR,44.31.224.0/24,no-resolve

@@ -1,11 +1,7 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS11426.json
-# Status: complete; emitted: 376; unsupported: 0
-IP-CIDR,104.138.0.0/18,no-resolve
-IP-CIDR,104.138.128.0/17,no-resolve
-IP-CIDR,104.138.80.0/20,no-resolve
-IP-CIDR,104.138.96.0/19,no-resolve
-IP-CIDR,104.139.0.0/16,no-resolve
+# Status: complete; emitted: 370; unsupported: 0
+IP-CIDR,104.138.0.0/15,no-resolve
 IP-CIDR,107.12.0.0/15,no-resolve
 IP-CIDR,107.15.0.0/16,no-resolve
 IP-CIDR,108.169.128.0/19,no-resolve
@@ -131,8 +127,7 @@ IP-CIDR,24.211.128.0/17,no-resolve
 IP-CIDR,24.211.32.0/19,no-resolve
 IP-CIDR,24.211.64.0/18,no-resolve
 IP-CIDR,24.25.0.0/18,no-resolve
-IP-CIDR,24.27.240.0/23,no-resolve
-IP-CIDR,24.27.244.0/22,no-resolve
+IP-CIDR,24.27.240.0/21,no-resolve
 IP-CIDR,24.27.248.0/22,no-resolve
 IP-CIDR,24.27.254.0/23,no-resolve
 IP-CIDR,24.28.224.0/19,no-resolve
@@ -207,7 +202,6 @@ IP-CIDR,70.63.93.0/24,no-resolve
 IP-CIDR,70.63.94.0/23,no-resolve
 IP-CIDR,70.63.96.0/19,no-resolve
 IP-CIDR,71.65.128.0/17,no-resolve
-IP-CIDR,71.65.40.0/21,no-resolve
 IP-CIDR,71.68.0.0/14,no-resolve
 IP-CIDR,71.74.0.0/19,no-resolve
 IP-CIDR,71.75.0.0/18,no-resolve

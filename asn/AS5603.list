@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS5603.json
-# Status: complete; emitted: 93; unsupported: 0
+# Status: complete; emitted: 60; unsupported: 0
 IP-CIDR,109.182.0.0/16,no-resolve
 IP-CIDR,149.126.128.0/19,no-resolve
 IP-CIDR,178.58.0.0/16,no-resolve
@@ -41,40 +41,7 @@ IP-CIDR,91.217.126.0/23,no-resolve
 IP-CIDR,95.159.192.0/18,no-resolve
 IP-CIDR,95.176.128.0/17,no-resolve
 IP-CIDR6,2001:67c:20d8::/48,no-resolve
-IP-CIDR6,2a00:ee0::/31,no-resolve
-IP-CIDR6,2a00:ee2:1000::/36,no-resolve
-IP-CIDR6,2a00:ee2:100:8000::/51,no-resolve
-IP-CIDR6,2a00:ee2:100::/49,no-resolve
-IP-CIDR6,2a00:ee2:100:a000::/52,no-resolve
-IP-CIDR6,2a00:ee2:100:b000::/53,no-resolve
-IP-CIDR6,2a00:ee2:100:b800::/54,no-resolve
-IP-CIDR6,2a00:ee2:100:bc00::/55,no-resolve
-IP-CIDR6,2a00:ee2:100:be00::/56,no-resolve
-IP-CIDR6,2a00:ee2:100:bf01::/64,no-resolve
-IP-CIDR6,2a00:ee2:100:bf02::/63,no-resolve
-IP-CIDR6,2a00:ee2:100:bf04::/62,no-resolve
-IP-CIDR6,2a00:ee2:100:bf08::/61,no-resolve
-IP-CIDR6,2a00:ee2:100:bf10::/60,no-resolve
-IP-CIDR6,2a00:ee2:100:bf20::/59,no-resolve
-IP-CIDR6,2a00:ee2:100:bf40::/58,no-resolve
-IP-CIDR6,2a00:ee2:100:bf80::/57,no-resolve
-IP-CIDR6,2a00:ee2:100:c000::/50,no-resolve
-IP-CIDR6,2a00:ee2:101::/48,no-resolve
-IP-CIDR6,2a00:ee2:102::/47,no-resolve
-IP-CIDR6,2a00:ee2:104::/46,no-resolve
-IP-CIDR6,2a00:ee2:108::/45,no-resolve
-IP-CIDR6,2a00:ee2:110::/44,no-resolve
-IP-CIDR6,2a00:ee2:120::/43,no-resolve
-IP-CIDR6,2a00:ee2:140::/42,no-resolve
-IP-CIDR6,2a00:ee2:180::/41,no-resolve
-IP-CIDR6,2a00:ee2:2000::/35,no-resolve
-IP-CIDR6,2a00:ee2:200::/39,no-resolve
-IP-CIDR6,2a00:ee2:4000::/34,no-resolve
-IP-CIDR6,2a00:ee2:400::/38,no-resolve
-IP-CIDR6,2a00:ee2:8000::/33,no-resolve
-IP-CIDR6,2a00:ee2:800::/37,no-resolve
-IP-CIDR6,2a00:ee2::/40,no-resolve
-IP-CIDR6,2a00:ee3::/32,no-resolve
+IP-CIDR6,2a00:ee0::/30,no-resolve
 IP-CIDR6,2a00:ee4::/31,no-resolve
 IP-CIDR6,2a00:ee6::/32,no-resolve
 IP-CIDR6,2a00:ee7:1000::/36,no-resolve

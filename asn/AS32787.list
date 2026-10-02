@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS32787.json
-# Status: complete; emitted: 179; unsupported: 0
+# Status: complete; emitted: 184; unsupported: 0
 IP-CIDR,103.114.130.0/24,no-resolve
 IP-CIDR,103.37.90.0/24,no-resolve
 IP-CIDR,103.93.157.0/24,no-resolve
@@ -8,6 +8,7 @@ IP-CIDR,104.74.16.0/22,no-resolve
 IP-CIDR,104.86.64.0/21,no-resolve
 IP-CIDR,114.141.74.0/23,no-resolve
 IP-CIDR,114.141.76.0/22,no-resolve
+IP-CIDR,139.60.113.0/24,no-resolve
 IP-CIDR,14.136.149.0/24,no-resolve
 IP-CIDR,142.146.100.0/23,no-resolve
 IP-CIDR,142.146.106.0/23,no-resolve
@@ -74,13 +75,14 @@ IP-CIDR,212.119.74.0/24,no-resolve
 IP-CIDR,212.2.187.0/24,no-resolve
 IP-CIDR,212.239.17.0/24,no-resolve
 IP-CIDR,213.62.24.0/23,no-resolve
+IP-CIDR,216.117.105.0/24,no-resolve
 IP-CIDR,216.9.58.0/24,no-resolve
 IP-CIDR,216.9.61.0/24,no-resolve
 IP-CIDR,217.163.58.0/24,no-resolve
 IP-CIDR,219.113.26.0/24,no-resolve
-IP-CIDR,23.0.224.0/24,no-resolve
-IP-CIDR,23.0.226.0/23,no-resolve
-IP-CIDR,23.0.228.0/24,no-resolve
+IP-CIDR,23.0.224.0/22,no-resolve
+IP-CIDR,23.0.228.0/23,no-resolve
+IP-CIDR,23.0.230.0/24,no-resolve
 IP-CIDR,23.12.32.0/21,no-resolve
 IP-CIDR,23.193.47.0/24,no-resolve
 IP-CIDR,23.206.186.0/24,no-resolve
@@ -146,6 +148,8 @@ IP-CIDR,96.6.80.0/23,no-resolve
 IP-CIDR,96.6.83.0/24,no-resolve
 IP-CIDR,96.6.84.0/24,no-resolve
 IP-CIDR,96.6.86.0/24,no-resolve
+IP-CIDR,96.6.88.0/24,no-resolve
+IP-CIDR,96.6.93.0/24,no-resolve
 IP-CIDR6,2001:4c08:2026::/48,no-resolve
 IP-CIDR6,2001:df4:4c40::/48,no-resolve
 IP-CIDR6,2404:4e00:101::/48,no-resolve
@@ -162,6 +166,7 @@ IP-CIDR6,2606:6c00:104::/46,no-resolve
 IP-CIDR6,2606:6c00:108::/48,no-resolve
 IP-CIDR6,2606:6c00:200::/44,no-resolve
 IP-CIDR6,2606:6c00:210::/48,no-resolve
+IP-CIDR6,2606:6c00:213::/48,no-resolve
 IP-CIDR6,2606:6c00:4000::/48,no-resolve
 IP-CIDR6,2606:6c00:6::/48,no-resolve
 IP-CIDR6,2606:6c00:8000::/48,no-resolve
@@ -173,7 +178,7 @@ IP-CIDR6,2a02:2370:104::/47,no-resolve
 IP-CIDR6,2a02:2370:106::/48,no-resolve
 IP-CIDR6,2a02:2370:200::/45,no-resolve
 IP-CIDR6,2a02:2370:208::/46,no-resolve
-IP-CIDR6,2a02:2370:20c::/47,no-resolve
+IP-CIDR6,2a02:2370:20c::/48,no-resolve
 IP-CIDR6,2a02:2370:20e::/48,no-resolve
 IP-CIDR6,2a02:2370:4000::/48,no-resolve
 IP-CIDR6,2a02:2370:5::/48,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS4621.json
-# Status: complete; emitted: 308; unsupported: 0
+# Status: complete; emitted: 294; unsupported: 0
 IP-CIDR,103.1.160.0/22,no-resolve
 IP-CIDR,182.93.192.0/18,no-resolve
 IP-CIDR,202.28.0.0/24,no-resolve
@@ -96,10 +96,7 @@ IP-CIDR6,2001:3c8:1000::/45,no-resolve
 IP-CIDR6,2001:3c8:1008::/46,no-resolve
 IP-CIDR6,2001:3c8:100c::/47,no-resolve
 IP-CIDR6,2001:3c8:100e::/48,no-resolve
-IP-CIDR6,2001:3c8:1010::/47,no-resolve
-IP-CIDR6,2001:3c8:1013::/48,no-resolve
-IP-CIDR6,2001:3c8:1014::/46,no-resolve
-IP-CIDR6,2001:3c8:1018::/45,no-resolve
+IP-CIDR6,2001:3c8:1010::/44,no-resolve
 IP-CIDR6,2001:3c8:1020::/43,no-resolve
 IP-CIDR6,2001:3c8:1040::/42,no-resolve
 IP-CIDR6,2001:3c8:1080::/41,no-resolve
@@ -144,17 +141,8 @@ IP-CIDR6,2001:3c8:1640::/42,no-resolve
 IP-CIDR6,2001:3c8:1680::/41,no-resolve
 IP-CIDR6,2001:3c8:1700::/40,no-resolve
 IP-CIDR6,2001:3c8:1800::/37,no-resolve
-IP-CIDR6,2001:3c8:2000::/40,no-resolve
+IP-CIDR6,2001:3c8:2000::/38,no-resolve
 IP-CIDR6,2001:3c8:200::/42,no-resolve
-IP-CIDR6,2001:3c8:2100::/46,no-resolve
-IP-CIDR6,2001:3c8:2104::/48,no-resolve
-IP-CIDR6,2001:3c8:2106::/47,no-resolve
-IP-CIDR6,2001:3c8:2108::/45,no-resolve
-IP-CIDR6,2001:3c8:2110::/44,no-resolve
-IP-CIDR6,2001:3c8:2120::/43,no-resolve
-IP-CIDR6,2001:3c8:2140::/42,no-resolve
-IP-CIDR6,2001:3c8:2180::/41,no-resolve
-IP-CIDR6,2001:3c8:2200::/39,no-resolve
 IP-CIDR6,2001:3c8:2400::/39,no-resolve
 IP-CIDR6,2001:3c8:240::/47,no-resolve
 IP-CIDR6,2001:3c8:242::/48,no-resolve
@@ -294,9 +282,7 @@ IP-CIDR6,2001:3c8:d200::/39,no-resolve
 IP-CIDR6,2001:3c8:d400::/38,no-resolve
 IP-CIDR6,2001:3c8:d800::/37,no-resolve
 IP-CIDR6,2001:3c8:e000::/40,no-resolve
-IP-CIDR6,2001:3c8:e100::/46,no-resolve
-IP-CIDR6,2001:3c8:e104::/48,no-resolve
-IP-CIDR6,2001:3c8:e106::/47,no-resolve
+IP-CIDR6,2001:3c8:e100::/45,no-resolve
 IP-CIDR6,2001:3c8:e108::/46,no-resolve
 IP-CIDR6,2001:3c8:e10c::/47,no-resolve
 IP-CIDR6,2001:3c8:e10f::/48,no-resolve

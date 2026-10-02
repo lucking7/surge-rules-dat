@@ -1,8 +1,9 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS212477.json
-# Status: complete; emitted: 150; unsupported: 0
+# Status: complete; emitted: 154; unsupported: 0
 IP-CIDR,103.245.231.0/24,no-resolve
 IP-CIDR,104.164.55.0/24,no-resolve
+IP-CIDR,104.206.234.0/24,no-resolve
 IP-CIDR,109.205.63.0/24,no-resolve
 IP-CIDR,109.234.75.0/24,no-resolve
 IP-CIDR,109.64.148.0/23,no-resolve
@@ -21,7 +22,8 @@ IP-CIDR,158.173.80.0/23,no-resolve
 IP-CIDR,158.173.83.0/24,no-resolve
 IP-CIDR,158.173.84.0/22,no-resolve
 IP-CIDR,158.173.90.0/23,no-resolve
-IP-CIDR,158.173.92.0/22,no-resolve
+IP-CIDR,158.173.92.0/24,no-resolve
+IP-CIDR,158.173.95.0/24,no-resolve
 IP-CIDR,16.5.43.0/24,no-resolve
 IP-CIDR,162.35.242.0/23,no-resolve
 IP-CIDR,163.5.85.0/24,no-resolve
@@ -61,7 +63,6 @@ IP-CIDR,212.189.28.0/23,no-resolve
 IP-CIDR,212.189.42.0/23,no-resolve
 IP-CIDR,212.23.198.0/24,no-resolve
 IP-CIDR,213.254.173.0/24,no-resolve
-IP-CIDR,216.185.55.0/24,no-resolve
 IP-CIDR,217.119.131.0/24,no-resolve
 IP-CIDR,217.119.132.0/24,no-resolve
 IP-CIDR,37.16.74.0/24,no-resolve
@@ -99,7 +100,6 @@ IP-CIDR,62.3.53.0/24,no-resolve
 IP-CIDR,72.9.233.0/24,no-resolve
 IP-CIDR,77.87.126.0/24,no-resolve
 IP-CIDR,78.17.212.0/23,no-resolve
-IP-CIDR,78.17.221.0/24,no-resolve
 IP-CIDR,78.17.70.0/23,no-resolve
 IP-CIDR,79.110.236.0/24,no-resolve
 IP-CIDR,80.174.202.0/23,no-resolve
@@ -125,6 +125,8 @@ IP-CIDR,91.246.59.0/24,no-resolve
 IP-CIDR,92.114.107.0/24,no-resolve
 IP-CIDR,94.154.115.0/24,no-resolve
 IP-CIDR,95.135.49.0/24,no-resolve
+IP-CIDR6,2001:678:1200::/48,no-resolve
+IP-CIDR6,2a03:5840:fc::/48,no-resolve
 IP-CIDR6,2a0b:64c0:100::/47,no-resolve
 IP-CIDR6,2a0b:64c0:10::/46,no-resolve
 IP-CIDR6,2a0b:64c0:15::/48,no-resolve
@@ -151,3 +153,5 @@ IP-CIDR6,2a0b:64c0:ff01::/48,no-resolve
 IP-CIDR6,2a0b:64c0:ffe0::/47,no-resolve
 IP-CIDR6,2a0b:64c0:fff1::/48,no-resolve
 IP-CIDR6,2a0b:b680::/29,no-resolve
+IP-CIDR6,2a12:bec0:340::/44,no-resolve
+IP-CIDR6,2a13:9402::/32,no-resolve
