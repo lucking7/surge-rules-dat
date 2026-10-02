@@ -4,6 +4,14 @@
 
 **[使用说明与最新产物](https://github.com/lucking7/surge-rules-dat/tree/release)** · **[完整分类目录](https://github.com/lucking7/surge-rules-dat/blob/release/CATALOG.md)** · **[同步状态](https://github.com/lucking7/surge-rules-dat/actions/workflows/sync.yml)**
 
+精简分类提供域名和 IP 合并入口，一条 URL 即可使用同名分类，例如：
+
+```ini
+RULE-SET,https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/cn.list,DIRECT,update-interval=86400
+```
+
+合并入口路径为 `geo-lite/<分类>.list`，原来的 `geo-lite/geosite/` 和 `geo-lite/geoip/` 文件继续提供。详见[使用说明](docs/usage.md#精简分类只用一条-url)。
+
 Surge 无法表达的 `domain_regex` 不会静默丢弃或扩大匹配范围。原始记录和受影响分类发布在 `unsupported.json`；详见 [格式边界](docs/usage.md#格式与边界)。因此“覆盖全部分类”不等于“全部规则都能无损转换”。
 
 ## 自动更新
@@ -40,6 +48,7 @@ python3 scripts/validate.py dist --surge-cli /Applications/Surge.app/Contents/Ap
 - 读取上游 `sing` 分支公开的 JSON 源格式，避免解码二进制 `.srs`。
 - 检查 JSON 与 SRS 分类一一对应，拒绝缺失目录、未知字段、异常 CIDR 和重复归档路径，并检查 Surge 单集合 100 万条规则的上限。
 - 一一保留分类路径；规则排序去重；IPv4 和 IPv6 分别输出正确类型。
+- 额外生成同名 `geo-lite` 分类的域名/IP 并集，单独记录来源与统计，并校验合并结果与来源一致。
 - 来源、校验值、规则数量及正则缺口保存在 `manifest.json` 和 `unsupported.json`。
 - [上游转换器](https://github.com/MetaCubeX/meta-rules-converter)说明数据生成过程。[Surge RULE-SET 文档](https://manual.nssurge.com/rules/ruleset.html)说明目标格式。
 

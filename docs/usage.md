@@ -24,7 +24,20 @@ FINAL,PROXY
 - `geo/geosite/<分类>.list`：域名、域名后缀和关键词。
 - `geo/geoip/<分类>.list`：IPv4/IPv6 CIDR。
 - `geo-lite/geosite/<分类>.list`、`geo-lite/geoip/<分类>.list`：上游精简集合。
+- `geo-lite/<分类>.list`：同名精简域名与 IP 集合的合并入口。
 - `asn/AS<编号>.list`：ASN 对应的 IPv4/IPv6 CIDR，例如 `asn/AS13335.list`。
+
+### 精简分类只用一条 URL
+
+同一分类的域名和 IP 需要走同一策略时，使用 `geo-lite/<分类>.list`。例如国内分流只需：
+
+```ini
+RULE-SET,https://raw.githubusercontent.com/{{REPOSITORY}}/release/geo-lite/cn.list,DIRECT,update-interval=86400
+```
+
+这个文件是 `geo-lite/geosite/cn.list` 与 `geo-lite/geoip/cn.list` 的并集，按行排序去重，IP 规则保留 `no-resolve`。所有精简分类都有统一入口，例如 `geo-lite/apple.list`、`geo-lite/netflix.list`、`geo-lite/openai.list`。分类只有域名或只有 IP 时，入口包含现有的一边，不额外补充其他来源。
+
+原来的分离 URL 继续提供。若域名和 IP 要走不同策略，请分别引用原文件；合并文件中的任一域名或 IP 命中，都会使用这一条 `RULE-SET` 指定的策略。正则缺口会从来源分类传递到合并入口。
 
 ## 格式与边界
 
@@ -45,7 +58,7 @@ IP 规则设置 `no-resolve`，避免仅为了匹配 IP 规则而对域名进行
 
 GitHub Actions 每 6 小时检查并重新生成，也支持手动运行；GitHub 调度可能延迟。每次固定一个上游 commit，再下载该 commit 的完整快照，避免混合不同时间的数据。校验通过后才发布到 `release`；失败保留上一次成功版本，Actions 会显示失败。若首次运行失败，`release` 尚不存在。
 
-生成结果完全替换本仓库的产物，因此上游删除的分类也会删除。发布保留 Git 历史，不 force push。相同输入与转换器生成相同文件，不产生空提交。`manifest.json` 保存来源 commit、源文件和产物 SHA-256、规则数量及转换状态。
+生成结果完全替换本仓库的产物，因此上游删除的分类也会删除，合并入口随来源重新生成。发布保留 Git 历史，不 force push。相同输入与转换器生成相同文件，不产生空提交。`manifest.json` 保存来源 commit、源文件和产物 SHA-256、规则数量及转换状态，`merged_files` 单独记录合并文件及其来源，避免重复计算上游规则。
 
 更新源代码后会自动触发同步，手动触发入口是仓库的 **Actions → Sync Surge rules → Run workflow**。长期无人维护的仓库可能被 GitHub 暂停定时 workflow，可在 Actions 页面恢复。
 

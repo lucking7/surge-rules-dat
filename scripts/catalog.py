@@ -19,13 +19,15 @@ def catalog(output, repository):
               f"(https://github.com/MetaCubeX/meta-rules-dat/commit/{sha})。\n\n"
               f"共 {summary['rule_sets']:,} 个规则集，输出 {summary['emitted_rules']:,} 条规则，"
               f"另有 {summary['unsupported_rules']:,} 条正则记录无法用于 Surge RULE-SET。\n\n"
+              f"额外提供 {summary.get('merged_rule_sets', 0)} 个 `geo-lite/<分类>.list` 合并入口。"
+              "合并入口是已有规则的并集，不重复计入上游规则统计。\n\n"
               "[分类目录](CATALOG.md)、[完整清单与校验值](manifest.json)、"
               "[无法转换的原始规则](unsupported.json)。\n")
     (output / "README.md").write_text(guide + status)
     rows = ["# 分类目录", "", "ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。", "",
             "`partial` 表示包含无法转换的正则；`unsupported_only` 表示没有可供 RULE-SET 使用的规则。", "",
             "| 分类 | 输出规则数 | 正则数 | 状态 |", "| --- | ---: | ---: | --- |"]
-    for record in manifest["files"]:
+    for record in manifest.get("merged_files", []) + manifest["files"]:
         if record["path"].startswith("asn/"):
             continue
         path = record["path"]

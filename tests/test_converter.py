@@ -1,5 +1,6 @@
 import contextlib
 import io
+import hashlib
 import json
 from pathlib import Path
 import sys
@@ -8,7 +9,7 @@ import tempfile
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from convert import convert_archive, convert_rules
+from convert import convert_archive, convert_rules, read_rules
 from validate import validate, validate_rule
 
 
@@ -56,7 +57,7 @@ class RuleConversionTests(unittest.TestCase):
                 validate_rule(line)
 
 
-class SnapshotTests(unittest.TestCase):
+class SnapshotFixture:
     SHA = "a" * 40
 
     def make_archive(self, path, omit_srs=False, extra=None):
@@ -77,6 +78,8 @@ class SnapshotTests(unittest.TestCase):
                     member.size = len(raw)
                     archive.addfile(member, io.BytesIO(raw))
 
+
+class SnapshotTests(SnapshotFixture, unittest.TestCase):
     def test_full_coverage_accounting_and_determinism(self):
         with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
             root = Path(temp)
@@ -110,6 +113,77 @@ class SnapshotTests(unittest.TestCase):
             (root / "output/asn/AS13335.list").write_text("DOMAIN,attacker.example\n")
             with self.assertRaisesRegex(ValueError, "checksum mismatch"):
                 validate(root / "output")
+
+
+class GeoLiteMergeTests(SnapshotFixture, unittest.TestCase):
+    def test_matching_categories_single_sides_and_regex_provenance(self):
+        with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(temp)
+            self.make_archive(root / "source.tar.gz", extra={
+                "geo-lite/geosite/cn.json": rule_set(domain_suffix="example.cn", domain_regex=r"^x\d+\.cn$"),
+                "geo-lite/geosite/openai.json": rule_set(domain="chat.example.com"),
+                "geo-lite/geoip/jp.json": rule_set(ip_cidr="2001:db8::/32")})
+            manifest = convert_archive(root / "source.tar.gz", root / "output", self.SHA)
+            merged = {record["path"]: record for record in manifest["merged_files"]}
+            self.assertEqual(set(merged), {"geo-lite/cn.list", "geo-lite/jp.list", "geo-lite/openai.list"})
+            self.assertEqual(read_rules(root / "output/geo-lite/cn.list"),
+                             ["DOMAIN-SUFFIX,example.cn", "IP-CIDR,192.0.2.0/24,no-resolve"])
+            self.assertEqual(merged["geo-lite/cn.list"]["sources"],
+                             ["geo-lite/geoip/cn.list", "geo-lite/geosite/cn.list"])
+            self.assertEqual(merged["geo-lite/cn.list"]["status"], "partial")
+            self.assertEqual(merged["geo-lite/cn.list"]["unsupported"], 1)
+            self.assertEqual(read_rules(root / "output/geo-lite/openai.list"), ["DOMAIN,chat.example.com"])
+            self.assertEqual(read_rules(root / "output/geo-lite/jp.list"), ["IP-CIDR6,2001:db8::/32,no-resolve"])
+            # Derived rules never count twice as upstream rules or regex records.
+            self.assertEqual(manifest["summary"]["rule_sets"], 6)
+            self.assertEqual(manifest["summary"]["source_rules"], 8)
+            self.assertEqual(manifest["summary"]["unsupported_rules"], 2)
+            self.assertEqual(manifest["summary"]["merged_rule_sets"], 3)
+            validate(root / "output")
+
+    def test_duplicate_union_and_unsupported_only(self):
+        with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(temp)
+            self.make_archive(root / "source.tar.gz", extra={
+                "geo-lite/geosite/cn.json": rule_set(ip_cidr="192.0.2.0/24"),
+                "geo-lite/geosite/regex.json": rule_set(domain_regex=r"^x\d+$")})
+            manifest = convert_archive(root / "source.tar.gz", root / "output", self.SHA)
+            merged = {record["path"]: record for record in manifest["merged_files"]}
+            self.assertEqual(merged["geo-lite/cn.list"]["rules"], 1)
+            self.assertEqual(merged["geo-lite/cn.list"]["deduplicated"], 1)
+            self.assertEqual(merged["geo-lite/regex.list"]["status"], "unsupported_only")
+            self.assertEqual(read_rules(root / "output/geo-lite/regex.list"), [])
+            validate(root / "output")
+
+    def test_widened_merged_match_rejected_even_with_updated_checksum(self):
+        with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(temp)
+            self.make_archive(root / "source.tar.gz")
+            manifest = convert_archive(root / "source.tar.gz", root / "output", self.SHA)
+            target = root / "output/geo-lite/cn.list"
+            content = b"DOMAIN,unrelated.example\nIP-CIDR,192.0.2.0/24,no-resolve\n"
+            target.write_bytes(content)
+            manifest["merged_files"][0]["sha256"] = hashlib.sha256(content).hexdigest()
+            manifest["merged_files"][0]["rules"] = 2
+            (root / "output/manifest.json").write_text(json.dumps(manifest))
+            with self.assertRaisesRegex(ValueError, "source union"):
+                validate(root / "output")
+
+    def test_removed_source_changes_the_next_snapshot(self):
+        with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(temp)
+            self.make_archive(root / "first.tar.gz", extra={
+                "geo-lite/geosite/cn.json": rule_set(domain_suffix="example.cn"),
+                "geo-lite/geosite/removed.json": rule_set(domain="removed.example")})
+            first = convert_archive(root / "first.tar.gz", root / "first", self.SHA)
+            self.make_archive(root / "next.tar.gz")
+            next_snapshot = convert_archive(root / "next.tar.gz", root / "next", self.SHA)
+            self.assertIn("DOMAIN-SUFFIX,example.cn", read_rules(root / "first/geo-lite/cn.list"))
+            self.assertNotIn("DOMAIN-SUFFIX,example.cn", read_rules(root / "next/geo-lite/cn.list"))
+            self.assertTrue((root / "first/geo-lite/removed.list").exists())
+            self.assertFalse((root / "next/geo-lite/removed.list").exists())
+            self.assertEqual(len(first["merged_files"]), 2)
+            self.assertEqual(len(next_snapshot["merged_files"]), 1)
 
 
 if __name__ == "__main__":

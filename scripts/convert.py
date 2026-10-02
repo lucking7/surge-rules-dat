@@ -94,6 +94,46 @@ def write_json(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def geo_lite_groups(files):
+    groups = {}
+    for record in files:
+        path = PurePosixPath(record["path"])
+        if len(path.parts) == 3 and path.parts[:2] in (("geo-lite", "geoip"), ("geo-lite", "geosite")):
+            groups.setdefault(path.name, []).append(record)
+    return {name: sorted(records, key=lambda record: record["path"])
+            for name, records in sorted(groups.items())}
+
+
+def read_rules(path):
+    return [line for line in Path(path).read_text(encoding="utf-8").splitlines()
+            if line and not line.startswith("#")]
+
+
+def merge_geo_lite(output, files):
+    merged = []
+    for name, sources in geo_lite_groups(files).items():
+        rules = sorted({rule for source in sources for rule in read_rules(output / source["path"])})
+        if len(rules) > 1_000_000:
+            raise ValueError(f"Surge's per-rule-set limit exceeded: geo-lite/{name}")
+        unsupported = sum(source["unsupported"] for source in sources)
+        status = "complete" if not unsupported else "partial" if rules else "unsupported_only"
+        header = ["# Generated Surge RULE-SET. No policy is embedded.",
+                  "# Union of same-name geo-lite domain and IP categories."]
+        for source in sources:
+            header.append(f"# Source: https://raw.githubusercontent.com/{UPSTREAM}/{BRANCH}/{source['source']}")
+        header.append(f"# Status: {status}; emitted: {len(rules)}; unsupported: {unsupported}")
+        if unsupported:
+            header.append("# DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.")
+        content = ("\n".join(header + rules) + "\n").encode()
+        target = "geo-lite/" + name
+        (output / target).write_bytes(content)
+        merged.append({"path": target, "sources": [source["path"] for source in sources],
+                       "sha256": digest(content), "rules": len(rules), "unsupported": unsupported,
+                       "deduplicated": sum(source["rules"] for source in sources) - len(rules),
+                       "status": status})
+    return merged
+
+
 def convert_archive(archive, output, sha):
     if not re.fullmatch(r"[0-9a-f]{40}", sha):
         raise ValueError("upstream SHA must be a full commit hash")
@@ -157,6 +197,7 @@ def convert_archive(archive, output, sha):
     if {PurePosixPath(p).parts[0] for p in json_paths} != ROOTS:
         raise ValueError("snapshot must include geo, geo-lite, and asn")
     files.sort(key=lambda record: record["path"])
+    merged_files = merge_geo_lite(output, files)
     unsupported_records.sort(key=lambda record: (record["source"], record["value"]))
     manifest = {"format_version": 1, "upstream": {"repository": UPSTREAM, "branch": BRANCH,
                 "sha": sha, "archive_sha256": digest(Path(archive).read_bytes())},
@@ -164,9 +205,12 @@ def convert_archive(archive, output, sha):
                 "summary": {"rule_sets": len(files), "source_rules": input_total,
                             "emitted_rules": output_total, "unsupported_rules": len(unsupported_records),
                             "deduplicated_rules": duplicate_total,
+                            "merged_rule_sets": len(merged_files),
+                            "merged_rules": sum(record["rules"] for record in merged_files),
                             "statuses": dict(sorted(Counter(f["status"] for f in files).items())),
                             "groups": dict(sorted(groups.items())),
-                            "fields": dict(sorted(field_counts.items()))}, "files": files}
+                            "fields": dict(sorted(field_counts.items()))},
+                "files": files, "merged_files": merged_files}
     write_json(output / "manifest.json", manifest)
     write_json(output / "unsupported.json", {"upstream_sha": sha, "rules": unsupported_records})
     summary = manifest["summary"]

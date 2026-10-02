@@ -10,7 +10,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 
-from convert import domain_token
+from convert import domain_token, geo_lite_groups, read_rules
 
 
 def validate_rule(line):
@@ -65,7 +65,7 @@ def validate(output, cli=None):
         content = (output / path).read_bytes()
         if hashlib.sha256(content).hexdigest() != record["sha256"]:
             raise ValueError(f"checksum mismatch: {path}")
-        rules = [line for line in content.decode().splitlines() if line and not line.startswith("#")]
+        rules = read_rules(output / path)
         if len(rules) != record["rules"] or rules != sorted(set(rules)):
             raise ValueError(f"count/order mismatch: {path}")
         if reported[record["source"]] != record["unsupported"]:
@@ -80,16 +80,53 @@ def validate(output, cli=None):
         lost += record["unsupported"]
         deduplicated += record["deduplicated"]
         source_total += record["input_rules"]
-    actual = {str(p.relative_to(output)) for p in output.rglob("*.list")}
-    if actual != expected or len(expected) != manifest["summary"]["rule_sets"]:
+    if len(expected) != manifest["summary"]["rule_sets"]:
         raise ValueError("manifest does not cover all rule files")
     if emitted != manifest["summary"]["emitted_rules"] or lost != manifest["summary"]["unsupported_rules"]:
         raise ValueError("summary count mismatch")
     if deduplicated != manifest["summary"]["deduplicated_rules"] or source_total != manifest["summary"]["source_rules"]:
         raise ValueError("source accounting mismatch")
+    merged_files = manifest.get("merged_files", [])
+    merged_total = 0
+    groups = geo_lite_groups(manifest["files"])
+    expected_merged = {"geo-lite/" + name for name in groups}
+    if {record["path"] for record in merged_files} != expected_merged:
+        raise ValueError("merged manifest does not cover all geo-lite categories")
+    for record in merged_files:
+        path = record["path"]
+        if path in expected:
+            raise ValueError("duplicate merged manifest path")
+        expected.add(path)
+        sources = groups[Path(path).name]
+        if record["sources"] != [source["path"] for source in sources]:
+            raise ValueError(f"merged sources mismatch: {path}")
+        content = (output / path).read_bytes()
+        if hashlib.sha256(content).hexdigest() != record["sha256"]:
+            raise ValueError(f"checksum mismatch: {path}")
+        rules = read_rules(output / path)
+        union = sorted({rule for source in sources for rule in read_rules(output / source["path"])})
+        unsupported_count = sum(source["unsupported"] for source in sources)
+        status = "complete" if not unsupported_count else "partial" if union else "unsupported_only"
+        if rules != union or record["rules"] != len(union) or len(union) > 1_000_000:
+            raise ValueError(f"merged rules differ from source union: {path}")
+        if record["unsupported"] != unsupported_count or record["status"] != status:
+            raise ValueError(f"merged status mismatch: {path}")
+        if record["deduplicated"] != sum(source["rules"] for source in sources) - len(union):
+            raise ValueError(f"merged deduplication mismatch: {path}")
+        for rule in rules:
+            validate_rule(rule)
+        if cli:
+            unique_rules.update(rules)
+        merged_total += len(rules)
+    if len(merged_files) != manifest["summary"].get("merged_rule_sets", 0) or merged_total != manifest["summary"].get("merged_rules", 0):
+        raise ValueError("merged summary count mismatch")
+    actual = {str(p.relative_to(output)) for p in output.rglob("*.list")}
+    if actual != expected:
+        raise ValueError("manifest does not cover all rule files")
     native = native_check(unique_rules, cli) if cli else None
     print(json.dumps({"validated_files": len(expected), "validated_rules": emitted,
-                      "unsupported_records": lost, "surge_native_unique_rules": native}, indent=2))
+                      "validated_merged_rules": merged_total, "unsupported_records": lost,
+                      "surge_native_unique_rules": native}, indent=2))
 
 
 if __name__ == "__main__":

@@ -46,5 +46,6 @@ jobs:
               out.write(f"Upstream: `{manifest['upstream']['sha']}`\n\n")
               out.write(f"Rule sets: {summary['rule_sets']:,}\n\n")
               out.write(f"Emitted rules: {summary['emitted_rules']:,}\n\n")
+              out.write(f"Merged geo-lite categories: {summary['merged_rule_sets']:,}\n\n")
               out.write(f"Unsupported regex records: {summary['unsupported_rules']:,}\n")
           PY
