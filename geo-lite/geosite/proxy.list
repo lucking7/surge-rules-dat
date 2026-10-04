@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geosite/proxy.json
-# Status: complete; emitted: 1646; unsupported: 0
+# Status: complete; emitted: 1648; unsupported: 0
 DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.msn.com
@@ -1552,6 +1552,7 @@ DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikifunctions.org
 DOMAIN-SUFFIX,wikileaks-forum.com
 DOMAIN-SUFFIX,wikileaks.info
 DOMAIN-SUFFIX,wikileaks.org
@@ -1563,6 +1564,7 @@ DOMAIN-SUFFIX,wikipedia.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiquote.org
 DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikispecies.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wikiwand.com

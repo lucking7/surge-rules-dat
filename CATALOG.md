@@ -26,7 +26,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo-lite/openai.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/openai.list) | 32 | 0 | complete |
 | [geo-lite/pixiv.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/pixiv.list) | 8 | 0 | complete |
 | [geo-lite/private.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/private.list) | 148 | 1 | partial |
-| [geo-lite/proxy.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/proxy.list) | 1646 | 0 | complete |
+| [geo-lite/proxy.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/proxy.list) | 1648 | 0 | complete |
 | [geo-lite/proxymedia.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/proxymedia.list) | 26 | 0 | complete |
 | [geo-lite/spotify.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/spotify.list) | 27 | 0 | complete |
 | [geo-lite/telegram.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/telegram.list) | 37 | 0 | complete |
@@ -62,7 +62,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo-lite/geosite/openai.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/geosite/openai.list) | 32 | 0 | complete |
 | [geo-lite/geosite/pixiv.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/geosite/pixiv.list) | 8 | 0 | complete |
 | [geo-lite/geosite/private.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/geosite/private.list) | 130 | 1 | partial |
-| [geo-lite/geosite/proxy.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/geosite/proxy.list) | 1646 | 0 | complete |
+| [geo-lite/geosite/proxy.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/geosite/proxy.list) | 1648 | 0 | complete |
 | [geo-lite/geosite/proxymedia.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/geosite/proxymedia.list) | 26 | 0 | complete |
 | [geo-lite/geosite/spotify.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/geosite/spotify.list) | 27 | 0 | complete |
 | [geo-lite/geosite/telegram.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/geosite/telegram.list) | 25 | 0 | complete |
