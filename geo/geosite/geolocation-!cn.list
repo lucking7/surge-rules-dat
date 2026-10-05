@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.json
-# Status: partial; emitted: 27065; unsupported: 151
+# Status: partial; emitted: 27066; unsupported: 151
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -11160,6 +11160,7 @@ DOMAIN-SUFFIX,googleoptimize.com
 DOMAIN-SUFFIX,googlepagecreator.com
 DOMAIN-SUFFIX,googlephotos.com
 DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googleplaycensorship.com
 DOMAIN-SUFFIX,googleplus.com
 DOMAIN-SUFFIX,googlescholar.com
 DOMAIN-SUFFIX,googlesource.com
