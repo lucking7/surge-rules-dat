@@ -5,8 +5,12 @@ dist="$(cd "${1:-dist}" && pwd)"
 test -s "$dist/manifest.json"
 scratch="$(mktemp -d)"
 publish="$scratch/release"
+initial_branch=""
 cleanup() {
   git worktree remove --force "$publish" 2>/dev/null || true
+  if test -n "$initial_branch"; then
+    git branch -D "$initial_branch" >/dev/null 2>&1 || true
+  fi
   rmdir "$scratch" 2>/dev/null || true
 }
 trap cleanup EXIT
@@ -16,7 +20,9 @@ if test -n "$(git ls-remote --heads origin refs/heads/release)"; then
   git worktree add --detach "$publish" FETCH_HEAD
 else
   git worktree add --detach "$publish" HEAD
-  git -C "$publish" checkout --orphan release
+  branch="surge-publish-${scratch##*/}"
+  git -C "$publish" checkout --orphan "$branch"
+  initial_branch="$branch"
   git -C "$publish" rm -rf --ignore-unmatch .
 fi
 

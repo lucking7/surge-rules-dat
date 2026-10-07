@@ -59,6 +59,8 @@ def convert_rules(data):
     for rule in data["rules"]:
         if not isinstance(rule, dict) or not rule or set(rule) - FIELDS:
             raise ValueError(f"unsupported rule fields: {rule!r}")
+        if not any(rule.values()):
+            raise ValueError("rule must contain at least one nonempty match condition")
         # sing-box ORs these supported domain and destination IP conditions.
         # Fields from other matcher groups are rejected above, not flattened.
         for key in sorted(rule):

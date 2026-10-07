@@ -50,6 +50,8 @@ RULE-SET,https://raw.githubusercontent.com/{{REPOSITORY}}/release/geo-lite/cn.li
 | `ip_cidr` IPv6 | `IP-CIDR6,...,no-resolve` |
 | `domain_regex` | 无法用于 Surge RULE-SET，原值保留在 `unsupported.json` |
 
+每条源规则必须至少包含一个非空匹配值。所有字段都为空数组的规则对象会使构建失败；同一规则中其他字段有匹配值时，允许空数组字段。
+
 Surge 不支持 `DOMAIN-REGEX`。此仓库不把正则改成更宽泛的后缀或通配符。含正则的分类标记为 `partial`，纯正则分类标记为 `unsupported_only`，后者的 `.list` 只有注释，不能提供有效匹配。分类目录、清单和每个文件头都会明确标注。
 
 IP 规则设置 `no-resolve`，避免仅为了匹配 IP 规则而对域名进行 DNS 查询。它匹配已经知道的目标 IP；DNS 解析与代理连接策略由使用者的 Surge 配置决定。

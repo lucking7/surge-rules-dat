@@ -3,6 +3,7 @@ import io
 import hashlib
 import json
 from pathlib import Path
+import subprocess
 import sys
 import tarfile
 import tempfile
@@ -41,6 +42,26 @@ class RuleConversionTests(unittest.TestCase):
         rules, unsupported, _ = convert_rules(rule_set(domain="example.com", ip_cidr="192.0.2.0/24"))
         self.assertEqual(rules, ["DOMAIN,example.com", "IP-CIDR,192.0.2.0/24,no-resolve"])
         self.assertFalse(unsupported)
+
+    def test_each_rule_requires_a_nonempty_match_condition(self):
+        empty_rules = [{field: []} for field in
+                       ("domain", "domain_suffix", "domain_keyword", "domain_regex", "ip_cidr")]
+        empty_rules.append({"domain": [], "ip_cidr": []})
+        for empty in empty_rules:
+            for source_rules in ([empty], [empty, {"domain": "example.com"}],
+                                 [{"domain": "example.com"}, empty]):
+                with self.subTest(rules=source_rules), self.assertRaisesRegex(ValueError, "match condition"):
+                    convert_rules({"version": 2, "rules": source_rules})
+
+    def test_empty_fields_with_nonempty_match_conditions_are_allowed(self):
+        rules, unsupported, counts = convert_rules(rule_set(domain=[], ip_cidr="192.0.2.0/24"))
+        self.assertEqual(rules, ["IP-CIDR,192.0.2.0/24,no-resolve"])
+        self.assertFalse(unsupported)
+        self.assertEqual(dict(counts), {"ip_cidr": 1})
+        rules, unsupported, counts = convert_rules(rule_set(domain=[], domain_regex=r"^x\d+$"))
+        self.assertEqual(rules, [])
+        self.assertEqual(unsupported[0]["value"], r"^x\d+$")
+        self.assertEqual(dict(counts), {"domain_regex": 1})
 
     def test_future_incompatible_rules_fail_closed(self):
         cases = [rule_set(type="logical", rules=[]), rule_set(invert=True, domain="example.com"),
@@ -113,6 +134,21 @@ class SnapshotTests(SnapshotFixture, unittest.TestCase):
             (root / "output/asn/AS13335.list").write_text("DOMAIN,attacker.example\n")
             with self.assertRaisesRegex(ValueError, "checksum mismatch"):
                 validate(root / "output")
+
+    def test_cli_rejects_conditionless_rule_without_publishing_manifest(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_archive(root / "source.tar.gz", extra={"geo/geosite/mixed.json": {
+                "version": 2, "rules": [{"domain": []}, {"domain": ["example.com"]}]}})
+            output = root / "output"
+            script = Path(__file__).resolve().parents[1] / "scripts/convert.py"
+            result = subprocess.run([sys.executable, str(script), "--archive", str(root / "source.tar.gz"),
+                                     "--sha", self.SHA, "--output", str(output)],
+                                    text=True, capture_output=True)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("match condition", result.stderr)
+            self.assertFalse((output / "manifest.json").exists())
+            self.assertFalse((output / "unsupported.json").exists())
 
 
 class GeoLiteMergeTests(SnapshotFixture, unittest.TestCase):

@@ -46,7 +46,7 @@ python3 scripts/validate.py dist --surge-cli /Applications/Surge.app/Contents/Ap
 ## 设计
 
 - 读取上游 `sing` 分支公开的 JSON 源格式，避免解码二进制 `.srs`。
-- 检查 JSON 与 SRS 分类一一对应，拒绝缺失目录、未知字段、异常 CIDR 和重复归档路径，并检查 Surge 单集合 100 万条规则的上限。
+- 检查 JSON 与 SRS 分类一一对应，拒绝缺失目录、未知字段、无有效匹配条件的规则、异常 CIDR 和重复归档路径，并检查 Surge 单集合 100 万条规则的上限。
 - 一一保留分类路径；规则排序去重；IPv4 和 IPv6 分别输出正确类型。
 - 额外生成同名 `geo-lite` 分类的域名/IP 并集，单独记录来源与统计，并校验合并结果与来源一致。
 - 来源、校验值、规则数量及正则缺口保存在 `manifest.json` 和 `unsupported.json`。
