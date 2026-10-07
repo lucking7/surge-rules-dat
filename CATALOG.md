@@ -1087,12 +1087,12 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/geetest.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geetest.list) | 2 | 0 | complete |
 | [geo/geosite/gemfury.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/gemfury.list) | 6 | 0 | complete |
 | [geo/geosite/genotek-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/genotek-ru.list) | 9 | 0 | complete |
-| [geo/geosite/geolocation-!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-%21cn.list) | 27066 | 151 | partial |
+| [geo/geosite/geolocation-!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-%21cn.list) | 27095 | 151 | partial |
 | [geo/geosite/geolocation-cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-cn.list) | 5385 | 3 | partial |
 | [geo/geosite/geolocation-cn@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-cn%40cn.list) | 73 | 3 | partial |
 | [geo/geosite/gettyimages.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/gettyimages.list) | 25 | 0 | complete |
 | [geo/geosite/getui.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/getui.list) | 7 | 0 | complete |
-| [geo/geosite/gfw.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/gfw.list) | 4374 | 0 | complete |
+| [geo/geosite/gfw.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/gfw.list) | 4410 | 0 | complete |
 | [geo/geosite/gfycat.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/gfycat.list) | 1 | 0 | complete |
 | [geo/geosite/ggsel.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/ggsel.list) | 2 | 0 | complete |
 | [geo/geosite/giffgaff.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/giffgaff.list) | 2 | 0 | complete |
