@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/je.json
-# Status: complete; emitted: 219; unsupported: 0
+# Status: complete; emitted: 212; unsupported: 0
 IP-CIDR,103.105.148.0/22,no-resolve
 IP-CIDR,104.28.11.50/31,no-resolve
 IP-CIDR,104.28.11.52/32,no-resolve
@@ -24,6 +24,9 @@ IP-CIDR,104.28.53.80/32,no-resolve
 IP-CIDR,104.28.86.136/31,no-resolve
 IP-CIDR,104.28.89.107/32,no-resolve
 IP-CIDR,104.28.89.108/32,no-resolve
+IP-CIDR,104.29.197.36/30,no-resolve
+IP-CIDR,104.29.197.40/31,no-resolve
+IP-CIDR,104.29.197.42/32,no-resolve
 IP-CIDR,109.68.192.0/22,no-resolve
 IP-CIDR,140.248.40.142/31,no-resolve
 IP-CIDR,140.248.56.110/32,no-resolve
@@ -103,19 +106,7 @@ IP-CIDR,200.162.149.0/24,no-resolve
 IP-CIDR,203.30.195.0/24,no-resolve
 IP-CIDR,209.251.252.0/23,no-resolve
 IP-CIDR,212.9.0.0/19,no-resolve
-IP-CIDR,213.133.192.0/22,no-resolve
-IP-CIDR,213.133.196.0/23,no-resolve
-IP-CIDR,213.133.198.0/24,no-resolve
-IP-CIDR,213.133.199.0/26,no-resolve
-IP-CIDR,213.133.199.112/31,no-resolve
-IP-CIDR,213.133.199.114/32,no-resolve
-IP-CIDR,213.133.199.116/30,no-resolve
-IP-CIDR,213.133.199.120/29,no-resolve
-IP-CIDR,213.133.199.128/25,no-resolve
-IP-CIDR,213.133.199.64/27,no-resolve
-IP-CIDR,213.133.199.96/28,no-resolve
-IP-CIDR,213.133.200.0/21,no-resolve
-IP-CIDR,213.133.208.0/20,no-resolve
+IP-CIDR,213.133.192.0/19,no-resolve
 IP-CIDR,213.134.23.0/24,no-resolve
 IP-CIDR,213.167.64.0/19,no-resolve
 IP-CIDR,217.156.196.200/29,no-resolve
@@ -127,6 +118,7 @@ IP-CIDR,46.193.2.173/32,no-resolve
 IP-CIDR,46.193.24.80/32,no-resolve
 IP-CIDR,46.193.54.103/32,no-resolve
 IP-CIDR,46.254.248.0/21,no-resolve
+IP-CIDR,46.31.242.0/23,no-resolve
 IP-CIDR,5.35.160.0/21,no-resolve
 IP-CIDR,5.42.128.0/21,no-resolve
 IP-CIDR,62.68.160.0/21,no-resolve
@@ -167,6 +159,7 @@ IP-CIDR6,2401:3620:231:77::/64,no-resolve
 IP-CIDR6,2606:40:2241:6000::/54,no-resolve
 IP-CIDR6,2606:40:22c1:8000::/54,no-resolve
 IP-CIDR6,2606:54c0:4228::/45,no-resolve
+IP-CIDR6,2606:54c1:1:143::/64,no-resolve
 IP-CIDR6,2606:54c3:0:127a::/64,no-resolve
 IP-CIDR6,2a00:f180::/32,no-resolve
 IP-CIDR6,2a01:94a0::/32,no-resolve

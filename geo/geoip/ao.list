@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/ao.json
-# Status: complete; emitted: 569; unsupported: 0
+# Status: complete; emitted: 573; unsupported: 0
 IP-CIDR,102.130.192.0/19,no-resolve
 IP-CIDR,102.130.64.0/23,no-resolve
 IP-CIDR,102.130.66.0/25,no-resolve
@@ -156,6 +156,8 @@ IP-CIDR,104.28.8.23/32,no-resolve
 IP-CIDR,104.28.8.24/31,no-resolve
 IP-CIDR,104.28.82.0/30,no-resolve
 IP-CIDR,104.28.82.4/32,no-resolve
+IP-CIDR,104.29.194.94/31,no-resolve
+IP-CIDR,104.30.135.35/32,no-resolve
 IP-CIDR,104.44.65.0/24,no-resolve
 IP-CIDR,105.168.0.0/13,no-resolve
 IP-CIDR,129.122.128.0/17,no-resolve
@@ -456,6 +458,7 @@ IP-CIDR6,2600:70ff:f911::/48,no-resolve
 IP-CIDR6,2603:1062:f::/48,no-resolve
 IP-CIDR6,2605:59c0:7a00::/39,no-resolve
 IP-CIDR6,2606:54c0:60::/45,no-resolve
+IP-CIDR6,2606:54c1:1:95::/64,no-resolve
 IP-CIDR6,2606:54c3:0:16c6::/64,no-resolve
 IP-CIDR6,2620:0:876:1800::/56,no-resolve
 IP-CIDR6,2620:0:876:5500::/56,no-resolve
@@ -491,6 +494,7 @@ IP-CIDR6,2a04:4e41:7405::/48,no-resolve
 IP-CIDR6,2a04:4e41:7802::/48,no-resolve
 IP-CIDR6,2a07:6040::/29,no-resolve
 IP-CIDR6,2a07:d887:700::/40,no-resolve
+IP-CIDR6,2a09:bac0:1000:481::/64,no-resolve
 IP-CIDR6,2a09:bac0:1000:ec9::/64,no-resolve
 IP-CIDR6,2a09:bac1:500::/64,no-resolve
 IP-CIDR6,2a09:bac1:520::/64,no-resolve
