@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-companies@ads.json
-# Status: complete; emitted: 231; unsupported: 0
+# Status: complete; emitted: 224; unsupported: 0
 DOMAIN,1l-hit.mail.ru
 DOMAIN,1l-hit.vkplay.ru
 DOMAIN,ad4.mail.ru
@@ -52,10 +52,6 @@ DOMAIN,clck.yandex.com
 DOMAIN,clck.yandex.net
 DOMAIN,clck.yango.com
 DOMAIN,click.rustore.ru
-DOMAIN,copilot-telemetry-service.githubusercontent.com
-DOMAIN,copilot-telemetry.githubusercontent.com
-DOMAIN,incoming-telemetry.thunderbird.net
-DOMAIN,incoming.telemetry.mozilla.org
 DOMAIN,informer.yandex.ru
 DOMAIN,log.strm.yandex.ru
 DOMAIN,mc.yandex.com
@@ -145,7 +141,6 @@ DOMAIN-SUFFIX,browser.events.data.msn.com
 DOMAIN-SUFFIX,bs.yandex.ru
 DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,clck.yandex.ru
-DOMAIN-SUFFIX,collector.github.com
 DOMAIN-SUFFIX,counter.yandex.ru
 DOMAIN-SUFFIX,cxhub.ru
 DOMAIN-SUFFIX,demdex.net
@@ -181,8 +176,6 @@ DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN-SUFFIX,googlevads-cn.com
 DOMAIN-SUFFIX,graph-fallback.instagram.com
 DOMAIN-SUFFIX,graph.instagram.com
-DOMAIN-SUFFIX,graph.whatsapp.com
-DOMAIN-SUFFIX,graph.whatsapp.net
 DOMAIN-SUFFIX,iad.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,log.dzen.ru

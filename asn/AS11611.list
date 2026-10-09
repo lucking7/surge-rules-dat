@@ -1,5 +1,55 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS11611.json
-# Status: complete; emitted: 2; unsupported: 0
+# Status: complete; emitted: 52; unsupported: 0
+IP-CIDR,155.229.192.0/22,no-resolve
+IP-CIDR,155.229.244.0/22,no-resolve
+IP-CIDR,173.205.120.0/22,no-resolve
+IP-CIDR,173.205.28.0/22,no-resolve
+IP-CIDR,206.217.100.0/22,no-resolve
+IP-CIDR,206.217.68.0/22,no-resolve
+IP-CIDR,206.217.92.0/22,no-resolve
+IP-CIDR,208.113.40.0/22,no-resolve
+IP-CIDR,208.84.48.0/21,no-resolve
+IP-CIDR,216.132.0.0/22,no-resolve
+IP-CIDR,216.132.164.0/22,no-resolve
+IP-CIDR,216.132.168.0/22,no-resolve
+IP-CIDR,216.132.184.0/22,no-resolve
+IP-CIDR,216.132.212.0/22,no-resolve
+IP-CIDR,216.132.220.0/22,no-resolve
+IP-CIDR,216.133.204.0/22,no-resolve
+IP-CIDR,216.133.212.0/22,no-resolve
+IP-CIDR,216.27.160.0/21,no-resolve
+IP-CIDR,216.27.168.0/22,no-resolve
 IP-CIDR,23.158.112.0/24,no-resolve
-IP-CIDR6,2602:fd61::/36,no-resolve
+IP-CIDR,64.51.236.0/22,no-resolve
+IP-CIDR,64.51.240.0/20,no-resolve
+IP-CIDR,66.167.16.0/20,no-resolve
+IP-CIDR,66.227.32.0/21,no-resolve
+IP-CIDR,66.253.52.0/22,no-resolve
+IP-CIDR,66.92.236.0/22,no-resolve
+IP-CIDR,66.93.100.0/22,no-resolve
+IP-CIDR,66.93.104.0/22,no-resolve
+IP-CIDR,66.93.112.0/21,no-resolve
+IP-CIDR,66.93.120.0/22,no-resolve
+IP-CIDR,66.93.196.0/22,no-resolve
+IP-CIDR,66.93.200.0/21,no-resolve
+IP-CIDR,66.93.212.0/22,no-resolve
+IP-CIDR,66.93.216.0/22,no-resolve
+IP-CIDR,67.103.16.0/21,no-resolve
+IP-CIDR,67.103.28.0/22,no-resolve
+IP-CIDR,68.166.128.0/19,no-resolve
+IP-CIDR,69.17.116.0/22,no-resolve
+IP-CIDR,69.17.120.0/21,no-resolve
+IP-CIDR,69.17.24.0/21,no-resolve
+IP-CIDR,69.17.88.0/21,no-resolve
+IP-CIDR,72.37.148.0/22,no-resolve
+IP-CIDR,72.37.176.0/22,no-resolve
+IP-CIDR,72.37.184.0/21,no-resolve
+IP-CIDR,72.37.192.0/21,no-resolve
+IP-CIDR,72.37.204.0/22,no-resolve
+IP-CIDR,72.37.208.0/22,no-resolve
+IP-CIDR,74.121.80.0/21,no-resolve
+IP-CIDR,82.111.128.0/18,no-resolve
+IP-CIDR,82.111.192.0/19,no-resolve
+IP-CIDR6,2602:fd61:8000::/36,no-resolve
+IP-CIDR6,2602:fd61::/33,no-resolve

@@ -3,7 +3,9 @@
 # Status: complete; emitted: 34; unsupported: 0
 IP-CIDR,168.195.100.0/22,no-resolve
 IP-CIDR,190.109.64.0/22,no-resolve
-IP-CIDR6,2804:2488:8000::/36,no-resolve
+IP-CIDR6,2804:2488:505::/48,no-resolve
+IP-CIDR6,2804:2488:506::/48,no-resolve
+IP-CIDR6,2804:2488:6000::/35,no-resolve
 IP-CIDR6,2804:2488:9000::/41,no-resolve
 IP-CIDR6,2804:2488:9080::/46,no-resolve
 IP-CIDR6,2804:2488:9084:8000::/50,no-resolve
@@ -32,6 +34,4 @@ IP-CIDR6,2804:2488:9100::/40,no-resolve
 IP-CIDR6,2804:2488:9200::/39,no-resolve
 IP-CIDR6,2804:2488:9400::/38,no-resolve
 IP-CIDR6,2804:2488:9800::/37,no-resolve
-IP-CIDR6,2804:2488::/33,no-resolve
-IP-CIDR6,2804:2488:a000::/35,no-resolve
-IP-CIDR6,2804:2488:c000::/34,no-resolve
+IP-CIDR6,2804:2488:a000::/36,no-resolve

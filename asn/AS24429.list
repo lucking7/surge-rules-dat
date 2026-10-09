@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS24429.json
-# Status: complete; emitted: 408; unsupported: 0
+# Status: complete; emitted: 401; unsupported: 0
 IP-CIDR,103.73.158.0/24,no-resolve
 IP-CIDR,116.0.89.0/24,no-resolve
 IP-CIDR,125.24.253.0/24,no-resolve
@@ -59,7 +59,6 @@ IP-CIDR,155.102.52.0/22,no-resolve
 IP-CIDR,155.102.56.0/21,no-resolve
 IP-CIDR,155.102.64.0/24,no-resolve
 IP-CIDR,155.102.69.0/24,no-resolve
-IP-CIDR,155.102.70.0/24,no-resolve
 IP-CIDR,155.102.72.0/23,no-resolve
 IP-CIDR,155.102.75.0/24,no-resolve
 IP-CIDR,155.102.76.0/22,no-resolve
@@ -69,7 +68,6 @@ IP-CIDR,155.102.82.0/23,no-resolve
 IP-CIDR,155.102.84.0/23,no-resolve
 IP-CIDR,155.102.86.0/24,no-resolve
 IP-CIDR,155.102.91.0/24,no-resolve
-IP-CIDR,155.102.94.0/24,no-resolve
 IP-CIDR,155.102.98.0/23,no-resolve
 IP-CIDR,156.59.108.0/24,no-resolve
 IP-CIDR,163.181.0.0/23,no-resolve
@@ -202,8 +200,7 @@ IP-CIDR,43.109.22.0/24,no-resolve
 IP-CIDR,43.109.224.0/23,no-resolve
 IP-CIDR,43.109.226.0/24,no-resolve
 IP-CIDR,43.109.238.0/23,no-resolve
-IP-CIDR,43.109.24.0/23,no-resolve
-IP-CIDR,43.109.26.0/24,no-resolve
+IP-CIDR,43.109.24.0/22,no-resolve
 IP-CIDR,43.109.28.0/24,no-resolve
 IP-CIDR,43.109.30.0/23,no-resolve
 IP-CIDR,43.109.32.0/23,no-resolve
@@ -355,16 +352,12 @@ IP-CIDR6,2404:2280:25c::/48,no-resolve
 IP-CIDR6,2404:2280:265::/48,no-resolve
 IP-CIDR6,2404:2280:266::/47,no-resolve
 IP-CIDR6,2404:2280:268::/45,no-resolve
-IP-CIDR6,2404:2280:270::/45,no-resolve
-IP-CIDR6,2404:2280:278::/47,no-resolve
-IP-CIDR6,2404:2280:27b::/48,no-resolve
-IP-CIDR6,2404:2280:27c::/46,no-resolve
+IP-CIDR6,2404:2280:270::/44,no-resolve
 IP-CIDR6,2404:2280:282::/47,no-resolve
 IP-CIDR6,2404:2280:284::/47,no-resolve
 IP-CIDR6,2404:2280:288::/46,no-resolve
 IP-CIDR6,2404:2280:28c::/48,no-resolve
 IP-CIDR6,2404:2280:291::/48,no-resolve
-IP-CIDR6,2404:2280:292::/48,no-resolve
 IP-CIDR6,2404:2280:296::/47,no-resolve
 IP-CIDR6,2404:2280:298::/46,no-resolve
 IP-CIDR6,2404:2280:29c::/47,no-resolve

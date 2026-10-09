@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS46375.json
-# Status: complete; emitted: 2103; unsupported: 0
+# Status: complete; emitted: 2115; unsupported: 0
 IP-CIDR,107.156.0.0/15,no-resolve
 IP-CIDR,108.169.0.0/18,no-resolve
 IP-CIDR,135.180.0.0/22,no-resolve
@@ -273,17 +273,7 @@ IP-CIDR,184.23.209.48/28,no-resolve
 IP-CIDR,184.23.209.64/26,no-resolve
 IP-CIDR,184.23.210.0/23,no-resolve
 IP-CIDR,184.23.212.0/22,no-resolve
-IP-CIDR,184.23.216.0/22,no-resolve
-IP-CIDR,184.23.220.0/26,no-resolve
-IP-CIDR,184.23.220.128/25,no-resolve
-IP-CIDR,184.23.220.64/29,no-resolve
-IP-CIDR,184.23.220.72/30,no-resolve
-IP-CIDR,184.23.220.77/32,no-resolve
-IP-CIDR,184.23.220.78/31,no-resolve
-IP-CIDR,184.23.220.80/28,no-resolve
-IP-CIDR,184.23.220.96/27,no-resolve
-IP-CIDR,184.23.221.0/24,no-resolve
-IP-CIDR,184.23.222.0/23,no-resolve
+IP-CIDR,184.23.216.0/21,no-resolve
 IP-CIDR,184.23.224.0/19,no-resolve
 IP-CIDR,184.23.32.0/22,no-resolve
 IP-CIDR,184.23.36.0/24,no-resolve
@@ -862,7 +852,29 @@ IP-CIDR6,2001:5a8:417a:c000::/50,no-resolve
 IP-CIDR6,2001:5a8:417b::/48,no-resolve
 IP-CIDR6,2001:5a8:417c::/46,no-resolve
 IP-CIDR6,2001:5a8:4180::/41,no-resolve
-IP-CIDR6,2001:5a8:4200::/41,no-resolve
+IP-CIDR6,2001:5a8:4200::/42,no-resolve
+IP-CIDR6,2001:5a8:4240::/43,no-resolve
+IP-CIDR6,2001:5a8:4260::/46,no-resolve
+IP-CIDR6,2001:5a8:4264::/47,no-resolve
+IP-CIDR6,2001:5a8:4266:8000::/52,no-resolve
+IP-CIDR6,2001:5a8:4266:9000::/53,no-resolve
+IP-CIDR6,2001:5a8:4266:9800::/54,no-resolve
+IP-CIDR6,2001:5a8:4266:9c00::/55,no-resolve
+IP-CIDR6,2001:5a8:4266:9e00::/56,no-resolve
+IP-CIDR6,2001:5a8:4266:9f01::/64,no-resolve
+IP-CIDR6,2001:5a8:4266:9f02::/63,no-resolve
+IP-CIDR6,2001:5a8:4266:9f04::/62,no-resolve
+IP-CIDR6,2001:5a8:4266:9f08::/61,no-resolve
+IP-CIDR6,2001:5a8:4266:9f10::/60,no-resolve
+IP-CIDR6,2001:5a8:4266:9f20::/59,no-resolve
+IP-CIDR6,2001:5a8:4266:9f40::/58,no-resolve
+IP-CIDR6,2001:5a8:4266:9f80::/57,no-resolve
+IP-CIDR6,2001:5a8:4266::/49,no-resolve
+IP-CIDR6,2001:5a8:4266:a000::/51,no-resolve
+IP-CIDR6,2001:5a8:4266:c000::/50,no-resolve
+IP-CIDR6,2001:5a8:4267::/48,no-resolve
+IP-CIDR6,2001:5a8:4268::/45,no-resolve
+IP-CIDR6,2001:5a8:4270::/44,no-resolve
 IP-CIDR6,2001:5a8:4280::/44,no-resolve
 IP-CIDR6,2001:5a8:4290::/45,no-resolve
 IP-CIDR6,2001:5a8:4298::/46,no-resolve

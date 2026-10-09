@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS9141.json
-# Status: complete; emitted: 112; unsupported: 0
+# Status: complete; emitted: 100; unsupported: 0
 IP-CIDR,178.73.0.0/18,no-resolve
 IP-CIDR,185.182.244.0/22,no-resolve
 IP-CIDR,188.93.160.0/21,no-resolve
@@ -12,15 +12,7 @@ IP-CIDR,195.34.208.0/22,no-resolve
 IP-CIDR,212.76.32.0/19,no-resolve
 IP-CIDR,213.134.160.0/19,no-resolve
 IP-CIDR,217.119.64.0/20,no-resolve
-IP-CIDR,31.178.0.0/16,no-resolve
-IP-CIDR,31.179.0.0/17,no-resolve
-IP-CIDR,31.179.128.0/18,no-resolve
-IP-CIDR,31.179.192.0/19,no-resolve
-IP-CIDR,31.179.224.0/22,no-resolve
-IP-CIDR,31.179.228.0/24,no-resolve
-IP-CIDR,31.179.230.0/23,no-resolve
-IP-CIDR,31.179.232.0/21,no-resolve
-IP-CIDR,31.179.240.0/20,no-resolve
+IP-CIDR,31.178.0.0/15,no-resolve
 IP-CIDR,31.186.192.0/19,no-resolve
 IP-CIDR,77.236.0.0/19,no-resolve
 IP-CIDR,81.18.192.0/19,no-resolve
@@ -35,11 +27,7 @@ IP-CIDR,91.238.60.0/24,no-resolve
 IP-CIDR,91.247.147.0/24,no-resolve
 IP-CIDR,92.244.32.0/19,no-resolve
 IP-CIDR,94.172.0.0/16,no-resolve
-IP-CIDR,94.75.64.0/20,no-resolve
-IP-CIDR,94.75.80.0/23,no-resolve
-IP-CIDR,94.75.84.0/22,no-resolve
-IP-CIDR,94.75.88.0/21,no-resolve
-IP-CIDR,94.75.96.0/19,no-resolve
+IP-CIDR,94.75.64.0/18,no-resolve
 IP-CIDR,95.158.64.0/18,no-resolve
 IP-CIDR6,2001:4050::/32,no-resolve
 IP-CIDR6,2a02:a300::/28,no-resolve

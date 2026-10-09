@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS4685.json
-# Status: complete; emitted: 161; unsupported: 0
+# Status: complete; emitted: 129; unsupported: 0
 IP-CIDR,101.50.224.0/19,no-resolve
 IP-CIDR,110.4.128.0/17,no-resolve
 IP-CIDR,110.5.0.0/18,no-resolve
@@ -62,39 +62,7 @@ IP-CIDR,61.125.192.0/18,no-resolve
 IP-CIDR,61.213.64.0/18,no-resolve
 IP-CIDR,61.87.32.0/19,no-resolve
 IP-CIDR6,2001:c28::/32,no-resolve
-IP-CIDR6,2405:6580:8000::/35,no-resolve
-IP-CIDR6,2405:6580::/33,no-resolve
-IP-CIDR6,2405:6580:a000::/36,no-resolve
-IP-CIDR6,2405:6580:b000::/37,no-resolve
-IP-CIDR6,2405:6580:b800::/40,no-resolve
-IP-CIDR6,2405:6580:b900::/42,no-resolve
-IP-CIDR6,2405:6580:b940::/43,no-resolve
-IP-CIDR6,2405:6580:b960:1000::/55,no-resolve
-IP-CIDR6,2405:6580:b960:1200::/60,no-resolve
-IP-CIDR6,2405:6580:b960:1211::/64,no-resolve
-IP-CIDR6,2405:6580:b960:1212::/63,no-resolve
-IP-CIDR6,2405:6580:b960:1214::/62,no-resolve
-IP-CIDR6,2405:6580:b960:1218::/61,no-resolve
-IP-CIDR6,2405:6580:b960:1220::/59,no-resolve
-IP-CIDR6,2405:6580:b960:1240::/58,no-resolve
-IP-CIDR6,2405:6580:b960:1280::/57,no-resolve
-IP-CIDR6,2405:6580:b960:1300::/56,no-resolve
-IP-CIDR6,2405:6580:b960:1400::/54,no-resolve
-IP-CIDR6,2405:6580:b960:1800::/53,no-resolve
-IP-CIDR6,2405:6580:b960:2000::/51,no-resolve
-IP-CIDR6,2405:6580:b960:4000::/50,no-resolve
-IP-CIDR6,2405:6580:b960:8000::/49,no-resolve
-IP-CIDR6,2405:6580:b960::/52,no-resolve
-IP-CIDR6,2405:6580:b961::/48,no-resolve
-IP-CIDR6,2405:6580:b962::/47,no-resolve
-IP-CIDR6,2405:6580:b964::/46,no-resolve
-IP-CIDR6,2405:6580:b968::/45,no-resolve
-IP-CIDR6,2405:6580:b970::/44,no-resolve
-IP-CIDR6,2405:6580:b980::/41,no-resolve
-IP-CIDR6,2405:6580:ba00::/39,no-resolve
-IP-CIDR6,2405:6580:bc00::/38,no-resolve
-IP-CIDR6,2405:6580:c000::/34,no-resolve
-IP-CIDR6,2405:6581::/32,no-resolve
+IP-CIDR6,2405:6580::/31,no-resolve
 IP-CIDR6,2405:6582::/32,no-resolve
 IP-CIDR6,2405:6583:8000::/37,no-resolve
 IP-CIDR6,2405:6583:8800::/39,no-resolve

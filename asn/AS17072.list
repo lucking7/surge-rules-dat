@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS17072.json
-# Status: complete; emitted: 1195; unsupported: 0
+# Status: complete; emitted: 1203; unsupported: 0
 IP-CIDR,138.186.28.0/23,no-resolve
 IP-CIDR,138.186.31.0/24,no-resolve
 IP-CIDR,186.96.13.0/24,no-resolve
@@ -12,13 +12,13 @@ IP-CIDR,187.188.144.0/24,no-resolve
 IP-CIDR,187.188.151.0/24,no-resolve
 IP-CIDR,187.188.155.0/24,no-resolve
 IP-CIDR,187.188.17.0/24,no-resolve
-IP-CIDR,187.188.220.0/22,no-resolve
+IP-CIDR,187.188.220.0/24,no-resolve
+IP-CIDR,187.188.222.0/23,no-resolve
 IP-CIDR,187.188.224.0/22,no-resolve
 IP-CIDR,187.188.228.0/23,no-resolve
 IP-CIDR,187.188.23.0/24,no-resolve
 IP-CIDR,187.188.230.0/24,no-resolve
 IP-CIDR,187.188.233.0/24,no-resolve
-IP-CIDR,187.188.235.0/24,no-resolve
 IP-CIDR,187.188.241.0/24,no-resolve
 IP-CIDR,187.188.242.0/23,no-resolve
 IP-CIDR,187.188.253.0/24,no-resolve
@@ -100,7 +100,9 @@ IP-CIDR,187.189.90.0/23,no-resolve
 IP-CIDR,187.189.92.0/23,no-resolve
 IP-CIDR,187.189.95.0/24,no-resolve
 IP-CIDR,187.189.98.0/24,no-resolve
+IP-CIDR,187.190.100.0/24,no-resolve
 IP-CIDR,187.190.105.0/24,no-resolve
+IP-CIDR,187.190.107.0/24,no-resolve
 IP-CIDR,187.190.11.0/24,no-resolve
 IP-CIDR,187.190.132.0/23,no-resolve
 IP-CIDR,187.190.136.0/24,no-resolve
@@ -115,7 +117,6 @@ IP-CIDR,187.190.153.0/24,no-resolve
 IP-CIDR,187.190.154.0/24,no-resolve
 IP-CIDR,187.190.156.0/23,no-resolve
 IP-CIDR,187.190.159.0/24,no-resolve
-IP-CIDR,187.190.16.0/24,no-resolve
 IP-CIDR,187.190.160.0/21,no-resolve
 IP-CIDR,187.190.168.0/23,no-resolve
 IP-CIDR,187.190.172.0/22,no-resolve
@@ -133,10 +134,12 @@ IP-CIDR,187.190.209.0/24,no-resolve
 IP-CIDR,187.190.21.0/24,no-resolve
 IP-CIDR,187.190.211.0/24,no-resolve
 IP-CIDR,187.190.215.0/24,no-resolve
+IP-CIDR,187.190.223.0/24,no-resolve
 IP-CIDR,187.190.224.0/24,no-resolve
 IP-CIDR,187.190.229.0/24,no-resolve
 IP-CIDR,187.190.23.0/24,no-resolve
 IP-CIDR,187.190.230.0/24,no-resolve
+IP-CIDR,187.190.235.0/24,no-resolve
 IP-CIDR,187.190.238.0/24,no-resolve
 IP-CIDR,187.190.24.0/21,no-resolve
 IP-CIDR,187.190.242.0/24,no-resolve
@@ -145,9 +148,11 @@ IP-CIDR,187.190.38.0/23,no-resolve
 IP-CIDR,187.190.4.0/24,no-resolve
 IP-CIDR,187.190.40.0/24,no-resolve
 IP-CIDR,187.190.43.0/24,no-resolve
+IP-CIDR,187.190.46.0/24,no-resolve
 IP-CIDR,187.190.51.0/24,no-resolve
 IP-CIDR,187.190.63.0/24,no-resolve
 IP-CIDR,187.190.78.0/23,no-resolve
+IP-CIDR,187.190.8.0/24,no-resolve
 IP-CIDR,187.190.88.0/24,no-resolve
 IP-CIDR,187.190.90.0/23,no-resolve
 IP-CIDR,187.190.93.0/24,no-resolve
@@ -452,6 +457,7 @@ IP-CIDR6,2806:2f0:4a40::/47,no-resolve
 IP-CIDR6,2806:2f0:4a42::/48,no-resolve
 IP-CIDR6,2806:2f0:4a60::/47,no-resolve
 IP-CIDR6,2806:2f0:4a80::/47,no-resolve
+IP-CIDR6,2806:2f0:4a82::/48,no-resolve
 IP-CIDR6,2806:2f0:4aa0::/47,no-resolve
 IP-CIDR6,2806:2f0:4aa2::/48,no-resolve
 IP-CIDR6,2806:2f0:4ac0::/47,no-resolve
@@ -809,10 +815,8 @@ IP-CIDR6,2806:2f0:8200::/42,no-resolve
 IP-CIDR6,2806:2f0:82::/47,no-resolve
 IP-CIDR6,2806:2f0:82a0::/43,no-resolve
 IP-CIDR6,2806:2f0:82c0::/42,no-resolve
-IP-CIDR6,2806:2f0:8300::/42,no-resolve
-IP-CIDR6,2806:2f0:8342::/48,no-resolve
-IP-CIDR6,2806:2f0:8360::/43,no-resolve
-IP-CIDR6,2806:2f0:83a0::/43,no-resolve
+IP-CIDR6,2806:2f0:8320::/43,no-resolve
+IP-CIDR6,2806:2f0:8340::/42,no-resolve
 IP-CIDR6,2806:2f0:83c0::/42,no-resolve
 IP-CIDR6,2806:2f0:8400::/43,no-resolve
 IP-CIDR6,2806:2f0:8440::/43,no-resolve
@@ -821,10 +825,14 @@ IP-CIDR6,2806:2f0:84c0::/42,no-resolve
 IP-CIDR6,2806:2f0:8500::/43,no-resolve
 IP-CIDR6,2806:2f0:8540::/42,no-resolve
 IP-CIDR6,2806:2f0:8580::/43,no-resolve
+IP-CIDR6,2806:2f0:85a0::/48,no-resolve
+IP-CIDR6,2806:2f0:85a2::/48,no-resolve
 IP-CIDR6,2806:2f0:85c0::/47,no-resolve
 IP-CIDR6,2806:2f0:85c2::/48,no-resolve
 IP-CIDR6,2806:2f0:85e0::/47,no-resolve
 IP-CIDR6,2806:2f0:85e2::/48,no-resolve
+IP-CIDR6,2806:2f0:8600::/47,no-resolve
+IP-CIDR6,2806:2f0:8602::/48,no-resolve
 IP-CIDR6,2806:2f0:9000::/42,no-resolve
 IP-CIDR6,2806:2f0:9080::/41,no-resolve
 IP-CIDR6,2806:2f0:9100::/40,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS57043.json
-# Status: complete; emitted: 479; unsupported: 0
+# Status: complete; emitted: 488; unsupported: 0
 IP-CIDR,103.27.156.0/24,no-resolve
 IP-CIDR,103.7.54.0/23,no-resolve
 IP-CIDR,103.73.35.0/24,no-resolve
@@ -95,6 +95,8 @@ IP-CIDR,153.76.227.0/24,no-resolve
 IP-CIDR,153.76.231.0/24,no-resolve
 IP-CIDR,156.67.62.0/23,no-resolve
 IP-CIDR,162.141.93.0/24,no-resolve
+IP-CIDR,163.245.46.0/24,no-resolve
+IP-CIDR,163.245.50.0/24,no-resolve
 IP-CIDR,163.5.16.0/24,no-resolve
 IP-CIDR,163.5.180.0/24,no-resolve
 IP-CIDR,163.5.29.0/24,no-resolve
@@ -106,6 +108,8 @@ IP-CIDR,166.1.220.0/24,no-resolve
 IP-CIDR,166.88.162.0/24,no-resolve
 IP-CIDR,166.88.180.0/24,no-resolve
 IP-CIDR,167.148.156.0/24,no-resolve
+IP-CIDR,167.148.209.0/24,no-resolve
+IP-CIDR,167.148.223.0/24,no-resolve
 IP-CIDR,167.17.176.0/23,no-resolve
 IP-CIDR,167.17.182.0/24,no-resolve
 IP-CIDR,167.17.40.0/24,no-resolve
@@ -190,7 +194,9 @@ IP-CIDR,194.58.56.0/24,no-resolve
 IP-CIDR,194.77.71.0/24,no-resolve
 IP-CIDR,194.85.249.0/24,no-resolve
 IP-CIDR,194.85.251.0/24,no-resolve
+IP-CIDR,194.87.1.0/24,no-resolve
 IP-CIDR,194.87.157.0/24,no-resolve
+IP-CIDR,194.87.166.0/24,no-resolve
 IP-CIDR,194.87.233.0/24,no-resolve
 IP-CIDR,194.87.255.0/24,no-resolve
 IP-CIDR,194.87.51.0/24,no-resolve
@@ -247,6 +253,7 @@ IP-CIDR,222.167.238.0/24,no-resolve
 IP-CIDR,222.167.249.0/24,no-resolve
 IP-CIDR,222.167.252.0/24,no-resolve
 IP-CIDR,31.207.44.0/22,no-resolve
+IP-CIDR,31.57.143.0/24,no-resolve
 IP-CIDR,31.57.166.0/24,no-resolve
 IP-CIDR,31.57.170.0/24,no-resolve
 IP-CIDR,31.57.44.0/23,no-resolve
@@ -454,6 +461,8 @@ IP-CIDR,89.35.119.0/24,no-resolve
 IP-CIDR,89.35.129.0/24,no-resolve
 IP-CIDR,89.39.120.0/24,no-resolve
 IP-CIDR,89.40.70.0/24,no-resolve
+IP-CIDR,9.247.30.0/24,no-resolve
+IP-CIDR,9.247.46.0/24,no-resolve
 IP-CIDR,91.108.225.0/24,no-resolve
 IP-CIDR,91.108.247.0/24,no-resolve
 IP-CIDR,91.108.248.0/24,no-resolve

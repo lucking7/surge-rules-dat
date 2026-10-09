@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS42298.json
-# Status: complete; emitted: 402; unsupported: 0
+# Status: complete; emitted: 403; unsupported: 0
 IP-CIDR,178.23.16.0/21,no-resolve
 IP-CIDR,185.154.168.0/23,no-resolve
 IP-CIDR,195.219.42.0/24,no-resolve
@@ -154,7 +154,8 @@ IP-CIDR6,2001:1a11:224::/48,no-resolve
 IP-CIDR6,2001:1a11:226::/47,no-resolve
 IP-CIDR6,2001:1a11:229::/48,no-resolve
 IP-CIDR6,2001:1a11:22a::/48,no-resolve
-IP-CIDR6,2001:1a11:22c::/46,no-resolve
+IP-CIDR6,2001:1a11:22c::/48,no-resolve
+IP-CIDR6,2001:1a11:22e::/47,no-resolve
 IP-CIDR6,2001:1a11:230::/47,no-resolve
 IP-CIDR6,2001:1a11:232::/48,no-resolve
 IP-CIDR6,2001:1a11:234::/46,no-resolve
@@ -271,7 +272,6 @@ IP-CIDR6,2001:1a11:37a::/47,no-resolve
 IP-CIDR6,2001:1a11:37c::/46,no-resolve
 IP-CIDR6,2001:1a11:381::/48,no-resolve
 IP-CIDR6,2001:1a11:382::/48,no-resolve
-IP-CIDR6,2001:1a11:386::/47,no-resolve
 IP-CIDR6,2001:1a11:388::/48,no-resolve
 IP-CIDR6,2001:1a11:38a::/47,no-resolve
 IP-CIDR6,2001:1a11:38c::/46,no-resolve
@@ -296,14 +296,14 @@ IP-CIDR6,2001:1a11:3c2::/48,no-resolve
 IP-CIDR6,2001:1a11:3c4::/46,no-resolve
 IP-CIDR6,2001:1a11:3c8::/46,no-resolve
 IP-CIDR6,2001:1a11:3cc::/48,no-resolve
-IP-CIDR6,2001:1a11:3ce::/48,no-resolve
 IP-CIDR6,2001:1a11:3d0::/48,no-resolve
 IP-CIDR6,2001:1a11:3d2::/47,no-resolve
 IP-CIDR6,2001:1a11:3d5::/48,no-resolve
 IP-CIDR6,2001:1a11:3d7::/48,no-resolve
 IP-CIDR6,2001:1a11:3d8::/47,no-resolve
 IP-CIDR6,2001:1a11:3da::/48,no-resolve
-IP-CIDR6,2001:1a11:3dc::/46,no-resolve
+IP-CIDR6,2001:1a11:3dc::/47,no-resolve
+IP-CIDR6,2001:1a11:3df::/48,no-resolve
 IP-CIDR6,2001:1a11:3e0::/47,no-resolve
 IP-CIDR6,2001:1a11:3e2::/48,no-resolve
 IP-CIDR6,2001:1a11:3e4::/48,no-resolve
@@ -319,9 +319,9 @@ IP-CIDR6,2001:1a11:3f8::/48,no-resolve
 IP-CIDR6,2001:1a11:3fa::/47,no-resolve
 IP-CIDR6,2001:1a11:3fc::/48,no-resolve
 IP-CIDR6,2001:1a11:3fe::/47,no-resolve
-IP-CIDR6,2001:1a11:400::/46,no-resolve
-IP-CIDR6,2001:1a11:404::/47,no-resolve
-IP-CIDR6,2001:1a11:407::/48,no-resolve
+IP-CIDR6,2001:1a11:400::/47,no-resolve
+IP-CIDR6,2001:1a11:402::/48,no-resolve
+IP-CIDR6,2001:1a11:404::/46,no-resolve
 IP-CIDR6,2001:1a11:409::/48,no-resolve
 IP-CIDR6,2001:1a11:40b::/48,no-resolve
 IP-CIDR6,2001:1a11:40c::/47,no-resolve
@@ -332,10 +332,13 @@ IP-CIDR6,2001:1a11:414::/48,no-resolve
 IP-CIDR6,2001:1a11:416::/47,no-resolve
 IP-CIDR6,2001:1a11:418::/48,no-resolve
 IP-CIDR6,2001:1a11:41a::/47,no-resolve
-IP-CIDR6,2001:1a11:41c::/46,no-resolve
-IP-CIDR6,2001:1a11:420::/46,no-resolve
+IP-CIDR6,2001:1a11:41c::/47,no-resolve
+IP-CIDR6,2001:1a11:41e::/48,no-resolve
+IP-CIDR6,2001:1a11:421::/48,no-resolve
+IP-CIDR6,2001:1a11:422::/47,no-resolve
 IP-CIDR6,2001:1a11:424::/48,no-resolve
 IP-CIDR6,2001:1a11:426::/48,no-resolve
+IP-CIDR6,2001:1a11:428::/47,no-resolve
 IP-CIDR6,2001:1a11:55::/48,no-resolve
 IP-CIDR6,2001:1a11:56::/47,no-resolve
 IP-CIDR6,2001:1a11:58::/48,no-resolve
@@ -385,9 +388,7 @@ IP-CIDR6,2001:1a11:cf::/48,no-resolve
 IP-CIDR6,2001:1a11:d0::/46,no-resolve
 IP-CIDR6,2001:1a11:d5::/48,no-resolve
 IP-CIDR6,2001:1a11:d7::/48,no-resolve
-IP-CIDR6,2001:1a11:d8::/47,no-resolve
-IP-CIDR6,2001:1a11:da::/48,no-resolve
-IP-CIDR6,2001:1a11:dc::/46,no-resolve
+IP-CIDR6,2001:1a11:d8::/45,no-resolve
 IP-CIDR6,2001:1a11:e0::/48,no-resolve
 IP-CIDR6,2001:1a11:e2::/47,no-resolve
 IP-CIDR6,2001:1a11:e4::/46,no-resolve

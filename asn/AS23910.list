@@ -3,6 +3,7 @@
 # Status: complete; emitted: 1158; unsupported: 0
 IP-CIDR6,2001:250:1000::/48,no-resolve
 IP-CIDR6,2001:250:100::/40,no-resolve
+IP-CIDR6,2001:250:100d::/48,no-resolve
 IP-CIDR6,2001:250:1023::/48,no-resolve
 IP-CIDR6,2001:250:1025::/48,no-resolve
 IP-CIDR6,2001:250:1036::/47,no-resolve
@@ -465,8 +466,7 @@ IP-CIDR6,2001:da8:220::/47,no-resolve
 IP-CIDR6,2001:da8:223::/48,no-resolve
 IP-CIDR6,2001:da8:225::/48,no-resolve
 IP-CIDR6,2001:da8:226::/47,no-resolve
-IP-CIDR6,2001:da8:228::/47,no-resolve
-IP-CIDR6,2001:da8:22a::/48,no-resolve
+IP-CIDR6,2001:da8:228::/46,no-resolve
 IP-CIDR6,2001:da8:22c::/48,no-resolve
 IP-CIDR6,2001:da8:22e::/47,no-resolve
 IP-CIDR6,2001:da8:239::/48,no-resolve

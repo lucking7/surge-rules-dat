@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS25369.json
-# Status: complete; emitted: 287; unsupported: 0
+# Status: complete; emitted: 296; unsupported: 0
 IP-CIDR,103.236.149.0/24,no-resolve
 IP-CIDR,104.156.143.0/24,no-resolve
 IP-CIDR,109.121.43.0/24,no-resolve
@@ -38,6 +38,7 @@ IP-CIDR,151.244.79.0/24,no-resolve
 IP-CIDR,151.245.77.0/24,no-resolve
 IP-CIDR,154.16.44.0/24,no-resolve
 IP-CIDR,155.117.145.0/24,no-resolve
+IP-CIDR,164.37.232.0/24,no-resolve
 IP-CIDR,167.148.172.0/24,no-resolve
 IP-CIDR,167.148.186.0/24,no-resolve
 IP-CIDR,168.199.132.0/24,no-resolve
@@ -166,7 +167,9 @@ IP-CIDR,64.93.48.0/22,no-resolve
 IP-CIDR,64.93.60.0/22,no-resolve
 IP-CIDR,65.86.176.0/22,no-resolve
 IP-CIDR,65.86.184.0/22,no-resolve
-IP-CIDR,69.5.168.0/21,no-resolve
+IP-CIDR,69.5.168.0/22,no-resolve
+IP-CIDR,69.5.172.0/23,no-resolve
+IP-CIDR,69.5.175.0/24,no-resolve
 IP-CIDR,72.9.168.0/22,no-resolve
 IP-CIDR,77.105.50.0/24,no-resolve
 IP-CIDR,77.81.102.0/24,no-resolve
@@ -219,6 +222,7 @@ IP-CIDR,82.39.141.0/24,no-resolve
 IP-CIDR,82.39.189.0/24,no-resolve
 IP-CIDR,82.39.209.0/24,no-resolve
 IP-CIDR,82.40.24.0/24,no-resolve
+IP-CIDR,82.40.28.0/24,no-resolve
 IP-CIDR,82.47.244.0/24,no-resolve
 IP-CIDR,82.97.192.0/23,no-resolve
 IP-CIDR,84.247.0.0/24,no-resolve
@@ -239,6 +243,7 @@ IP-CIDR,86.106.89.0/24,no-resolve
 IP-CIDR,86.107.241.0/24,no-resolve
 IP-CIDR,86.109.74.0/24,no-resolve
 IP-CIDR,86.54.136.0/22,no-resolve
+IP-CIDR,87.232.101.0/24,no-resolve
 IP-CIDR,87.76.144.0/24,no-resolve
 IP-CIDR,87.76.173.0/24,no-resolve
 IP-CIDR,87.76.177.0/24,no-resolve
@@ -270,6 +275,10 @@ IP-CIDR,93.113.175.0/24,no-resolve
 IP-CIDR,93.114.129.0/24,no-resolve
 IP-CIDR,93.114.83.0/24,no-resolve
 IP-CIDR,93.89.215.0/24,no-resolve
+IP-CIDR,94.116.112.0/22,no-resolve
+IP-CIDR,94.116.128.0/22,no-resolve
+IP-CIDR,94.116.80.0/22,no-resolve
+IP-CIDR,94.116.92.0/22,no-resolve
 IP-CIDR6,2a00:10e8:101::/48,no-resolve
 IP-CIDR6,2a00:1a30::/32,no-resolve
 IP-CIDR6,2a01:4020:1000::/36,no-resolve

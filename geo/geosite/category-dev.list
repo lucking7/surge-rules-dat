@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-dev.json
-# Status: partial; emitted: 665; unsupported: 1
+# Status: partial; emitted: 666; unsupported: 1
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,amp.akamaized.net
 DOMAIN,android.googlesource.com
@@ -142,6 +142,7 @@ DOMAIN-SUFFIX,buckbuild.com
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,builtwithnix.org
 DOMAIN-SUFFIX,busybox.net
+DOMAIN-SUFFIX,cafe.github.com
 DOMAIN-SUFFIX,calendarserver.org
 DOMAIN-SUFFIX,canonical.com
 DOMAIN-SUFFIX,carekit.org

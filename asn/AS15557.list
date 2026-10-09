@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS15557.json
-# Status: complete; emitted: 380; unsupported: 0
+# Status: complete; emitted: 342; unsupported: 0
 IP-CIDR,109.0.0.0/12,no-resolve
 IP-CIDR,109.16.0.0/13,no-resolve
 IP-CIDR,109.24.0.0/14,no-resolve
@@ -225,47 +225,9 @@ IP-CIDR,91.189.104.0/21,no-resolve
 IP-CIDR,91.240.78.0/23,no-resolve
 IP-CIDR,91.68.0.0/14,no-resolve
 IP-CIDR,92.102.0.0/15,no-resolve
-IP-CIDR,92.88.0.0/14,no-resolve
-IP-CIDR,92.92.0.0/15,no-resolve
-IP-CIDR,92.94.0.0/18,no-resolve
-IP-CIDR,92.94.112.0/21,no-resolve
-IP-CIDR,92.94.120.0/23,no-resolve
-IP-CIDR,92.94.122.0/24,no-resolve
-IP-CIDR,92.94.123.0/27,no-resolve
-IP-CIDR,92.94.123.128/25,no-resolve
-IP-CIDR,92.94.123.32/28,no-resolve
-IP-CIDR,92.94.123.48/30,no-resolve
-IP-CIDR,92.94.123.52/32,no-resolve
-IP-CIDR,92.94.123.54/31,no-resolve
-IP-CIDR,92.94.123.56/29,no-resolve
-IP-CIDR,92.94.123.64/26,no-resolve
-IP-CIDR,92.94.124.0/22,no-resolve
-IP-CIDR,92.94.128.0/17,no-resolve
-IP-CIDR,92.94.64.0/19,no-resolve
-IP-CIDR,92.94.96.0/20,no-resolve
-IP-CIDR,92.95.0.0/16,no-resolve
-IP-CIDR,93.0.0.0/13,no-resolve
-IP-CIDR,93.12.0.0/19,no-resolve
-IP-CIDR,93.12.128.0/17,no-resolve
-IP-CIDR,93.12.32.0/20,no-resolve
-IP-CIDR,93.12.48.0/23,no-resolve
-IP-CIDR,93.12.50.0/24,no-resolve
-IP-CIDR,93.12.51.0/30,no-resolve
-IP-CIDR,93.12.51.128/25,no-resolve
-IP-CIDR,93.12.51.16/28,no-resolve
-IP-CIDR,93.12.51.32/27,no-resolve
-IP-CIDR,93.12.51.5/32,no-resolve
-IP-CIDR,93.12.51.6/31,no-resolve
-IP-CIDR,93.12.51.64/26,no-resolve
-IP-CIDR,93.12.51.8/29,no-resolve
-IP-CIDR,93.12.52.0/22,no-resolve
-IP-CIDR,93.12.56.0/21,no-resolve
-IP-CIDR,93.12.64.0/18,no-resolve
-IP-CIDR,93.13.0.0/16,no-resolve
-IP-CIDR,93.14.0.0/15,no-resolve
-IP-CIDR,93.16.0.0/12,no-resolve
+IP-CIDR,92.88.0.0/13,no-resolve
+IP-CIDR,93.0.0.0/11,no-resolve
 IP-CIDR,93.191.80.0/21,no-resolve
-IP-CIDR,93.8.0.0/14,no-resolve
 IP-CIDR,95.157.192.0/18,no-resolve
 IP-CIDR6,2a00:6200::/29,no-resolve
 IP-CIDR6,2a02:8400::/27,no-resolve
