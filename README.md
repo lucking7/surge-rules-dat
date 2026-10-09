@@ -10,9 +10,9 @@
 RULE-SET,https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo-lite/cn.list,DIRECT,update-interval=86400
 ```
 
-合并入口路径为 `geo-lite/<分类>.list`，原来的 `geo-lite/geosite/` 和 `geo-lite/geoip/` 文件继续提供。详见[使用说明](docs/usage.md#精简分类只用一条-url)。
+合并入口路径为 `geo-lite/<分类>.list`，原来的 `geo-lite/geosite/` 和 `geo-lite/geoip/` 文件继续提供。详见[使用说明](https://github.com/lucking7/surge-rules-dat/blob/release/README.md#精简分类只用一条-url)。
 
-Surge 无法表达的 `domain_regex` 不会静默丢弃或扩大匹配范围。原始记录和受影响分类发布在 `unsupported.json`；详见 [格式边界](docs/usage.md#格式与边界)。因此“覆盖全部分类”不等于“全部规则都能无损转换”。
+Surge 无法表达的 `domain_regex` 不会静默丢弃或扩大匹配范围。原始记录和受影响分类发布在 `unsupported.json`；详见 [格式边界](https://github.com/lucking7/surge-rules-dat/blob/release/README.md#格式与边界)。因此“覆盖全部分类”不等于“全部规则都能无损转换”。
 
 ## 自动更新
 
@@ -20,7 +20,7 @@ Surge 无法表达的 `domain_regex` 不会静默丢弃或扩大匹配范围。�
 
 ## 本地构建
 
-需要 Python 3.12+、Git 和 rsync，无 Python 第三方依赖：
+需要 Python 3.12+、Git 2.42+ 和 rsync，无 Python 第三方依赖：
 
 ```sh
 python3 -m unittest discover -s tests -v

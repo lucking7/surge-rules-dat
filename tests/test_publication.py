@@ -99,6 +99,40 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(self.git("rev-parse", "release"), self.source_head)
         self.assert_cleaned_up(branches)
 
+    def test_failed_update_push_can_retry_without_changing_source_or_history(self):
+        branches = self.local_branches()
+        self.publish()
+        first = self.git("--git-dir", str(self.remote), "rev-parse", "release")
+        (self.source / "source.txt").write_text("staged concurrent change\n")
+        self.git("add", "source.txt")
+        (self.source / "source.txt").write_text("unstaged concurrent change\n")
+        (self.source / "untracked.txt").write_text("untracked concurrent work\n")
+        status = self.git("status", "--porcelain")
+        source_bytes = (self.source / "source.txt").read_bytes()
+        index_content = self.git("show", ":source.txt")
+        (self.dist / "old.list").unlink()
+        (self.dist / "new.list").write_text("DOMAIN,new.example\n")
+        hook = self.remote / "hooks" / "pre-receive"
+        hook.write_text("#!/bin/sh\nexit 1\n")
+        hook.chmod(0o755)
+        result = self.publish(check=False)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("pre-receive hook declined", result.stderr)
+        self.assertEqual(self.git("--git-dir", str(self.remote), "rev-parse", "release"), first)
+        self.assert_cleaned_up(branches, status)
+        self.assertEqual((self.source / "source.txt").read_bytes(), source_bytes)
+        self.assertEqual(self.git("show", ":source.txt"), index_content)
+        self.assertEqual((self.source / "untracked.txt").read_text(), "untracked concurrent work\n")
+        hook.unlink()
+        self.publish()
+        self.assertEqual(self.git("--git-dir", str(self.remote), "rev-parse", "release^"), first)
+        self.assertEqual(self.git("--git-dir", str(self.remote), "ls-tree", "--name-only", "release"),
+                         "manifest.json\nnew.list")
+        self.assert_cleaned_up(branches, status)
+        self.assertEqual((self.source / "source.txt").read_bytes(), source_bytes)
+        self.assertEqual(self.git("show", ":source.txt"), index_content)
+        self.assertEqual((self.source / "untracked.txt").read_text(), "untracked concurrent work\n")
+
 
 if __name__ == "__main__":
     unittest.main()

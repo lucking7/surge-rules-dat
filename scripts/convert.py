@@ -25,11 +25,8 @@ def digest(data):
 
 
 def file_digest(path):
-    checksum = hashlib.sha256()
     with Path(path).open("rb") as source:
-        while chunk := source.read(1024 * 1024):
-            checksum.update(chunk)
-    return checksum.hexdigest()
+        return hashlib.file_digest(source, "sha256").hexdigest()
 
 
 def values(value):
@@ -53,7 +50,7 @@ def convert_rules(data):
         raise ValueError("unsupported rule-set version")
     if not isinstance(data["rules"], list) or not data["rules"]:
         raise ValueError("empty or invalid rule-set")
-    converted = []
+    converted = set()
     unsupported = []
     counts = Counter()
     for rule in data["rules"]:
@@ -76,17 +73,17 @@ def convert_rules(data):
                         raise ValueError(f"IP prefix is missing: {value!r}")
                     network = ipaddress.ip_network(value, strict=True)
                     kind = "IP-CIDR" if network.version == 4 else "IP-CIDR6"
-                    converted.append(f"{kind},{network},no-resolve")
+                    converted.add(f"{kind},{network},no-resolve")
                 elif key == "domain_suffix":
                     domain_token(value)
                     if value.startswith("."):
                         raise ValueError("subdomain-only suffix requires a different Surge rule")
-                    converted.append("DOMAIN-SUFFIX," + value)
+                    converted.add("DOMAIN-SUFFIX," + value)
                 elif key == "domain":
-                    converted.append("DOMAIN," + domain_token(value))
+                    converted.add("DOMAIN," + domain_token(value))
                 elif key == "domain_keyword":
-                    converted.append("DOMAIN-KEYWORD," + domain_token(value))
-    return sorted(set(converted)), unsupported, counts
+                    converted.add("DOMAIN-KEYWORD," + domain_token(value))
+    return sorted(converted), unsupported, counts
 
 
 def source_path(member_name):
@@ -159,8 +156,8 @@ def convert_archive(archive, output, sha):
     if output.exists() and any(output.iterdir()):
         raise ValueError("output directory must be empty; use a fresh build directory")
     output.mkdir(parents=True, exist_ok=True)
-    files = []
-    json_paths, srs_paths = set(), set()
+    records_by_source = {}
+    srs_paths = set()
     unsupported_records = []
     field_counts = Counter()
     with tarfile.open(archive, "r:gz") as tar:
@@ -173,9 +170,8 @@ def convert_archive(archive, output, sha):
                     raise ValueError(f"duplicate source path: {path}")
                 srs_paths.add(path)
                 continue
-            if path in json_paths:
+            if path in records_by_source:
                 raise ValueError(f"duplicate source path: {path}")
-            json_paths.add(path)
             raw = tar.extractfile(member).read()
             rules, unsupported, counts = convert_rules(json.loads(raw))
             if len(rules) > 1_000_000:
@@ -188,18 +184,19 @@ def convert_archive(archive, output, sha):
             dest = output / target
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_bytes(content)
-            files.append({"path": target, "source": path, "source_sha256": digest(raw),
-                          "sha256": digest(content), "input_rules": input_count,
-                          "rules": len(rules), "unsupported": len(unsupported),
-                          "deduplicated": duplicates, "status": status})
+            records_by_source[path] = {
+                "path": target, "source": path, "source_sha256": digest(raw),
+                "sha256": digest(content), "input_rules": input_count,
+                "rules": len(rules), "unsupported": len(unsupported),
+                "deduplicated": duplicates, "status": status}
             for item in unsupported:
                 unsupported_records.append({"source": path, **item})
-    if not json_paths or {p.removesuffix(".json") for p in json_paths} != {
+    if not records_by_source or {p.removesuffix(".json") for p in records_by_source} != {
             p.removesuffix(".srs") for p in srs_paths}:
         raise ValueError("JSON/SRS coverage mismatch; refuse to publish an incomplete snapshot")
-    if {PurePosixPath(p).parts[0] for p in json_paths} != ROOTS:
+    if {PurePosixPath(p).parts[0] for p in records_by_source} != ROOTS:
         raise ValueError("snapshot must include geo, geo-lite, and asn")
-    files.sort(key=lambda record: record["path"])
+    files = sorted(records_by_source.values(), key=lambda record: record["path"])
     merged_files = merge_geo_lite(output, files)
     unsupported_records.sort(key=lambda record: (record["source"], record["value"]))
     manifest = {"format_version": 1, "upstream": {"repository": UPSTREAM, "branch": BRANCH,

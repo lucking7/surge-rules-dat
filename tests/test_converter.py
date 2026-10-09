@@ -11,6 +11,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from convert import convert_archive, convert_rules, read_rules
+from catalog import catalog
 from validate import validate, validate_rule
 
 
@@ -37,6 +38,16 @@ class RuleConversionTests(unittest.TestCase):
         self.assertEqual(rules, [])
         self.assertEqual(unsupported[0]["value"], expression)
         self.assertEqual(counts["domain_regex"], 1)
+
+    def test_deduplication_preserves_source_and_regex_multiplicity(self):
+        expression = r"^x\d+$"
+        rules, unsupported, counts = convert_rules({"version": 2, "rules": [
+            {"domain": ["same.example", "same.example"], "domain_regex": [expression, expression]},
+            {"domain": "same.example", "ip_cidr": ["2001:0db8::/32", "2001:db8::/32"]}]})
+        self.assertEqual(rules, ["DOMAIN,same.example", "IP-CIDR6,2001:db8::/32,no-resolve"])
+        self.assertEqual(dict(counts), {"domain": 3, "domain_regex": 2, "ip_cidr": 2})
+        self.assertEqual(unsupported, [{"field": "domain_regex", "value": expression,
+                                      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"}] * 2)
 
     def test_domain_and_destination_ip_conditions_preserve_or(self):
         rules, unsupported, _ = convert_rules(rule_set(domain="example.com", ip_cidr="192.0.2.0/24"))
@@ -125,6 +136,45 @@ class SnapshotTests(SnapshotFixture, unittest.TestCase):
             self.make_archive(root / "unsafe.tar.gz", extra={"../outside.json": rule_set(domain="x")})
             with self.assertRaisesRegex(ValueError, "unsafe"):
                 convert_archive(root / "unsafe.tar.gz", root / "unsafe", self.SHA)
+
+    def test_duplicate_json_and_srs_paths_are_rejected(self):
+        with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(temp)
+            self.make_archive(root / "source.tar.gz")
+            with tarfile.open(root / "source.tar.gz", "r:gz") as archive:
+                entries = [(member.name, archive.extractfile(member).read()) for member in archive]
+            for suffix in (".json", ".srs"):
+                duplicate = next(entry for entry in entries if entry[0].endswith(suffix))
+                path = root / (suffix[1:] + ".tar.gz")
+                with tarfile.open(path, "w:gz") as archive:
+                    for name, raw in entries + [duplicate]:
+                        member = tarfile.TarInfo(name)
+                        member.size = len(raw)
+                        archive.addfile(member, io.BytesIO(raw))
+                output = root / suffix[1:]
+                with self.subTest(suffix=suffix), self.assertRaisesRegex(ValueError, "duplicate source path"):
+                    convert_archive(path, output, self.SHA)
+                self.assertFalse((output / "manifest.json").exists())
+
+    def test_archive_member_order_does_not_change_rule_outputs(self):
+        with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(temp)
+            self.make_archive(root / "first.tar.gz")
+            with tarfile.open(root / "first.tar.gz", "r:gz") as archive:
+                entries = [(member.name, archive.extractfile(member).read()) for member in archive]
+            with tarfile.open(root / "reordered.tar.gz", "w:gz") as archive:
+                for name, raw in reversed(entries):
+                    member = tarfile.TarInfo(name)
+                    member.size = len(raw)
+                    archive.addfile(member, io.BytesIO(raw))
+            first = convert_archive(root / "first.tar.gz", root / "first", self.SHA)
+            reordered = convert_archive(root / "reordered.tar.gz", root / "reordered", self.SHA)
+            self.assertNotEqual(first["upstream"]["archive_sha256"], reordered["upstream"]["archive_sha256"])
+            del first["upstream"]["archive_sha256"], reordered["upstream"]["archive_sha256"]
+            self.assertEqual(first, reordered)
+            for file in (root / "first").rglob("*"):
+                if file.is_file() and file.name != "manifest.json":
+                    self.assertEqual(file.read_bytes(), (root / "reordered" / file.relative_to(root / "first")).read_bytes())
 
     def test_tampering_detected(self):
         with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
@@ -220,6 +270,31 @@ class GeoLiteMergeTests(SnapshotFixture, unittest.TestCase):
             self.assertFalse((root / "next/geo-lite/removed.list").exists())
             self.assertEqual(len(first["merged_files"]), 2)
             self.assertEqual(len(next_snapshot["merged_files"]), 1)
+
+
+class CatalogTests(SnapshotFixture, unittest.TestCase):
+    def test_fork_guide_catalog_and_licenses_are_rendered_from_the_snapshot(self):
+        with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(temp)
+            self.make_archive(root / "source.tar.gz", extra={
+                "geo-lite/geosite/cn.json": rule_set(domain_suffix="example.cn")})
+            output = root / "output"
+            convert_archive(root / "source.tar.gz", output, self.SHA)
+            catalog(output, "example/fork")
+            guide = (output / "README.md").read_text()
+            self.assertNotIn("{{REPOSITORY}}", guide)
+            self.assertIn("https://github.com/example/fork/tree/main", guide)
+            self.assertIn("RULE-SET,https://raw.githubusercontent.com/example/fork/release/geo-lite/cn.list,DIRECT", guide)
+            self.assertIn("### 精简分类只用一条 URL", guide)
+            self.assertIn("## 格式与边界", guide)
+            rows = (output / "CATALOG.md").read_text()
+            self.assertIn("[geo-lite/cn.list](https://raw.githubusercontent.com/example/fork/release/geo-lite/cn.list)", rows)
+            self.assertIn("[geo-lite/geoip/cn.list]", rows)
+            self.assertIn("[geo-lite/geosite/cn.list]", rows)
+            self.assertNotIn("[asn/AS13335.list]", rows)
+            repository = Path(__file__).resolve().parents[1]
+            for name in ("LICENSE", "NOTICE.md"):
+                self.assertEqual((output / name).read_bytes(), (repository / name).read_bytes())
 
 
 if __name__ == "__main__":

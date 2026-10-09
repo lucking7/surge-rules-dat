@@ -19,11 +19,9 @@ if test -n "$(git ls-remote --heads origin refs/heads/release)"; then
   git fetch origin release
   git worktree add --detach "$publish" FETCH_HEAD
 else
-  git worktree add --detach "$publish" HEAD
   branch="surge-publish-${scratch##*/}"
-  git -C "$publish" checkout --orphan "$branch"
+  git worktree add --orphan -b "$branch" "$publish"
   initial_branch="$branch"
-  git -C "$publish" rm -rf --ignore-unmatch .
 fi
 
 rsync -a --delete --exclude=.git "$dist/" "$publish/"
