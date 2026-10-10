@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/sber.json
-# Status: complete; emitted: 98; unsupported: 0
+# Status: complete; emitted: 100; unsupported: 0
 DOMAIN,error-tracking.megamarket.tech
 DOMAIN,metrics.21-school.ru
 DOMAIN,sberpro.vedomosti.ru
@@ -97,5 +97,7 @@ DOMAIN-SUFFIX,spasibo.market
 DOMAIN-SUFFIX,spasibobonus.ru
 DOMAIN-SUFFIX,spasibosb.ru
 DOMAIN-SUFFIX,spasibosberbank.ru
+DOMAIN-SUFFIX,yookassa.ru
+DOMAIN-SUFFIX,yoomoney.ru
 DOMAIN-SUFFIX,zvuk-b2b.com
 DOMAIN-SUFFIX,zvuk.com

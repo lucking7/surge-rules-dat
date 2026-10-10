@@ -1,5 +1,5 @@
 {
-  "upstream_sha": "d9e3c4c09747d325d28e9bfe8829011135cfbbbf",
+  "upstream_sha": "a77b5d9bf77c91b8596ed10f58903475a4d478cf",
   "rules": [
     {
       "source": "geo-lite/geosite/private.json",
@@ -129,6 +129,18 @@
     },
     {
       "source": "geo/geosite/category-ads-all@ads.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-ads-and-telemetry.json",
+      "field": "domain_regex",
+      "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-ads-and-telemetry@ads.json",
       "field": "domain_regex",
       "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
       "reason": "Surge RULE-SET does not support DOMAIN-REGEX"

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ru@cn.json
-# Status: complete; emitted: 97; unsupported: 0
+# Status: complete; emitted: 98; unsupported: 0
 DOMAIN,activate.activation-v2.kaspersky.com
 DOMAIN,activation-v2.geo.kaspersky.com
 DOMAIN,activation-v2.kaspersky.com
@@ -98,3 +98,4 @@ DOMAIN,s17.upd.kaspersky.com
 DOMAIN,s18.upd.kaspersky.com
 DOMAIN,s19.upd.kaspersky.com
 DOMAIN-SUFFIX,kaspersky.com.cn
+DOMAIN-SUFFIX,yandex-ad.cn
