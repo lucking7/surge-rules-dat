@@ -849,7 +849,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/clubhouse.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/clubhouse.list) | 3 | 0 | complete |
 | [geo/geosite/cmb.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/cmb.list) | 22 | 0 | complete |
 | [geo/geosite/cmb@!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/cmb%40%21cn.list) | 2 | 0 | complete |
-| [geo/geosite/cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/cn.list) | 111595 | 0 | complete |
+| [geo/geosite/cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/cn.list) | 110821 | 0 | complete |
 | [geo/geosite/cnb.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/cnb.list) | 2 | 0 | complete |
 | [geo/geosite/cnbc.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/cnbc.list) | 4 | 0 | complete |
 | [geo/geosite/cnbeta.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/cnbeta.list) | 3 | 0 | complete |
