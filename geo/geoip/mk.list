@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/mk.json
-# Status: complete; emitted: 400; unsupported: 0
+# Status: complete; emitted: 410; unsupported: 0
 IP-CIDR,104.28.107.14/31,no-resolve
 IP-CIDR,104.28.11.213/32,no-resolve
 IP-CIDR,104.28.11.214/31,no-resolve
@@ -251,6 +251,11 @@ IP-CIDR,85.208.148.0/24,no-resolve
 IP-CIDR,85.30.64.0/18,no-resolve
 IP-CIDR,85.8.244.0/24,no-resolve
 IP-CIDR,87.232.100.0/24,no-resolve
+IP-CIDR,87.81.245.184/31,no-resolve
+IP-CIDR,87.81.246.184/31,no-resolve
+IP-CIDR,87.81.247.184/31,no-resolve
+IP-CIDR,87.81.248.184/31,no-resolve
+IP-CIDR,87.81.252.184/31,no-resolve
 IP-CIDR,88.85.96.0/19,no-resolve
 IP-CIDR,89.185.192.0/19,no-resolve
 IP-CIDR,89.185.82.0/24,no-resolve
@@ -293,7 +298,6 @@ IP-CIDR6,2001:978:0:6ffd::/64,no-resolve
 IP-CIDR6,2001:978:2:a8::/64,no-resolve
 IP-CIDR6,2001:978:9701::/48,no-resolve
 IP-CIDR6,2400:cb00:705::/48,no-resolve
-IP-CIDR6,2401:3620:231:96::/64,no-resolve
 IP-CIDR6,2602:f316:5::/48,no-resolve
 IP-CIDR6,2606:40:2191:4400::/54,no-resolve
 IP-CIDR6,2606:40:22f8:c000::/54,no-resolve
@@ -344,7 +348,12 @@ IP-CIDR6,2a04:4e41:4078:f000::/52,no-resolve
 IP-CIDR6,2a04:4e41:4088:f000::/52,no-resolve
 IP-CIDR6,2a04:4e41:4c87::/48,no-resolve
 IP-CIDR6,2a04:4e41:4cad::/48,no-resolve
+IP-CIDR6,2a04:4e41:54:b800::/55,no-resolve
 IP-CIDR6,2a04:4e41:561f::/48,no-resolve
+IP-CIDR6,2a04:4e41:58:b800::/55,no-resolve
+IP-CIDR6,2a04:4e41:5c:b800::/55,no-resolve
+IP-CIDR6,2a04:4e41:60:b800::/55,no-resolve
+IP-CIDR6,2a04:4e41:70:b800::/55,no-resolve
 IP-CIDR6,2a04:69c0::/29,no-resolve
 IP-CIDR6,2a04:8d00::/29,no-resolve
 IP-CIDR6,2a04:8e00::/29,no-resolve
@@ -379,6 +388,7 @@ IP-CIDR6,2a0a:9607:a000::/47,no-resolve
 IP-CIDR6,2a0a:b140::/32,no-resolve
 IP-CIDR6,2a0a:f7c0::/29,no-resolve
 IP-CIDR6,2a0b:4e07:3:8070::/60,no-resolve
+IP-CIDR6,2a0b:6d00::/29,no-resolve
 IP-CIDR6,2a0d:3344:6a00::/40,no-resolve
 IP-CIDR6,2a0d:4500::/29,no-resolve
 IP-CIDR6,2a0d:5c80::/29,no-resolve

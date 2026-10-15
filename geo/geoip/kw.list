@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/kw.json
-# Status: complete; emitted: 952; unsupported: 0
+# Status: complete; emitted: 961; unsupported: 0
 IP-CIDR,102.217.239.0/24,no-resolve
 IP-CIDR,104.23.200.0/24,no-resolve
 IP-CIDR,104.28.106.119/32,no-resolve
@@ -87,6 +87,11 @@ IP-CIDR,140.248.63.122/32,no-resolve
 IP-CIDR,143.246.176.125/32,no-resolve
 IP-CIDR,144.125.128.0/27,no-resolve
 IP-CIDR,144.125.196.0/25,no-resolve
+IP-CIDR,145.241.64.0/22,no-resolve
+IP-CIDR,145.241.68.0/23,no-resolve
+IP-CIDR,145.241.70.0/24,no-resolve
+IP-CIDR,145.241.72.0/21,no-resolve
+IP-CIDR,145.241.80.0/21,no-resolve
 IP-CIDR,146.75.162.42/31,no-resolve
 IP-CIDR,146.75.162.44/31,no-resolve
 IP-CIDR,146.75.166.88/30,no-resolve
@@ -479,12 +484,17 @@ IP-CIDR6,2001:67c:7f4::/48,no-resolve
 IP-CIDR6,2400:cb00:1044::/48,no-resolve
 IP-CIDR6,2400:cb00:245::/48,no-resolve
 IP-CIDR6,2400:cb00:53::/48,no-resolve
-IP-CIDR6,2401:3620:231:82::/64,no-resolve
 IP-CIDR6,2404:a140:11::/48,no-resolve
 IP-CIDR6,2600:40fc:1001:4000::/62,no-resolve
 IP-CIDR6,2600:70ff:d02f::/48,no-resolve
 IP-CIDR6,2600:70ff:d038::/48,no-resolve
 IP-CIDR6,2600:70ff:d061::/48,no-resolve
+IP-CIDR6,2603:c044:100::/40,no-resolve
+IP-CIDR6,2603:c044:1200::/39,no-resolve
+IP-CIDR6,2603:c044:2100::/40,no-resolve
+IP-CIDR6,2603:c044:2900::/40,no-resolve
+IP-CIDR6,2603:c045:2000::/36,no-resolve
+IP-CIDR6,2603:c046:4000::/35,no-resolve
 IP-CIDR6,2604:980:e03e::/48,no-resolve
 IP-CIDR6,2606:54c0:4718::/45,no-resolve
 IP-CIDR6,2606:54c0:4720::/44,no-resolve
@@ -512,8 +522,7 @@ IP-CIDR6,2a02:26f7:dec5:4000::/64,no-resolve
 IP-CIDR6,2a02:26f7:dec8:4000::/64,no-resolve
 IP-CIDR6,2a02:26f7:dec8:4880::/63,no-resolve
 IP-CIDR6,2a02:26f7:dec9:4000::/64,no-resolve
-IP-CIDR6,2a02:26f7:decc:4000::/64,no-resolve
-IP-CIDR6,2a02:26f7:decc:4880::/63,no-resolve
+IP-CIDR6,2a02:26f7:decc::/48,no-resolve
 IP-CIDR6,2a02:26f7:decd:4000::/64,no-resolve
 IP-CIDR6,2a02:26f7:ded0::/48,no-resolve
 IP-CIDR6,2a02:26f7:ded1:4000::/64,no-resolve
