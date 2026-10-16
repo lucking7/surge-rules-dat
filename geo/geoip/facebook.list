@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/facebook.json
-# Status: complete; emitted: 118; unsupported: 0
+# Status: complete; emitted: 119; unsupported: 0
 IP-CIDR,102.132.112.0/24,no-resolve
 IP-CIDR,102.132.115.0/24,no-resolve
 IP-CIDR,102.132.116.0/23,no-resolve
@@ -8,6 +8,7 @@ IP-CIDR,102.132.119.0/24,no-resolve
 IP-CIDR,102.132.120.0/23,no-resolve
 IP-CIDR,102.132.123.0/24,no-resolve
 IP-CIDR,102.132.125.0/24,no-resolve
+IP-CIDR,102.132.126.0/24,no-resolve
 IP-CIDR,102.132.96.0/20,no-resolve
 IP-CIDR,102.221.188.0/22,no-resolve
 IP-CIDR,103.4.96.0/22,no-resolve

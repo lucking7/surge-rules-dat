@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS4764.json
-# Status: complete; emitted: 222; unsupported: 0
+# Status: complete; emitted: 256; unsupported: 0
 IP-CIDR,103.1.216.0/22,no-resolve
 IP-CIDR,103.108.202.0/23,no-resolve
 IP-CIDR,103.110.176.0/22,no-resolve
@@ -180,7 +180,41 @@ IP-CIDR6,2403:580c:f600::/39,no-resolve
 IP-CIDR6,2403:580c:f800::/37,no-resolve
 IP-CIDR6,2403:580d::/32,no-resolve
 IP-CIDR6,2403:580e::/31,no-resolve
-IP-CIDR6,2403:5810::/29,no-resolve
+IP-CIDR6,2403:5810::/30,no-resolve
+IP-CIDR6,2403:5814:1000::/36,no-resolve
+IP-CIDR6,2403:5814:2000::/35,no-resolve
+IP-CIDR6,2403:5814:4000::/34,no-resolve
+IP-CIDR6,2403:5814:400::/39,no-resolve
+IP-CIDR6,2403:5814:600::/42,no-resolve
+IP-CIDR6,2403:5814:640::/43,no-resolve
+IP-CIDR6,2403:5814:660::/45,no-resolve
+IP-CIDR6,2403:5814:668::/46,no-resolve
+IP-CIDR6,2403:5814:66c:1000::/52,no-resolve
+IP-CIDR6,2403:5814:66c:100::/56,no-resolve
+IP-CIDR6,2403:5814:66c:10::/60,no-resolve
+IP-CIDR6,2403:5814:66c:1::/64,no-resolve
+IP-CIDR6,2403:5814:66c:2000::/51,no-resolve
+IP-CIDR6,2403:5814:66c:200::/55,no-resolve
+IP-CIDR6,2403:5814:66c:20::/59,no-resolve
+IP-CIDR6,2403:5814:66c:2::/63,no-resolve
+IP-CIDR6,2403:5814:66c:4000::/50,no-resolve
+IP-CIDR6,2403:5814:66c:400::/54,no-resolve
+IP-CIDR6,2403:5814:66c:40::/58,no-resolve
+IP-CIDR6,2403:5814:66c:4::/62,no-resolve
+IP-CIDR6,2403:5814:66c:8000::/49,no-resolve
+IP-CIDR6,2403:5814:66c:800::/53,no-resolve
+IP-CIDR6,2403:5814:66c:80::/57,no-resolve
+IP-CIDR6,2403:5814:66c:8::/61,no-resolve
+IP-CIDR6,2403:5814:66d::/48,no-resolve
+IP-CIDR6,2403:5814:66e::/47,no-resolve
+IP-CIDR6,2403:5814:670::/44,no-resolve
+IP-CIDR6,2403:5814:680::/41,no-resolve
+IP-CIDR6,2403:5814:700::/40,no-resolve
+IP-CIDR6,2403:5814:8000::/33,no-resolve
+IP-CIDR6,2403:5814:800::/37,no-resolve
+IP-CIDR6,2403:5814::/38,no-resolve
+IP-CIDR6,2403:5815::/32,no-resolve
+IP-CIDR6,2403:5816::/31,no-resolve
 IP-CIDR6,2403:5818::/30,no-resolve
 IP-CIDR6,2403:581c::/32,no-resolve
 IP-CIDR6,2403:581d:8000::/37,no-resolve

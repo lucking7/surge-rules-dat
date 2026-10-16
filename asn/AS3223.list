@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS3223.json
-# Status: complete; emitted: 136; unsupported: 0
+# Status: complete; emitted: 140; unsupported: 0
 IP-CIDR,103.31.184.0/22,no-resolve
 IP-CIDR,104.152.44.0/22,no-resolve
 IP-CIDR,104.243.248.0/24,no-resolve
@@ -70,19 +70,20 @@ IP-CIDR,67.43.56.0/22,no-resolve
 IP-CIDR,80.96.6.0/23,no-resolve
 IP-CIDR,87.82.60.0/24,no-resolve
 IP-CIDR,89.47.233.0/24,no-resolve
-IP-CIDR,9.247.102.0/24,no-resolve
+IP-CIDR,9.247.102.0/23,no-resolve
 IP-CIDR,9.247.104.0/24,no-resolve
-IP-CIDR,9.247.111.0/24,no-resolve
-IP-CIDR,9.247.119.0/24,no-resolve
+IP-CIDR,9.247.110.0/23,no-resolve
+IP-CIDR,9.247.118.0/23,no-resolve
 IP-CIDR,9.247.121.0/24,no-resolve
+IP-CIDR,9.247.122.0/24,no-resolve
 IP-CIDR,9.247.124.0/24,no-resolve
 IP-CIDR,9.247.126.0/24,no-resolve
-IP-CIDR,9.247.132.0/24,no-resolve
+IP-CIDR,9.247.132.0/23,no-resolve
 IP-CIDR,9.247.134.0/24,no-resolve
 IP-CIDR,9.247.138.0/24,no-resolve
 IP-CIDR,9.247.141.0/24,no-resolve
 IP-CIDR,9.247.145.0/24,no-resolve
-IP-CIDR,9.247.148.0/24,no-resolve
+IP-CIDR,9.247.148.0/23,no-resolve
 IP-CIDR,9.247.150.0/24,no-resolve
 IP-CIDR,9.247.168.0/24,no-resolve
 IP-CIDR,9.247.171.0/24,no-resolve
@@ -94,6 +95,7 @@ IP-CIDR,9.247.183.0/24,no-resolve
 IP-CIDR,9.247.184.0/23,no-resolve
 IP-CIDR,9.247.187.0/24,no-resolve
 IP-CIDR,9.247.188.0/24,no-resolve
+IP-CIDR,9.247.191.0/24,no-resolve
 IP-CIDR,9.247.193.0/24,no-resolve
 IP-CIDR,9.247.196.0/24,no-resolve
 IP-CIDR,9.247.202.0/24,no-resolve
@@ -119,14 +121,16 @@ IP-CIDR,9.247.252.0/24,no-resolve
 IP-CIDR,9.247.51.0/24,no-resolve
 IP-CIDR,9.247.52.0/24,no-resolve
 IP-CIDR,9.247.63.0/24,no-resolve
-IP-CIDR,9.247.64.0/24,no-resolve
+IP-CIDR,9.247.64.0/23,no-resolve
 IP-CIDR,9.247.67.0/24,no-resolve
 IP-CIDR,9.247.79.0/24,no-resolve
-IP-CIDR,9.247.82.0/24,no-resolve
+IP-CIDR,9.247.82.0/23,no-resolve
 IP-CIDR,9.247.84.0/24,no-resolve
 IP-CIDR,9.247.86.0/24,no-resolve
 IP-CIDR,9.247.89.0/24,no-resolve
+IP-CIDR,9.247.91.0/24,no-resolve
 IP-CIDR,9.247.92.0/24,no-resolve
+IP-CIDR,9.247.96.0/24,no-resolve
 IP-CIDR,91.226.182.0/23,no-resolve
 IP-CIDR,93.114.40.0/21,no-resolve
 IP-CIDR,93.115.80.0/20,no-resolve

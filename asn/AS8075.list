@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS8075.json
-# Status: complete; emitted: 1372; unsupported: 0
+# Status: complete; emitted: 1389; unsupported: 0
 IP-CIDR,1.186.0.0/17,no-resolve
 IP-CIDR,1.186.128.0/18,no-resolve
 IP-CIDR,1.186.192.0/19,no-resolve
@@ -27,6 +27,7 @@ IP-CIDR,103.93.91.0/24,no-resolve
 IP-CIDR,104.146.128.0/17,no-resolve
 IP-CIDR,104.193.12.0/23,no-resolve
 IP-CIDR,104.193.126.0/24,no-resolve
+IP-CIDR,104.193.96.0/22,no-resolve
 IP-CIDR,104.204.254.0/24,no-resolve
 IP-CIDR,104.208.0.0/13,no-resolve
 IP-CIDR,104.237.40.0/24,no-resolve
@@ -223,7 +224,7 @@ IP-CIDR,143.226.0.0/16,no-resolve
 IP-CIDR,143.241.0.0/16,no-resolve
 IP-CIDR,144.203.152.0/23,no-resolve
 IP-CIDR,144.203.156.0/24,no-resolve
-IP-CIDR,144.250.22.0/23,no-resolve
+IP-CIDR,144.250.22.0/24,no-resolve
 IP-CIDR,144.250.30.0/23,no-resolve
 IP-CIDR,144.77.160.0/22,no-resolve
 IP-CIDR,145.129.0.0/16,no-resolve
@@ -237,7 +238,11 @@ IP-CIDR,145.190.132.0/24,no-resolve
 IP-CIDR,145.190.135.0/24,no-resolve
 IP-CIDR,145.190.136.0/21,no-resolve
 IP-CIDR,145.190.144.0/20,no-resolve
-IP-CIDR,145.190.160.0/19,no-resolve
+IP-CIDR,145.190.160.0/23,no-resolve
+IP-CIDR,145.190.163.0/24,no-resolve
+IP-CIDR,145.190.164.0/22,no-resolve
+IP-CIDR,145.190.168.0/21,no-resolve
+IP-CIDR,145.190.176.0/20,no-resolve
 IP-CIDR,145.190.192.0/18,no-resolve
 IP-CIDR,145.190.60.0/24,no-resolve
 IP-CIDR,145.190.63.0/24,no-resolve
@@ -350,7 +355,6 @@ IP-CIDR,158.53.0.0/16,no-resolve
 IP-CIDR,158.58.136.0/21,no-resolve
 IP-CIDR,158.86.31.0/24,no-resolve
 IP-CIDR,158.86.95.0/24,no-resolve
-IP-CIDR,159.105.18.0/24,no-resolve
 IP-CIDR,159.128.0.0/16,no-resolve
 IP-CIDR,159.14.174.0/24,no-resolve
 IP-CIDR,159.14.176.0/24,no-resolve
@@ -376,6 +380,7 @@ IP-CIDR,161.221.6.0/24,no-resolve
 IP-CIDR,161.66.0.0/16,no-resolve
 IP-CIDR,162.131.1.0/24,no-resolve
 IP-CIDR,162.131.2.0/24,no-resolve
+IP-CIDR,162.244.20.0/24,no-resolve
 IP-CIDR,162.253.106.0/24,no-resolve
 IP-CIDR,162.254.245.0/24,no-resolve
 IP-CIDR,162.254.247.0/24,no-resolve
@@ -502,6 +507,7 @@ IP-CIDR,192.71.41.0/24,no-resolve
 IP-CIDR,192.80.239.0/24,no-resolve
 IP-CIDR,192.80.246.0/23,no-resolve
 IP-CIDR,192.84.160.0/23,no-resolve
+IP-CIDR,192.88.10.0/24,no-resolve
 IP-CIDR,192.94.1.0/24,no-resolve
 IP-CIDR,193.134.96.0/24,no-resolve
 IP-CIDR,193.135.41.0/24,no-resolve
@@ -526,6 +532,7 @@ IP-CIDR,194.110.197.0/24,no-resolve
 IP-CIDR,194.113.230.0/24,no-resolve
 IP-CIDR,194.150.192.0/24,no-resolve
 IP-CIDR,194.180.131.0/24,no-resolve
+IP-CIDR,194.180.148.0/24,no-resolve
 IP-CIDR,194.246.128.0/24,no-resolve
 IP-CIDR,194.33.109.0/24,no-resolve
 IP-CIDR,194.41.19.0/24,no-resolve
@@ -599,6 +606,7 @@ IP-CIDR,199.65.27.0/24,no-resolve
 IP-CIDR,199.65.29.0/24,no-resolve
 IP-CIDR,199.65.30.0/23,no-resolve
 IP-CIDR,199.65.40.0/24,no-resolve
+IP-CIDR,199.83.78.0/23,no-resolve
 IP-CIDR,2.58.103.0/24,no-resolve
 IP-CIDR,20.0.0.0/11,no-resolve
 IP-CIDR,20.135.0.0/16,no-resolve
@@ -766,6 +774,7 @@ IP-CIDR,206.109.76.0/24,no-resolve
 IP-CIDR,206.130.81.0/24,no-resolve
 IP-CIDR,206.138.168.0/21,no-resolve
 IP-CIDR,206.187.24.0/21,no-resolve
+IP-CIDR,206.187.48.0/22,no-resolve
 IP-CIDR,206.187.68.0/22,no-resolve
 IP-CIDR,206.191.224.0/19,no-resolve
 IP-CIDR,206.195.220.0/23,no-resolve
@@ -944,6 +953,7 @@ IP-CIDR,46.254.180.0/22,no-resolve
 IP-CIDR,46.29.242.0/24,no-resolve
 IP-CIDR,48.160.0.0/11,no-resolve
 IP-CIDR,48.192.0.0/10,no-resolve
+IP-CIDR,5.144.153.0/24,no-resolve
 IP-CIDR,5.23.34.0/24,no-resolve
 IP-CIDR,50.20.0.0/18,no-resolve
 IP-CIDR,50.20.128.0/18,no-resolve
@@ -1373,3 +1383,10 @@ IP-CIDR6,2a14:67c2:575::/48,no-resolve
 IP-CIDR6,2a14:7583:e1a0::/48,no-resolve
 IP-CIDR6,2a14:d300:3::/48,no-resolve
 IP-CIDR6,2a14:f180:130b::/48,no-resolve
+IP-CIDR6,2a14:f180:1324::/48,no-resolve
+IP-CIDR6,2a14:f180:230b::/48,no-resolve
+IP-CIDR6,2a14:f180:2324::/48,no-resolve
+IP-CIDR6,2a14:f180:330b::/48,no-resolve
+IP-CIDR6,2a14:f180:3324::/48,no-resolve
+IP-CIDR6,2a14:f180:430b::/48,no-resolve
+IP-CIDR6,2a14:f180:4324::/47,no-resolve

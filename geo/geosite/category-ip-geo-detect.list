@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ip-geo-detect.json
-# Status: complete; emitted: 238; unsupported: 0
+# Status: complete; emitted: 239; unsupported: 0
 DOMAIN,checkip.amazonaws.com
 DOMAIN,checkip.dyn.com
 DOMAIN,checkip.dyndns.org
@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,bgp.he.net
 DOMAIN-SUFFIX,bgp.tools
 DOMAIN-SUFFIX,bigdatacloud.net
 DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,bulkgeoip.com
 DOMAIN-SUFFIX,check-host.net
 DOMAIN-SUFFIX,checkip.com.vn
 DOMAIN-SUFFIX,checkip.org

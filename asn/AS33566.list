@@ -1,20 +1,12 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS33566.json
-# Status: complete; emitted: 258; unsupported: 0
+# Status: complete; emitted: 223; unsupported: 0
 IP-CIDR,162.81.0.0/24,no-resolve
 IP-CIDR,162.81.100.0/22,no-resolve
 IP-CIDR,162.81.104.0/21,no-resolve
 IP-CIDR,162.81.112.0/23,no-resolve
 IP-CIDR,162.81.115.0/24,no-resolve
-IP-CIDR,162.81.116.0/24,no-resolve
-IP-CIDR,162.81.117.0/25,no-resolve
-IP-CIDR,162.81.117.128/26,no-resolve
-IP-CIDR,162.81.117.192/27,no-resolve
-IP-CIDR,162.81.117.224/29,no-resolve
-IP-CIDR,162.81.117.232/32,no-resolve
-IP-CIDR,162.81.117.234/31,no-resolve
-IP-CIDR,162.81.117.236/30,no-resolve
-IP-CIDR,162.81.117.240/28,no-resolve
+IP-CIDR,162.81.116.0/23,no-resolve
 IP-CIDR,162.81.119.0/24,no-resolve
 IP-CIDR,162.81.12.0/22,no-resolve
 IP-CIDR,162.81.120.0/24,no-resolve
@@ -64,34 +56,7 @@ IP-CIDR,162.81.70.0/24,no-resolve
 IP-CIDR,162.81.8.0/24,no-resolve
 IP-CIDR,192.147.142.0/23,no-resolve
 IP-CIDR,192.147.144.0/23,no-resolve
-IP-CIDR6,2606:83c0:1000::/47,no-resolve
-IP-CIDR6,2606:83c0:1002::/48,no-resolve
-IP-CIDR6,2606:83c0:1003:8000::/50,no-resolve
-IP-CIDR6,2606:83c0:1003::/49,no-resolve
-IP-CIDR6,2606:83c0:1003:c000::/51,no-resolve
-IP-CIDR6,2606:83c0:1003:e000::/52,no-resolve
-IP-CIDR6,2606:83c0:1003:f000::/56,no-resolve
-IP-CIDR6,2606:83c0:1003:f101::/64,no-resolve
-IP-CIDR6,2606:83c0:1003:f102::/63,no-resolve
-IP-CIDR6,2606:83c0:1003:f104::/62,no-resolve
-IP-CIDR6,2606:83c0:1003:f108::/61,no-resolve
-IP-CIDR6,2606:83c0:1003:f110::/60,no-resolve
-IP-CIDR6,2606:83c0:1003:f120::/59,no-resolve
-IP-CIDR6,2606:83c0:1003:f140::/58,no-resolve
-IP-CIDR6,2606:83c0:1003:f180::/57,no-resolve
-IP-CIDR6,2606:83c0:1003:f200::/55,no-resolve
-IP-CIDR6,2606:83c0:1003:f400::/54,no-resolve
-IP-CIDR6,2606:83c0:1003:f800::/53,no-resolve
-IP-CIDR6,2606:83c0:1004::/46,no-resolve
-IP-CIDR6,2606:83c0:1008::/45,no-resolve
-IP-CIDR6,2606:83c0:1010::/44,no-resolve
-IP-CIDR6,2606:83c0:1020::/43,no-resolve
-IP-CIDR6,2606:83c0:1040::/42,no-resolve
-IP-CIDR6,2606:83c0:1080::/41,no-resolve
-IP-CIDR6,2606:83c0:1100::/40,no-resolve
-IP-CIDR6,2606:83c0:1200::/39,no-resolve
-IP-CIDR6,2606:83c0:1400::/38,no-resolve
-IP-CIDR6,2606:83c0:1800::/37,no-resolve
+IP-CIDR6,2606:83c0:1000::/36,no-resolve
 IP-CIDR6,2606:83c0:2000:2000::/52,no-resolve
 IP-CIDR6,2606:83c0:2000:3000::/53,no-resolve
 IP-CIDR6,2606:83c0:2000:3800::/54,no-resolve

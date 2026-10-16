@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS34984.json
-# Status: complete; emitted: 763; unsupported: 0
+# Status: complete; emitted: 776; unsupported: 0
 IP-CIDR,103.126.48.0/23,no-resolve
 IP-CIDR,103.209.228.0/23,no-resolve
 IP-CIDR,103.54.88.0/22,no-resolve
@@ -29,7 +29,8 @@ IP-CIDR,153.56.240.0/22,no-resolve
 IP-CIDR,153.56.244.0/23,no-resolve
 IP-CIDR,153.56.246.0/24,no-resolve
 IP-CIDR,153.56.251.0/24,no-resolve
-IP-CIDR,153.56.252.0/22,no-resolve
+IP-CIDR,153.56.253.0/24,no-resolve
+IP-CIDR,153.56.254.0/24,no-resolve
 IP-CIDR,159.253.80.0/22,no-resolve
 IP-CIDR,159.253.84.0/24,no-resolve
 IP-CIDR,176.232.0.0/15,no-resolve
@@ -68,6 +69,7 @@ IP-CIDR,176.235.240.0/20,no-resolve
 IP-CIDR,176.235.32.0/20,no-resolve
 IP-CIDR,176.235.48.0/22,no-resolve
 IP-CIDR,176.235.52.0/23,no-resolve
+IP-CIDR,176.235.55.0/24,no-resolve
 IP-CIDR,176.235.59.0/24,no-resolve
 IP-CIDR,176.235.60.0/24,no-resolve
 IP-CIDR,176.235.62.0/24,no-resolve
@@ -158,6 +160,7 @@ IP-CIDR,193.138.116.0/24,no-resolve
 IP-CIDR,193.223.76.0/24,no-resolve
 IP-CIDR,193.32.53.0/24,no-resolve
 IP-CIDR,194.24.168.0/23,no-resolve
+IP-CIDR,194.247.59.0/24,no-resolve
 IP-CIDR,195.142.112.0/20,no-resolve
 IP-CIDR,195.142.128.0/22,no-resolve
 IP-CIDR,195.142.13.0/24,no-resolve
@@ -616,7 +619,17 @@ IP-CIDR,92.44.128.0/18,no-resolve
 IP-CIDR,92.44.16.0/20,no-resolve
 IP-CIDR,92.44.192.0/20,no-resolve
 IP-CIDR,92.44.2.0/23,no-resolve
-IP-CIDR,92.44.216.0/21,no-resolve
+IP-CIDR,92.44.216.0/24,no-resolve
+IP-CIDR,92.44.217.0/28,no-resolve
+IP-CIDR,92.44.217.128/25,no-resolve
+IP-CIDR,92.44.217.16/31,no-resolve
+IP-CIDR,92.44.217.18/32,no-resolve
+IP-CIDR,92.44.217.20/30,no-resolve
+IP-CIDR,92.44.217.24/29,no-resolve
+IP-CIDR,92.44.217.32/27,no-resolve
+IP-CIDR,92.44.217.64/26,no-resolve
+IP-CIDR,92.44.218.0/23,no-resolve
+IP-CIDR,92.44.220.0/22,no-resolve
 IP-CIDR,92.44.227.0/24,no-resolve
 IP-CIDR,92.44.228.0/22,no-resolve
 IP-CIDR,92.44.232.0/21,no-resolve

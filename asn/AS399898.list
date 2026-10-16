@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS399898.json
-# Status: complete; emitted: 225; unsupported: 0
+# Status: complete; emitted: 189; unsupported: 0
 IP-CIDR,110.239.48.0/20,no-resolve
 IP-CIDR,147.124.80.0/20,no-resolve
 IP-CIDR,149.119.192.0/18,no-resolve
@@ -36,43 +36,7 @@ IP-CIDR6,2601:b004::/30,no-resolve
 IP-CIDR6,2601:b008::/29,no-resolve
 IP-CIDR6,2601:b010::/28,no-resolve
 IP-CIDR6,2601:b020::/27,no-resolve
-IP-CIDR6,2601:b040::/28,no-resolve
-IP-CIDR6,2601:b050::/29,no-resolve
-IP-CIDR6,2601:b058:1000::/36,no-resolve
-IP-CIDR6,2601:b058:100::/40,no-resolve
-IP-CIDR6,2601:b058:2000::/35,no-resolve
-IP-CIDR6,2601:b058:200::/39,no-resolve
-IP-CIDR6,2601:b058:4000::/34,no-resolve
-IP-CIDR6,2601:b058:400::/38,no-resolve
-IP-CIDR6,2601:b058:8000::/33,no-resolve
-IP-CIDR6,2601:b058:800::/37,no-resolve
-IP-CIDR6,2601:b058:80::/43,no-resolve
-IP-CIDR6,2601:b058::/41,no-resolve
-IP-CIDR6,2601:b058:a0::/45,no-resolve
-IP-CIDR6,2601:b058:a8::/46,no-resolve
-IP-CIDR6,2601:b058:ac:8000::/50,no-resolve
-IP-CIDR6,2601:b058:ac::/49,no-resolve
-IP-CIDR6,2601:b058:ac:c000::/51,no-resolve
-IP-CIDR6,2601:b058:ac:e000::/52,no-resolve
-IP-CIDR6,2601:b058:ac:f000::/54,no-resolve
-IP-CIDR6,2601:b058:ac:f400::/55,no-resolve
-IP-CIDR6,2601:b058:ac:f600::/56,no-resolve
-IP-CIDR6,2601:b058:ac:f701::/64,no-resolve
-IP-CIDR6,2601:b058:ac:f702::/63,no-resolve
-IP-CIDR6,2601:b058:ac:f704::/62,no-resolve
-IP-CIDR6,2601:b058:ac:f708::/61,no-resolve
-IP-CIDR6,2601:b058:ac:f710::/60,no-resolve
-IP-CIDR6,2601:b058:ac:f720::/59,no-resolve
-IP-CIDR6,2601:b058:ac:f740::/58,no-resolve
-IP-CIDR6,2601:b058:ac:f780::/57,no-resolve
-IP-CIDR6,2601:b058:ac:f800::/53,no-resolve
-IP-CIDR6,2601:b058:ad::/48,no-resolve
-IP-CIDR6,2601:b058:ae::/47,no-resolve
-IP-CIDR6,2601:b058:b0::/44,no-resolve
-IP-CIDR6,2601:b058:c0::/42,no-resolve
-IP-CIDR6,2601:b059::/32,no-resolve
-IP-CIDR6,2601:b05a::/31,no-resolve
-IP-CIDR6,2601:b05c::/30,no-resolve
+IP-CIDR6,2601:b040::/27,no-resolve
 IP-CIDR6,2601:b060::/32,no-resolve
 IP-CIDR6,2601:b061:8000::/34,no-resolve
 IP-CIDR6,2601:b061::/33,no-resolve

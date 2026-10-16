@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS6621.json
-# Status: complete; emitted: 806; unsupported: 0
+# Status: complete; emitted: 779; unsupported: 0
 IP-CIDR,162.223.127.0/24,no-resolve
 IP-CIDR,174.32.160.0/20,no-resolve
 IP-CIDR,174.33.176.0/20,no-resolve
@@ -748,34 +748,7 @@ IP-CIDR6,2001:5b0:8880::/41,no-resolve
 IP-CIDR6,2001:5b0:8900::/40,no-resolve
 IP-CIDR6,2001:5b0:8a00::/39,no-resolve
 IP-CIDR6,2001:5b0:8c00::/38,no-resolve
-IP-CIDR6,2001:5b0:9000::/39,no-resolve
-IP-CIDR6,2001:5b0:9200::/42,no-resolve
-IP-CIDR6,2001:5b0:9240::/44,no-resolve
-IP-CIDR6,2001:5b0:9250:2000::/52,no-resolve
-IP-CIDR6,2001:5b0:9250:3000::/53,no-resolve
-IP-CIDR6,2001:5b0:9250:3800::/57,no-resolve
-IP-CIDR6,2001:5b0:9250:3881::/64,no-resolve
-IP-CIDR6,2001:5b0:9250:3882::/63,no-resolve
-IP-CIDR6,2001:5b0:9250:3884::/62,no-resolve
-IP-CIDR6,2001:5b0:9250:3888::/61,no-resolve
-IP-CIDR6,2001:5b0:9250:3890::/60,no-resolve
-IP-CIDR6,2001:5b0:9250:38a0::/59,no-resolve
-IP-CIDR6,2001:5b0:9250:38c0::/58,no-resolve
-IP-CIDR6,2001:5b0:9250:3900::/56,no-resolve
-IP-CIDR6,2001:5b0:9250:3a00::/55,no-resolve
-IP-CIDR6,2001:5b0:9250:3c00::/54,no-resolve
-IP-CIDR6,2001:5b0:9250:4000::/50,no-resolve
-IP-CIDR6,2001:5b0:9250:8000::/49,no-resolve
-IP-CIDR6,2001:5b0:9250::/51,no-resolve
-IP-CIDR6,2001:5b0:9251::/48,no-resolve
-IP-CIDR6,2001:5b0:9252::/47,no-resolve
-IP-CIDR6,2001:5b0:9254::/46,no-resolve
-IP-CIDR6,2001:5b0:9258::/45,no-resolve
-IP-CIDR6,2001:5b0:9260::/43,no-resolve
-IP-CIDR6,2001:5b0:9280::/41,no-resolve
-IP-CIDR6,2001:5b0:9300::/40,no-resolve
-IP-CIDR6,2001:5b0:9400::/38,no-resolve
-IP-CIDR6,2001:5b0:9800::/37,no-resolve
+IP-CIDR6,2001:5b0:9000::/36,no-resolve
 IP-CIDR6,2001:5b0::/39,no-resolve
 IP-CIDR6,2001:5b0:a000::/36,no-resolve
 IP-CIDR6,2001:5b0:b000::/37,no-resolve

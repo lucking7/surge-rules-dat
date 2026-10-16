@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cloudflare.json
-# Status: complete; emitted: 871; unsupported: 0
+# Status: complete; emitted: 870; unsupported: 0
 IP-CIDR,1.0.0.0/24,no-resolve
 IP-CIDR,1.1.1.0/24,no-resolve
 IP-CIDR,102.177.189.0/24,no-resolve
@@ -77,6 +77,7 @@ IP-CIDR,123.108.75.0/24,no-resolve
 IP-CIDR,123.253.173.0/24,no-resolve
 IP-CIDR,123.253.174.0/24,no-resolve
 IP-CIDR,129.192.2.0/24,no-resolve
+IP-CIDR,130.108.104.0/23,no-resolve
 IP-CIDR,130.108.121.0/24,no-resolve
 IP-CIDR,130.108.73.0/24,no-resolve
 IP-CIDR,131.0.72.0/22,no-resolve
@@ -154,7 +155,7 @@ IP-CIDR,154.84.14.0/23,no-resolve
 IP-CIDR,154.84.16.0/23,no-resolve
 IP-CIDR,154.84.19.0/24,no-resolve
 IP-CIDR,154.84.22.0/23,no-resolve
-IP-CIDR,154.84.24.0/23,no-resolve
+IP-CIDR,154.84.24.0/24,no-resolve
 IP-CIDR,154.84.27.0/24,no-resolve
 IP-CIDR,154.92.9.0/24,no-resolve
 IP-CIDR,155.117.208.0/23,no-resolve
@@ -527,7 +528,6 @@ IP-CIDR,45.198.116.0/24,no-resolve
 IP-CIDR,45.198.139.0/24,no-resolve
 IP-CIDR,45.199.183.0/24,no-resolve
 IP-CIDR,45.199.188.0/24,no-resolve
-IP-CIDR,45.205.0.0/24,no-resolve
 IP-CIDR,45.43.147.0/24,no-resolve
 IP-CIDR,45.43.158.0/24,no-resolve
 IP-CIDR,45.45.255.0/24,no-resolve
@@ -731,7 +731,6 @@ IP-CIDR,80.174.7.0/24,no-resolve
 IP-CIDR,80.240.93.0/24,no-resolve
 IP-CIDR,80.68.216.0/21,no-resolve
 IP-CIDR,80.93.202.0/24,no-resolve
-IP-CIDR,82.139.216.0/23,no-resolve
 IP-CIDR,82.152.216.0/23,no-resolve
 IP-CIDR,82.153.184.0/24,no-resolve
 IP-CIDR,82.21.188.0/24,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS3303.json
-# Status: complete; emitted: 539; unsupported: 0
+# Status: complete; emitted: 567; unsupported: 0
 IP-CIDR,109.164.128.0/17,no-resolve
 IP-CIDR,136.238.12.0/23,no-resolve
 IP-CIDR,136.238.14.0/24,no-resolve
@@ -91,6 +91,7 @@ IP-CIDR,193.135.218.0/24,no-resolve
 IP-CIDR,193.135.255.0/24,no-resolve
 IP-CIDR,193.135.26.0/23,no-resolve
 IP-CIDR,193.135.3.0/24,no-resolve
+IP-CIDR,193.135.31.0/24,no-resolve
 IP-CIDR,193.138.253.0/24,no-resolve
 IP-CIDR,193.150.48.0/24,no-resolve
 IP-CIDR,193.188.240.0/24,no-resolve
@@ -492,7 +493,34 @@ IP-CIDR6,2a01:8b00::/32,no-resolve
 IP-CIDR6,2a01:a2e0::/32,no-resolve
 IP-CIDR6,2a02:1200::/28,no-resolve
 IP-CIDR6,2a02:1210:4000::/35,no-resolve
-IP-CIDR6,2a02:1210:6000::/36,no-resolve
+IP-CIDR6,2a02:1210:6000::/37,no-resolve
+IP-CIDR6,2a02:1210:6800::/39,no-resolve
+IP-CIDR6,2a02:1210:6a00::/41,no-resolve
+IP-CIDR6,2a02:1210:6a80::/42,no-resolve
+IP-CIDR6,2a02:1210:6ac0::/43,no-resolve
+IP-CIDR6,2a02:1210:6ae0::/45,no-resolve
+IP-CIDR6,2a02:1210:6ae8::/47,no-resolve
+IP-CIDR6,2a02:1210:6aea:4000::/51,no-resolve
+IP-CIDR6,2a02:1210:6aea:6000::/55,no-resolve
+IP-CIDR6,2a02:1210:6aea:6201::/64,no-resolve
+IP-CIDR6,2a02:1210:6aea:6202::/63,no-resolve
+IP-CIDR6,2a02:1210:6aea:6204::/62,no-resolve
+IP-CIDR6,2a02:1210:6aea:6208::/61,no-resolve
+IP-CIDR6,2a02:1210:6aea:6210::/60,no-resolve
+IP-CIDR6,2a02:1210:6aea:6220::/59,no-resolve
+IP-CIDR6,2a02:1210:6aea:6240::/58,no-resolve
+IP-CIDR6,2a02:1210:6aea:6280::/57,no-resolve
+IP-CIDR6,2a02:1210:6aea:6300::/56,no-resolve
+IP-CIDR6,2a02:1210:6aea:6400::/54,no-resolve
+IP-CIDR6,2a02:1210:6aea:6800::/53,no-resolve
+IP-CIDR6,2a02:1210:6aea:7000::/52,no-resolve
+IP-CIDR6,2a02:1210:6aea:8000::/49,no-resolve
+IP-CIDR6,2a02:1210:6aea::/50,no-resolve
+IP-CIDR6,2a02:1210:6aeb::/48,no-resolve
+IP-CIDR6,2a02:1210:6aec::/46,no-resolve
+IP-CIDR6,2a02:1210:6af0::/44,no-resolve
+IP-CIDR6,2a02:1210:6b00::/40,no-resolve
+IP-CIDR6,2a02:1210:6c00::/38,no-resolve
 IP-CIDR6,2a02:1210:7000::/38,no-resolve
 IP-CIDR6,2a02:1210:7400::/39,no-resolve
 IP-CIDR6,2a02:1210:7600::/41,no-resolve
