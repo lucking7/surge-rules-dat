@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ru.json
-# Status: complete; emitted: 1120; unsupported: 0
+# Status: complete; emitted: 1130; unsupported: 0
 DOMAIN,1l-hit.mail.ru
 DOMAIN,1l-hit.vkplay.ru
 DOMAIN,activate.activation-v2.kaspersky.com
@@ -305,7 +305,14 @@ DOMAIN-SUFFIX,bank131.com
 DOMAIN-SUFFIX,baranky.com
 DOMAIN-SUFFIX,bargipsy.com
 DOMAIN-SUFFIX,beeline.tv
+DOMAIN-SUFFIX,beget.app
+DOMAIN-SUFFIX,beget.cloud
 DOMAIN-SUFFIX,beget.com
+DOMAIN-SUFFIX,beget.de
+DOMAIN-SUFFIX,beget.hosting
+DOMAIN-SUFFIX,beget.pro
+DOMAIN-SUFFIX,beget.tech
+DOMAIN-SUFFIX,begetcdn.cloud
 DOMAIN-SUFFIX,best2pay.net
 DOMAIN-SUFFIX,bizmrg.com
 DOMAIN-SUFFIX,bk6bba-resources.com
@@ -848,6 +855,7 @@ DOMAIN-SUFFIX,sokolov.io
 DOMAIN-SUFFIX,sourcecraft.dev
 DOMAIN-SUFFIX,spasibo.digital
 DOMAIN-SUFFIX,spasibo.market
+DOMAIN-SUFFIX,sprut.io
 DOMAIN-SUFFIX,sputnikglobe.com
 DOMAIN-SUFFIX,sputnikimages.com
 DOMAIN-SUFFIX,sputnikmediabank.com
@@ -888,6 +896,8 @@ DOMAIN-SUFFIX,tildacdn.com
 DOMAIN-SUFFIX,tildacdn.net
 DOMAIN-SUFFIX,timeweb.cloud
 DOMAIN-SUFFIX,timeweb.com
+DOMAIN-SUFFIX,timeweb.tech
+DOMAIN-SUFFIX,timewebcloud.kz
 DOMAIN-SUFFIX,tinkoff-group.com
 DOMAIN-SUFFIX,tinkoff.ai
 DOMAIN-SUFFIX,tinkoffmobile.com
