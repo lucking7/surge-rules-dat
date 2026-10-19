@@ -414,7 +414,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/alphabet@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/alphabet%40cn.list) | 124 | 2 | partial |
 | [geo/geosite/amap.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/amap.list) | 16 | 0 | complete |
 | [geo/geosite/amap@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/amap%40ads.list) | 5 | 0 | complete |
-| [geo/geosite/amazon.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/amazon.list) | 246 | 3 | partial |
+| [geo/geosite/amazon.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/amazon.list) | 247 | 3 | partial |
 | [geo/geosite/amazon@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/amazon%40ads.list) | 2 | 0 | complete |
 | [geo/geosite/amazon@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/amazon%40cn.list) | 55 | 2 | partial |
 | [geo/geosite/amazontrust.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/amazontrust.list) | 3 | 0 | complete |
@@ -642,7 +642,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/category-collaborate-cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-collaborate-cn.list) | 26 | 0 | complete |
 | [geo/geosite/category-communication.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-communication.list) | 149 | 0 | complete |
 | [geo/geosite/category-communication@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-communication%40ads.list) | 1 | 0 | complete |
-| [geo/geosite/category-companies.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-companies.list) | 8647 | 6 | partial |
+| [geo/geosite/category-companies.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-companies.list) | 8645 | 6 | partial |
 | [geo/geosite/category-companies@!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-companies%40%21cn.list) | 15 | 0 | complete |
 | [geo/geosite/category-companies@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-companies%40ads.list) | 223 | 0 | complete |
 | [geo/geosite/category-companies@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-companies%40cn.list) | 837 | 4 | partial |
@@ -678,13 +678,14 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/category-entertainment-cn@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-entertainment-cn%40ads.list) | 52 | 0 | complete |
 | [geo/geosite/category-entertainment-cn@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-entertainment-cn%40cn.list) | 0 | 1 | unsupported_only |
 | [geo/geosite/category-entertainment-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-entertainment-ru.list) | 31 | 0 | complete |
-| [geo/geosite/category-entertainment.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-entertainment.list) | 2131 | 10 | partial |
+| [geo/geosite/category-entertainment.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-entertainment.list) | 2129 | 10 | partial |
 | [geo/geosite/category-entertainment@!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-entertainment%40%21cn.list) | 37 | 0 | complete |
 | [geo/geosite/category-entertainment@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-entertainment%40ads.list) | 9 | 0 | complete |
 | [geo/geosite/category-entertainment@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-entertainment%40cn.list) | 100 | 2 | partial |
 | [geo/geosite/category-finance.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-finance.list) | 659 | 0 | complete |
 | [geo/geosite/category-finance@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-finance%40ads.list) | 3 | 0 | complete |
 | [geo/geosite/category-finance@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-finance%40cn.list) | 1 | 0 | complete |
+| [geo/geosite/category-flight-simulator.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-flight-simulator.list) | 79 | 0 | complete |
 | [geo/geosite/category-food-cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-food-cn.list) | 62 | 0 | complete |
 | [geo/geosite/category-food-cn@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-food-cn%40ads.list) | 4 | 0 | complete |
 | [geo/geosite/category-food-cn@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-food-cn%40cn.list) | 5 | 0 | complete |
@@ -695,13 +696,13 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/category-game-accelerator-cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-game-accelerator-cn.list) | 45 | 0 | complete |
 | [geo/geosite/category-game-platforms-download.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-game-platforms-download.list) | 491 | 0 | complete |
 | [geo/geosite/category-game-platforms-download@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-game-platforms-download%40cn.list) | 24 | 0 | complete |
-| [geo/geosite/category-games-!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games-%21cn.list) | 863 | 3 | partial |
+| [geo/geosite/category-games-!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games-%21cn.list) | 860 | 3 | partial |
 | [geo/geosite/category-games-!cn@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games-%21cn%40ads.list) | 2 | 0 | complete |
 | [geo/geosite/category-games-!cn@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games-%21cn%40cn.list) | 37 | 2 | partial |
 | [geo/geosite/category-games-cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games-cn.list) | 264 | 1 | partial |
 | [geo/geosite/category-games-cn@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games-cn%40ads.list) | 1 | 0 | complete |
 | [geo/geosite/category-games-cn@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games-cn%40cn.list) | 0 | 1 | unsupported_only |
-| [geo/geosite/category-games.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games.list) | 1127 | 4 | partial |
+| [geo/geosite/category-games.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games.list) | 1124 | 4 | partial |
 | [geo/geosite/category-games@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games%40ads.list) | 3 | 0 | complete |
 | [geo/geosite/category-games@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-games%40cn.list) | 37 | 3 | partial |
 | [geo/geosite/category-gov-ir.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-gov-ir.list) | 29 | 0 | complete |
@@ -1096,7 +1097,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/geetest.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geetest.list) | 2 | 0 | complete |
 | [geo/geosite/gemfury.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/gemfury.list) | 6 | 0 | complete |
 | [geo/geosite/genotek-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/genotek-ru.list) | 9 | 0 | complete |
-| [geo/geosite/geolocation-!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-%21cn.list) | 27201 | 151 | partial |
+| [geo/geosite/geolocation-!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-%21cn.list) | 27213 | 151 | partial |
 | [geo/geosite/geolocation-cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-cn.list) | 5385 | 3 | partial |
 | [geo/geosite/geolocation-cn@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-cn%40cn.list) | 73 | 3 | partial |
 | [geo/geosite/gettyimages.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/gettyimages.list) | 25 | 0 | complete |
@@ -1470,7 +1471,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/microsoft-dev.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/microsoft-dev.list) | 74 | 0 | complete |
 | [geo/geosite/microsoft-dev@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/microsoft-dev%40cn.list) | 4 | 0 | complete |
 | [geo/geosite/microsoft-pki.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/microsoft-pki.list) | 6 | 0 | complete |
-| [geo/geosite/microsoft.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/microsoft.list) | 750 | 0 | complete |
+| [geo/geosite/microsoft.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/microsoft.list) | 747 | 0 | complete |
 | [geo/geosite/microsoft@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/microsoft%40ads.list) | 7 | 0 | complete |
 | [geo/geosite/microsoft@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/microsoft%40cn.list) | 189 | 0 | complete |
 | [geo/geosite/microsoft@telemetry.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/microsoft%40telemetry.list) | 4 | 0 | complete |
@@ -1700,7 +1701,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/positive-technologies.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/positive-technologies.list) | 3 | 0 | complete |
 | [geo/geosite/postimages.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/postimages.list) | 2 | 0 | complete |
 | [geo/geosite/pptv.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/pptv.list) | 3 | 0 | complete |
-| [geo/geosite/primevideo.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/primevideo.list) | 23 | 0 | complete |
+| [geo/geosite/primevideo.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/primevideo.list) | 24 | 0 | complete |
 | [geo/geosite/primevideo@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/primevideo%40cn.list) | 2 | 0 | complete |
 | [geo/geosite/private.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/private.list) | 132 | 1 | partial |
 | [geo/geosite/progress.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/progress.list) | 6 | 0 | complete |
@@ -2068,6 +2069,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/vanish.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/vanish.list) | 47 | 0 | complete |
 | [geo/geosite/vanish@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/vanish%40cn.list) | 1 | 0 | complete |
 | [geo/geosite/vaptcha.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/vaptcha.list) | 2 | 0 | complete |
+| [geo/geosite/vatsim.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/vatsim.list) | 25 | 0 | complete |
 | [geo/geosite/veet.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/veet.list) | 45 | 0 | complete |
 | [geo/geosite/veet@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/veet%40cn.list) | 2 | 0 | complete |
 | [geo/geosite/vercel.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/vercel.list) | 27 | 0 | complete |
@@ -2159,7 +2161,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/x5@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/x5%40ads.list) | 3 | 0 | complete |
 | [geo/geosite/x@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/x%40ads.list) | 1 | 0 | complete |
 | [geo/geosite/xai.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/xai.list) | 4 | 0 | complete |
-| [geo/geosite/xbox.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/xbox.list) | 45 | 0 | complete |
+| [geo/geosite/xbox.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/xbox.list) | 42 | 0 | complete |
 | [geo/geosite/xbox@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/xbox%40cn.list) | 1 | 0 | complete |
 | [geo/geosite/xd.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/xd.list) | 12 | 0 | complete |
 | [geo/geosite/xd@!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/xd%40%21cn.list) | 1 | 0 | complete |

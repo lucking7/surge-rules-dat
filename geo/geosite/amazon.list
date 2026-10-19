@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/amazon.json
-# Status: partial; emitted: 246; unsupported: 3
+# Status: partial; emitted: 247; unsupported: 3
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
@@ -225,6 +225,7 @@ DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,primevideo.info
 DOMAIN-SUFFIX,primevideo.org
 DOMAIN-SUFFIX,primevideo.tv
+DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,route53.cn
 DOMAIN-SUFFIX,sagemaker.com.cn
 DOMAIN-SUFFIX,seattlespheres.com
