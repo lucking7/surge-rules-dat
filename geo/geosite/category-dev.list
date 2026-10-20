@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-dev.json
-# Status: partial; emitted: 666; unsupported: 1
+# Status: partial; emitted: 667; unsupported: 1
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,amp.akamaized.net
 DOMAIN,android.googlesource.com
@@ -489,6 +489,7 @@ DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,polymerproject.org
 DOMAIN-SUFFIX,poshtestgallery.com
 DOMAIN-SUFFIX,postgresql.org
+DOMAIN-SUFFIX,postman.com
 DOMAIN-SUFFIX,prd-lender.cdp.internal.unity3d.com
 DOMAIN-SUFFIX,pub.dev
 DOMAIN-SUFFIX,putty.org
