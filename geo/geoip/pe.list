@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/pe.json
-# Status: complete; emitted: 1791; unsupported: 0
+# Status: complete; emitted: 1790; unsupported: 0
 IP-CIDR,101.44.254.0/24,no-resolve
 IP-CIDR,102.38.204.0/24,no-resolve
 IP-CIDR,103.22.192.0/24,no-resolve
@@ -251,6 +251,7 @@ IP-CIDR,144.125.140.96/27,no-resolve
 IP-CIDR,144.125.41.160/27,no-resolve
 IP-CIDR,144.125.41.192/27,no-resolve
 IP-CIDR,144.208.231.0/24,no-resolve
+IP-CIDR,144.249.191.0/24,no-resolve
 IP-CIDR,146.75.179.10/31,no-resolve
 IP-CIDR,146.75.179.12/31,no-resolve
 IP-CIDR,146.75.191.10/31,no-resolve
@@ -286,9 +287,11 @@ IP-CIDR,149.33.24.0/24,no-resolve
 IP-CIDR,149.33.50.0/24,no-resolve
 IP-CIDR,149.34.48.0/22,no-resolve
 IP-CIDR,151.101.228.0/22,no-resolve
+IP-CIDR,151.186.128.1/32,no-resolve
 IP-CIDR,151.186.128.250/31,no-resolve
 IP-CIDR,151.186.129.3/32,no-resolve
 IP-CIDR,151.186.129.40/32,no-resolve
+IP-CIDR,151.186.129.61/32,no-resolve
 IP-CIDR,151.186.152.100/32,no-resolve
 IP-CIDR,151.186.152.29/32,no-resolve
 IP-CIDR,151.186.152.35/32,no-resolve
@@ -297,6 +300,7 @@ IP-CIDR,151.186.152.99/32,no-resolve
 IP-CIDR,151.186.155.174/31,no-resolve
 IP-CIDR,151.186.155.47/32,no-resolve
 IP-CIDR,151.186.155.48/32,no-resolve
+IP-CIDR,151.186.157.28/32,no-resolve
 IP-CIDR,151.186.188.48/32,no-resolve
 IP-CIDR,153.67.28.0/23,no-resolve
 IP-CIDR,153.72.159.128/26,no-resolve
@@ -442,8 +446,8 @@ IP-CIDR,170.79.36.0/22,no-resolve
 IP-CIDR,170.81.240.0/22,no-resolve
 IP-CIDR,170.82.224.0/22,no-resolve
 IP-CIDR,170.82.96.0/22,no-resolve
-IP-CIDR,172.225.22.128/25,no-resolve
-IP-CIDR,172.225.22.64/26,no-resolve
+IP-CIDR,172.225.22.64/28,no-resolve
+IP-CIDR,172.225.22.80/29,no-resolve
 IP-CIDR,172.225.222.144/29,no-resolve
 IP-CIDR,172.225.222.80/28,no-resolve
 IP-CIDR,172.225.84.168/29,no-resolve
@@ -526,7 +530,6 @@ IP-CIDR,186.250.152.88/29,no-resolve
 IP-CIDR,186.250.155.16/28,no-resolve
 IP-CIDR,186.250.155.192/29,no-resolve
 IP-CIDR,186.250.155.232/29,no-resolve
-IP-CIDR,186.33.36.0/22,no-resolve
 IP-CIDR,186.64.124.0/22,no-resolve
 IP-CIDR,187.102.208.0/22,no-resolve
 IP-CIDR,187.251.18.0/23,no-resolve
@@ -632,8 +635,8 @@ IP-CIDR,199.100.32.2/31,no-resolve
 IP-CIDR,199.100.32.20/30,no-resolve
 IP-CIDR,199.100.32.34/31,no-resolve
 IP-CIDR,199.100.32.38/31,no-resolve
-IP-CIDR,199.100.32.40/30,no-resolve
-IP-CIDR,199.100.32.44/31,no-resolve
+IP-CIDR,199.100.32.4/31,no-resolve
+IP-CIDR,199.100.32.40/29,no-resolve
 IP-CIDR,199.100.32.50/31,no-resolve
 IP-CIDR,199.100.32.56/29,no-resolve
 IP-CIDR,199.27.45.0/24,no-resolve
@@ -798,7 +801,7 @@ IP-CIDR,213.173.36.0/24,no-resolve
 IP-CIDR,216.122.25.0/24,no-resolve
 IP-CIDR,216.244.128.0/18,no-resolve
 IP-CIDR,216.28.157.0/24,no-resolve
-IP-CIDR,217.26.190.0/24,no-resolve
+IP-CIDR,217.26.190.64/26,no-resolve
 IP-CIDR,23.0.144.0/20,no-resolve
 IP-CIDR,23.0.232.0/21,no-resolve
 IP-CIDR,23.193.168.0/23,no-resolve
@@ -822,10 +825,7 @@ IP-CIDR,34.100.62.0/23,no-resolve
 IP-CIDR,38.10.104.0/22,no-resolve
 IP-CIDR,38.10.154.0/24,no-resolve
 IP-CIDR,38.10.247.0/24,no-resolve
-IP-CIDR,38.137.192.0/20,no-resolve
-IP-CIDR,38.137.210.0/23,no-resolve
-IP-CIDR,38.137.212.0/22,no-resolve
-IP-CIDR,38.137.216.0/21,no-resolve
+IP-CIDR,38.137.192.0/19,no-resolve
 IP-CIDR,38.142.152.88/29,no-resolve
 IP-CIDR,38.156.7.0/24,no-resolve
 IP-CIDR,38.156.78.0/23,no-resolve
@@ -835,6 +835,7 @@ IP-CIDR,38.159.166.0/23,no-resolve
 IP-CIDR,38.159.181.0/24,no-resolve
 IP-CIDR,38.172.128.0/22,no-resolve
 IP-CIDR,38.172.194.0/24,no-resolve
+IP-CIDR,38.172.214.0/24,no-resolve
 IP-CIDR,38.180.173.0/24,no-resolve
 IP-CIDR,38.180.174.0/24,no-resolve
 IP-CIDR,38.183.182.0/23,no-resolve
@@ -1298,8 +1299,7 @@ IP-CIDR6,2606:54c3:0:43f::/64,no-resolve
 IP-CIDR6,2606:54c3:0:7b2::/64,no-resolve
 IP-CIDR6,2606:54c3:0:82d::/64,no-resolve
 IP-CIDR6,2606:54c3:0:c45::/64,no-resolve
-IP-CIDR6,2606:f184:5500::/46,no-resolve
-IP-CIDR6,2606:f184:5504::/48,no-resolve
+IP-CIDR6,2606:f184:5500::/48,no-resolve
 IP-CIDR6,2606:f4c0:25d0::/44,no-resolve
 IP-CIDR6,2606:f4c0:b340::/44,no-resolve
 IP-CIDR6,2606:f4c0:b950::/44,no-resolve
@@ -1375,7 +1375,6 @@ IP-CIDR6,2803:44e0::/32,no-resolve
 IP-CIDR6,2803:4530::/32,no-resolve
 IP-CIDR6,2803:46d0::/32,no-resolve
 IP-CIDR6,2803:4780::/32,no-resolve
-IP-CIDR6,2803:4800::/32,no-resolve
 IP-CIDR6,2803:4850::/32,no-resolve
 IP-CIDR6,2803:49e0::/32,no-resolve
 IP-CIDR6,2803:4a30::/32,no-resolve

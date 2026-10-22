@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/hr.json
-# Status: complete; emitted: 1149; unsupported: 0
+# Status: complete; emitted: 1164; unsupported: 0
 IP-CIDR,102.38.234.0/24,no-resolve
 IP-CIDR,103.225.131.0/24,no-resolve
 IP-CIDR,104.135.185.8/30,no-resolve
@@ -73,7 +73,9 @@ IP-CIDR,134.238.137.128/26,no-resolve
 IP-CIDR,134.238.223.192/26,no-resolve
 IP-CIDR,134.238.254.192/27,no-resolve
 IP-CIDR,134.82.75.224/29,no-resolve
+IP-CIDR,135.106.70.0/24,no-resolve
 IP-CIDR,135.106.8.0/24,no-resolve
+IP-CIDR,136.225.240.0/21,no-resolve
 IP-CIDR,136.227.140.126/31,no-resolve
 IP-CIDR,136.227.140.128/30,no-resolve
 IP-CIDR,137.83.225.50/31,no-resolve
@@ -343,6 +345,14 @@ IP-CIDR,185.253.188.0/22,no-resolve
 IP-CIDR,185.254.176.0/22,no-resolve
 IP-CIDR,185.254.252.0/22,no-resolve
 IP-CIDR,185.255.10.0/24,no-resolve
+IP-CIDR,185.255.8.0/27,no-resolve
+IP-CIDR,185.255.8.128/25,no-resolve
+IP-CIDR,185.255.8.32/28,no-resolve
+IP-CIDR,185.255.8.48/29,no-resolve
+IP-CIDR,185.255.8.56/31,no-resolve
+IP-CIDR,185.255.8.59/32,no-resolve
+IP-CIDR,185.255.8.60/30,no-resolve
+IP-CIDR,185.255.8.64/26,no-resolve
 IP-CIDR,185.3.192.0/22,no-resolve
 IP-CIDR,185.38.176.0/22,no-resolve
 IP-CIDR,185.4.149.0/24,no-resolve
@@ -378,6 +388,7 @@ IP-CIDR,188.255.221.0/24,no-resolve
 IP-CIDR,188.255.224.0/24,no-resolve
 IP-CIDR,188.94.43.0/24,no-resolve
 IP-CIDR,188.95.88.0/24,no-resolve
+IP-CIDR,191.217.201.0/24,no-resolve
 IP-CIDR,191.96.192.0/25,no-resolve
 IP-CIDR,191.96.192.128/27,no-resolve
 IP-CIDR,191.96.192.160/31,no-resolve
@@ -445,6 +456,8 @@ IP-CIDR,195.202.108.112/29,no-resolve
 IP-CIDR,195.202.111.184/29,no-resolve
 IP-CIDR,195.202.111.64/30,no-resolve
 IP-CIDR,195.202.122.4/30,no-resolve
+IP-CIDR,195.202.123.128/29,no-resolve
+IP-CIDR,195.219.197.116/32,no-resolve
 IP-CIDR,195.234.22.0/23,no-resolve
 IP-CIDR,195.245.255.0/24,no-resolve
 IP-CIDR,195.29.0.0/16,no-resolve
@@ -571,6 +584,7 @@ IP-CIDR,213.19.207.64/29,no-resolve
 IP-CIDR,213.190.24.0/22,no-resolve
 IP-CIDR,213.191.128.0/19,no-resolve
 IP-CIDR,213.202.64.0/18,no-resolve
+IP-CIDR,213.228.214.176/29,no-resolve
 IP-CIDR,213.228.218.48/28,no-resolve
 IP-CIDR,213.228.236.228/30,no-resolve
 IP-CIDR,213.253.102.0/23,no-resolve
@@ -1080,6 +1094,7 @@ IP-CIDR6,2a07:9740::/29,no-resolve
 IP-CIDR6,2a07:d887:6100::/40,no-resolve
 IP-CIDR6,2a07:e342:5000::/46,no-resolve
 IP-CIDR6,2a09:2540::/29,no-resolve
+IP-CIDR6,2a09:3f00:350a::/48,no-resolve
 IP-CIDR6,2a09:bac0:1000:121c::/64,no-resolve
 IP-CIDR6,2a09:bac0:1000:1373::/64,no-resolve
 IP-CIDR6,2a09:bac0:1000:322::/64,no-resolve
