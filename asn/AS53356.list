@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS53356.json
-# Status: complete; emitted: 165; unsupported: 0
+# Status: complete; emitted: 162; unsupported: 0
 IP-CIDR,103.144.176.0/23,no-resolve
 IP-CIDR,104.193.92.0/22,no-resolve
 IP-CIDR,104.218.62.0/24,no-resolve
@@ -27,14 +27,10 @@ IP-CIDR,167.88.50.0/24,no-resolve
 IP-CIDR,181.214.39.0/24,no-resolve
 IP-CIDR,192.84.254.0/24,no-resolve
 IP-CIDR,195.62.20.0/23,no-resolve
-IP-CIDR,199.188.236.0/24,no-resolve
 IP-CIDR,199.48.183.0/24,no-resolve
 IP-CIDR,204.14.79.0/24,no-resolve
-IP-CIDR,206.123.142.0/24,no-resolve
 IP-CIDR,206.83.40.0/23,no-resolve
 IP-CIDR,209.178.238.0/24,no-resolve
-IP-CIDR,213.145.88.0/24,no-resolve
-IP-CIDR,217.25.12.0/24,no-resolve
 IP-CIDR,217.60.152.0/21,no-resolve
 IP-CIDR,23.129.32.0/24,no-resolve
 IP-CIDR,23.133.64.0/24,no-resolve
@@ -64,8 +60,6 @@ IP-CIDR,82.22.127.0/24,no-resolve
 IP-CIDR,84.19.10.0/24,no-resolve
 IP-CIDR,84.19.12.0/22,no-resolve
 IP-CIDR,84.19.31.0/24,no-resolve
-IP-CIDR,84.75.67.0/24,no-resolve
-IP-CIDR,85.237.209.0/24,no-resolve
 IP-CIDR,92.113.224.0/24,no-resolve
 IP-CIDR,95.135.42.0/24,no-resolve
 IP-CIDR,95.173.36.0/22,no-resolve
@@ -123,12 +117,14 @@ IP-CIDR6,2602:fed2:7e04::/48,no-resolve
 IP-CIDR6,2602:fed2:7e08::/47,no-resolve
 IP-CIDR6,2602:fed2:7e84::/48,no-resolve
 IP-CIDR6,2602:fed2:b000::/37,no-resolve
-IP-CIDR6,2602:fed2:b800::/39,no-resolve
-IP-CIDR6,2602:fed2:bd00::/40,no-resolve
+IP-CIDR6,2602:fed2:b800::/38,no-resolve
+IP-CIDR6,2602:fed2:bc00::/39,no-resolve
+IP-CIDR6,2602:fed2:be00::/40,no-resolve
 IP-CIDR6,2602:fed2:f80::/44,no-resolve
 IP-CIDR6,2602:fed2:fa0::/43,no-resolve
 IP-CIDR6,2602:fed2:fc0::/44,no-resolve
 IP-CIDR6,2602:fed2:fe0::/44,no-resolve
+IP-CIDR6,2602:ffb1:101::/48,no-resolve
 IP-CIDR6,2620:13a:c000::/40,no-resolve
 IP-CIDR6,2a05:8500::/29,no-resolve
 IP-CIDR6,2a09:342::/32,no-resolve
@@ -162,6 +158,7 @@ IP-CIDR6,2a0f:9400:7800::/39,no-resolve
 IP-CIDR6,2a0f:9400:8024::/48,no-resolve
 IP-CIDR6,2a0f:9400:80::/48,no-resolve
 IP-CIDR6,2a0f:9400:9000::/40,no-resolve
+IP-CIDR6,2a0f:9400:9100::/48,no-resolve
 IP-CIDR6,2a0f:9400:fa0::/43,no-resolve
 IP-CIDR6,2a0f:9405::/32,no-resolve
 IP-CIDR6,2a0f:9cc4::/30,no-resolve

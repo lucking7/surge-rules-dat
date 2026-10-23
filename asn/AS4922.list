@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS4922.json
-# Status: complete; emitted: 798; unsupported: 0
+# Status: complete; emitted: 825; unsupported: 0
 IP-CIDR,104.218.184.0/24,no-resolve
 IP-CIDR,104.218.185.0/26,no-resolve
 IP-CIDR,104.218.185.112/29,no-resolve
@@ -147,7 +147,18 @@ IP-CIDR,24.49.6.64/26,no-resolve
 IP-CIDR,24.49.6.8/29,no-resolve
 IP-CIDR,24.49.7.0/24,no-resolve
 IP-CIDR,24.49.8.0/21,no-resolve
-IP-CIDR,24.53.64.0/20,no-resolve
+IP-CIDR,24.53.64.0/21,no-resolve
+IP-CIDR,24.53.72.0/24,no-resolve
+IP-CIDR,24.53.73.0/26,no-resolve
+IP-CIDR,24.53.73.128/25,no-resolve
+IP-CIDR,24.53.73.64/32,no-resolve
+IP-CIDR,24.53.73.66/31,no-resolve
+IP-CIDR,24.53.73.68/30,no-resolve
+IP-CIDR,24.53.73.72/29,no-resolve
+IP-CIDR,24.53.73.80/28,no-resolve
+IP-CIDR,24.53.73.96/27,no-resolve
+IP-CIDR,24.53.74.0/23,no-resolve
+IP-CIDR,24.53.76.0/22,no-resolve
 IP-CIDR,24.56.112.0/24,no-resolve
 IP-CIDR,24.56.113.0/26,no-resolve
 IP-CIDR,24.56.113.128/25,no-resolve
@@ -505,7 +516,23 @@ IP-CIDR6,2606:a800:cb1b:3000::/52,no-resolve
 IP-CIDR6,2606:a800:cb1b:4000::/50,no-resolve
 IP-CIDR6,2606:a800:cb1b:8000::/49,no-resolve
 IP-CIDR6,2606:a800:cb1b::/51,no-resolve
-IP-CIDR6,2606:a800:cb1c::/47,no-resolve
+IP-CIDR6,2606:a800:cb1c::/48,no-resolve
+IP-CIDR6,2606:a800:cb1d:8000::/50,no-resolve
+IP-CIDR6,2606:a800:cb1d::/49,no-resolve
+IP-CIDR6,2606:a800:cb1d:c000::/51,no-resolve
+IP-CIDR6,2606:a800:cb1d:e000::/52,no-resolve
+IP-CIDR6,2606:a800:cb1d:f000::/53,no-resolve
+IP-CIDR6,2606:a800:cb1d:f800::/54,no-resolve
+IP-CIDR6,2606:a800:cb1d:fc00::/56,no-resolve
+IP-CIDR6,2606:a800:cb1d:fd01::/64,no-resolve
+IP-CIDR6,2606:a800:cb1d:fd02::/63,no-resolve
+IP-CIDR6,2606:a800:cb1d:fd04::/62,no-resolve
+IP-CIDR6,2606:a800:cb1d:fd08::/61,no-resolve
+IP-CIDR6,2606:a800:cb1d:fd10::/60,no-resolve
+IP-CIDR6,2606:a800:cb1d:fd20::/59,no-resolve
+IP-CIDR6,2606:a800:cb1d:fd40::/58,no-resolve
+IP-CIDR6,2606:a800:cb1d:fd80::/57,no-resolve
+IP-CIDR6,2606:a800:cb1d:fe00::/55,no-resolve
 IP-CIDR6,2606:a800:cb1e:8000::/50,no-resolve
 IP-CIDR6,2606:a800:cb1e::/49,no-resolve
 IP-CIDR6,2606:a800:cb1e:c000::/55,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS38266.json
-# Status: complete; emitted: 421; unsupported: 0
+# Status: complete; emitted: 418; unsupported: 0
 IP-CIDR,1.38.0.0/17,no-resolve
 IP-CIDR,1.38.128.0/19,no-resolve
 IP-CIDR,1.38.160.0/21,no-resolve
@@ -296,19 +296,14 @@ IP-CIDR6,2402:3a80:44c1::/48,no-resolve
 IP-CIDR6,2402:3a80:44c2::/48,no-resolve
 IP-CIDR6,2402:3a80:44c8::/48,no-resolve
 IP-CIDR6,2402:3a80:44d3::/48,no-resolve
-IP-CIDR6,2402:3a80:4500::/47,no-resolve
-IP-CIDR6,2402:3a80:4508::/47,no-resolve
-IP-CIDR6,2402:3a80:450a::/48,no-resolve
-IP-CIDR6,2402:3a80:4510::/47,no-resolve
-IP-CIDR6,2402:3a80:4512::/48,no-resolve
-IP-CIDR6,2402:3a80:4518::/47,no-resolve
-IP-CIDR6,2402:3a80:451a::/48,no-resolve
+IP-CIDR6,2402:3a80:4500::/46,no-resolve
+IP-CIDR6,2402:3a80:4508::/46,no-resolve
+IP-CIDR6,2402:3a80:4510::/46,no-resolve
+IP-CIDR6,2402:3a80:4518::/46,no-resolve
 IP-CIDR6,2402:3a80:4520::/46,no-resolve
-IP-CIDR6,2402:3a80:4528::/47,no-resolve
-IP-CIDR6,2402:3a80:452a::/48,no-resolve
+IP-CIDR6,2402:3a80:4528::/46,no-resolve
 IP-CIDR6,2402:3a80:4530::/46,no-resolve
-IP-CIDR6,2402:3a80:4538::/47,no-resolve
-IP-CIDR6,2402:3a80:453a::/48,no-resolve
+IP-CIDR6,2402:3a80:4538::/46,no-resolve
 IP-CIDR6,2402:3a80:4540::/42,no-resolve
 IP-CIDR6,2402:3a80:4580::/46,no-resolve
 IP-CIDR6,2402:3a80:4588::/46,no-resolve
@@ -352,7 +347,8 @@ IP-CIDR6,2402:3a80:4a::/48,no-resolve
 IP-CIDR6,2402:3a80:4b00::/42,no-resolve
 IP-CIDR6,2402:3a80:4b80::/41,no-resolve
 IP-CIDR6,2402:3a80:4c00::/41,no-resolve
-IP-CIDR6,2402:3a80:4c80::/43,no-resolve
+IP-CIDR6,2402:3a80:4c80::/42,no-resolve
+IP-CIDR6,2402:3a80:4cc0::/43,no-resolve
 IP-CIDR6,2402:3a80:5003::/48,no-resolve
 IP-CIDR6,2402:3a80:50::/47,no-resolve
 IP-CIDR6,2402:3a80:52::/48,no-resolve
@@ -415,6 +411,7 @@ IP-CIDR6,2402:3a80:c090::/47,no-resolve
 IP-CIDR6,2402:3a80:c094::/47,no-resolve
 IP-CIDR6,2402:3a80:c096::/48,no-resolve
 IP-CIDR6,2402:3a80:c0::/42,no-resolve
+IP-CIDR6,2402:3a80:c0a5::/48,no-resolve
 IP-CIDR6,2402:3a80:c0ad::/48,no-resolve
 IP-CIDR6,2402:3a80:c0b0::/48,no-resolve
 IP-CIDR6,2402:3a80:c80::/42,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS35994.json
-# Status: complete; emitted: 365; unsupported: 0
+# Status: complete; emitted: 368; unsupported: 0
 IP-CIDR,104.102.27.0/24,no-resolve
 IP-CIDR,104.107.116.0/24,no-resolve
 IP-CIDR,104.120.209.0/24,no-resolve
@@ -68,7 +68,7 @@ IP-CIDR,195.245.124.0/24,no-resolve
 IP-CIDR,23.1.232.0/24,no-resolve
 IP-CIDR,23.14.128.0/24,no-resolve
 IP-CIDR,23.192.109.0/24,no-resolve
-IP-CIDR,23.192.112.0/23,no-resolve
+IP-CIDR,23.192.112.0/24,no-resolve
 IP-CIDR,23.192.238.0/24,no-resolve
 IP-CIDR,23.193.160.0/23,no-resolve
 IP-CIDR,23.193.173.0/24,no-resolve
@@ -103,6 +103,7 @@ IP-CIDR,23.202.96.0/24,no-resolve
 IP-CIDR,23.203.173.0/24,no-resolve
 IP-CIDR,23.204.153.0/24,no-resolve
 IP-CIDR,23.204.154.0/23,no-resolve
+IP-CIDR,23.204.94.0/24,no-resolve
 IP-CIDR,23.205.121.0/24,no-resolve
 IP-CIDR,23.205.126.0/24,no-resolve
 IP-CIDR,23.205.45.0/24,no-resolve
@@ -133,6 +134,7 @@ IP-CIDR,23.213.200.0/24,no-resolve
 IP-CIDR,23.213.231.0/24,no-resolve
 IP-CIDR,23.213.233.0/24,no-resolve
 IP-CIDR,23.214.23.0/24,no-resolve
+IP-CIDR,23.214.74.0/24,no-resolve
 IP-CIDR,23.214.83.0/24,no-resolve
 IP-CIDR,23.214.86.0/24,no-resolve
 IP-CIDR,23.214.98.0/23,no-resolve
@@ -195,8 +197,7 @@ IP-CIDR,23.44.137.0/24,no-resolve
 IP-CIDR,23.44.172.0/24,no-resolve
 IP-CIDR,23.44.206.0/23,no-resolve
 IP-CIDR,23.44.212.0/24,no-resolve
-IP-CIDR,23.44.56.0/23,no-resolve
-IP-CIDR,23.44.59.0/24,no-resolve
+IP-CIDR,23.44.56.0/22,no-resolve
 IP-CIDR,23.45.113.0/24,no-resolve
 IP-CIDR,23.45.117.0/24,no-resolve
 IP-CIDR,23.45.118.0/24,no-resolve
@@ -291,7 +292,6 @@ IP-CIDR6,2600:1400:5::/48,no-resolve
 IP-CIDR6,2600:1401:7::/48,no-resolve
 IP-CIDR6,2600:1402:15::/48,no-resolve
 IP-CIDR6,2600:1403:5c00::/48,no-resolve
-IP-CIDR6,2600:1403:6400::/48,no-resolve
 IP-CIDR6,2600:1403:6c00::/48,no-resolve
 IP-CIDR6,2600:1404:5::/48,no-resolve
 IP-CIDR6,2600:1404:a400::/48,no-resolve
@@ -307,14 +307,17 @@ IP-CIDR6,2600:1404:e800::/48,no-resolve
 IP-CIDR6,2600:1405:1001::/48,no-resolve
 IP-CIDR6,2600:1405:c01::/48,no-resolve
 IP-CIDR6,2600:1406:1a00::/48,no-resolve
+IP-CIDR6,2600:1406:200::/48,no-resolve
 IP-CIDR6,2600:1406:2600::/48,no-resolve
 IP-CIDR6,2600:1406:3200::/48,no-resolve
 IP-CIDR6,2600:1406:38::/47,no-resolve
-IP-CIDR6,2600:1406:401::/48,no-resolve
+IP-CIDR6,2600:1406:3a::/48,no-resolve
+IP-CIDR6,2600:1406:400::/47,no-resolve
 IP-CIDR6,2600:1406:43::/48,no-resolve
 IP-CIDR6,2600:1406:47::/48,no-resolve
 IP-CIDR6,2600:1406:600::/48,no-resolve
 IP-CIDR6,2600:1406:800::/48,no-resolve
+IP-CIDR6,2600:1406:9c00::/48,no-resolve
 IP-CIDR6,2600:1406:a400::/48,no-resolve
 IP-CIDR6,2600:1406:a::/48,no-resolve
 IP-CIDR6,2600:1406:ac00::/48,no-resolve

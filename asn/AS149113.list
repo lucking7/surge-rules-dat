@@ -2,6 +2,6 @@
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS149113.json
 # Status: complete; emitted: 4; unsupported: 0
 IP-CIDR,103.190.38.0/23,no-resolve
-IP-CIDR,160.250.26.0/23,no-resolve
+IP-CIDR,160.250.26.0/24,no-resolve
 IP-CIDR6,2001:df4:a240::/48,no-resolve
 IP-CIDR6,2400:8c60::/48,no-resolve

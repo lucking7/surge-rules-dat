@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS62887.json
-# Status: complete; emitted: 421; unsupported: 0
+# Status: complete; emitted: 437; unsupported: 0
 IP-CIDR,104.143.180.0/24,no-resolve
 IP-CIDR,104.222.16.0/20,no-resolve
 IP-CIDR,104.241.0.0/21,no-resolve
@@ -16,6 +16,7 @@ IP-CIDR,162.245.68.0/22,no-resolve
 IP-CIDR,162.253.24.0/22,no-resolve
 IP-CIDR,172.103.80.0/21,no-resolve
 IP-CIDR,192.232.182.0/24,no-resolve
+IP-CIDR,204.9.63.0/24,no-resolve
 IP-CIDR,206.166.196.0/23,no-resolve
 IP-CIDR,207.229.100.0/23,no-resolve
 IP-CIDR,208.64.158.0/24,no-resolve
@@ -325,6 +326,20 @@ IP-CIDR6,2605:ad80:74::/46,no-resolve
 IP-CIDR6,2605:ad80:78::/46,no-resolve
 IP-CIDR6,2605:ad80:7c::/47,no-resolve
 IP-CIDR6,2605:ad80:7e::/48,no-resolve
+IP-CIDR6,2605:ad80:7f:4000::/52,no-resolve
+IP-CIDR6,2605:ad80:7f:5000::/60,no-resolve
+IP-CIDR6,2605:ad80:7f:5011::/64,no-resolve
+IP-CIDR6,2605:ad80:7f:5012::/63,no-resolve
+IP-CIDR6,2605:ad80:7f:5014::/62,no-resolve
+IP-CIDR6,2605:ad80:7f:5018::/61,no-resolve
+IP-CIDR6,2605:ad80:7f:5020::/59,no-resolve
+IP-CIDR6,2605:ad80:7f:5040::/58,no-resolve
+IP-CIDR6,2605:ad80:7f:5080::/57,no-resolve
+IP-CIDR6,2605:ad80:7f:5100::/56,no-resolve
+IP-CIDR6,2605:ad80:7f:5200::/55,no-resolve
+IP-CIDR6,2605:ad80:7f:5400::/54,no-resolve
+IP-CIDR6,2605:ad80:7f:5800::/53,no-resolve
+IP-CIDR6,2605:ad80:7f:6000::/51,no-resolve
 IP-CIDR6,2605:ad80:7f:8000::/52,no-resolve
 IP-CIDR6,2605:ad80:7f:9000::/57,no-resolve
 IP-CIDR6,2605:ad80:7f:9080::/58,no-resolve
@@ -338,7 +353,7 @@ IP-CIDR6,2605:ad80:7f:9100::/56,no-resolve
 IP-CIDR6,2605:ad80:7f:9200::/55,no-resolve
 IP-CIDR6,2605:ad80:7f:9400::/54,no-resolve
 IP-CIDR6,2605:ad80:7f:9800::/53,no-resolve
-IP-CIDR6,2605:ad80:7f::/49,no-resolve
+IP-CIDR6,2605:ad80:7f::/50,no-resolve
 IP-CIDR6,2605:ad80:7f:a000::/51,no-resolve
 IP-CIDR6,2605:ad80:7f:c000::/50,no-resolve
 IP-CIDR6,2605:ad80:80::/44,no-resolve
@@ -370,6 +385,7 @@ IP-CIDR6,2605:ad80:e0::/44,no-resolve
 IP-CIDR6,2605:ad80:eee0::/44,no-resolve
 IP-CIDR6,2605:ad80:ff::/48,no-resolve
 IP-CIDR6,2605:ad80:ffed::/48,no-resolve
+IP-CIDR6,2605:ad80:ffee::/48,no-resolve
 IP-CIDR6,2605:ad80:fff0::/48,no-resolve
 IP-CIDR6,2605:ad80:fff1:1000::/58,no-resolve
 IP-CIDR6,2605:ad80:fff1:1040::/59,no-resolve

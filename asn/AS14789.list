@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS14789.json
-# Status: complete; emitted: 431; unsupported: 0
+# Status: complete; emitted: 434; unsupported: 0
 IP-CIDR,104.22.121.0/24,no-resolve
 IP-CIDR,104.22.122.0/24,no-resolve
 IP-CIDR,104.22.130.0/24,no-resolve
@@ -19,6 +19,7 @@ IP-CIDR,104.22.218.0/24,no-resolve
 IP-CIDR,104.22.221.0/24,no-resolve
 IP-CIDR,104.22.231.0/24,no-resolve
 IP-CIDR,104.22.232.0/24,no-resolve
+IP-CIDR,104.22.239.0/24,no-resolve
 IP-CIDR,104.22.248.0/24,no-resolve
 IP-CIDR,104.22.255.0/24,no-resolve
 IP-CIDR,104.22.27.0/24,no-resolve
@@ -98,6 +99,7 @@ IP-CIDR,172.68.176.0/24,no-resolve
 IP-CIDR,172.68.189.0/24,no-resolve
 IP-CIDR,172.68.190.0/23,no-resolve
 IP-CIDR,172.68.197.0/24,no-resolve
+IP-CIDR,172.68.198.0/24,no-resolve
 IP-CIDR,172.68.200.0/23,no-resolve
 IP-CIDR,172.68.203.0/24,no-resolve
 IP-CIDR,172.68.207.0/24,no-resolve
@@ -273,6 +275,7 @@ IP-CIDR6,2400:cb00:1402::/48,no-resolve
 IP-CIDR6,2400:cb00:1406::/48,no-resolve
 IP-CIDR6,2400:cb00:1413::/48,no-resolve
 IP-CIDR6,2400:cb00:1415::/48,no-resolve
+IP-CIDR6,2400:cb00:1420::/48,no-resolve
 IP-CIDR6,2400:cb00:1425::/48,no-resolve
 IP-CIDR6,2400:cb00:142::/48,no-resolve
 IP-CIDR6,2400:cb00:1440::/48,no-resolve
@@ -358,7 +361,7 @@ IP-CIDR6,2400:cb00:580::/48,no-resolve
 IP-CIDR6,2400:cb00:585::/48,no-resolve
 IP-CIDR6,2400:cb00:586::/48,no-resolve
 IP-CIDR6,2400:cb00:589::/48,no-resolve
-IP-CIDR6,2400:cb00:590::/47,no-resolve
+IP-CIDR6,2400:cb00:590::/48,no-resolve
 IP-CIDR6,2400:cb00:593::/48,no-resolve
 IP-CIDR6,2400:cb00:595::/48,no-resolve
 IP-CIDR6,2400:cb00:596::/48,no-resolve
@@ -398,7 +401,7 @@ IP-CIDR6,2400:cb00:690::/48,no-resolve
 IP-CIDR6,2400:cb00:695::/48,no-resolve
 IP-CIDR6,2400:cb00:708::/48,no-resolve
 IP-CIDR6,2400:cb00:710::/48,no-resolve
-IP-CIDR6,2400:cb00:715::/48,no-resolve
+IP-CIDR6,2400:cb00:714::/47,no-resolve
 IP-CIDR6,2400:cb00:717::/48,no-resolve
 IP-CIDR6,2400:cb00:730::/48,no-resolve
 IP-CIDR6,2400:cb00:734::/48,no-resolve

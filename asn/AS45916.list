@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS45916.json
-# Status: complete; emitted: 210; unsupported: 0
+# Status: complete; emitted: 211; unsupported: 0
 IP-CIDR,103.1.100.0/22,no-resolve
 IP-CIDR,103.15.60.0/22,no-resolve
 IP-CIDR,103.155.2.0/23,no-resolve
@@ -91,13 +91,14 @@ IP-CIDR6,2402:a00:100::/48,no-resolve
 IP-CIDR6,2402:a00:10::/45,no-resolve
 IP-CIDR6,2402:a00:10a::/47,no-resolve
 IP-CIDR6,2402:a00:10c::/46,no-resolve
-IP-CIDR6,2402:a00:110::/45,no-resolve
+IP-CIDR6,2402:a00:110::/46,no-resolve
+IP-CIDR6,2402:a00:114::/48,no-resolve
+IP-CIDR6,2402:a00:116::/47,no-resolve
 IP-CIDR6,2402:a00:118::/48,no-resolve
-IP-CIDR6,2402:a00:11a::/47,no-resolve
+IP-CIDR6,2402:a00:11b::/48,no-resolve
 IP-CIDR6,2402:a00:11d::/48,no-resolve
 IP-CIDR6,2402:a00:11e::/48,no-resolve
 IP-CIDR6,2402:a00:124::/48,no-resolve
-IP-CIDR6,2402:a00:126::/48,no-resolve
 IP-CIDR6,2402:a00:142::/47,no-resolve
 IP-CIDR6,2402:a00:144::/46,no-resolve
 IP-CIDR6,2402:a00:148::/47,no-resolve
@@ -133,13 +134,14 @@ IP-CIDR6,2402:a00:1c8::/48,no-resolve
 IP-CIDR6,2402:a00:1c::/46,no-resolve
 IP-CIDR6,2402:a00:20a::/47,no-resolve
 IP-CIDR6,2402:a00:20c::/46,no-resolve
-IP-CIDR6,2402:a00:210::/45,no-resolve
+IP-CIDR6,2402:a00:210::/46,no-resolve
+IP-CIDR6,2402:a00:214::/48,no-resolve
+IP-CIDR6,2402:a00:216::/47,no-resolve
 IP-CIDR6,2402:a00:218::/48,no-resolve
-IP-CIDR6,2402:a00:21a::/47,no-resolve
+IP-CIDR6,2402:a00:21b::/48,no-resolve
 IP-CIDR6,2402:a00:21d::/48,no-resolve
 IP-CIDR6,2402:a00:21e::/48,no-resolve
 IP-CIDR6,2402:a00:224::/48,no-resolve
-IP-CIDR6,2402:a00:226::/48,no-resolve
 IP-CIDR6,2402:a00:242::/47,no-resolve
 IP-CIDR6,2402:a00:244::/46,no-resolve
 IP-CIDR6,2402:a00:248::/47,no-resolve
@@ -151,7 +153,6 @@ IP-CIDR6,2402:a00:250::/46,no-resolve
 IP-CIDR6,2402:a00:262::/47,no-resolve
 IP-CIDR6,2402:a00:264::/46,no-resolve
 IP-CIDR6,2402:a00:268::/46,no-resolve
-IP-CIDR6,2402:a00:26::/48,no-resolve
 IP-CIDR6,2402:a00:26c::/47,no-resolve
 IP-CIDR6,2402:a00:270::/46,no-resolve
 IP-CIDR6,2402:a00:274::/48,no-resolve

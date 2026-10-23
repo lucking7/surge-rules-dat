@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS2516.json
-# Status: complete; emitted: 451; unsupported: 0
+# Status: complete; emitted: 414; unsupported: 0
 IP-CIDR,103.13.140.0/22,no-resolve
 IP-CIDR,103.228.60.0/22,no-resolve
 IP-CIDR,103.232.200.0/22,no-resolve
@@ -102,6 +102,7 @@ IP-CIDR,182.248.0.0/14,no-resolve
 IP-CIDR,192.152.212.0/24,no-resolve
 IP-CIDR,202.0.65.0/24,no-resolve
 IP-CIDR,202.0.66.0/24,no-resolve
+IP-CIDR,202.11.65.0/24,no-resolve
 IP-CIDR,202.13.240.0/21,no-resolve
 IP-CIDR,202.15.128.0/18,no-resolve
 IP-CIDR,202.16.192.0/21,no-resolve
@@ -412,43 +413,5 @@ IP-CIDR6,240f:5f:4000::/34,no-resolve
 IP-CIDR6,240f:5f:8000::/33,no-resolve
 IP-CIDR6,240f:5f::/35,no-resolve
 IP-CIDR6,240f:60::/27,no-resolve
-IP-CIDR6,240f:80::/28,no-resolve
-IP-CIDR6,240f:90::/29,no-resolve
-IP-CIDR6,240f:98:8000::/36,no-resolve
-IP-CIDR6,240f:98:9000::/37,no-resolve
-IP-CIDR6,240f:98:9800::/39,no-resolve
-IP-CIDR6,240f:98:9a00::/40,no-resolve
-IP-CIDR6,240f:98:9b00::/41,no-resolve
-IP-CIDR6,240f:98:9b80::/47,no-resolve
-IP-CIDR6,240f:98:9b82:1000::/52,no-resolve
-IP-CIDR6,240f:98:9b82:100::/56,no-resolve
-IP-CIDR6,240f:98:9b82:10::/60,no-resolve
-IP-CIDR6,240f:98:9b82:2000::/51,no-resolve
-IP-CIDR6,240f:98:9b82:200::/55,no-resolve
-IP-CIDR6,240f:98:9b82:20::/59,no-resolve
-IP-CIDR6,240f:98:9b82:2::/63,no-resolve
-IP-CIDR6,240f:98:9b82:4000::/50,no-resolve
-IP-CIDR6,240f:98:9b82:400::/54,no-resolve
-IP-CIDR6,240f:98:9b82:40::/58,no-resolve
-IP-CIDR6,240f:98:9b82:4::/62,no-resolve
-IP-CIDR6,240f:98:9b82:8000::/49,no-resolve
-IP-CIDR6,240f:98:9b82:800::/53,no-resolve
-IP-CIDR6,240f:98:9b82:80::/57,no-resolve
-IP-CIDR6,240f:98:9b82:8::/61,no-resolve
-IP-CIDR6,240f:98:9b82::/64,no-resolve
-IP-CIDR6,240f:98:9b83::/48,no-resolve
-IP-CIDR6,240f:98:9b84::/46,no-resolve
-IP-CIDR6,240f:98:9b88::/45,no-resolve
-IP-CIDR6,240f:98:9b90::/44,no-resolve
-IP-CIDR6,240f:98:9ba0::/43,no-resolve
-IP-CIDR6,240f:98:9bc0::/42,no-resolve
-IP-CIDR6,240f:98:9c00::/38,no-resolve
-IP-CIDR6,240f:98::/33,no-resolve
-IP-CIDR6,240f:98:a000::/35,no-resolve
-IP-CIDR6,240f:98:c000::/34,no-resolve
-IP-CIDR6,240f:99::/32,no-resolve
-IP-CIDR6,240f:9a::/31,no-resolve
-IP-CIDR6,240f:9c::/30,no-resolve
+IP-CIDR6,240f:80::/25,no-resolve
 IP-CIDR6,240f::/26,no-resolve
-IP-CIDR6,240f:a0::/27,no-resolve
-IP-CIDR6,240f:c0::/26,no-resolve

@@ -70,9 +70,9 @@ GitHub Actions 每 6 小时检查并重新生成，也支持手动运行；GitHu
 
 ## 当前快照
 
-上游 commit：[`f7c7799e6676`](https://github.com/MetaCubeX/meta-rules-dat/commit/f7c7799e6676207b4d4f92745c27402fcc624853)。
+上游 commit：[`620722145f88`](https://github.com/MetaCubeX/meta-rules-dat/commit/620722145f883fc5ef450e9a909011c0528c1424)。
 
-共 84,389 个规则集，输出 2,407,150 条规则，另有 405 条正则记录无法用于 Surge RULE-SET。
+共 84,502 个规则集，输出 2,406,957 条规则，另有 405 条正则记录无法用于 Surge RULE-SET。
 
 额外提供 27 个 `geo-lite/<分类>.list` 合并入口。合并入口是已有规则的并集，不重复计入上游规则统计。
 

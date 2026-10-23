@@ -1,12 +1,27 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS12479.json
-# Status: complete; emitted: 221; unsupported: 0
+# Status: complete; emitted: 236; unsupported: 0
 IP-CIDR,107.183.128.0/17,no-resolve
 IP-CIDR,109.205.128.0/21,no-resolve
 IP-CIDR,113.203.128.0/18,no-resolve
 IP-CIDR,145.1.128.0/17,no-resolve
 IP-CIDR,146.158.128.0/17,no-resolve
-IP-CIDR,149.74.0.0/16,no-resolve
+IP-CIDR,149.74.0.0/20,no-resolve
+IP-CIDR,149.74.128.0/17,no-resolve
+IP-CIDR,149.74.16.0/21,no-resolve
+IP-CIDR,149.74.24.0/22,no-resolve
+IP-CIDR,149.74.28.0/23,no-resolve
+IP-CIDR,149.74.30.0/24,no-resolve
+IP-CIDR,149.74.31.0/26,no-resolve
+IP-CIDR,149.74.31.104/30,no-resolve
+IP-CIDR,149.74.31.108/32,no-resolve
+IP-CIDR,149.74.31.110/31,no-resolve
+IP-CIDR,149.74.31.112/28,no-resolve
+IP-CIDR,149.74.31.128/25,no-resolve
+IP-CIDR,149.74.31.64/27,no-resolve
+IP-CIDR,149.74.31.96/29,no-resolve
+IP-CIDR,149.74.32.0/19,no-resolve
+IP-CIDR,149.74.64.0/18,no-resolve
 IP-CIDR,151.252.16.0/21,no-resolve
 IP-CIDR,152.41.0.0/17,no-resolve
 IP-CIDR,159.255.145.0/24,no-resolve
