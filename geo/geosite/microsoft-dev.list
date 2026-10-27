@@ -1,8 +1,9 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/microsoft-dev.json
-# Status: complete; emitted: 74; unsupported: 0
+# Status: complete; emitted: 76; unsupported: 0
 DOMAIN,az764295.vo.msecnd.net
 DOMAIN,bingsettingssearch.trafficmanager.net
+DOMAIN,dc.services.visualstudio.com
 DOMAIN,default.exp-tas.com
 DOMAIN,developer.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
@@ -12,6 +13,7 @@ DOMAIN,poshtestgallery.cloudapp.net
 DOMAIN,psg-int-centralus.cloudapp.net
 DOMAIN,psg-int-eastus.cloudapp.net
 DOMAIN,rink.hockeyapp.net
+DOMAIN,rt.services.visualstudio.com
 DOMAIN,vscode-sync-insiders.trafficmanager.net
 DOMAIN,vscode-sync.trafficmanager.net
 DOMAIN,vscode.blob.core.windows.net

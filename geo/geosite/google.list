@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.json
-# Status: partial; emitted: 1075; unsupported: 2
+# Status: partial; emitted: 1078; unsupported: 2
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
@@ -25,6 +25,9 @@ DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement-cn.com
 DOMAIN,app-measurement.com
 DOMAIN,apps5.oingo.com
+DOMAIN,appsgenaiserver-pa.clients.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
 DOMAIN,avail.googleflights.net
 DOMAIN,beacons.gcp.gvt2.com
 DOMAIN,beacons.gvt2.com
