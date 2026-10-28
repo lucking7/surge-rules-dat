@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-companies@cn.json
-# Status: partial; emitted: 836; unsupported: 4
+# Status: partial; emitted: 838; unsupported: 4
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
@@ -426,7 +426,9 @@ DOMAIN,seed.siri.apple.com
 DOMAIN,sequoia.apple.com
 DOMAIN,service.urchin.com
 DOMAIN,sf-api-token-service.itunes.apple.com
+DOMAIN,sh-pod1-smp-device.apple.com
 DOMAIN,sh-pod2-smp-device.apple.com
+DOMAIN,sh-pod3-smp-device.apple.com
 DOMAIN,shazam-insights.cdn-apple.com
 DOMAIN,shell.cdn.office.net
 DOMAIN,smp-device-content.apple.com
