@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS206092.json
-# Status: complete; emitted: 209; unsupported: 0
+# Status: complete; emitted: 216; unsupported: 0
 IP-CIDR,103.125.146.0/24,no-resolve
 IP-CIDR,103.163.220.0/23,no-resolve
 IP-CIDR,104.234.19.0/24,no-resolve
@@ -29,6 +29,7 @@ IP-CIDR,136.176.185.0/24,no-resolve
 IP-CIDR,136.176.193.0/24,no-resolve
 IP-CIDR,136.176.202.0/24,no-resolve
 IP-CIDR,136.176.216.0/24,no-resolve
+IP-CIDR,136.176.223.0/24,no-resolve
 IP-CIDR,136.176.233.0/24,no-resolve
 IP-CIDR,136.176.241.0/24,no-resolve
 IP-CIDR,136.176.249.0/24,no-resolve
@@ -39,23 +40,28 @@ IP-CIDR,145.63.163.0/24,no-resolve
 IP-CIDR,145.63.165.0/24,no-resolve
 IP-CIDR,145.63.168.0/24,no-resolve
 IP-CIDR,145.63.172.0/24,no-resolve
+IP-CIDR,145.63.177.0/24,no-resolve
 IP-CIDR,145.63.181.0/24,no-resolve
 IP-CIDR,145.63.184.0/24,no-resolve
 IP-CIDR,145.63.186.0/23,no-resolve
 IP-CIDR,145.63.189.0/24,no-resolve
 IP-CIDR,146.103.39.0/24,no-resolve
 IP-CIDR,146.247.123.0/24,no-resolve
+IP-CIDR,147.90.16.0/24,no-resolve
 IP-CIDR,147.90.194.0/24,no-resolve
 IP-CIDR,147.90.203.0/24,no-resolve
 IP-CIDR,147.90.204.0/24,no-resolve
+IP-CIDR,147.90.21.0/24,no-resolve
 IP-CIDR,147.90.215.0/24,no-resolve
 IP-CIDR,147.90.22.0/24,no-resolve
+IP-CIDR,147.90.225.0/24,no-resolve
 IP-CIDR,147.90.228.0/24,no-resolve
-IP-CIDR,147.90.233.0/24,no-resolve
+IP-CIDR,147.90.232.0/23,no-resolve
 IP-CIDR,147.90.34.0/24,no-resolve
 IP-CIDR,147.90.52.0/24,no-resolve
 IP-CIDR,147.90.77.0/24,no-resolve
 IP-CIDR,149.19.196.0/24,no-resolve
+IP-CIDR,149.245.126.0/24,no-resolve
 IP-CIDR,151.243.155.0/24,no-resolve
 IP-CIDR,151.245.144.0/24,no-resolve
 IP-CIDR,151.245.16.0/24,no-resolve
@@ -140,6 +146,7 @@ IP-CIDR,31.171.129.0/24,no-resolve
 IP-CIDR,31.171.130.0/24,no-resolve
 IP-CIDR,37.140.223.0/24,no-resolve
 IP-CIDR,37.140.254.0/24,no-resolve
+IP-CIDR,41.180.160.0/24,no-resolve
 IP-CIDR,45.130.80.0/23,no-resolve
 IP-CIDR,45.130.83.0/24,no-resolve
 IP-CIDR,45.131.194.0/24,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS45609.json
-# Status: complete; emitted: 1122; unsupported: 0
+# Status: complete; emitted: 1125; unsupported: 0
 IP-CIDR,103.235.8.0/22,no-resolve
 IP-CIDR,106.192.0.0/17,no-resolve
 IP-CIDR,106.192.128.0/20,no-resolve
@@ -282,6 +282,7 @@ IP-CIDR,223.233.0.0/18,no-resolve
 IP-CIDR,223.233.112.0/20,no-resolve
 IP-CIDR,223.233.128.0/17,no-resolve
 IP-CIDR,223.234.0.0/16,no-resolve
+IP-CIDR,223.236.136.0/22,no-resolve
 IP-CIDR,223.236.152.0/22,no-resolve
 IP-CIDR,223.237.0.0/16,no-resolve
 IP-CIDR,223.238.0.0/18,no-resolve
@@ -366,8 +367,6 @@ IP-CIDR6,2401:4900:1b10::/44,no-resolve
 IP-CIDR6,2401:4900:1b30::/44,no-resolve
 IP-CIDR6,2401:4900:1b60::/44,no-resolve
 IP-CIDR6,2401:4900:1b80::/43,no-resolve
-IP-CIDR6,2401:4900:1bb0::/48,no-resolve
-IP-CIDR6,2401:4900:1bc0::/44,no-resolve
 IP-CIDR6,2401:4900:1d00::/41,no-resolve
 IP-CIDR6,2401:4900:1f80::/44,no-resolve
 IP-CIDR6,2401:4900:1fe0::/43,no-resolve
@@ -414,7 +413,8 @@ IP-CIDR6,2401:4900:35f0::/44,no-resolve
 IP-CIDR6,2401:4900:3600::/43,no-resolve
 IP-CIDR6,2401:4900:3620::/44,no-resolve
 IP-CIDR6,2401:4900:3670::/44,no-resolve
-IP-CIDR6,2401:4900:3680::/42,no-resolve
+IP-CIDR6,2401:4900:3680::/43,no-resolve
+IP-CIDR6,2401:4900:36b0::/44,no-resolve
 IP-CIDR6,2401:4900:36c0::/44,no-resolve
 IP-CIDR6,2401:4900:3760::/44,no-resolve
 IP-CIDR6,2401:4900:3820::/44,no-resolve
@@ -799,6 +799,7 @@ IP-CIDR6,2401:4900:9550::/46,no-resolve
 IP-CIDR6,2401:4900:9555::/48,no-resolve
 IP-CIDR6,2401:4900:9556::/47,no-resolve
 IP-CIDR6,2401:4900:9558::/46,no-resolve
+IP-CIDR6,2401:4900:955c::/48,no-resolve
 IP-CIDR6,2401:4900:9560::/43,no-resolve
 IP-CIDR6,2401:4900:95a0::/43,no-resolve
 IP-CIDR6,2401:4900:95e0::/43,no-resolve
@@ -1097,7 +1098,9 @@ IP-CIDR6,2401:4900:d860::/44,no-resolve
 IP-CIDR6,2401:4900:d960::/43,no-resolve
 IP-CIDR6,2401:4900:d980::/44,no-resolve
 IP-CIDR6,2401:4900:d9c0::/42,no-resolve
-IP-CIDR6,2401:4900:da40::/48,no-resolve
+IP-CIDR6,2401:4900:db10::/44,no-resolve
+IP-CIDR6,2401:4900:db20::/43,no-resolve
+IP-CIDR6,2401:4900:db40::/44,no-resolve
 IP-CIDR6,2401:4900:db70::/44,no-resolve
 IP-CIDR6,2401:4900:db80::/43,no-resolve
 IP-CIDR6,2401:4900:dbb0::/44,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS38008.json
-# Status: complete; emitted: 51; unsupported: 0
+# Status: complete; emitted: 49; unsupported: 0
 IP-CIDR,103.152.34.0/23,no-resolve
 IP-CIDR,103.181.44.0/23,no-resolve
 IP-CIDR,209.146.104.0/23,no-resolve
@@ -13,11 +13,10 @@ IP-CIDR6,2400:58a0:1100::/40,no-resolve
 IP-CIDR6,2400:58a0:1200::/39,no-resolve
 IP-CIDR6,2400:58a0:1400::/38,no-resolve
 IP-CIDR6,2400:58a0:1800::/38,no-resolve
-IP-CIDR6,2400:58a0:1c01::/48,no-resolve
+IP-CIDR6,2400:58a0:1c00::/47,no-resolve
 IP-CIDR6,2400:58a0:1c03::/48,no-resolve
 IP-CIDR6,2400:58a0:1c09::/48,no-resolve
 IP-CIDR6,2400:58a0:1c0a::/48,no-resolve
-IP-CIDR6,2400:58a0:1c0c::/48,no-resolve
 IP-CIDR6,2400:58a0:1c0f::/48,no-resolve
 IP-CIDR6,2400:58a0:1c10::/44,no-resolve
 IP-CIDR6,2400:58a0:1c20::/43,no-resolve
@@ -44,8 +43,7 @@ IP-CIDR6,2406:4440:d6fc::/47,no-resolve
 IP-CIDR6,2406:4440:d6fe::/48,no-resolve
 IP-CIDR6,2406:4440:d700::/40,no-resolve
 IP-CIDR6,2406:4440:d800::/37,no-resolve
-IP-CIDR6,2602:feda:100::/47,no-resolve
-IP-CIDR6,2602:feda:103::/48,no-resolve
+IP-CIDR6,2602:feda:100::/46,no-resolve
 IP-CIDR6,2602:feda:104::/48,no-resolve
 IP-CIDR6,2602:feda:106::/47,no-resolve
 IP-CIDR6,2602:feda:108::/45,no-resolve

@@ -2,6 +2,7 @@
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS135402.json
 # Status: complete; emitted: 45; unsupported: 0
 IP-CIDR,102.129.140.0/24,no-resolve
+IP-CIDR,128.0.59.0/24,no-resolve
 IP-CIDR,139.177.158.0/24,no-resolve
 IP-CIDR,141.11.218.0/24,no-resolve
 IP-CIDR,143.14.159.0/24,no-resolve
@@ -30,7 +31,6 @@ IP-CIDR,217.144.147.0/24,no-resolve
 IP-CIDR,31.56.123.0/24,no-resolve
 IP-CIDR,31.57.182.0/24,no-resolve
 IP-CIDR,31.77.125.0/24,no-resolve
-IP-CIDR,31.99.200.0/24,no-resolve
 IP-CIDR,45.10.38.0/24,no-resolve
 IP-CIDR,45.139.180.0/24,no-resolve
 IP-CIDR,5.181.130.0/24,no-resolve

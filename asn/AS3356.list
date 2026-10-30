@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS3356.json
-# Status: complete; emitted: 4554; unsupported: 0
+# Status: complete; emitted: 4562; unsupported: 0
 IP-CIDR,104.249.17.0/24,no-resolve
 IP-CIDR,104.249.46.0/23,no-resolve
 IP-CIDR,104.249.50.0/24,no-resolve
@@ -649,6 +649,7 @@ IP-CIDR,206.57.80.0/24,no-resolve
 IP-CIDR,206.80.18.0/24,no-resolve
 IP-CIDR,206.81.144.0/24,no-resolve
 IP-CIDR,207.108.149.0/24,no-resolve
+IP-CIDR,207.108.8.0/24,no-resolve
 IP-CIDR,207.108.91.0/24,no-resolve
 IP-CIDR,207.109.106.0/24,no-resolve
 IP-CIDR,207.109.236.0/24,no-resolve
@@ -1222,7 +1223,7 @@ IP-CIDR,62.67.198.0/23,no-resolve
 IP-CIDR,62.67.2.0/23,no-resolve
 IP-CIDR,62.67.200.0/22,no-resolve
 IP-CIDR,62.67.205.0/24,no-resolve
-IP-CIDR,62.67.206.0/23,no-resolve
+IP-CIDR,62.67.206.0/24,no-resolve
 IP-CIDR,62.67.208.0/21,no-resolve
 IP-CIDR,62.67.216.0/22,no-resolve
 IP-CIDR,62.67.220.0/23,no-resolve
@@ -1409,11 +1410,7 @@ IP-CIDR,63.235.184.0/22,no-resolve
 IP-CIDR,63.236.231.0/24,no-resolve
 IP-CIDR,63.238.236.0/23,no-resolve
 IP-CIDR,63.238.86.0/24,no-resolve
-IP-CIDR,64.113.128.0/20,no-resolve
-IP-CIDR,64.113.144.0/21,no-resolve
-IP-CIDR,64.113.152.0/22,no-resolve
-IP-CIDR,64.113.156.0/23,no-resolve
-IP-CIDR,64.113.158.0/24,no-resolve
+IP-CIDR,64.113.128.0/19,no-resolve
 IP-CIDR,64.128.126.0/24,no-resolve
 IP-CIDR,64.128.143.0/24,no-resolve
 IP-CIDR,64.128.170.0/24,no-resolve
@@ -3460,6 +3457,7 @@ IP-CIDR,8.34.62.0/24,no-resolve
 IP-CIDR,8.34.64.0/22,no-resolve
 IP-CIDR,8.34.68.0/23,no-resolve
 IP-CIDR,8.34.71.0/24,no-resolve
+IP-CIDR,8.34.74.0/24,no-resolve
 IP-CIDR,8.34.8.0/21,no-resolve
 IP-CIDR,8.34.80.0/22,no-resolve
 IP-CIDR,8.34.84.0/24,no-resolve
@@ -3768,7 +3766,7 @@ IP-CIDR,8.40.34.0/24,no-resolve
 IP-CIDR,8.40.36.0/22,no-resolve
 IP-CIDR,8.40.40.0/21,no-resolve
 IP-CIDR,8.40.64.0/23,no-resolve
-IP-CIDR,8.40.71.0/24,no-resolve
+IP-CIDR,8.40.70.0/23,no-resolve
 IP-CIDR,8.40.72.0/21,no-resolve
 IP-CIDR,8.40.80.0/24,no-resolve
 IP-CIDR,8.40.82.0/23,no-resolve
@@ -3912,7 +3910,6 @@ IP-CIDR,8.43.88.0/22,no-resolve
 IP-CIDR,8.43.92.0/24,no-resolve
 IP-CIDR,8.43.94.0/23,no-resolve
 IP-CIDR,8.43.96.0/19,no-resolve
-IP-CIDR,8.44.0.0/22,no-resolve
 IP-CIDR,8.44.112.0/21,no-resolve
 IP-CIDR,8.44.120.0/22,no-resolve
 IP-CIDR,8.44.124.0/23,no-resolve
@@ -3948,6 +3945,7 @@ IP-CIDR,8.44.240.0/22,no-resolve
 IP-CIDR,8.44.244.0/23,no-resolve
 IP-CIDR,8.44.246.0/24,no-resolve
 IP-CIDR,8.44.248.0/21,no-resolve
+IP-CIDR,8.44.3.0/24,no-resolve
 IP-CIDR,8.44.32.0/21,no-resolve
 IP-CIDR,8.44.40.0/22,no-resolve
 IP-CIDR,8.44.45.0/24,no-resolve
@@ -3982,6 +3980,7 @@ IP-CIDR,8.45.138.0/23,no-resolve
 IP-CIDR,8.45.141.0/24,no-resolve
 IP-CIDR,8.45.143.0/24,no-resolve
 IP-CIDR,8.45.144.0/20,no-resolve
+IP-CIDR,8.45.16.0/23,no-resolve
 IP-CIDR,8.45.160.0/21,no-resolve
 IP-CIDR,8.45.168.0/22,no-resolve
 IP-CIDR,8.45.173.0/24,no-resolve
@@ -4367,7 +4366,12 @@ IP-CIDR6,2001:13b0:a031::/48,no-resolve
 IP-CIDR6,2001:13b0:a301::/48,no-resolve
 IP-CIDR6,2001:13b0:b900::/48,no-resolve
 IP-CIDR6,2001:13b0:c000::/48,no-resolve
-IP-CIDR6,2001:13b2:8000::/42,no-resolve
+IP-CIDR6,2001:13b2:8000::/44,no-resolve
+IP-CIDR6,2001:13b2:8010::/45,no-resolve
+IP-CIDR6,2001:13b2:8018::/46,no-resolve
+IP-CIDR6,2001:13b2:801c::/47,no-resolve
+IP-CIDR6,2001:13b2:801e::/48,no-resolve
+IP-CIDR6,2001:13b2:8020::/43,no-resolve
 IP-CIDR6,2001:13b2:8040::/46,no-resolve
 IP-CIDR6,2001:13b2:8044::/48,no-resolve
 IP-CIDR6,2001:13b2:8046::/47,no-resolve
@@ -4509,7 +4513,11 @@ IP-CIDR6,2001:1900::/35,no-resolve
 IP-CIDR6,2001:428:3816::/48,no-resolve
 IP-CIDR6,2001:428:5805::/48,no-resolve
 IP-CIDR6,2001:428:6400::/48,no-resolve
-IP-CIDR6,2001:4c08:2000::/43,no-resolve
+IP-CIDR6,2001:4c08:2000::/44,no-resolve
+IP-CIDR6,2001:4c08:2010::/45,no-resolve
+IP-CIDR6,2001:4c08:2018::/48,no-resolve
+IP-CIDR6,2001:4c08:201a::/47,no-resolve
+IP-CIDR6,2001:4c08:201c::/46,no-resolve
 IP-CIDR6,2001:4c08:2020::/46,no-resolve
 IP-CIDR6,2001:4c08:2024::/47,no-resolve
 IP-CIDR6,2001:4c08:2027::/48,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS19108.json
-# Status: complete; emitted: 2924; unsupported: 0
+# Status: complete; emitted: 2909; unsupported: 0
 IP-CIDR,167.160.140.0/22,no-resolve
 IP-CIDR,173.216.0.0/15,no-resolve
 IP-CIDR,173.218.0.0/16,no-resolve
@@ -1203,7 +1203,14 @@ IP-CIDR,47.221.144.64/26,no-resolve
 IP-CIDR,47.221.145.0/24,no-resolve
 IP-CIDR,47.221.146.0/23,no-resolve
 IP-CIDR,47.221.148.0/23,no-resolve
-IP-CIDR,47.221.150.0/24,no-resolve
+IP-CIDR,47.221.150.0/25,no-resolve
+IP-CIDR,47.221.150.128/28,no-resolve
+IP-CIDR,47.221.150.144/29,no-resolve
+IP-CIDR,47.221.150.152/30,no-resolve
+IP-CIDR,47.221.150.156/31,no-resolve
+IP-CIDR,47.221.150.158/32,no-resolve
+IP-CIDR,47.221.150.160/27,no-resolve
+IP-CIDR,47.221.150.192/26,no-resolve
 IP-CIDR,47.221.151.0/27,no-resolve
 IP-CIDR,47.221.151.128/26,no-resolve
 IP-CIDR,47.221.151.192/29,no-resolve
@@ -1712,19 +1719,7 @@ IP-CIDR,50.24.124.94/32,no-resolve
 IP-CIDR,50.24.124.96/27,no-resolve
 IP-CIDR,50.24.125.0/24,no-resolve
 IP-CIDR,50.24.126.0/23,no-resolve
-IP-CIDR,50.24.128.0/20,no-resolve
-IP-CIDR,50.24.144.0/21,no-resolve
-IP-CIDR,50.24.152.0/22,no-resolve
-IP-CIDR,50.24.156.0/24,no-resolve
-IP-CIDR,50.24.157.0/25,no-resolve
-IP-CIDR,50.24.157.128/26,no-resolve
-IP-CIDR,50.24.157.192/28,no-resolve
-IP-CIDR,50.24.157.208/29,no-resolve
-IP-CIDR,50.24.157.216/30,no-resolve
-IP-CIDR,50.24.157.221/32,no-resolve
-IP-CIDR,50.24.157.222/31,no-resolve
-IP-CIDR,50.24.157.224/27,no-resolve
-IP-CIDR,50.24.158.0/23,no-resolve
+IP-CIDR,50.24.128.0/19,no-resolve
 IP-CIDR,50.24.16.0/21,no-resolve
 IP-CIDR,50.24.160.0/23,no-resolve
 IP-CIDR,50.24.162.0/24,no-resolve
@@ -2140,17 +2135,7 @@ IP-CIDR,50.27.49.64/27,no-resolve
 IP-CIDR,50.27.49.96/28,no-resolve
 IP-CIDR,50.27.50.0/23,no-resolve
 IP-CIDR,50.27.52.0/22,no-resolve
-IP-CIDR,50.27.56.0/23,no-resolve
-IP-CIDR,50.27.58.0/24,no-resolve
-IP-CIDR,50.27.59.0/28,no-resolve
-IP-CIDR,50.27.59.128/25,no-resolve
-IP-CIDR,50.27.59.16/30,no-resolve
-IP-CIDR,50.27.59.21/32,no-resolve
-IP-CIDR,50.27.59.22/31,no-resolve
-IP-CIDR,50.27.59.24/29,no-resolve
-IP-CIDR,50.27.59.32/27,no-resolve
-IP-CIDR,50.27.59.64/26,no-resolve
-IP-CIDR,50.27.60.0/22,no-resolve
+IP-CIDR,50.27.56.0/21,no-resolve
 IP-CIDR,50.27.64.0/20,no-resolve
 IP-CIDR,50.27.80.0/22,no-resolve
 IP-CIDR,50.27.84.0/26,no-resolve

@@ -1,8 +1,31 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS272096.json
-# Status: complete; emitted: 14; unsupported: 0
+# Status: complete; emitted: 37; unsupported: 0
 IP-CIDR,141.171.0.0/18,no-resolve
-IP-CIDR,141.171.104.0/23,no-resolve
+IP-CIDR,141.171.104.0/22,no-resolve
+IP-CIDR,141.171.109.0/24,no-resolve
+IP-CIDR,141.171.110.0/23,no-resolve
+IP-CIDR,141.171.112.0/20,no-resolve
+IP-CIDR,141.171.128.0/19,no-resolve
+IP-CIDR,141.171.160.0/21,no-resolve
+IP-CIDR,141.171.168.0/23,no-resolve
+IP-CIDR,141.171.170.0/24,no-resolve
+IP-CIDR,141.171.175.0/24,no-resolve
+IP-CIDR,141.171.176.0/21,no-resolve
+IP-CIDR,141.171.184.0/22,no-resolve
+IP-CIDR,141.171.188.0/23,no-resolve
+IP-CIDR,141.171.190.0/24,no-resolve
+IP-CIDR,141.171.192.0/24,no-resolve
+IP-CIDR,141.171.194.0/23,no-resolve
+IP-CIDR,141.171.196.0/24,no-resolve
+IP-CIDR,141.171.201.0/24,no-resolve
+IP-CIDR,141.171.202.0/23,no-resolve
+IP-CIDR,141.171.204.0/22,no-resolve
+IP-CIDR,141.171.208.0/22,no-resolve
+IP-CIDR,141.171.212.0/24,no-resolve
+IP-CIDR,141.171.216.0/23,no-resolve
+IP-CIDR,141.171.232.0/22,no-resolve
+IP-CIDR,141.171.240.0/21,no-resolve
 IP-CIDR,141.171.64.0/19,no-resolve
 IP-CIDR,141.171.96.0/21,no-resolve
 IP-CIDR,149.174.0.0/18,no-resolve

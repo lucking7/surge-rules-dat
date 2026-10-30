@@ -1,9 +1,11 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS55256.json
-# Status: complete; emitted: 106; unsupported: 0
+# Status: complete; emitted: 117; unsupported: 0
 IP-CIDR,103.219.78.0/23,no-resolve
 IP-CIDR,103.47.244.0/24,no-resolve
 IP-CIDR,146.92.0.0/20,no-resolve
+IP-CIDR,146.92.100.0/24,no-resolve
+IP-CIDR,146.92.109.0/24,no-resolve
 IP-CIDR,146.92.111.0/24,no-resolve
 IP-CIDR,146.92.112.0/24,no-resolve
 IP-CIDR,146.92.119.0/24,no-resolve
@@ -25,21 +27,17 @@ IP-CIDR,146.92.88.0/24,no-resolve
 IP-CIDR,146.92.90.0/23,no-resolve
 IP-CIDR,146.92.92.0/24,no-resolve
 IP-CIDR,146.92.96.0/24,no-resolve
-IP-CIDR,146.92.98.0/24,no-resolve
+IP-CIDR,146.92.98.0/23,no-resolve
 IP-CIDR,158.95.0.0/17,no-resolve
 IP-CIDR,158.95.128.0/18,no-resolve
-IP-CIDR,158.95.192.0/20,no-resolve
-IP-CIDR,158.95.208.0/21,no-resolve
-IP-CIDR,158.95.216.0/22,no-resolve
-IP-CIDR,158.95.220.0/23,no-resolve
-IP-CIDR,158.95.223.0/24,no-resolve
+IP-CIDR,158.95.192.0/19,no-resolve
 IP-CIDR,158.95.228.0/22,no-resolve
 IP-CIDR,158.95.232.0/21,no-resolve
 IP-CIDR,158.95.240.0/22,no-resolve
 IP-CIDR,158.95.244.0/23,no-resolve
 IP-CIDR,158.95.247.0/24,no-resolve
 IP-CIDR,158.95.248.0/22,no-resolve
-IP-CIDR,158.95.252.0/24,no-resolve
+IP-CIDR,158.95.252.0/23,no-resolve
 IP-CIDR,162.10.1.0/24,no-resolve
 IP-CIDR,162.10.100.0/22,no-resolve
 IP-CIDR,162.10.12.0/23,no-resolve
@@ -53,7 +51,7 @@ IP-CIDR,162.10.21.0/24,no-resolve
 IP-CIDR,162.10.22.0/23,no-resolve
 IP-CIDR,162.10.24.0/21,no-resolve
 IP-CIDR,162.10.32.0/23,no-resolve
-IP-CIDR,162.10.37.0/24,no-resolve
+IP-CIDR,162.10.36.0/23,no-resolve
 IP-CIDR,162.10.39.0/24,no-resolve
 IP-CIDR,162.10.40.0/23,no-resolve
 IP-CIDR,162.10.45.0/24,no-resolve
@@ -107,3 +105,16 @@ IP-CIDR,80.43.136.0/21,no-resolve
 IP-CIDR,80.43.144.0/20,no-resolve
 IP-CIDR,80.43.160.0/22,no-resolve
 IP-CIDR,80.43.166.0/23,no-resolve
+IP-CIDR,80.43.170.0/23,no-resolve
+IP-CIDR,80.43.172.0/23,no-resolve
+IP-CIDR,80.43.178.0/23,no-resolve
+IP-CIDR,80.43.180.0/23,no-resolve
+IP-CIDR,80.43.192.0/23,no-resolve
+IP-CIDR,80.43.206.0/23,no-resolve
+IP-CIDR,80.43.208.0/22,no-resolve
+IP-CIDR,80.43.216.0/23,no-resolve
+IP-CIDR,80.43.220.0/23,no-resolve
+IP-CIDR,80.43.224.0/23,no-resolve
+IP-CIDR,80.43.228.0/23,no-resolve
+IP-CIDR,80.43.250.0/23,no-resolve
+IP-CIDR,80.43.252.0/23,no-resolve

@@ -2,7 +2,7 @@
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS265753.json
 # Status: complete; emitted: 8; unsupported: 0
 IP-CIDR,107.166.0.0/22,no-resolve
-IP-CIDR,131.196.52.0/22,no-resolve
+IP-CIDR,131.196.52.0/24,no-resolve
 IP-CIDR,23.227.84.0/22,no-resolve
 IP-CIDR,91.242.107.0/24,no-resolve
 IP-CIDR,91.242.71.0/24,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS46690.json
-# Status: complete; emitted: 1956; unsupported: 0
+# Status: complete; emitted: 1985; unsupported: 0
 IP-CIDR,107.191.136.0/23,no-resolve
 IP-CIDR,32.208.0.0/18,no-resolve
 IP-CIDR,32.208.128.0/20,no-resolve
@@ -1368,7 +1368,20 @@ IP-CIDR6,2605:d580:1401:b640::/58,no-resolve
 IP-CIDR6,2605:d580:1401:b680::/57,no-resolve
 IP-CIDR6,2605:d580:1401:b700::/56,no-resolve
 IP-CIDR6,2605:d580:1401:b800::/53,no-resolve
-IP-CIDR6,2605:d580:1401:c000::/50,no-resolve
+IP-CIDR6,2605:d580:1401:c000::/51,no-resolve
+IP-CIDR6,2605:d580:1401:e000::/53,no-resolve
+IP-CIDR6,2605:d580:1401:e800::/57,no-resolve
+IP-CIDR6,2605:d580:1401:e880::/59,no-resolve
+IP-CIDR6,2605:d580:1401:e8a0::/60,no-resolve
+IP-CIDR6,2605:d580:1401:e8b0::/61,no-resolve
+IP-CIDR6,2605:d580:1401:e8b8::/63,no-resolve
+IP-CIDR6,2605:d580:1401:e8bb::/64,no-resolve
+IP-CIDR6,2605:d580:1401:e8bc::/62,no-resolve
+IP-CIDR6,2605:d580:1401:e8c0::/58,no-resolve
+IP-CIDR6,2605:d580:1401:e900::/56,no-resolve
+IP-CIDR6,2605:d580:1401:ea00::/55,no-resolve
+IP-CIDR6,2605:d580:1401:ec00::/54,no-resolve
+IP-CIDR6,2605:d580:1401:f000::/52,no-resolve
 IP-CIDR6,2605:d580:1402:1000::/53,no-resolve
 IP-CIDR6,2605:d580:1402:1800::/58,no-resolve
 IP-CIDR6,2605:d580:1402:1840::/59,no-resolve
@@ -1945,7 +1958,23 @@ IP-CIDR6,2605:d580:1414:ba::/64,no-resolve
 IP-CIDR6,2605:d580:1414:bc::/62,no-resolve
 IP-CIDR6,2605:d580:1414:c0::/58,no-resolve
 IP-CIDR6,2605:d580:1415::/48,no-resolve
-IP-CIDR6,2605:d580:1416::/47,no-resolve
+IP-CIDR6,2605:d580:1416::/48,no-resolve
+IP-CIDR6,2605:d580:1417:4000::/53,no-resolve
+IP-CIDR6,2605:d580:1417:4800::/54,no-resolve
+IP-CIDR6,2605:d580:1417:4c00::/55,no-resolve
+IP-CIDR6,2605:d580:1417:4e00::/56,no-resolve
+IP-CIDR6,2605:d580:1417:4f00::/57,no-resolve
+IP-CIDR6,2605:d580:1417:4f80::/58,no-resolve
+IP-CIDR6,2605:d580:1417:4fc0::/60,no-resolve
+IP-CIDR6,2605:d580:1417:4fd0::/63,no-resolve
+IP-CIDR6,2605:d580:1417:4fd3::/64,no-resolve
+IP-CIDR6,2605:d580:1417:4fd4::/62,no-resolve
+IP-CIDR6,2605:d580:1417:4fd8::/61,no-resolve
+IP-CIDR6,2605:d580:1417:4fe0::/59,no-resolve
+IP-CIDR6,2605:d580:1417:5000::/52,no-resolve
+IP-CIDR6,2605:d580:1417:6000::/51,no-resolve
+IP-CIDR6,2605:d580:1417:8000::/49,no-resolve
+IP-CIDR6,2605:d580:1417::/50,no-resolve
 IP-CIDR6,2605:d580:1418::/45,no-resolve
 IP-CIDR6,2605:d580:1420::/43,no-resolve
 IP-CIDR6,2605:d580:1440::/42,no-resolve

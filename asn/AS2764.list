@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS2764.json
-# Status: complete; emitted: 1319; unsupported: 0
+# Status: complete; emitted: 1313; unsupported: 0
 IP-CIDR,103.1.57.0/24,no-resolve
 IP-CIDR,103.102.232.0/23,no-resolve
 IP-CIDR,103.103.1.0/24,no-resolve
@@ -1257,14 +1257,12 @@ IP-CIDR6,2404:bf40:82c0::/48,no-resolve
 IP-CIDR6,2404:bf40:8300::/47,no-resolve
 IP-CIDR6,2404:bf40:8302::/48,no-resolve
 IP-CIDR6,2404:bf40:8381::/48,no-resolve
-IP-CIDR6,2404:bf40:8405::/48,no-resolve
 IP-CIDR6,2404:bf40:8442::/48,no-resolve
 IP-CIDR6,2404:bf40:84c2::/48,no-resolve
 IP-CIDR6,2404:bf40:8642::/48,no-resolve
 IP-CIDR6,2404:bf40:86c1::/48,no-resolve
 IP-CIDR6,2404:bf40:8841::/48,no-resolve
 IP-CIDR6,2404:bf40:8844::/48,no-resolve
-IP-CIDR6,2404:bf40:89c2::/48,no-resolve
 IP-CIDR6,2404:bf40:89c4::/47,no-resolve
 IP-CIDR6,2404:bf40:8a02::/48,no-resolve
 IP-CIDR6,2404:bf40:a105::/48,no-resolve
@@ -1279,7 +1277,6 @@ IP-CIDR6,2404:bf40:a400::/48,no-resolve
 IP-CIDR6,2404:bf40:a587::/48,no-resolve
 IP-CIDR6,2404:bf40:a589::/48,no-resolve
 IP-CIDR6,2404:bf40:a601::/48,no-resolve
-IP-CIDR6,2404:bf40:a604::/48,no-resolve
 IP-CIDR6,2404:bf40:a640::/48,no-resolve
 IP-CIDR6,2404:bf40:a681::/48,no-resolve
 IP-CIDR6,2404:bf40:a685::/48,no-resolve
@@ -1292,7 +1289,6 @@ IP-CIDR6,2404:bf40:c242::/48,no-resolve
 IP-CIDR6,2404:bf40:c244::/48,no-resolve
 IP-CIDR6,2404:bf40:c2c2::/48,no-resolve
 IP-CIDR6,2404:bf40:c443::/48,no-resolve
-IP-CIDR6,2404:bf40:c4c4::/48,no-resolve
 IP-CIDR6,2404:bf40:c4c6::/48,no-resolve
 IP-CIDR6,2404:bf40:e001::/48,no-resolve
 IP-CIDR6,2404:bf40:e007::/48,no-resolve
@@ -1304,9 +1300,7 @@ IP-CIDR6,2404:bf40:e302::/48,no-resolve
 IP-CIDR6,2404:bf40:e307::/48,no-resolve
 IP-CIDR6,2404:bf40:e308::/48,no-resolve
 IP-CIDR6,2404:bf40:e605::/48,no-resolve
-IP-CIDR6,2404:bf40:e800::/48,no-resolve
 IP-CIDR6,2404:bf40:e903::/48,no-resolve
-IP-CIDR6,2404:bf40:ea05::/48,no-resolve
 IP-CIDR6,2404:bf40:f006::/48,no-resolve
 IP-CIDR6,2404:bf40:f00b::/48,no-resolve
 IP-CIDR6,2404:bf40:f200::/48,no-resolve

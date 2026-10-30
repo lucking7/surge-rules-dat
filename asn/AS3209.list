@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS3209.json
-# Status: complete; emitted: 559; unsupported: 0
+# Status: complete; emitted: 530; unsupported: 0
 IP-CIDR,109.192.0.0/15,no-resolve
 IP-CIDR,109.40.0.0/13,no-resolve
 IP-CIDR,109.84.0.0/15,no-resolve
@@ -327,37 +327,8 @@ IP-CIDR6,2a02:8109:3300::/40,no-resolve
 IP-CIDR6,2a02:8109:3400::/38,no-resolve
 IP-CIDR6,2a02:8109:3800::/37,no-resolve
 IP-CIDR6,2a02:8109:4000::/34,no-resolve
-IP-CIDR6,2a02:8109:8000::/35,no-resolve
+IP-CIDR6,2a02:8109:8000::/34,no-resolve
 IP-CIDR6,2a02:8109::/35,no-resolve
-IP-CIDR6,2a02:8109:a000::/37,no-resolve
-IP-CIDR6,2a02:8109:a800::/41,no-resolve
-IP-CIDR6,2a02:8109:a880::/44,no-resolve
-IP-CIDR6,2a02:8109:a890::/48,no-resolve
-IP-CIDR6,2a02:8109:a891:8000::/50,no-resolve
-IP-CIDR6,2a02:8109:a891::/49,no-resolve
-IP-CIDR6,2a02:8109:a891:c000::/51,no-resolve
-IP-CIDR6,2a02:8109:a891:e000::/53,no-resolve
-IP-CIDR6,2a02:8109:a891:e800::/55,no-resolve
-IP-CIDR6,2a02:8109:a891:ea01::/64,no-resolve
-IP-CIDR6,2a02:8109:a891:ea02::/63,no-resolve
-IP-CIDR6,2a02:8109:a891:ea04::/62,no-resolve
-IP-CIDR6,2a02:8109:a891:ea08::/61,no-resolve
-IP-CIDR6,2a02:8109:a891:ea10::/60,no-resolve
-IP-CIDR6,2a02:8109:a891:ea20::/59,no-resolve
-IP-CIDR6,2a02:8109:a891:ea40::/58,no-resolve
-IP-CIDR6,2a02:8109:a891:ea80::/57,no-resolve
-IP-CIDR6,2a02:8109:a891:eb00::/56,no-resolve
-IP-CIDR6,2a02:8109:a891:ec00::/54,no-resolve
-IP-CIDR6,2a02:8109:a891:f000::/52,no-resolve
-IP-CIDR6,2a02:8109:a892::/47,no-resolve
-IP-CIDR6,2a02:8109:a894::/46,no-resolve
-IP-CIDR6,2a02:8109:a898::/45,no-resolve
-IP-CIDR6,2a02:8109:a8a0::/43,no-resolve
-IP-CIDR6,2a02:8109:a8c0::/42,no-resolve
-IP-CIDR6,2a02:8109:a900::/40,no-resolve
-IP-CIDR6,2a02:8109:aa00::/39,no-resolve
-IP-CIDR6,2a02:8109:ac00::/38,no-resolve
-IP-CIDR6,2a02:8109:b000::/36,no-resolve
 IP-CIDR6,2a02:8109:c000::/35,no-resolve
 IP-CIDR6,2a02:8109:e000::/36,no-resolve
 IP-CIDR6,2a02:8109:f000::/37,no-resolve
