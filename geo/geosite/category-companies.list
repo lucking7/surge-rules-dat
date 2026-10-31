@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-companies.json
-# Status: partial; emitted: 8660; unsupported: 6
+# Status: partial; emitted: 8662; unsupported: 6
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,1l-hit.mail.ru
 DOMAIN,1l-hit.vkplay.ru
@@ -2554,6 +2554,7 @@ DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,bingapistatistics.com
 DOMAIN-SUFFIX,bingparachute.com
 DOMAIN-SUFFIX,bingsandbox.com
+DOMAIN-SUFFIX,bingstatic.com
 DOMAIN-SUFFIX,bingvisualsearch.com
 DOMAIN-SUFFIX,bingworld.com
 DOMAIN-SUFFIX,binoculus.com
@@ -6330,6 +6331,7 @@ DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msfteducation.ca
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,msftnet.org
+DOMAIN-SUFFIX,msftstatic.com
 DOMAIN-SUFFIX,msgamesresearch.com
 DOMAIN-SUFFIX,msgamestudios.com
 DOMAIN-SUFFIX,mshome.net

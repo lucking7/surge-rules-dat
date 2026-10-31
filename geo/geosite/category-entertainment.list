@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-entertainment.json
-# Status: partial; emitted: 2149; unsupported: 10
+# Status: partial; emitted: 2153; unsupported: 10
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,a.ppy.sh
 DOMAIN,a4e8s8k3.map2.ssl.hwcdn.net
@@ -364,6 +364,7 @@ DOMAIN-SUFFIX,amc.com
 DOMAIN-SUFFIX,amcn.com
 DOMAIN-SUFFIX,amcnetworks.com
 DOMAIN-SUFFIX,amcplus.com
+DOMAIN-SUFFIX,amdgaming.com
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,amebame.com
 DOMAIN-SUFFIX,amebaownd.com
@@ -1785,11 +1786,14 @@ DOMAIN-SUFFIX,tiktokeu-cdn.com
 DOMAIN-SUFFIX,tiktokglobalshopv.com
 DOMAIN-SUFFIX,tiktokminis.us
 DOMAIN-SUFFIX,tiktokrow-cdn.com
+DOMAIN-SUFFIX,tiktokshop.com
+DOMAIN-SUFFIX,tiktokstaticb.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.com.edgekey.net
 DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
 DOMAIN-SUFFIX,tiktokv.eu
 DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokvapp.com
 DOMAIN-SUFFIX,tiktokw.eu
 DOMAIN-SUFFIX,tiktokw.us
 DOMAIN-SUFFIX,titanfall.com

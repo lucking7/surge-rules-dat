@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-cn.json
-# Status: partial; emitted: 5407; unsupported: 3
+# Status: partial; emitted: 5410; unsupported: 3
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,ai.zhaomi.cn
 DOMAIN,api.blipsandchitz.me
@@ -1750,6 +1750,9 @@ DOMAIN-SUFFIX,fastapi.net
 DOMAIN-SUFFIX,fastcdn.com
 DOMAIN-SUFFIX,fastcdn.com.cn
 DOMAIN-SUFFIX,fastcom.com.cn
+DOMAIN-SUFFIX,favonis.cloud
+DOMAIN-SUFFIX,favonis.com
+DOMAIN-SUFFIX,favonis.space
 DOMAIN-SUFFIX,faxingbao.com
 DOMAIN-SUFFIX,fbank.com
 DOMAIN-SUFFIX,fbstatic.cn
