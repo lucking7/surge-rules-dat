@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-cas.json
-# Status: complete; emitted: 257; unsupported: 0
+# Status: complete; emitted: 259; unsupported: 0
 DOMAIN,c.pki.goog
 DOMAIN,cdn.globalsigncdn.com.cdn.cloudflare.net
 DOMAIN,certs-lb.apple.com.akadns.net
@@ -250,6 +250,7 @@ DOMAIN-SUFFIX,vodafone.com.tr
 DOMAIN-SUFFIX,vodafone.de
 DOMAIN-SUFFIX,vodafone.it
 DOMAIN-SUFFIX,vodafone.nl
+DOMAIN-SUFFIX,vodafoneziggo.nl
 DOMAIN-SUFFIX,wisecoin.com
 DOMAIN-SUFFIX,wiseid.com
 DOMAIN-SUFFIX,wisekey.com
@@ -258,3 +259,4 @@ DOMAIN-SUFFIX,ws.symantec.com
 DOMAIN-SUFFIX,wsimg.com
 DOMAIN-SUFFIX,x.co
 DOMAIN-SUFFIX,zert.ch
+DOMAIN-SUFFIX,ziggo.nl
