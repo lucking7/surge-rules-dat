@@ -116,9 +116,9 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geoip/ck.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/ck.list) | 115 | 0 | complete |
 | [geo/geoip/cl.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/cl.list) | 9618 | 0 | complete |
 | [geo/geoip/cloudflare.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/cloudflare.list) | 788 | 0 | complete |
-| [geo/geoip/cloudfront.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/cloudfront.list) | 246 | 0 | complete |
+| [geo/geoip/cloudfront.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/cloudfront.list) | 247 | 0 | complete |
 | [geo/geoip/cm.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/cm.list) | 287 | 0 | complete |
-| [geo/geoip/cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/cn.list) | 10012 | 0 | complete |
+| [geo/geoip/cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/cn.list) | 9662 | 0 | complete |
 | [geo/geoip/co.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/co.list) | 3857 | 0 | complete |
 | [geo/geoip/cr.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/cr.list) | 912 | 0 | complete |
 | [geo/geoip/cu.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/cu.list) | 185 | 0 | complete |
@@ -301,7 +301,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geoip/tm.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/tm.list) | 152 | 0 | complete |
 | [geo/geoip/tn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/tn.list) | 328 | 0 | complete |
 | [geo/geoip/to.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/to.list) | 120 | 0 | complete |
-| [geo/geoip/tor.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/tor.list) | 659 | 0 | complete |
+| [geo/geoip/tor.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/tor.list) | 668 | 0 | complete |
 | [geo/geoip/tr.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/tr.list) | 6038 | 0 | complete |
 | [geo/geoip/tt.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/tt.list) | 284 | 0 | complete |
 | [geo/geoip/tv.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geoip/tv.list) | 106 | 0 | complete |
@@ -791,7 +791,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/category-retail-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-retail-ru.list) | 82 | 0 | complete |
 | [geo/geosite/category-retail-ru@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-retail-ru%40ads.list) | 3 | 0 | complete |
 | [geo/geosite/category-retail-ru@telemetry.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-retail-ru%40telemetry.list) | 1 | 0 | complete |
-| [geo/geosite/category-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru.list) | 1157 | 0 | complete |
+| [geo/geosite/category-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru.list) | 1158 | 0 | complete |
 | [geo/geosite/category-ru@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru%40ads.list) | 189 | 0 | complete |
 | [geo/geosite/category-ru@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru%40cn.list) | 98 | 0 | complete |
 | [geo/geosite/category-ru@telemetry.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru%40telemetry.list) | 50 | 0 | complete |
