@@ -1,5 +1,5 @@
 {
-  "upstream_sha": "3b12862d8ca1d31c30a36db14945c8a370356cfb",
+  "upstream_sha": "f78aeb1c01f3f7e020d9e7fcfa4f7198120a10be",
   "rules": [
     {
       "source": "geo-lite/geosite/private.json",
@@ -490,7 +490,7 @@
     {
       "source": "geo/geosite/category-porn.json",
       "field": "domain_regex",
-      "value": "(^|\\.)91cg([1-9]|[0-9][1-9])?.com$",
+      "value": "(^|\\.)91cg([1-9]|[0-9][1-9])?\\.com$",
       "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
     },
     {
@@ -815,6 +815,12 @@
       "source": "geo/geosite/category-porn.json",
       "field": "domain_regex",
       "value": "(^|\\.)jav777\\.(cc|tv|work)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/category-porn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)javdb\\d+\\.com$",
       "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
     },
     {
@@ -1250,12 +1256,6 @@
       "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
     },
     {
-      "source": "geo/geosite/category-porn.json",
-      "field": "domain_regex",
-      "value": "javdb\\d+\\.com$",
-      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
-    },
-    {
       "source": "geo/geosite/category-speedtest.json",
       "field": "domain_regex",
       "value": "^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
@@ -1384,7 +1384,7 @@
     {
       "source": "geo/geosite/geolocation-!cn.json",
       "field": "domain_regex",
-      "value": "(^|\\.)91cg([1-9]|[0-9][1-9])?.com$",
+      "value": "(^|\\.)91cg([1-9]|[0-9][1-9])?\\.com$",
       "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
     },
     {
@@ -1733,6 +1733,12 @@
       "source": "geo/geosite/geolocation-!cn.json",
       "field": "domain_regex",
       "value": "(^|\\.)jav777\\.(cc|tv|work)$",
+      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
+    },
+    {
+      "source": "geo/geosite/geolocation-!cn.json",
+      "field": "domain_regex",
+      "value": "(^|\\.)javdb\\d+\\.com$",
       "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
     },
     {
@@ -2210,12 +2216,6 @@
       "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
     },
     {
-      "source": "geo/geosite/geolocation-!cn.json",
-      "field": "domain_regex",
-      "value": "javdb\\d+\\.com$",
-      "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
-    },
-    {
       "source": "geo/geosite/geolocation-cn.json",
       "field": "domain_regex",
       "value": ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
@@ -2308,7 +2308,7 @@
     {
       "source": "geo/geosite/javdb.json",
       "field": "domain_regex",
-      "value": "javdb\\d+\\.com$",
+      "value": "(^|\\.)javdb\\d+\\.com$",
       "reason": "Surge RULE-SET does not support DOMAIN-REGEX"
     },
     {
