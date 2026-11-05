@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/li.json
-# Status: complete; emitted: 491; unsupported: 0
+# Status: complete; emitted: 490; unsupported: 0
 IP-CIDR,102.206.51.0/24,no-resolve
 IP-CIDR,102.38.237.0/24,no-resolve
 IP-CIDR,104.28.11.168/31,no-resolve
@@ -39,6 +39,7 @@ IP-CIDR,130.41.83.247/32,no-resolve
 IP-CIDR,130.41.83.248/32,no-resolve
 IP-CIDR,130.41.83.253/32,no-resolve
 IP-CIDR,130.41.83.254/31,no-resolve
+IP-CIDR,130.43.168.0/24,no-resolve
 IP-CIDR,134.231.199.64/26,no-resolve
 IP-CIDR,134.238.123.128/25,no-resolve
 IP-CIDR,134.238.123.96/27,no-resolve
@@ -206,14 +207,6 @@ IP-CIDR,195.225.200.0/22,no-resolve
 IP-CIDR,195.242.248.0/22,no-resolve
 IP-CIDR,195.245.218.0/24,no-resolve
 IP-CIDR,195.254.128.0/23,no-resolve
-IP-CIDR,196.196.123.0/24,no-resolve
-IP-CIDR,196.197.123.0/24,no-resolve
-IP-CIDR,196.198.123.0/24,no-resolve
-IP-CIDR,196.199.123.0/24,no-resolve
-IP-CIDR,196.48.123.0/24,no-resolve
-IP-CIDR,196.56.123.0/24,no-resolve
-IP-CIDR,196.57.123.0/24,no-resolve
-IP-CIDR,196.58.123.0/24,no-resolve
 IP-CIDR,200.162.150.0/24,no-resolve
 IP-CIDR,202.181.128.66/31,no-resolve
 IP-CIDR,202.181.128.68/30,no-resolve
@@ -379,6 +372,9 @@ IP-CIDR,91.217.207.0/24,no-resolve
 IP-CIDR,91.232.229.0/24,no-resolve
 IP-CIDR,91.90.122.0/24,no-resolve
 IP-CIDR,94.119.3.64/29,no-resolve
+IP-CIDR,94.192.73.68/31,no-resolve
+IP-CIDR,94.192.75.68/31,no-resolve
+IP-CIDR,94.192.77.68/31,no-resolve
 IP-CIDR,95.142.116.0/24,no-resolve
 IP-CIDR,98.159.226.176/28,no-resolve
 IP-CIDR6,2001:3786:5001:200::/56,no-resolve
@@ -443,6 +439,9 @@ IP-CIDR6,2a04:4e41:58:aa00::/55,no-resolve
 IP-CIDR6,2a04:4e41:5c:aa00::/55,no-resolve
 IP-CIDR6,2a04:4e41:60:aa00::/55,no-resolve
 IP-CIDR6,2a04:4e41:70:aa00::/55,no-resolve
+IP-CIDR6,2a04:4e41:80:9600::/56,no-resolve
+IP-CIDR6,2a04:4e41:84:9600::/56,no-resolve
+IP-CIDR6,2a04:4e41:88:9600::/56,no-resolve
 IP-CIDR6,2a06:1940::/29,no-resolve
 IP-CIDR6,2a07:d887:8000::/40,no-resolve
 IP-CIDR6,2a07:e342:6000::/46,no-resolve

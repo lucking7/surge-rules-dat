@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/is.json
-# Status: complete; emitted: 829; unsupported: 0
+# Status: complete; emitted: 827; unsupported: 0
 IP-CIDR,103.146.102.0/24,no-resolve
 IP-CIDR,104.28.11.31/32,no-resolve
 IP-CIDR,104.28.11.32/31,no-resolve
@@ -234,13 +234,6 @@ IP-CIDR,194.68.191.0/24,no-resolve
 IP-CIDR,195.130.211.0/24,no-resolve
 IP-CIDR,195.162.68.0/24,no-resolve
 IP-CIDR,195.246.230.0/23,no-resolve
-IP-CIDR,196.197.100.0/24,no-resolve
-IP-CIDR,196.198.100.0/24,no-resolve
-IP-CIDR,196.199.100.0/24,no-resolve
-IP-CIDR,196.48.100.0/24,no-resolve
-IP-CIDR,196.56.100.0/24,no-resolve
-IP-CIDR,196.57.100.0/24,no-resolve
-IP-CIDR,196.58.100.0/24,no-resolve
 IP-CIDR,2.56.243.0/24,no-resolve
 IP-CIDR,204.3.12.0/24,no-resolve
 IP-CIDR,206.109.204.0/23,no-resolve
@@ -384,6 +377,9 @@ IP-CIDR,93.95.25.0/24,no-resolve
 IP-CIDR,93.95.72.0/21,no-resolve
 IP-CIDR,94.142.152.0/21,no-resolve
 IP-CIDR,94.143.224.0/24,no-resolve
+IP-CIDR,94.192.73.20/31,no-resolve
+IP-CIDR,94.192.75.20/31,no-resolve
+IP-CIDR,94.192.77.20/31,no-resolve
 IP-CIDR,94.198.48.0/23,no-resolve
 IP-CIDR,94.23.190.152/30,no-resolve
 IP-CIDR,95.133.160.0/23,no-resolve
@@ -519,7 +515,6 @@ IP-CIDR6,2602:fd50:82f0::/45,no-resolve
 IP-CIDR6,2602:fd50:82f8::/47,no-resolve
 IP-CIDR6,2604:ca00:188::/49,no-resolve
 IP-CIDR6,2604:ca00:198::/49,no-resolve
-IP-CIDR6,2605:e440:42::/48,no-resolve
 IP-CIDR6,2606:40:21a0:a000::/54,no-resolve
 IP-CIDR6,2606:40:21b0:e000::/54,no-resolve
 IP-CIDR6,2606:40:2302:4000::/54,no-resolve
@@ -598,6 +593,9 @@ IP-CIDR6,2a04:4e41:60:a600::/55,no-resolve
 IP-CIDR6,2a04:4e41:70:a600::/55,no-resolve
 IP-CIDR6,2a04:4e41:7403:3000::/52,no-resolve
 IP-CIDR6,2a04:4e41:7410::/48,no-resolve
+IP-CIDR6,2a04:4e41:80:7e00::/56,no-resolve
+IP-CIDR6,2a04:4e41:84:7e00::/56,no-resolve
+IP-CIDR6,2a04:4e41:88:7e00::/56,no-resolve
 IP-CIDR6,2a04:9840::/29,no-resolve
 IP-CIDR6,2a05:6f00::/29,no-resolve
 IP-CIDR6,2a05:8480::/29,no-resolve

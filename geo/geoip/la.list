@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/la.json
-# Status: complete; emitted: 270; unsupported: 0
+# Status: complete; emitted: 269; unsupported: 0
 IP-CIDR,101.78.8.0/21,no-resolve
 IP-CIDR,103.1.232.0/22,no-resolve
 IP-CIDR,103.1.28.0/22,no-resolve
@@ -131,14 +131,6 @@ IP-CIDR,195.158.206.128/26,no-resolve
 IP-CIDR,195.158.206.192/27,no-resolve
 IP-CIDR,195.158.206.224/28,no-resolve
 IP-CIDR,195.158.207.0/25,no-resolve
-IP-CIDR,196.196.118.0/24,no-resolve
-IP-CIDR,196.197.118.0/24,no-resolve
-IP-CIDR,196.198.118.0/24,no-resolve
-IP-CIDR,196.199.118.0/24,no-resolve
-IP-CIDR,196.48.118.0/24,no-resolve
-IP-CIDR,196.56.118.0/24,no-resolve
-IP-CIDR,196.57.118.0/24,no-resolve
-IP-CIDR,196.58.118.0/24,no-resolve
 IP-CIDR,198.145.154.0/24,no-resolve
 IP-CIDR,199.235.129.0/24,no-resolve
 IP-CIDR,202.123.176.0/21,no-resolve
@@ -150,6 +142,7 @@ IP-CIDR,202.9.76.0/23,no-resolve
 IP-CIDR,203.110.64.0/20,no-resolve
 IP-CIDR,203.19.5.0/24,no-resolve
 IP-CIDR,203.76.252.0/22,no-resolve
+IP-CIDR,38.108.112.0/24,no-resolve
 IP-CIDR,38.135.66.0/23,no-resolve
 IP-CIDR,38.18.152.0/21,no-resolve
 IP-CIDR,38.43.122.40/32,no-resolve
@@ -169,6 +162,9 @@ IP-CIDR,5.62.60.210/31,no-resolve
 IP-CIDR,57.72.84.0/22,no-resolve
 IP-CIDR,63.246.46.128/26,no-resolve
 IP-CIDR,64.64.98.0/24,no-resolve
+IP-CIDR,94.192.73.56/31,no-resolve
+IP-CIDR,94.192.75.56/31,no-resolve
+IP-CIDR,94.192.77.56/31,no-resolve
 IP-CIDR6,2001:3786:3373:200::/56,no-resolve
 IP-CIDR6,2001:470:19:1224::/64,no-resolve
 IP-CIDR6,2001:470:19:168::/64,no-resolve
@@ -253,6 +249,9 @@ IP-CIDR6,2a04:4e41:4087:d000::/52,no-resolve
 IP-CIDR6,2a04:4e41:520f::/48,no-resolve
 IP-CIDR6,2a04:4e41:5e0f::/48,no-resolve
 IP-CIDR6,2a04:4e41:760f::/48,no-resolve
+IP-CIDR6,2a04:4e41:80:9000::/56,no-resolve
+IP-CIDR6,2a04:4e41:84:9000::/56,no-resolve
+IP-CIDR6,2a04:4e41:88:9000::/56,no-resolve
 IP-CIDR6,2a07:d887:7d00::/40,no-resolve
 IP-CIDR6,2a09:a702:44::/48,no-resolve
 IP-CIDR6,2a09:a702:86::/48,no-resolve

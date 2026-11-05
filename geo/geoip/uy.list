@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/uy.json
-# Status: complete; emitted: 426; unsupported: 0
+# Status: complete; emitted: 428; unsupported: 0
 IP-CIDR,104.28.113.206/31,no-resolve
 IP-CIDR,104.28.115.96/31,no-resolve
 IP-CIDR,104.28.15.63/32,no-resolve
@@ -16,6 +16,9 @@ IP-CIDR,104.28.227.246/32,no-resolve
 IP-CIDR,104.28.23.232/29,no-resolve
 IP-CIDR,104.28.47.242/31,no-resolve
 IP-CIDR,104.28.59.166/31,no-resolve
+IP-CIDR,104.28.59.171/32,no-resolve
+IP-CIDR,104.28.59.172/30,no-resolve
+IP-CIDR,104.28.59.176/28,no-resolve
 IP-CIDR,104.28.63.234/31,no-resolve
 IP-CIDR,104.29.194.8/30,no-resolve
 IP-CIDR,128.77.117.96/27,no-resolve
@@ -219,13 +222,6 @@ IP-CIDR,190.99.96.0/20,no-resolve
 IP-CIDR,191.166.0.0/16,no-resolve
 IP-CIDR,192.146.237.0/24,no-resolve
 IP-CIDR,193.186.4.222/32,no-resolve
-IP-CIDR,196.197.201.0/24,no-resolve
-IP-CIDR,196.198.201.0/24,no-resolve
-IP-CIDR,196.199.201.0/24,no-resolve
-IP-CIDR,196.48.201.0/24,no-resolve
-IP-CIDR,196.56.201.0/24,no-resolve
-IP-CIDR,196.57.201.0/24,no-resolve
-IP-CIDR,196.58.201.0/24,no-resolve
 IP-CIDR,198.145.158.0/24,no-resolve
 IP-CIDR,198.145.77.0/24,no-resolve
 IP-CIDR,198.228.97.28/32,no-resolve
@@ -290,6 +286,9 @@ IP-CIDR,83.137.198.96/29,no-resolve
 IP-CIDR,83.137.199.96/29,no-resolve
 IP-CIDR,84.247.100.0/23,no-resolve
 IP-CIDR,92.118.186.0/25,no-resolve
+IP-CIDR,94.192.73.238/31,no-resolve
+IP-CIDR,94.192.75.238/31,no-resolve
+IP-CIDR,94.192.77.238/31,no-resolve
 IP-CIDR,98.159.34.128/28,no-resolve
 IP-CIDR6,2001:1328::/32,no-resolve
 IP-CIDR6,2001:1348::/32,no-resolve
@@ -399,6 +398,9 @@ IP-CIDR6,2a04:4e41:6200:5000::/52,no-resolve
 IP-CIDR6,2a04:4e41:6208::/48,no-resolve
 IP-CIDR6,2a04:4e41:6300:5000::/52,no-resolve
 IP-CIDR6,2a04:4e41:6308::/48,no-resolve
+IP-CIDR6,2a04:4e41:80:eb00::/56,no-resolve
+IP-CIDR6,2a04:4e41:84:eb00::/56,no-resolve
+IP-CIDR6,2a04:4e41:88:eb00::/56,no-resolve
 IP-CIDR6,2a07:d887:e800::/40,no-resolve
 IP-CIDR6,2a09:a702:3c::/47,no-resolve
 IP-CIDR6,2a09:a702:82::/47,no-resolve

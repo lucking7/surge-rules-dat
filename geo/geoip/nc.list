@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/nc.json
-# Status: complete; emitted: 181; unsupported: 0
+# Status: complete; emitted: 182; unsupported: 0
 IP-CIDR,101.101.0.0/18,no-resolve
 IP-CIDR,103.105.191.0/24,no-resolve
 IP-CIDR,103.123.232.0/23,no-resolve
@@ -128,7 +128,8 @@ IP-CIDR6,2606:54c1:1:767::/64,no-resolve
 IP-CIDR6,2606:54c1:1:ff::/64,no-resolve
 IP-CIDR6,2606:54c3:0:1444::/64,no-resolve
 IP-CIDR6,2606:54c3:0:16cd::/64,no-resolve
-IP-CIDR6,2a02:26f7:fb80::/48,no-resolve
+IP-CIDR6,2a02:26f7:fb80:4000::/64,no-resolve
+IP-CIDR6,2a02:26f7:fb80:c5e0::/64,no-resolve
 IP-CIDR6,2a02:26f7:fb81:4000::/64,no-resolve
 IP-CIDR6,2a02:26f7:fb82:4000::/64,no-resolve
 IP-CIDR6,2a02:26f7:fb82:c5e0::/64,no-resolve
