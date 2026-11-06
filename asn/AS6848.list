@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS6848.json
-# Status: complete; emitted: 112; unsupported: 0
+# Status: complete; emitted: 141; unsupported: 0
 IP-CIDR,141.134.0.0/15,no-resolve
 IP-CIDR,155.73.100.0/24,no-resolve
 IP-CIDR,157.173.128.0/18,no-resolve
@@ -71,6 +71,35 @@ IP-CIDR6,2001:67c:1902::/47,no-resolve
 IP-CIDR6,2a00:1cf8::/32,no-resolve
 IP-CIDR6,2a01:498::/32,no-resolve
 IP-CIDR6,2a02:1800::/28,no-resolve
+IP-CIDR6,2a02:1810:2000::/37,no-resolve
+IP-CIDR6,2a02:1810:2800::/38,no-resolve
+IP-CIDR6,2a02:1810:2c00::/39,no-resolve
+IP-CIDR6,2a02:1810:2e00::/40,no-resolve
+IP-CIDR6,2a02:1810:2f00::/43,no-resolve
+IP-CIDR6,2a02:1810:2f20::/45,no-resolve
+IP-CIDR6,2a02:1810:2f28::/48,no-resolve
+IP-CIDR6,2a02:1810:2f29:8000::/51,no-resolve
+IP-CIDR6,2a02:1810:2f29::/49,no-resolve
+IP-CIDR6,2a02:1810:2f29:a000::/56,no-resolve
+IP-CIDR6,2a02:1810:2f29:a101::/64,no-resolve
+IP-CIDR6,2a02:1810:2f29:a102::/63,no-resolve
+IP-CIDR6,2a02:1810:2f29:a104::/62,no-resolve
+IP-CIDR6,2a02:1810:2f29:a108::/61,no-resolve
+IP-CIDR6,2a02:1810:2f29:a110::/60,no-resolve
+IP-CIDR6,2a02:1810:2f29:a120::/59,no-resolve
+IP-CIDR6,2a02:1810:2f29:a140::/58,no-resolve
+IP-CIDR6,2a02:1810:2f29:a180::/57,no-resolve
+IP-CIDR6,2a02:1810:2f29:a200::/55,no-resolve
+IP-CIDR6,2a02:1810:2f29:a400::/54,no-resolve
+IP-CIDR6,2a02:1810:2f29:a800::/53,no-resolve
+IP-CIDR6,2a02:1810:2f29:b000::/52,no-resolve
+IP-CIDR6,2a02:1810:2f29:c000::/50,no-resolve
+IP-CIDR6,2a02:1810:2f2a::/47,no-resolve
+IP-CIDR6,2a02:1810:2f2c::/46,no-resolve
+IP-CIDR6,2a02:1810:2f30::/44,no-resolve
+IP-CIDR6,2a02:1810:2f40::/42,no-resolve
+IP-CIDR6,2a02:1810:2f80::/41,no-resolve
+IP-CIDR6,2a02:1810:3000::/36,no-resolve
 IP-CIDR6,2a02:1810:4000::/37,no-resolve
 IP-CIDR6,2a02:1810:4800::/43,no-resolve
 IP-CIDR6,2a02:1810:4820::/44,no-resolve
@@ -102,7 +131,7 @@ IP-CIDR6,2a02:1810:4c00::/38,no-resolve
 IP-CIDR6,2a02:1810:5000::/36,no-resolve
 IP-CIDR6,2a02:1810:6000::/35,no-resolve
 IP-CIDR6,2a02:1810:8000::/33,no-resolve
-IP-CIDR6,2a02:1810::/34,no-resolve
+IP-CIDR6,2a02:1810::/35,no-resolve
 IP-CIDR6,2a02:1811::/32,no-resolve
 IP-CIDR6,2a02:1812::/31,no-resolve
 IP-CIDR6,2a02:1814::/30,no-resolve

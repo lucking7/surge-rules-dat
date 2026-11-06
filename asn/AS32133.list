@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS32133.json
-# Status: complete; emitted: 603; unsupported: 0
+# Status: complete; emitted: 642; unsupported: 0
 IP-CIDR,169.197.16.0/26,no-resolve
 IP-CIDR,169.197.16.112/29,no-resolve
 IP-CIDR,169.197.16.120/30,no-resolve
@@ -466,7 +466,25 @@ IP-CIDR6,2606:8e80:2832:d000::/52,no-resolve
 IP-CIDR6,2606:8e80:2832:e000::/51,no-resolve
 IP-CIDR6,2606:8e80:2833::/48,no-resolve
 IP-CIDR6,2606:8e80:2834::/46,no-resolve
-IP-CIDR6,2606:8e80:2838::/45,no-resolve
+IP-CIDR6,2606:8e80:2838::/47,no-resolve
+IP-CIDR6,2606:8e80:283a:8000::/50,no-resolve
+IP-CIDR6,2606:8e80:283a::/49,no-resolve
+IP-CIDR6,2606:8e80:283a:c000::/53,no-resolve
+IP-CIDR6,2606:8e80:283a:c800::/54,no-resolve
+IP-CIDR6,2606:8e80:283a:cc01::/64,no-resolve
+IP-CIDR6,2606:8e80:283a:cc02::/63,no-resolve
+IP-CIDR6,2606:8e80:283a:cc04::/62,no-resolve
+IP-CIDR6,2606:8e80:283a:cc08::/61,no-resolve
+IP-CIDR6,2606:8e80:283a:cc10::/60,no-resolve
+IP-CIDR6,2606:8e80:283a:cc20::/59,no-resolve
+IP-CIDR6,2606:8e80:283a:cc40::/58,no-resolve
+IP-CIDR6,2606:8e80:283a:cc80::/57,no-resolve
+IP-CIDR6,2606:8e80:283a:cd00::/56,no-resolve
+IP-CIDR6,2606:8e80:283a:ce00::/55,no-resolve
+IP-CIDR6,2606:8e80:283a:d000::/52,no-resolve
+IP-CIDR6,2606:8e80:283a:e000::/51,no-resolve
+IP-CIDR6,2606:8e80:283b::/48,no-resolve
+IP-CIDR6,2606:8e80:283c::/46,no-resolve
 IP-CIDR6,2606:8e80:2840::/42,no-resolve
 IP-CIDR6,2606:8e80:2880::/41,no-resolve
 IP-CIDR6,2606:8e80:2900::/40,no-resolve
@@ -496,7 +514,28 @@ IP-CIDR6,2606:8e80:5004::/46,no-resolve
 IP-CIDR6,2606:8e80:5008::/45,no-resolve
 IP-CIDR6,2606:8e80:5010::/44,no-resolve
 IP-CIDR6,2606:8e80:5020::/43,no-resolve
-IP-CIDR6,2606:8e80:5040::/42,no-resolve
+IP-CIDR6,2606:8e80:5040::/46,no-resolve
+IP-CIDR6,2606:8e80:5044::/47,no-resolve
+IP-CIDR6,2606:8e80:5046::/48,no-resolve
+IP-CIDR6,2606:8e80:5047:4000::/51,no-resolve
+IP-CIDR6,2606:8e80:5047:6000::/54,no-resolve
+IP-CIDR6,2606:8e80:5047:6400::/55,no-resolve
+IP-CIDR6,2606:8e80:5047:6601::/64,no-resolve
+IP-CIDR6,2606:8e80:5047:6602::/63,no-resolve
+IP-CIDR6,2606:8e80:5047:6604::/62,no-resolve
+IP-CIDR6,2606:8e80:5047:6608::/61,no-resolve
+IP-CIDR6,2606:8e80:5047:6610::/60,no-resolve
+IP-CIDR6,2606:8e80:5047:6620::/59,no-resolve
+IP-CIDR6,2606:8e80:5047:6640::/58,no-resolve
+IP-CIDR6,2606:8e80:5047:6680::/57,no-resolve
+IP-CIDR6,2606:8e80:5047:6700::/56,no-resolve
+IP-CIDR6,2606:8e80:5047:6800::/53,no-resolve
+IP-CIDR6,2606:8e80:5047:7000::/52,no-resolve
+IP-CIDR6,2606:8e80:5047:8000::/49,no-resolve
+IP-CIDR6,2606:8e80:5047::/50,no-resolve
+IP-CIDR6,2606:8e80:5048::/45,no-resolve
+IP-CIDR6,2606:8e80:5050::/44,no-resolve
+IP-CIDR6,2606:8e80:5060::/43,no-resolve
 IP-CIDR6,2606:8e80:5080::/41,no-resolve
 IP-CIDR6,2606:8e80:5100::/40,no-resolve
 IP-CIDR6,2606:8e80:5200::/39,no-resolve

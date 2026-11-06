@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS23910.json
-# Status: complete; emitted: 1242; unsupported: 0
+# Status: complete; emitted: 1240; unsupported: 0
 IP-CIDR6,2001:250:1000::/48,no-resolve
 IP-CIDR6,2001:250:100::/40,no-resolve
 IP-CIDR6,2001:250:100d::/48,no-resolve
@@ -127,7 +127,6 @@ IP-CIDR6,2001:250:2c3f::/48,no-resolve
 IP-CIDR6,2001:250:2c40::/42,no-resolve
 IP-CIDR6,2001:250:2c80::/41,no-resolve
 IP-CIDR6,2001:250:2d00::/40,no-resolve
-IP-CIDR6,2001:250:2e03::/48,no-resolve
 IP-CIDR6,2001:250:2e04::/46,no-resolve
 IP-CIDR6,2001:250:2e08::/45,no-resolve
 IP-CIDR6,2001:250:2e10::/44,no-resolve
@@ -141,7 +140,6 @@ IP-CIDR6,2001:250:3014::/48,no-resolve
 IP-CIDR6,2001:250:301b::/48,no-resolve
 IP-CIDR6,2001:250:3059::/48,no-resolve
 IP-CIDR6,2001:250:3083::/48,no-resolve
-IP-CIDR6,2001:250:308a::/48,no-resolve
 IP-CIDR6,2001:250:308c::/46,no-resolve
 IP-CIDR6,2001:250:3090::/44,no-resolve
 IP-CIDR6,2001:250:30a0::/43,no-resolve
@@ -226,7 +224,6 @@ IP-CIDR6,2001:250:4824::/48,no-resolve
 IP-CIDR6,2001:250:4844::/48,no-resolve
 IP-CIDR6,2001:250:484a::/47,no-resolve
 IP-CIDR6,2001:250:485b::/48,no-resolve
-IP-CIDR6,2001:250:485f::/48,no-resolve
 IP-CIDR6,2001:250:4861::/48,no-resolve
 IP-CIDR6,2001:250:4862::/47,no-resolve
 IP-CIDR6,2001:250:4864::/46,no-resolve
@@ -375,7 +372,6 @@ IP-CIDR6,2001:250:7800::/48,no-resolve
 IP-CIDR6,2001:250:7816::/48,no-resolve
 IP-CIDR6,2001:250:782b::/48,no-resolve
 IP-CIDR6,2001:250:782d::/48,no-resolve
-IP-CIDR6,2001:250:7831::/48,no-resolve
 IP-CIDR6,2001:250:7832::/47,no-resolve
 IP-CIDR6,2001:250:7834::/46,no-resolve
 IP-CIDR6,2001:250:7838::/45,no-resolve
@@ -708,8 +704,10 @@ IP-CIDR6,2001:da8:8003::/48,no-resolve
 IP-CIDR6,2001:da8:8009::/48,no-resolve
 IP-CIDR6,2001:da8:800::/38,no-resolve
 IP-CIDR6,2001:da8:800b::/48,no-resolve
+IP-CIDR6,2001:da8:8011::/48,no-resolve
 IP-CIDR6,2001:da8:8016::/47,no-resolve
 IP-CIDR6,2001:da8:8018::/48,no-resolve
+IP-CIDR6,2001:da8:801b::/48,no-resolve
 IP-CIDR6,2001:da8:801f::/48,no-resolve
 IP-CIDR6,2001:da8:8020::/48,no-resolve
 IP-CIDR6,2001:da8:802a::/48,no-resolve

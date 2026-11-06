@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS40065.json
-# Status: complete; emitted: 140; unsupported: 0
+# Status: complete; emitted: 126; unsupported: 0
 IP-CIDR,103.103.245.0/24,no-resolve
 IP-CIDR,103.103.48.0/22,no-resolve
 IP-CIDR,103.135.32.0/22,no-resolve
@@ -16,21 +16,15 @@ IP-CIDR,103.94.185.0/24,no-resolve
 IP-CIDR,103.99.115.0/24,no-resolve
 IP-CIDR,103.99.178.0/23,no-resolve
 IP-CIDR,104.194.212.0/24,no-resolve
+IP-CIDR,104.255.229.0/24,no-resolve
 IP-CIDR,123.136.80.0/21,no-resolve
 IP-CIDR,145.14.132.0/24,no-resolve
 IP-CIDR,149.104.32.0/22,no-resolve
 IP-CIDR,150.129.41.0/24,no-resolve
 IP-CIDR,154.194.64.0/23,no-resolve
 IP-CIDR,154.198.192.0/18,no-resolve
-IP-CIDR,154.208.2.0/23,no-resolve
-IP-CIDR,154.208.4.0/22,no-resolve
-IP-CIDR,154.208.8.0/22,no-resolve
-IP-CIDR,154.212.2.0/23,no-resolve
-IP-CIDR,154.214.4.0/22,no-resolve
-IP-CIDR,154.214.8.0/21,no-resolve
 IP-CIDR,154.39.72.0/23,no-resolve
 IP-CIDR,154.55.64.0/20,no-resolve
-IP-CIDR,154.84.10.0/24,no-resolve
 IP-CIDR,154.88.12.0/22,no-resolve
 IP-CIDR,154.88.16.0/23,no-resolve
 IP-CIDR,154.88.20.0/22,no-resolve
@@ -38,16 +32,11 @@ IP-CIDR,154.88.24.0/21,no-resolve
 IP-CIDR,154.88.4.0/22,no-resolve
 IP-CIDR,156.224.16.0/23,no-resolve
 IP-CIDR,156.227.16.0/22,no-resolve
-IP-CIDR,156.229.8.0/21,no-resolve
-IP-CIDR,156.235.2.0/23,no-resolve
-IP-CIDR,156.235.4.0/22,no-resolve
-IP-CIDR,156.235.8.0/21,no-resolve
 IP-CIDR,156.96.153.0/24,no-resolve
 IP-CIDR,162.209.128.0/18,no-resolve
 IP-CIDR,162.209.192.0/19,no-resolve
 IP-CIDR,162.209.224.0/20,no-resolve
-IP-CIDR,162.212.252.0/23,no-resolve
-IP-CIDR,162.212.255.0/24,no-resolve
+IP-CIDR,162.212.252.0/22,no-resolve
 IP-CIDR,162.218.48.0/21,no-resolve
 IP-CIDR,162.252.8.0/22,no-resolve
 IP-CIDR,162.253.66.0/23,no-resolve
@@ -122,9 +111,6 @@ IP-CIDR,45.12.88.0/24,no-resolve
 IP-CIDR,45.12.90.0/24,no-resolve
 IP-CIDR,45.120.208.0/22,no-resolve
 IP-CIDR,45.202.214.0/23,no-resolve
-IP-CIDR,45.205.2.0/23,no-resolve
-IP-CIDR,45.205.32.0/19,no-resolve
-IP-CIDR,45.205.8.0/21,no-resolve
 IP-CIDR,45.43.23.0/24,no-resolve
 IP-CIDR,45.43.9.0/24,no-resolve
 IP-CIDR,45.67.223.0/24,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS399898.json
-# Status: complete; emitted: 189; unsupported: 0
+# Status: complete; emitted: 220; unsupported: 0
 IP-CIDR,110.239.48.0/20,no-resolve
 IP-CIDR,147.124.80.0/20,no-resolve
 IP-CIDR,149.119.192.0/18,no-resolve
@@ -37,7 +37,38 @@ IP-CIDR6,2601:b008::/29,no-resolve
 IP-CIDR6,2601:b010::/28,no-resolve
 IP-CIDR6,2601:b020::/27,no-resolve
 IP-CIDR6,2601:b040::/27,no-resolve
-IP-CIDR6,2601:b060::/32,no-resolve
+IP-CIDR6,2601:b060:8000::/34,no-resolve
+IP-CIDR6,2601:b060::/33,no-resolve
+IP-CIDR6,2601:b060:c000::/35,no-resolve
+IP-CIDR6,2601:b060:e000::/36,no-resolve
+IP-CIDR6,2601:b060:f000::/37,no-resolve
+IP-CIDR6,2601:b060:f800::/38,no-resolve
+IP-CIDR6,2601:b060:fc00::/39,no-resolve
+IP-CIDR6,2601:b060:fe00::/40,no-resolve
+IP-CIDR6,2601:b060:ff00::/45,no-resolve
+IP-CIDR6,2601:b060:ff08::/48,no-resolve
+IP-CIDR6,2601:b060:ff09:8000::/50,no-resolve
+IP-CIDR6,2601:b060:ff09::/49,no-resolve
+IP-CIDR6,2601:b060:ff09:c000::/51,no-resolve
+IP-CIDR6,2601:b060:ff09:e000::/53,no-resolve
+IP-CIDR6,2601:b060:ff09:e800::/54,no-resolve
+IP-CIDR6,2601:b060:ff09:ec00::/55,no-resolve
+IP-CIDR6,2601:b060:ff09:ee00::/57,no-resolve
+IP-CIDR6,2601:b060:ff09:ee80::/58,no-resolve
+IP-CIDR6,2601:b060:ff09:eec0::/59,no-resolve
+IP-CIDR6,2601:b060:ff09:eee0::/60,no-resolve
+IP-CIDR6,2601:b060:ff09:eef0::/62,no-resolve
+IP-CIDR6,2601:b060:ff09:eef5::/64,no-resolve
+IP-CIDR6,2601:b060:ff09:eef6::/63,no-resolve
+IP-CIDR6,2601:b060:ff09:eef8::/61,no-resolve
+IP-CIDR6,2601:b060:ff09:ef00::/56,no-resolve
+IP-CIDR6,2601:b060:ff09:f000::/52,no-resolve
+IP-CIDR6,2601:b060:ff0a::/47,no-resolve
+IP-CIDR6,2601:b060:ff0c::/46,no-resolve
+IP-CIDR6,2601:b060:ff10::/44,no-resolve
+IP-CIDR6,2601:b060:ff20::/43,no-resolve
+IP-CIDR6,2601:b060:ff40::/42,no-resolve
+IP-CIDR6,2601:b060:ff80::/41,no-resolve
 IP-CIDR6,2601:b061:8000::/34,no-resolve
 IP-CIDR6,2601:b061::/33,no-resolve
 IP-CIDR6,2601:b061:c000::/35,no-resolve

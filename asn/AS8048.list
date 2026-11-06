@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS8048.json
-# Status: complete; emitted: 180; unsupported: 0
+# Status: complete; emitted: 174; unsupported: 0
 IP-CIDR,161.196.0.0/16,no-resolve
 IP-CIDR,186.88.0.0/16,no-resolve
 IP-CIDR,186.89.0.0/17,no-resolve
@@ -24,9 +24,7 @@ IP-CIDR,186.94.64.0/18,no-resolve
 IP-CIDR,186.95.0.0/18,no-resolve
 IP-CIDR,186.95.128.0/17,no-resolve
 IP-CIDR,186.95.96.0/19,no-resolve
-IP-CIDR,190.198.0.0/17,no-resolve
-IP-CIDR,190.198.128.0/18,no-resolve
-IP-CIDR,190.198.224.0/19,no-resolve
+IP-CIDR,190.198.0.0/16,no-resolve
 IP-CIDR,190.199.128.0/17,no-resolve
 IP-CIDR,190.199.16.0/21,no-resolve
 IP-CIDR,190.199.32.0/19,no-resolve
@@ -40,9 +38,7 @@ IP-CIDR,190.200.204.0/22,no-resolve
 IP-CIDR,190.200.208.0/21,no-resolve
 IP-CIDR,190.200.216.0/23,no-resolve
 IP-CIDR,190.200.224.0/19,no-resolve
-IP-CIDR,190.201.0.0/17,no-resolve
-IP-CIDR,190.201.128.0/18,no-resolve
-IP-CIDR,190.201.224.0/19,no-resolve
+IP-CIDR,190.201.0.0/16,no-resolve
 IP-CIDR,190.202.0.0/17,no-resolve
 IP-CIDR,190.202.128.0/22,no-resolve
 IP-CIDR,190.202.132.0/23,no-resolve
@@ -70,9 +66,7 @@ IP-CIDR,190.74.0.0/17,no-resolve
 IP-CIDR,190.74.160.0/19,no-resolve
 IP-CIDR,190.74.192.0/18,no-resolve
 IP-CIDR,190.75.0.0/16,no-resolve
-IP-CIDR,190.77.128.0/17,no-resolve
-IP-CIDR,190.77.32.0/19,no-resolve
-IP-CIDR,190.77.64.0/18,no-resolve
+IP-CIDR,190.77.0.0/16,no-resolve
 IP-CIDR,190.78.0.0/15,no-resolve
 IP-CIDR,190.9.128.0/22,no-resolve
 IP-CIDR,190.9.132.0/24,no-resolve
@@ -132,14 +126,14 @@ IP-CIDR,200.90.44.0/22,no-resolve
 IP-CIDR,200.90.50.0/23,no-resolve
 IP-CIDR,200.90.52.0/22,no-resolve
 IP-CIDR,200.90.61.0/24,no-resolve
-IP-CIDR,200.90.64.0/19,no-resolve
+IP-CIDR,200.90.64.0/18,no-resolve
 IP-CIDR,200.90.7.0/24,no-resolve
 IP-CIDR,200.90.8.0/24,no-resolve
-IP-CIDR,200.93.0.0/19,no-resolve
-IP-CIDR,200.93.64.0/18,no-resolve
+IP-CIDR,200.93.0.0/17,no-resolve
 IP-CIDR,201.208.0.0/15,no-resolve
 IP-CIDR,201.210.0.0/17,no-resolve
 IP-CIDR,201.210.128.0/18,no-resolve
+IP-CIDR,201.210.192.0/19,no-resolve
 IP-CIDR,201.211.0.0/16,no-resolve
 IP-CIDR,201.242.0.0/16,no-resolve
 IP-CIDR,201.243.0.0/18,no-resolve

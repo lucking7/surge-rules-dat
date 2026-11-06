@@ -2,7 +2,7 @@
 # Union of same-name geo-lite domain and IP categories.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/cn.json
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geosite/cn.json
-# Status: complete; emitted: 11206; unsupported: 0
+# Status: complete; emitted: 11207; unsupported: 0
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,cdn.angruo.com
@@ -9971,6 +9971,7 @@ IP-CIDR6,2402:7d80::/32,no-resolve
 IP-CIDR6,2402:7da0::/32,no-resolve
 IP-CIDR6,2402:7e20::/32,no-resolve
 IP-CIDR6,2402:7ee0::/32,no-resolve
+IP-CIDR6,2402:8160::/32,no-resolve
 IP-CIDR6,2402:8180::/32,no-resolve
 IP-CIDR6,2402:8300::/32,no-resolve
 IP-CIDR6,2402:8380::/32,no-resolve

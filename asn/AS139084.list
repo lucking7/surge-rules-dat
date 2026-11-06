@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS139084.json
-# Status: complete; emitted: 351; unsupported: 0
+# Status: complete; emitted: 325; unsupported: 0
 IP-CIDR,103.138.36.0/24,no-resolve
 IP-CIDR,103.138.38.0/24,no-resolve
 IP-CIDR6,2404:bf40:8000::/42,no-resolve
@@ -34,14 +34,7 @@ IP-CIDR6,2404:bf40:818c::/46,no-resolve
 IP-CIDR6,2404:bf40:8190::/44,no-resolve
 IP-CIDR6,2404:bf40:81a0::/43,no-resolve
 IP-CIDR6,2404:bf40:81c0::/42,no-resolve
-IP-CIDR6,2404:bf40:8200::/41,no-resolve
-IP-CIDR6,2404:bf40:8280::/42,no-resolve
-IP-CIDR6,2404:bf40:82c1::/48,no-resolve
-IP-CIDR6,2404:bf40:82c2::/47,no-resolve
-IP-CIDR6,2404:bf40:82c4::/46,no-resolve
-IP-CIDR6,2404:bf40:82c8::/45,no-resolve
-IP-CIDR6,2404:bf40:82d0::/44,no-resolve
-IP-CIDR6,2404:bf40:82e0::/43,no-resolve
+IP-CIDR6,2404:bf40:8200::/40,no-resolve
 IP-CIDR6,2404:bf40:8303::/48,no-resolve
 IP-CIDR6,2404:bf40:8304::/46,no-resolve
 IP-CIDR6,2404:bf40:8308::/45,no-resolve
@@ -97,6 +90,7 @@ IP-CIDR6,2404:bf40:8880::/41,no-resolve
 IP-CIDR6,2404:bf40:8900::/41,no-resolve
 IP-CIDR6,2404:bf40:8980::/42,no-resolve
 IP-CIDR6,2404:bf40:89c0::/46,no-resolve
+IP-CIDR6,2404:bf40:89c4::/48,no-resolve
 IP-CIDR6,2404:bf40:89c6::/47,no-resolve
 IP-CIDR6,2404:bf40:89c8::/45,no-resolve
 IP-CIDR6,2404:bf40:89d0::/44,no-resolve
@@ -154,14 +148,7 @@ IP-CIDR6,2404:bf40:a3c4::/46,no-resolve
 IP-CIDR6,2404:bf40:a3c8::/45,no-resolve
 IP-CIDR6,2404:bf40:a3d0::/44,no-resolve
 IP-CIDR6,2404:bf40:a3e0::/43,no-resolve
-IP-CIDR6,2404:bf40:a401::/48,no-resolve
-IP-CIDR6,2404:bf40:a402::/47,no-resolve
-IP-CIDR6,2404:bf40:a404::/46,no-resolve
-IP-CIDR6,2404:bf40:a408::/45,no-resolve
-IP-CIDR6,2404:bf40:a410::/44,no-resolve
-IP-CIDR6,2404:bf40:a420::/43,no-resolve
-IP-CIDR6,2404:bf40:a440::/42,no-resolve
-IP-CIDR6,2404:bf40:a480::/41,no-resolve
+IP-CIDR6,2404:bf40:a400::/40,no-resolve
 IP-CIDR6,2404:bf40:a500::/41,no-resolve
 IP-CIDR6,2404:bf40:a580::/46,no-resolve
 IP-CIDR6,2404:bf40:a584::/47,no-resolve
@@ -207,9 +194,7 @@ IP-CIDR6,2404:bf40:a760::/43,no-resolve
 IP-CIDR6,2404:bf40:a780::/41,no-resolve
 IP-CIDR6,2404:bf40:a800::/37,no-resolve
 IP-CIDR6,2404:bf40:b000::/36,no-resolve
-IP-CIDR6,2404:bf40:c001::/48,no-resolve
-IP-CIDR6,2404:bf40:c002::/47,no-resolve
-IP-CIDR6,2404:bf40:c004::/46,no-resolve
+IP-CIDR6,2404:bf40:c000::/45,no-resolve
 IP-CIDR6,2404:bf40:c008::/48,no-resolve
 IP-CIDR6,2404:bf40:c00a::/47,no-resolve
 IP-CIDR6,2404:bf40:c00c::/46,no-resolve
@@ -298,16 +283,7 @@ IP-CIDR6,2404:bf40:e310::/44,no-resolve
 IP-CIDR6,2404:bf40:e320::/43,no-resolve
 IP-CIDR6,2404:bf40:e340::/42,no-resolve
 IP-CIDR6,2404:bf40:e380::/41,no-resolve
-IP-CIDR6,2404:bf40:e400::/39,no-resolve
-IP-CIDR6,2404:bf40:e600::/46,no-resolve
-IP-CIDR6,2404:bf40:e604::/48,no-resolve
-IP-CIDR6,2404:bf40:e606::/47,no-resolve
-IP-CIDR6,2404:bf40:e608::/45,no-resolve
-IP-CIDR6,2404:bf40:e610::/44,no-resolve
-IP-CIDR6,2404:bf40:e620::/43,no-resolve
-IP-CIDR6,2404:bf40:e640::/42,no-resolve
-IP-CIDR6,2404:bf40:e680::/41,no-resolve
-IP-CIDR6,2404:bf40:e700::/40,no-resolve
+IP-CIDR6,2404:bf40:e400::/38,no-resolve
 IP-CIDR6,2404:bf40:e800::/40,no-resolve
 IP-CIDR6,2404:bf40:e900::/47,no-resolve
 IP-CIDR6,2404:bf40:e902::/48,no-resolve
@@ -319,9 +295,7 @@ IP-CIDR6,2404:bf40:e940::/42,no-resolve
 IP-CIDR6,2404:bf40:e980::/41,no-resolve
 IP-CIDR6,2404:bf40:ea00::/39,no-resolve
 IP-CIDR6,2404:bf40:ec00::/38,no-resolve
-IP-CIDR6,2404:bf40:f000::/46,no-resolve
-IP-CIDR6,2404:bf40:f004::/47,no-resolve
-IP-CIDR6,2404:bf40:f007::/48,no-resolve
+IP-CIDR6,2404:bf40:f000::/45,no-resolve
 IP-CIDR6,2404:bf40:f008::/47,no-resolve
 IP-CIDR6,2404:bf40:f00a::/48,no-resolve
 IP-CIDR6,2404:bf40:f00c::/46,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS46690.json
-# Status: complete; emitted: 1985; unsupported: 0
+# Status: complete; emitted: 2006; unsupported: 0
 IP-CIDR,107.191.136.0/23,no-resolve
 IP-CIDR,32.208.0.0/18,no-resolve
 IP-CIDR,32.208.128.0/20,no-resolve
@@ -1238,7 +1238,19 @@ IP-CIDR6,2605:d580:1400:2200::/55,no-resolve
 IP-CIDR6,2605:d580:1400:2400::/54,no-resolve
 IP-CIDR6,2605:d580:1400:2800::/53,no-resolve
 IP-CIDR6,2605:d580:1400:3000::/52,no-resolve
-IP-CIDR6,2605:d580:1400:4000::/51,no-resolve
+IP-CIDR6,2605:d580:1400:4000::/52,no-resolve
+IP-CIDR6,2605:d580:1400:5000::/54,no-resolve
+IP-CIDR6,2605:d580:1400:5400::/56,no-resolve
+IP-CIDR6,2605:d580:1400:5500::/62,no-resolve
+IP-CIDR6,2605:d580:1400:5505::/64,no-resolve
+IP-CIDR6,2605:d580:1400:5506::/63,no-resolve
+IP-CIDR6,2605:d580:1400:5508::/61,no-resolve
+IP-CIDR6,2605:d580:1400:5510::/60,no-resolve
+IP-CIDR6,2605:d580:1400:5520::/59,no-resolve
+IP-CIDR6,2605:d580:1400:5540::/58,no-resolve
+IP-CIDR6,2605:d580:1400:5580::/57,no-resolve
+IP-CIDR6,2605:d580:1400:5600::/55,no-resolve
+IP-CIDR6,2605:d580:1400:5800::/53,no-resolve
 IP-CIDR6,2605:d580:1400:6000::/55,no-resolve
 IP-CIDR6,2605:d580:1400:6200::/57,no-resolve
 IP-CIDR6,2605:d580:1400:6280::/59,no-resolve
@@ -1755,7 +1767,16 @@ IP-CIDR6,2605:d580:140a:d860::/59,no-resolve
 IP-CIDR6,2605:d580:140a:d880::/57,no-resolve
 IP-CIDR6,2605:d580:140a:d900::/56,no-resolve
 IP-CIDR6,2605:d580:140a:da00::/55,no-resolve
-IP-CIDR6,2605:d580:140a:dc00::/54,no-resolve
+IP-CIDR6,2605:d580:140a:dc00::/55,no-resolve
+IP-CIDR6,2605:d580:140a:de00::/57,no-resolve
+IP-CIDR6,2605:d580:140a:de80::/60,no-resolve
+IP-CIDR6,2605:d580:140a:de90::/61,no-resolve
+IP-CIDR6,2605:d580:140a:de98::/62,no-resolve
+IP-CIDR6,2605:d580:140a:de9c::/63,no-resolve
+IP-CIDR6,2605:d580:140a:de9f::/64,no-resolve
+IP-CIDR6,2605:d580:140a:dea0::/59,no-resolve
+IP-CIDR6,2605:d580:140a:dec0::/58,no-resolve
+IP-CIDR6,2605:d580:140a:df00::/56,no-resolve
 IP-CIDR6,2605:d580:140a:e000::/51,no-resolve
 IP-CIDR6,2605:d580:140b:1000::/54,no-resolve
 IP-CIDR6,2605:d580:140b:1400::/55,no-resolve

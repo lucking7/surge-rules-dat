@@ -1,6 +1,7 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS27947.json
-# Status: complete; emitted: 892; unsupported: 0
+# Status: complete; emitted: 900; unsupported: 0
+IP-CIDR,154.197.111.0/24,no-resolve
 IP-CIDR,154.198.172.0/24,no-resolve
 IP-CIDR,156.239.192.0/22,no-resolve
 IP-CIDR,157.100.0.0/19,no-resolve
@@ -68,6 +69,7 @@ IP-CIDR,206.165.204.0/23,no-resolve
 IP-CIDR,207.226.25.0/24,no-resolve
 IP-CIDR,23.219.144.0/22,no-resolve
 IP-CIDR,45.194.29.0/24,no-resolve
+IP-CIDR,45.195.132.0/24,no-resolve
 IP-CIDR,64.46.64.0/19,no-resolve
 IP-CIDR,69.65.128.0/19,no-resolve
 IP-CIDR6,2800:2a0:1000::/36,no-resolve
@@ -145,14 +147,20 @@ IP-CIDR6,2800:bf0:2811::/48,no-resolve
 IP-CIDR6,2800:bf0:2812::/47,no-resolve
 IP-CIDR6,2800:bf0:2814::/46,no-resolve
 IP-CIDR6,2800:bf0:2818::/45,no-resolve
-IP-CIDR6,2800:bf0:2823::/48,no-resolve
+IP-CIDR6,2800:bf0:2821::/48,no-resolve
+IP-CIDR6,2800:bf0:2822::/47,no-resolve
 IP-CIDR6,2800:bf0:2824::/47,no-resolve
-IP-CIDR6,2800:bf0:282a::/47,no-resolve
+IP-CIDR6,2800:bf0:2828::/46,no-resolve
 IP-CIDR6,2800:bf0:282d::/48,no-resolve
-IP-CIDR6,2800:bf0:282f::/48,no-resolve
+IP-CIDR6,2800:bf0:282e::/47,no-resolve
+IP-CIDR6,2800:bf0:2832::/47,no-resolve
+IP-CIDR6,2800:bf0:2834::/46,no-resolve
+IP-CIDR6,2800:bf0:2838::/45,no-resolve
 IP-CIDR6,2800:bf0:2840::/42,no-resolve
 IP-CIDR6,2800:bf0:2880::/41,no-resolve
 IP-CIDR6,2800:bf0:2900::/40,no-resolve
+IP-CIDR6,2800:bf0:2a01::/48,no-resolve
+IP-CIDR6,2800:bf0:2a03::/48,no-resolve
 IP-CIDR6,2800:bf0:2a04::/46,no-resolve
 IP-CIDR6,2800:bf0:2a09::/48,no-resolve
 IP-CIDR6,2800:bf0:2a0b::/48,no-resolve
@@ -198,7 +206,7 @@ IP-CIDR6,2800:bf0:3008::/46,no-resolve
 IP-CIDR6,2800:bf0:300c::/47,no-resolve
 IP-CIDR6,2800:bf0:3010::/44,no-resolve
 IP-CIDR6,2800:bf0:3020::/43,no-resolve
-IP-CIDR6,2800:bf0:3046::/47,no-resolve
+IP-CIDR6,2800:bf0:3047::/48,no-resolve
 IP-CIDR6,2800:bf0:3048::/45,no-resolve
 IP-CIDR6,2800:bf0:3050::/44,no-resolve
 IP-CIDR6,2800:bf0:3060::/43,no-resolve
@@ -641,10 +649,6 @@ IP-CIDR6,2800:bf0:ac11::/48,no-resolve
 IP-CIDR6,2800:bf0:ac13::/48,no-resolve
 IP-CIDR6,2800:bf0:ac14::/46,no-resolve
 IP-CIDR6,2800:bf0:ac18::/45,no-resolve
-IP-CIDR6,2800:bf0:ac26::/48,no-resolve
-IP-CIDR6,2800:bf0:ac2a::/48,no-resolve
-IP-CIDR6,2800:bf0:ac2d::/48,no-resolve
-IP-CIDR6,2800:bf0:ac3a::/47,no-resolve
 IP-CIDR6,2800:bf0:ac3c::/46,no-resolve
 IP-CIDR6,2800:bf0:ac42::/47,no-resolve
 IP-CIDR6,2800:bf0:ac44::/46,no-resolve
@@ -670,7 +674,10 @@ IP-CIDR6,2800:bf0:acf1::/48,no-resolve
 IP-CIDR6,2800:bf0:acf2::/47,no-resolve
 IP-CIDR6,2800:bf0:acf4::/46,no-resolve
 IP-CIDR6,2800:bf0:acf8::/45,no-resolve
-IP-CIDR6,2800:bf0:ad00::/44,no-resolve
+IP-CIDR6,2800:bf0:ad01::/48,no-resolve
+IP-CIDR6,2800:bf0:ad02::/47,no-resolve
+IP-CIDR6,2800:bf0:ad04::/46,no-resolve
+IP-CIDR6,2800:bf0:ad08::/45,no-resolve
 IP-CIDR6,2800:bf0:ad11::/48,no-resolve
 IP-CIDR6,2800:bf0:ad12::/47,no-resolve
 IP-CIDR6,2800:bf0:ad14::/46,no-resolve
@@ -776,9 +783,7 @@ IP-CIDR6,2800:bf0:b442::/47,no-resolve
 IP-CIDR6,2800:bf0:b444::/46,no-resolve
 IP-CIDR6,2800:bf0:b448::/45,no-resolve
 IP-CIDR6,2800:bf0:b450::/44,no-resolve
-IP-CIDR6,2800:bf0:b462::/47,no-resolve
-IP-CIDR6,2800:bf0:b465::/48,no-resolve
-IP-CIDR6,2800:bf0:b466::/47,no-resolve
+IP-CIDR6,2800:bf0:b467::/48,no-resolve
 IP-CIDR6,2800:bf0:b468::/45,no-resolve
 IP-CIDR6,2800:bf0:b470::/44,no-resolve
 IP-CIDR6,2800:bf0:b480::/48,no-resolve
@@ -808,6 +813,8 @@ IP-CIDR6,2800:bf0:b525::/48,no-resolve
 IP-CIDR6,2800:bf0:b526::/47,no-resolve
 IP-CIDR6,2800:bf0:b528::/45,no-resolve
 IP-CIDR6,2800:bf0:b531::/48,no-resolve
+IP-CIDR6,2800:bf0:b533::/48,no-resolve
+IP-CIDR6,2800:bf0:b537::/48,no-resolve
 IP-CIDR6,2800:bf0:b538::/45,no-resolve
 IP-CIDR6,2800:bf0:b542::/47,no-resolve
 IP-CIDR6,2800:bf0:b544::/46,no-resolve
@@ -819,7 +826,8 @@ IP-CIDR6,2800:bf0:b558::/45,no-resolve
 IP-CIDR6,2800:bf0:b566::/47,no-resolve
 IP-CIDR6,2800:bf0:b568::/45,no-resolve
 IP-CIDR6,2800:bf0:b570::/44,no-resolve
-IP-CIDR6,2800:bf0:b580::/46,no-resolve
+IP-CIDR6,2800:bf0:b580::/48,no-resolve
+IP-CIDR6,2800:bf0:b582::/47,no-resolve
 IP-CIDR6,2800:bf0:b585::/48,no-resolve
 IP-CIDR6,2800:bf0:b586::/48,no-resolve
 IP-CIDR6,2800:bf0:b588::/48,no-resolve
