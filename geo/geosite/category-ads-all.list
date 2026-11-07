@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads-all.json
-# Status: partial; emitted: 904; unsupported: 1
+# Status: partial; emitted: 908; unsupported: 1
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,1l-hit.mail.ru
 DOMAIN,1l-hit.vkplay.ru
@@ -247,7 +247,10 @@ DOMAIN-SUFFIX,adnet.sohu.com
 DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adping.qq.com
 DOMAIN-SUFFIX,adpm.app.qq.com
+DOMAIN-SUFFIX,ads-api-o.api.leiniao.com
+DOMAIN-SUFFIX,ads-api-t.my7v.com
 DOMAIN-SUFFIX,ads-api.duolingo.com
+DOMAIN-SUFFIX,ads-o.res.leiniao.com
 DOMAIN-SUFFIX,ads-pixiv.net
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,ads-union.jd.com
@@ -587,6 +590,7 @@ DOMAIN-SUFFIX,ipinyou.com
 DOMAIN-SUFFIX,ipinyou.com.cn
 DOMAIN-SUFFIX,ironbeast.io
 DOMAIN-SUFFIX,isdspeed.qq.com
+DOMAIN-SUFFIX,isms-o.api.my7v.com
 DOMAIN-SUFFIX,iwanad.baidu.com
 DOMAIN-SUFFIX,ja.gamersky.com
 DOMAIN-SUFFIX,ja1.gamersky.com
