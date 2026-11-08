@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-companies.json
-# Status: partial; emitted: 8664; unsupported: 6
+# Status: partial; emitted: 8665; unsupported: 6
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,1l-hit.mail.ru
 DOMAIN,1l-hit.vkplay.ru
@@ -585,6 +585,7 @@ DOMAIN,prod-databe.floonet.goog
 DOMAIN,prod-support.apple-support.akadns.net
 DOMAIN,prod.databe.floonet.goog
 DOMAIN,prodforza.blob.core.windows.net
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com
 DOMAIN,productionresultssa0.blob.core.windows.net
 DOMAIN,productionresultssa1.blob.core.windows.net
 DOMAIN,productionresultssa10.blob.core.windows.net
