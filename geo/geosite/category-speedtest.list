@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-speedtest.json
-# Status: partial; emitted: 327; unsupported: 1
+# Status: partial; emitted: 328; unsupported: 1
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,hk-global-bgp.hkg.speedtest.yecaoyun.com
 DOMAIN,www.speedtest.net.cdn.cloudflare.net
@@ -74,6 +74,7 @@ DOMAIN-SUFFIX,liveinternetspeed.com
 DOMAIN-SUFFIX,measurement-lab.org
 DOMAIN-SUFFIX,measurementlab.net
 DOMAIN-SUFFIX,medidor-de-velocidad.movistar.com.ar
+DOMAIN-SUFFIX,megabitus.com
 DOMAIN-SUFFIX,meter.net
 DOMAIN-SUFFIX,metercustom.net
 DOMAIN-SUFFIX,minhaconexao.com.br
