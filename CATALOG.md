@@ -1151,7 +1151,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/geetest.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geetest.list) | 2 | 0 | complete |
 | [geo/geosite/gemfury.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/gemfury.list) | 6 | 0 | complete |
 | [geo/geosite/genotek-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/genotek-ru.list) | 9 | 0 | complete |
-| [geo/geosite/geolocation-!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-%21cn.list) | 27302 | 151 | partial |
+| [geo/geosite/geolocation-!cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-%21cn.list) | 27307 | 151 | partial |
 | [geo/geosite/geolocation-cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-cn.list) | 5437 | 3 | partial |
 | [geo/geosite/geolocation-cn@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-cn%40cn.list) | 73 | 3 | partial |
 | [geo/geosite/geolocation-cn@telemetry.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/geolocation-cn%40telemetry.list) | 12 | 0 | complete |
