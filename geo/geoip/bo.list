@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/bo.json
-# Status: complete; emitted: 595; unsupported: 0
+# Status: complete; emitted: 586; unsupported: 0
 IP-CIDR,104.224.19.0/24,no-resolve
 IP-CIDR,104.28.113.35/32,no-resolve
 IP-CIDR,104.28.113.36/30,no-resolve
@@ -136,14 +136,7 @@ IP-CIDR,146.75.208.30/31,no-resolve
 IP-CIDR,146.75.221.0/31,no-resolve
 IP-CIDR,147.90.160.0/23,no-resolve
 IP-CIDR,149.119.8.0/21,no-resolve
-IP-CIDR,149.12.240.128/25,no-resolve
-IP-CIDR,149.12.240.16/28,no-resolve
-IP-CIDR,149.12.240.32/27,no-resolve
-IP-CIDR,149.12.240.64/26,no-resolve
-IP-CIDR,149.12.241.0/24,no-resolve
-IP-CIDR,149.12.242.0/23,no-resolve
 IP-CIDR,149.12.245.0/24,no-resolve
-IP-CIDR,149.12.248.0/21,no-resolve
 IP-CIDR,149.126.9.216/29,no-resolve
 IP-CIDR,149.19.170.0/23,no-resolve
 IP-CIDR,151.241.236.0/24,no-resolve
@@ -217,8 +210,6 @@ IP-CIDR,165.85.32.64/26,no-resolve
 IP-CIDR,166.114.0.0/16,no-resolve
 IP-CIDR,167.157.0.0/16,no-resolve
 IP-CIDR,167.250.135.0/24,no-resolve
-IP-CIDR,168.113.45.0/24,no-resolve
-IP-CIDR,168.113.82.0/24,no-resolve
 IP-CIDR,168.197.240.0/22,no-resolve
 IP-CIDR,168.205.96.0/22,no-resolve
 IP-CIDR,168.228.132.0/22,no-resolve
@@ -270,6 +261,7 @@ IP-CIDR,186.2.0.0/17,no-resolve
 IP-CIDR,186.27.0.0/17,no-resolve
 IP-CIDR,187.102.200.0/22,no-resolve
 IP-CIDR,187.40.242.0/24,no-resolve
+IP-CIDR,187.78.193.0/25,no-resolve
 IP-CIDR,189.25.102.11/32,no-resolve
 IP-CIDR,189.25.102.227/32,no-resolve
 IP-CIDR,189.25.102.82/32,no-resolve
@@ -330,7 +322,6 @@ IP-CIDR,201.131.45.0/24,no-resolve
 IP-CIDR,201.150.160.0/19,no-resolve
 IP-CIDR,201.222.64.0/18,no-resolve
 IP-CIDR,201.67.11.0/24,no-resolve
-IP-CIDR,201.67.31.0/24,no-resolve
 IP-CIDR,202.181.129.88/29,no-resolve
 IP-CIDR,203.88.99.0/24,no-resolve
 IP-CIDR,204.155.247.132/32,no-resolve
