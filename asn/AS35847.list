@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS35847.json
-# Status: complete; emitted: 1810; unsupported: 0
+# Status: complete; emitted: 1834; unsupported: 0
 IP-CIDR,136.244.0.0/21,no-resolve
 IP-CIDR,136.244.10.0/24,no-resolve
 IP-CIDR,136.244.11.0/26,no-resolve
@@ -151,7 +151,15 @@ IP-CIDR,139.94.156.4/30,no-resolve
 IP-CIDR,139.94.156.64/26,no-resolve
 IP-CIDR,139.94.156.8/29,no-resolve
 IP-CIDR,139.94.157.0/24,no-resolve
-IP-CIDR,139.94.158.0/23,no-resolve
+IP-CIDR,139.94.158.0/28,no-resolve
+IP-CIDR,139.94.158.128/25,no-resolve
+IP-CIDR,139.94.158.16/29,no-resolve
+IP-CIDR,139.94.158.24/30,no-resolve
+IP-CIDR,139.94.158.29/32,no-resolve
+IP-CIDR,139.94.158.30/31,no-resolve
+IP-CIDR,139.94.158.32/27,no-resolve
+IP-CIDR,139.94.158.64/26,no-resolve
+IP-CIDR,139.94.159.0/24,no-resolve
 IP-CIDR,139.94.16.0/20,no-resolve
 IP-CIDR,139.94.160.0/19,no-resolve
 IP-CIDR,139.94.192.0/23,no-resolve
@@ -1782,7 +1790,23 @@ IP-CIDR6,2606:e2c0:184:be00::/55,no-resolve
 IP-CIDR6,2606:e2c0:184:c000::/50,no-resolve
 IP-CIDR6,2606:e2c0:185::/48,no-resolve
 IP-CIDR6,2606:e2c0:186::/47,no-resolve
-IP-CIDR6,2606:e2c0:188::/47,no-resolve
+IP-CIDR6,2606:e2c0:188:8000::/50,no-resolve
+IP-CIDR6,2606:e2c0:188::/49,no-resolve
+IP-CIDR6,2606:e2c0:188:c000::/51,no-resolve
+IP-CIDR6,2606:e2c0:188:e000::/52,no-resolve
+IP-CIDR6,2606:e2c0:188:f000::/55,no-resolve
+IP-CIDR6,2606:e2c0:188:f200::/56,no-resolve
+IP-CIDR6,2606:e2c0:188:f300::/58,no-resolve
+IP-CIDR6,2606:e2c0:188:f340::/59,no-resolve
+IP-CIDR6,2606:e2c0:188:f360::/60,no-resolve
+IP-CIDR6,2606:e2c0:188:f371::/64,no-resolve
+IP-CIDR6,2606:e2c0:188:f372::/63,no-resolve
+IP-CIDR6,2606:e2c0:188:f374::/62,no-resolve
+IP-CIDR6,2606:e2c0:188:f378::/61,no-resolve
+IP-CIDR6,2606:e2c0:188:f380::/57,no-resolve
+IP-CIDR6,2606:e2c0:188:f400::/54,no-resolve
+IP-CIDR6,2606:e2c0:188:f800::/53,no-resolve
+IP-CIDR6,2606:e2c0:189::/48,no-resolve
 IP-CIDR6,2606:e2c0:18a:8000::/54,no-resolve
 IP-CIDR6,2606:e2c0:18a:8400::/58,no-resolve
 IP-CIDR6,2606:e2c0:18a:8440::/59,no-resolve

@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS35916.json
-# Status: complete; emitted: 170; unsupported: 0
+# Status: complete; emitted: 172; unsupported: 0
 IP-CIDR,103.11.76.0/22,no-resolve
 IP-CIDR,103.127.158.0/24,no-resolve
 IP-CIDR,103.194.5.0/24,no-resolve
@@ -27,11 +27,9 @@ IP-CIDR,154.194.57.0/24,no-resolve
 IP-CIDR,154.194.60.0/23,no-resolve
 IP-CIDR,154.194.62.0/24,no-resolve
 IP-CIDR,154.198.1.0/24,no-resolve
-IP-CIDR,154.198.10.0/24,no-resolve
 IP-CIDR,154.198.160.0/24,no-resolve
 IP-CIDR,154.198.188.0/23,no-resolve
 IP-CIDR,154.198.58.0/24,no-resolve
-IP-CIDR,154.198.60.0/24,no-resolve
 IP-CIDR,154.198.8.0/24,no-resolve
 IP-CIDR,154.201.50.0/23,no-resolve
 IP-CIDR,154.211.67.0/24,no-resolve
@@ -78,9 +76,10 @@ IP-CIDR,154.88.11.0/24,no-resolve
 IP-CIDR,154.88.18.0/23,no-resolve
 IP-CIDR,154.88.2.0/24,no-resolve
 IP-CIDR,154.88.52.0/22,no-resolve
+IP-CIDR,154.88.56.0/22,no-resolve
 IP-CIDR,154.88.66.0/23,no-resolve
+IP-CIDR,154.88.68.0/24,no-resolve
 IP-CIDR,154.88.9.0/24,no-resolve
-IP-CIDR,154.92.205.0/24,no-resolve
 IP-CIDR,154.93.106.0/23,no-resolve
 IP-CIDR,154.93.64.0/24,no-resolve
 IP-CIDR,154.93.79.0/24,no-resolve
@@ -95,7 +94,6 @@ IP-CIDR,154.95.112.0/21,no-resolve
 IP-CIDR,154.95.66.0/23,no-resolve
 IP-CIDR,156.225.101.0/24,no-resolve
 IP-CIDR,156.225.192.0/18,no-resolve
-IP-CIDR,156.229.0.0/24,no-resolve
 IP-CIDR,156.229.101.0/24,no-resolve
 IP-CIDR,156.229.102.0/24,no-resolve
 IP-CIDR,156.229.105.0/24,no-resolve
@@ -117,9 +115,13 @@ IP-CIDR,156.247.18.0/24,no-resolve
 IP-CIDR,156.247.2.0/24,no-resolve
 IP-CIDR,156.248.75.0/24,no-resolve
 IP-CIDR,156.249.124.0/22,no-resolve
+IP-CIDR,156.249.139.0/24,no-resolve
+IP-CIDR,156.249.145.0/24,no-resolve
 IP-CIDR,156.249.146.0/23,no-resolve
 IP-CIDR,156.249.148.0/22,no-resolve
 IP-CIDR,156.249.164.0/23,no-resolve
+IP-CIDR,156.249.176.0/24,no-resolve
+IP-CIDR,156.249.178.0/24,no-resolve
 IP-CIDR,156.249.203.0/24,no-resolve
 IP-CIDR,156.249.208.0/23,no-resolve
 IP-CIDR,156.249.252.0/22,no-resolve

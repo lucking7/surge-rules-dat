@@ -1,8 +1,37 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS262493.json
-# Status: complete; emitted: 5; unsupported: 0
+# Status: complete; emitted: 34; unsupported: 0
 IP-CIDR,138.255.216.0/22,no-resolve
 IP-CIDR,168.121.148.0/22,no-resolve
 IP-CIDR,170.82.132.0/22,no-resolve
 IP-CIDR,177.8.52.0/22,no-resolve
-IP-CIDR6,2804:fec::/32,no-resolve
+IP-CIDR6,2804:fec:1000::/46,no-resolve
+IP-CIDR6,2804:fec:1004::/48,no-resolve
+IP-CIDR6,2804:fec:1007::/48,no-resolve
+IP-CIDR6,2804:fec:1008::/45,no-resolve
+IP-CIDR6,2804:fec:1010::/44,no-resolve
+IP-CIDR6,2804:fec:1020::/43,no-resolve
+IP-CIDR6,2804:fec:1040::/42,no-resolve
+IP-CIDR6,2804:fec:1080::/41,no-resolve
+IP-CIDR6,2804:fec:1100::/40,no-resolve
+IP-CIDR6,2804:fec:1200::/39,no-resolve
+IP-CIDR6,2804:fec:1400::/38,no-resolve
+IP-CIDR6,2804:fec:1800::/37,no-resolve
+IP-CIDR6,2804:fec:2000::/35,no-resolve
+IP-CIDR6,2804:fec:4000::/34,no-resolve
+IP-CIDR6,2804:fec:8000::/36,no-resolve
+IP-CIDR6,2804:fec:9000::/47,no-resolve
+IP-CIDR6,2804:fec:9003::/48,no-resolve
+IP-CIDR6,2804:fec:9004::/46,no-resolve
+IP-CIDR6,2804:fec:9008::/45,no-resolve
+IP-CIDR6,2804:fec:9010::/44,no-resolve
+IP-CIDR6,2804:fec:9020::/43,no-resolve
+IP-CIDR6,2804:fec:9040::/42,no-resolve
+IP-CIDR6,2804:fec:9080::/41,no-resolve
+IP-CIDR6,2804:fec:9100::/40,no-resolve
+IP-CIDR6,2804:fec:9200::/39,no-resolve
+IP-CIDR6,2804:fec:9400::/38,no-resolve
+IP-CIDR6,2804:fec:9800::/37,no-resolve
+IP-CIDR6,2804:fec::/36,no-resolve
+IP-CIDR6,2804:fec:a000::/35,no-resolve
+IP-CIDR6,2804:fec:c000::/34,no-resolve

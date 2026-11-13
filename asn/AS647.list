@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS647.json
-# Status: complete; emitted: 221; unsupported: 0
+# Status: complete; emitted: 227; unsupported: 0
 IP-CIDR,138.183.0.0/17,no-resolve
 IP-CIDR,164.231.102.0/24,no-resolve
 IP-CIDR,164.231.111.0/24,no-resolve
@@ -16,7 +16,6 @@ IP-CIDR,205.106.80.0/21,no-resolve
 IP-CIDR,205.107.220.0/22,no-resolve
 IP-CIDR,205.107.57.0/24,no-resolve
 IP-CIDR,205.108.12.0/22,no-resolve
-IP-CIDR,205.108.20.0/22,no-resolve
 IP-CIDR,205.108.244.0/24,no-resolve
 IP-CIDR,205.56.157.0/24,no-resolve
 IP-CIDR,205.56.181.0/24,no-resolve
@@ -24,6 +23,8 @@ IP-CIDR,205.56.232.0/24,no-resolve
 IP-CIDR,205.56.237.0/24,no-resolve
 IP-CIDR,205.56.92.0/22,no-resolve
 IP-CIDR,205.56.96.0/23,no-resolve
+IP-CIDR,205.57.101.0/24,no-resolve
+IP-CIDR,205.57.102.0/24,no-resolve
 IP-CIDR,205.57.121.0/24,no-resolve
 IP-CIDR,205.57.134.0/23,no-resolve
 IP-CIDR,205.57.136.0/24,no-resolve
@@ -58,12 +59,19 @@ IP-CIDR,205.60.154.0/23,no-resolve
 IP-CIDR,205.60.158.0/23,no-resolve
 IP-CIDR,205.60.186.0/23,no-resolve
 IP-CIDR,205.60.188.0/22,no-resolve
-IP-CIDR,205.60.226.0/23,no-resolve
+IP-CIDR,205.60.227.0/24,no-resolve
 IP-CIDR,205.60.228.0/24,no-resolve
 IP-CIDR,205.60.240.0/22,no-resolve
 IP-CIDR,205.60.244.0/24,no-resolve
+IP-CIDR,205.61.0.0/22,no-resolve
+IP-CIDR,205.61.16.0/24,no-resolve
 IP-CIDR,205.61.198.0/23,no-resolve
 IP-CIDR,205.61.201.0/24,no-resolve
+IP-CIDR,205.61.24.0/21,no-resolve
+IP-CIDR,205.61.32.0/21,no-resolve
+IP-CIDR,205.61.4.0/24,no-resolve
+IP-CIDR,205.61.44.0/23,no-resolve
+IP-CIDR,205.61.48.0/24,no-resolve
 IP-CIDR,205.61.88.0/22,no-resolve
 IP-CIDR,205.61.92.0/23,no-resolve
 IP-CIDR,205.64.1.0/24,no-resolve
@@ -74,9 +82,7 @@ IP-CIDR,205.64.24.0/23,no-resolve
 IP-CIDR,205.64.26.0/24,no-resolve
 IP-CIDR,205.64.4.0/22,no-resolve
 IP-CIDR,205.64.8.0/21,no-resolve
-IP-CIDR,205.65.116.0/24,no-resolve
-IP-CIDR,205.65.119.0/24,no-resolve
-IP-CIDR,205.65.136.0/21,no-resolve
+IP-CIDR,205.65.140.0/22,no-resolve
 IP-CIDR,205.65.157.0/24,no-resolve
 IP-CIDR,205.65.160.0/22,no-resolve
 IP-CIDR,205.65.180.0/22,no-resolve
