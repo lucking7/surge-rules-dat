@@ -792,7 +792,7 @@ ASN 分类见 manifest.json，路径为 `asn/AS编号.list`。
 | [geo/geosite/category-retail-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-retail-ru.list) | 82 | 0 | complete |
 | [geo/geosite/category-retail-ru@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-retail-ru%40ads.list) | 3 | 0 | complete |
 | [geo/geosite/category-retail-ru@telemetry.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-retail-ru%40telemetry.list) | 1 | 0 | complete |
-| [geo/geosite/category-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru.list) | 1161 | 0 | complete |
+| [geo/geosite/category-ru.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru.list) | 1162 | 0 | complete |
 | [geo/geosite/category-ru@ads.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru%40ads.list) | 189 | 0 | complete |
 | [geo/geosite/category-ru@cn.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru%40cn.list) | 98 | 0 | complete |
 | [geo/geosite/category-ru@telemetry.list](https://raw.githubusercontent.com/lucking7/surge-rules-dat/release/geo/geosite/category-ru%40telemetry.list) | 50 | 0 | complete |
