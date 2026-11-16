@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.json
-# Status: complete; emitted: 1792; unsupported: 0
+# Status: complete; emitted: 1796; unsupported: 0
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -73,6 +73,7 @@ DOMAIN,communities.apple.com
 DOMAIN,configuration-lb.ls-apple.com.akadns.net
 DOMAIN,configuration.apple.com
 DOMAIN,configuration.apple.com.akadns.net
+DOMAIN,configuration.ls.apple.com
 DOMAIN,crl-lb.apple.com.akadns.net
 DOMAIN,crl.apple.com
 DOMAIN,cstat.apple.com
@@ -158,9 +159,11 @@ DOMAIN,mesu.apple.com
 DOMAIN,misc-assets.itunes.apple.com
 DOMAIN,ml.cdn-apple.com
 DOMAIN,music.apple.com
+DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,musicstatus.music.apple.com
 DOMAIN,mvod.itunes.apple.com
 DOMAIN,myapp.itunes.apple.com
+DOMAIN,mzstorekit.itunes.apple.com
 DOMAIN,notary-submissions-prod.s3-accelerate.amazonaws.com
 DOMAIN,notary-submissions-prod.s3.us-west-2.amazonaws.com
 DOMAIN,np-edge.itunes.apple.com
@@ -982,6 +985,7 @@ DOMAIN-SUFFIX,calendarserver.org
 DOMAIN-SUFFIX,camelphat.com
 DOMAIN-SUFFIX,camelspaceeffect.com
 DOMAIN-SUFFIX,canada-beatsbydre.com
+DOMAIN-SUFFIX,captive.apple.com
 DOMAIN-SUFFIX,carbon.com
 DOMAIN-SUFFIX,carekit.org
 DOMAIN-SUFFIX,casque-fr.com

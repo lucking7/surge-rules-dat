@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-companies.json
-# Status: partial; emitted: 8665; unsupported: 6
+# Status: partial; emitted: 8673; unsupported: 6
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,1l-hit.mail.ru
 DOMAIN,1l-hit.vkplay.ru
@@ -148,6 +148,7 @@ DOMAIN,bingsettingssearch.trafficmanager.net
 DOMAIN,bj1.api.bing.com
 DOMAIN,bookkeeper.itunes.apple.com
 DOMAIN,bs.mail.ru
+DOMAIN,builds.dotnet.microsoft.com
 DOMAIN,c.admob.com
 DOMAIN,c.android.clients.google.com
 DOMAIN,c.pki.goog
@@ -215,6 +216,7 @@ DOMAIN,communities.apple.com
 DOMAIN,configuration-lb.ls-apple.com.akadns.net
 DOMAIN,configuration.apple.com
 DOMAIN,configuration.apple.com.akadns.net
+DOMAIN,configuration.ls.apple.com
 DOMAIN,connectivitycheck.gstatic.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot-telemetry-service.githubusercontent.com
@@ -283,6 +285,7 @@ DOMAIN,dnl-16.geo.kaspersky.com
 DOMAIN,dnl-17.geo.kaspersky.com
 DOMAIN,dnl-18.geo.kaspersky.com
 DOMAIN,dnl-19.geo.kaspersky.com
+DOMAIN,dotnetcli.trafficmanager.net
 DOMAIN,doubleclick-cn.net
 DOMAIN,doubleclick.net
 DOMAIN,download.developer.apple.com
@@ -508,11 +511,13 @@ DOMAIN,mtalk-staging.google.com
 DOMAIN,mtalk.google.com
 DOMAIN,mtalk4.google.com
 DOMAIN,music.apple.com
+DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,musicstatus.music.apple.com
 DOMAIN,mvod.itunes.apple.com
 DOMAIN,mwf-service.akamaized.net
 DOMAIN,myapp.itunes.apple.com
 DOMAIN,myvs.download.prss.microsoft.com
+DOMAIN,mzstorekit.itunes.apple.com
 DOMAIN,na1r.services.adobe.com
 DOMAIN,notary-submissions-prod.s3-accelerate.amazonaws.com
 DOMAIN,notary-submissions-prod.s3.us-west-2.amazonaws.com
@@ -805,6 +810,7 @@ DOMAIN,storeedge.microsoft.com
 DOMAIN,storeedgefd.dsx.mp.microsoft.com
 DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,su.itunes.apple.com
+DOMAIN,sundry-star-net-geo.trafficmanager.net
 DOMAIN,support-china.apple-support.akadns.net
 DOMAIN,support.apple.com
 DOMAIN,surface.download.prss.microsoft.com
@@ -2829,6 +2835,7 @@ DOMAIN-SUFFIX,canonproprinters.com
 DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,canvastatus.com
 DOMAIN-SUFFIX,capitalg.com
+DOMAIN-SUFFIX,captive.apple.com
 DOMAIN-SUFFIX,carbon.com
 DOMAIN-SUFFIX,careersatfb.com
 DOMAIN-SUFFIX,carekit.org
@@ -8446,6 +8453,7 @@ DOMAIN-SUFFIX,yangofellowship.com
 DOMAIN-SUFFIX,yastat.net
 DOMAIN-SUFFIX,yastatic-net.ru
 DOMAIN-SUFFIX,yastatic.net
+DOMAIN-SUFFIX,yb-payment.ru
 DOMAIN-SUFFIX,yccdn.ru
 DOMAIN-SUFFIX,yclients.com
 DOMAIN-SUFFIX,ydb.tech

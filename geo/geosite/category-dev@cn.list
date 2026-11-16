@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-dev@cn.json
-# Status: complete; emitted: 24; unsupported: 0
+# Status: complete; emitted: 25; unsupported: 0
 DOMAIN,cdn-cn.apple-mapkit.com
 DOMAIN,cdn-cn1.apple-mapkit.com
 DOMAIN,cdn-cn2.apple-mapkit.com
@@ -16,6 +16,7 @@ DOMAIN,crashlyticsreports-pa.googleapis.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,update.crashlytics.com
+DOMAIN,vscode.download.prss.microsoft.com
 DOMAIN-SUFFIX,cdn.jetbrains.com
 DOMAIN-SUFFIX,jetbrains.com.cn
 DOMAIN-SUFFIX,microsoftreactor.cn

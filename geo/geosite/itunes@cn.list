@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/itunes@cn.json
-# Status: complete; emitted: 51; unsupported: 0
+# Status: complete; emitted: 53; unsupported: 0
 DOMAIN,amp-api-edge-lb-cn.itunes-apple.com.akadns.net
 DOMAIN,amp-api-edge-lb.itunes-apple.com.akadns.net
 DOMAIN,aod-ssl.itunes.apple.com
@@ -25,8 +25,10 @@ DOMAIN,itunes-apple.com.akadns.net
 DOMAIN,itunes.apple.com
 DOMAIN,itunesconnect.apple.com
 DOMAIN,misc-assets.itunes.apple.com
+DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,mvod.itunes.apple.com
 DOMAIN,myapp.itunes.apple.com
+DOMAIN,mzstorekit.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,osxapps.itunes.apple.com
 DOMAIN,osxapps.itunes.g.aaplimg.com
