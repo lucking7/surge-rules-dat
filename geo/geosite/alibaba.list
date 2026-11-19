@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/alibaba.json
-# Status: complete; emitted: 466; unsupported: 0
+# Status: complete; emitted: 467; unsupported: 0
 DOMAIN,account-cn.alibabacloud.com
 DOMAIN,api.alibabacloud.com
 DOMAIN,cn.alibabacloud.com
@@ -355,6 +355,7 @@ DOMAIN-SUFFIX,oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,oss-cn-shenzhen.aliyuncs.com
 DOMAIN-SUFFIX,oss-cn-wulanchabu.aliyuncs.com
 DOMAIN-SUFFIX,oss-cn-zhangjiakou.aliyuncs.com
+DOMAIN-SUFFIX,oss-enet.aliyuncs.com
 DOMAIN-SUFFIX,oss-eu-central-1.aliyuncs.com
 DOMAIN-SUFFIX,oss-eu-west-1.aliyuncs.com
 DOMAIN-SUFFIX,oss-me-east-1.aliyuncs.com

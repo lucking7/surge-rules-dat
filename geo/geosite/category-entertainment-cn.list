@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-entertainment-cn.json
-# Status: partial; emitted: 711; unsupported: 1
+# Status: partial; emitted: 713; unsupported: 1
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,ads3-normal-hl.zijieapi.com
 DOMAIN,ads3-normal.zijieapi.com
@@ -35,6 +35,8 @@ DOMAIN-SUFFIX,1905.com
 DOMAIN-SUFFIX,1958xy.com
 DOMAIN-SUFFIX,1kkk.com
 DOMAIN-SUFFIX,1xhh.cn
+DOMAIN-SUFFIX,1y.com
+DOMAIN-SUFFIX,1ycdn.com
 DOMAIN-SUFFIX,3304399.com
 DOMAIN-SUFFIX,3304399.net
 DOMAIN-SUFFIX,37.com

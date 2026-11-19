@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/mk.json
-# Status: complete; emitted: 420; unsupported: 0
+# Status: complete; emitted: 422; unsupported: 0
 IP-CIDR,104.28.107.14/31,no-resolve
 IP-CIDR,104.28.11.213/32,no-resolve
 IP-CIDR,104.28.11.214/31,no-resolve
@@ -48,6 +48,9 @@ IP-CIDR,131.229.144.62/32,no-resolve
 IP-CIDR,131.229.196.62/32,no-resolve
 IP-CIDR,131.229.197.62/32,no-resolve
 IP-CIDR,134.82.75.48/29,no-resolve
+IP-CIDR,136.22.14.115/32,no-resolve
+IP-CIDR,136.22.16.185/32,no-resolve
+IP-CIDR,136.23.26.96/32,no-resolve
 IP-CIDR,140.248.18.30/31,no-resolve
 IP-CIDR,140.248.34.154/31,no-resolve
 IP-CIDR,140.248.36.194/31,no-resolve
@@ -76,8 +79,8 @@ IP-CIDR,149.29.10.80/31,no-resolve
 IP-CIDR,149.29.10.84/30,no-resolve
 IP-CIDR,150.228.44.0/23,no-resolve
 IP-CIDR,150.251.51.0/24,no-resolve
-IP-CIDR,150.40.119.0/24,no-resolve
 IP-CIDR,151.236.240.0/20,no-resolve
+IP-CIDR,153.52.146.0/24,no-resolve
 IP-CIDR,153.52.65.0/24,no-resolve
 IP-CIDR,155.2.163.88/29,no-resolve
 IP-CIDR,155.2.167.88/29,no-resolve
@@ -311,6 +314,9 @@ IP-CIDR6,2401:3620:232:96::/64,no-resolve
 IP-CIDR6,2602:f316:5::/48,no-resolve
 IP-CIDR6,2606:40:2191:4400::/54,no-resolve
 IP-CIDR6,2606:40:22fe:e000::/54,no-resolve
+IP-CIDR6,2606:40:42:e400::/54,no-resolve
+IP-CIDR6,2606:40:a9:cc00::/54,no-resolve
+IP-CIDR6,2606:40:c9:8000::/54,no-resolve
 IP-CIDR6,2606:54c0:4868::/45,no-resolve
 IP-CIDR6,2606:54c1:1:422::/64,no-resolve
 IP-CIDR6,2606:54c1:1:7c4::/64,no-resolve
@@ -331,10 +337,7 @@ IP-CIDR6,2a02:26f7:dd44:d3a0::/60,no-resolve
 IP-CIDR6,2a02:26f7:dd44:d3b0::/62,no-resolve
 IP-CIDR6,2a02:26f7:dd44:d3b4::/63,no-resolve
 IP-CIDR6,2a02:26f7:dd45:4000::/64,no-resolve
-IP-CIDR6,2a02:26f7:dd48:4000::/64,no-resolve
-IP-CIDR6,2a02:26f7:dd48:d3a0::/60,no-resolve
-IP-CIDR6,2a02:26f7:dd48:d3b0::/62,no-resolve
-IP-CIDR6,2a02:26f7:dd48:d3b4::/63,no-resolve
+IP-CIDR6,2a02:26f7:dd48::/48,no-resolve
 IP-CIDR6,2a02:26f7:dd49:4000::/64,no-resolve
 IP-CIDR6,2a02:5580::/32,no-resolve
 IP-CIDR6,2a02:5720::/32,no-resolve
@@ -419,5 +422,4 @@ IP-CIDR6,2a10:e340::/29,no-resolve
 IP-CIDR6,2a13:3580::/29,no-resolve
 IP-CIDR6,2a13:ac00::/29,no-resolve
 IP-CIDR6,2a14:2680::/29,no-resolve
-IP-CIDR6,2a14:67c2:873::/48,no-resolve
 IP-CIDR6,2a14:7580:c300::/40,no-resolve

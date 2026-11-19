@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/ge.json
-# Status: complete; emitted: 751; unsupported: 0
+# Status: complete; emitted: 746; unsupported: 0
 IP-CIDR,104.28.10.64/31,no-resolve
 IP-CIDR,104.28.10.66/32,no-resolve
 IP-CIDR,104.28.106.47/32,no-resolve
@@ -341,6 +341,7 @@ IP-CIDR,45.143.108.0/22,no-resolve
 IP-CIDR,45.153.24.0/22,no-resolve
 IP-CIDR,45.154.157.0/24,no-resolve
 IP-CIDR,45.154.88.0/22,no-resolve
+IP-CIDR,45.157.126.0/23,no-resolve
 IP-CIDR,45.157.152.0/22,no-resolve
 IP-CIDR,45.194.6.0/24,no-resolve
 IP-CIDR,45.195.139.0/24,no-resolve
@@ -454,7 +455,6 @@ IP-CIDR,91.233.104.0/24,no-resolve
 IP-CIDR,91.233.15.0/24,no-resolve
 IP-CIDR,91.234.228.0/24,no-resolve
 IP-CIDR,91.235.243.0/24,no-resolve
-IP-CIDR,91.235.84.0/22,no-resolve
 IP-CIDR,91.237.51.0/24,no-resolve
 IP-CIDR,91.239.206.0/23,no-resolve
 IP-CIDR,91.239.212.0/24,no-resolve
@@ -685,16 +685,13 @@ IP-CIDR6,2a0a:11c5:18::/45,no-resolve
 IP-CIDR6,2a0a:11c5:2000::/35,no-resolve
 IP-CIDR6,2a0a:11c5:200::/39,no-resolve
 IP-CIDR6,2a0a:11c5:20::/43,no-resolve
-IP-CIDR6,2a0a:11c5:2::/47,no-resolve
 IP-CIDR6,2a0a:11c5:4000::/34,no-resolve
 IP-CIDR6,2a0a:11c5:400::/38,no-resolve
 IP-CIDR6,2a0a:11c5:40::/42,no-resolve
-IP-CIDR6,2a0a:11c5:4::/46,no-resolve
 IP-CIDR6,2a0a:11c5:8000::/33,no-resolve
 IP-CIDR6,2a0a:11c5:800::/37,no-resolve
 IP-CIDR6,2a0a:11c5:80::/41,no-resolve
-IP-CIDR6,2a0a:11c5:8::/45,no-resolve
-IP-CIDR6,2a0a:11c5::/48,no-resolve
+IP-CIDR6,2a0a:11c5::/44,no-resolve
 IP-CIDR6,2a0a:11c6::/31,no-resolve
 IP-CIDR6,2a0a:2900::/29,no-resolve
 IP-CIDR6,2a0a:4400::/29,no-resolve
@@ -723,7 +720,6 @@ IP-CIDR6,2a0e:ec05:a000::/40,no-resolve
 IP-CIDR6,2a0e:ec05:a100::/41,no-resolve
 IP-CIDR6,2a0e:ec05:a180::/42,no-resolve
 IP-CIDR6,2a0f:1500::/29,no-resolve
-IP-CIDR6,2a0f:1cc5:1fa0::/48,no-resolve
 IP-CIDR6,2a0f:52c0::/29,no-resolve
 IP-CIDR6,2a0f:7980::/32,no-resolve
 IP-CIDR6,2a0f:8c0::/32,no-resolve
@@ -747,7 +743,6 @@ IP-CIDR6,2a13:b400::/29,no-resolve
 IP-CIDR6,2a13:cb80::/29,no-resolve
 IP-CIDR6,2a13:f180::/29,no-resolve
 IP-CIDR6,2a14:5400::/29,no-resolve
-IP-CIDR6,2a14:67c2:855::/48,no-resolve
 IP-CIDR6,2a14:680::/29,no-resolve
 IP-CIDR6,2a14:6f00::/29,no-resolve
 IP-CIDR6,2a14:840::/32,no-resolve

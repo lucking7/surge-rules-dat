@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads.json
-# Status: partial; emitted: 848; unsupported: 1
+# Status: partial; emitted: 849; unsupported: 1
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,1l-hit.mail.ru
 DOMAIN,1l-hit.vkplay.ru
@@ -772,6 +772,7 @@ DOMAIN-SUFFIX,tce.alicdn.com
 DOMAIN-SUFFIX,tcss.qq.com
 DOMAIN-SUFFIX,tdsdk.cpatrk.net
 DOMAIN-SUFFIX,telecome.cn
+DOMAIN-SUFFIX,tencentads.com
 DOMAIN-SUFFIX,testads.api.my7v.com
 DOMAIN-SUFFIX,theta.sogoucdn.com
 DOMAIN-SUFFIX,tjqonline.cn
