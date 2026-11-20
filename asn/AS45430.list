@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS45430.json
-# Status: complete; emitted: 381; unsupported: 0
+# Status: complete; emitted: 393; unsupported: 0
 IP-CIDR,103.3.64.0/24,no-resolve
 IP-CIDR,110.49.113.0/24,no-resolve
 IP-CIDR,115.178.57.0/24,no-resolve
@@ -29,9 +29,7 @@ IP-CIDR,182.232.212.0/22,no-resolve
 IP-CIDR,182.232.220.0/22,no-resolve
 IP-CIDR,182.232.228.0/22,no-resolve
 IP-CIDR,182.232.244.0/22,no-resolve
-IP-CIDR,182.232.248.0/22,no-resolve
-IP-CIDR,182.232.252.0/23,no-resolve
-IP-CIDR,182.232.255.0/24,no-resolve
+IP-CIDR,182.232.248.0/21,no-resolve
 IP-CIDR,182.232.77.0/24,no-resolve
 IP-CIDR,184.82.61.0/24,no-resolve
 IP-CIDR,49.0.96.0/20,no-resolve
@@ -40,6 +38,7 @@ IP-CIDR,49.229.244.0/22,no-resolve
 IP-CIDR,49.229.252.0/22,no-resolve
 IP-CIDR,49.229.31.0/24,no-resolve
 IP-CIDR,49.229.68.0/24,no-resolve
+IP-CIDR,49.230.154.0/23,no-resolve
 IP-CIDR,49.230.158.0/23,no-resolve
 IP-CIDR,49.230.164.0/22,no-resolve
 IP-CIDR,49.230.172.0/22,no-resolve
@@ -103,6 +102,14 @@ IP-CIDR6,2001:44c8:4360::/44,no-resolve
 IP-CIDR6,2001:44c8:4380::/44,no-resolve
 IP-CIDR6,2001:44c8:43a0::/44,no-resolve
 IP-CIDR6,2001:44c8:43d0::/44,no-resolve
+IP-CIDR6,2001:44c8:4400::/44,no-resolve
+IP-CIDR6,2001:44c8:4440::/44,no-resolve
+IP-CIDR6,2001:44c8:4480::/44,no-resolve
+IP-CIDR6,2001:44c8:44c0::/44,no-resolve
+IP-CIDR6,2001:44c8:4510::/44,no-resolve
+IP-CIDR6,2001:44c8:4520::/44,no-resolve
+IP-CIDR6,2001:44c8:4550::/44,no-resolve
+IP-CIDR6,2001:44c8:4560::/44,no-resolve
 IP-CIDR6,2001:44c8:4630::/44,no-resolve
 IP-CIDR6,2001:44c8:4670::/44,no-resolve
 IP-CIDR6,2001:44c8:4690::/44,no-resolve
@@ -250,7 +257,12 @@ IP-CIDR6,2405:9800:b480::/41,no-resolve
 IP-CIDR6,2405:9800:b600::/42,no-resolve
 IP-CIDR6,2405:9800:b680::/41,no-resolve
 IP-CIDR6,2405:9800:b700::/40,no-resolve
-IP-CIDR6,2405:9800:b800::/42,no-resolve
+IP-CIDR6,2405:9800:b800::/44,no-resolve
+IP-CIDR6,2405:9800:b811::/48,no-resolve
+IP-CIDR6,2405:9800:b812::/47,no-resolve
+IP-CIDR6,2405:9800:b814::/46,no-resolve
+IP-CIDR6,2405:9800:b818::/45,no-resolve
+IP-CIDR6,2405:9800:b820::/43,no-resolve
 IP-CIDR6,2405:9800:b840::/43,no-resolve
 IP-CIDR6,2405:9800:b880::/41,no-resolve
 IP-CIDR6,2405:9800:b::/48,no-resolve

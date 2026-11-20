@@ -1,7 +1,12 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS22394.json
-# Status: complete; emitted: 2206; unsupported: 0
-IP-CIDR,141.207.0.0/16,no-resolve
+# Status: complete; emitted: 2231; unsupported: 0
+IP-CIDR,141.207.0.0/17,no-resolve
+IP-CIDR,141.207.128.0/18,no-resolve
+IP-CIDR,141.207.192.0/19,no-resolve
+IP-CIDR,141.207.224.0/20,no-resolve
+IP-CIDR,141.207.240.0/21,no-resolve
+IP-CIDR,141.207.252.0/22,no-resolve
 IP-CIDR,151.144.0.0/16,no-resolve
 IP-CIDR,166.147.0.0/18,no-resolve
 IP-CIDR,168.201.0.0/19,no-resolve
@@ -152,7 +157,13 @@ IP-CIDR,174.254.0.0/20,no-resolve
 IP-CIDR,174.254.96.0/19,no-resolve
 IP-CIDR,174.255.224.0/20,no-resolve
 IP-CIDR,174.38.0.0/15,no-resolve
-IP-CIDR,174.40.0.0/15,no-resolve
+IP-CIDR,174.40.0.0/16,no-resolve
+IP-CIDR,174.41.0.0/17,no-resolve
+IP-CIDR,174.41.128.0/18,no-resolve
+IP-CIDR,174.41.192.0/19,no-resolve
+IP-CIDR,174.41.224.0/20,no-resolve
+IP-CIDR,174.41.240.0/21,no-resolve
+IP-CIDR,174.41.252.0/22,no-resolve
 IP-CIDR,174.42.180.0/22,no-resolve
 IP-CIDR,174.42.184.0/21,no-resolve
 IP-CIDR,174.42.192.0/18,no-resolve
@@ -357,7 +368,21 @@ IP-CIDR,97.6.0.0/16,no-resolve
 IP-CIDR,97.7.192.0/18,no-resolve
 IP-CIDR,97.9.0.0/16,no-resolve
 IP-CIDR,98.104.0.0/14,no-resolve
-IP-CIDR6,2001:4888::/32,no-resolve
+IP-CIDR6,2001:4888:8000::/44,no-resolve
+IP-CIDR6,2001:4888:8010::/45,no-resolve
+IP-CIDR6,2001:4888:801a::/47,no-resolve
+IP-CIDR6,2001:4888:801c::/46,no-resolve
+IP-CIDR6,2001:4888:8020::/43,no-resolve
+IP-CIDR6,2001:4888:8040::/42,no-resolve
+IP-CIDR6,2001:4888:8080::/41,no-resolve
+IP-CIDR6,2001:4888:8100::/40,no-resolve
+IP-CIDR6,2001:4888:8200::/39,no-resolve
+IP-CIDR6,2001:4888:8400::/38,no-resolve
+IP-CIDR6,2001:4888:8800::/37,no-resolve
+IP-CIDR6,2001:4888:9000::/36,no-resolve
+IP-CIDR6,2001:4888::/33,no-resolve
+IP-CIDR6,2001:4888:a000::/35,no-resolve
+IP-CIDR6,2001:4888:c000::/34,no-resolve
 IP-CIDR6,2600:1000:8000::/36,no-resolve
 IP-CIDR6,2600:1000:9010::/44,no-resolve
 IP-CIDR6,2600:1000:9020::/43,no-resolve

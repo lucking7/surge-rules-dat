@@ -1,15 +1,13 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/asn/AS33287.json
-# Status: complete; emitted: 316; unsupported: 0
+# Status: complete; emitted: 308; unsupported: 0
 IP-CIDR,107.0.50.0/24,no-resolve
 IP-CIDR,107.1.136.0/24,no-resolve
 IP-CIDR,107.1.33.0/24,no-resolve
 IP-CIDR,107.1.53.0/24,no-resolve
 IP-CIDR,107.1.86.0/24,no-resolve
-IP-CIDR,198.184.150.0/24,no-resolve
 IP-CIDR,209.23.225.0/24,no-resolve
 IP-CIDR,24.104.156.0/24,no-resolve
-IP-CIDR,24.75.216.0/22,no-resolve
 IP-CIDR,50.148.139.0/24,no-resolve
 IP-CIDR,50.148.165.0/24,no-resolve
 IP-CIDR,50.200.97.0/24,no-resolve
@@ -98,8 +96,6 @@ IP-CIDR6,2001:559:569::/48,no-resolve
 IP-CIDR6,2001:559:571::/48,no-resolve
 IP-CIDR6,2001:559:582::/48,no-resolve
 IP-CIDR6,2001:559:58f::/48,no-resolve
-IP-CIDR6,2001:559:593::/48,no-resolve
-IP-CIDR6,2001:559:595::/48,no-resolve
 IP-CIDR6,2001:559:596::/47,no-resolve
 IP-CIDR6,2001:559:59a::/48,no-resolve
 IP-CIDR6,2001:559:59d::/48,no-resolve
@@ -135,7 +131,7 @@ IP-CIDR6,2001:559:804e::/48,no-resolve
 IP-CIDR6,2001:559:806d::/48,no-resolve
 IP-CIDR6,2001:559:8085::/48,no-resolve
 IP-CIDR6,2001:559:80a4::/48,no-resolve
-IP-CIDR6,2001:559:80b8::/47,no-resolve
+IP-CIDR6,2001:559:80b8::/48,no-resolve
 IP-CIDR6,2001:559:80ba::/48,no-resolve
 IP-CIDR6,2001:559:80db::/48,no-resolve
 IP-CIDR6,2001:559:80e2::/48,no-resolve
@@ -144,9 +140,7 @@ IP-CIDR6,2001:559:80ec::/48,no-resolve
 IP-CIDR6,2001:559:80ef::/48,no-resolve
 IP-CIDR6,2001:559:80f1::/48,no-resolve
 IP-CIDR6,2001:559:8104::/48,no-resolve
-IP-CIDR6,2001:559:810f::/48,no-resolve
 IP-CIDR6,2001:559:8115::/48,no-resolve
-IP-CIDR6,2001:559:8118::/48,no-resolve
 IP-CIDR6,2001:559:8123::/48,no-resolve
 IP-CIDR6,2001:559:8134::/48,no-resolve
 IP-CIDR6,2001:559:8153::/48,no-resolve
@@ -270,7 +264,6 @@ IP-CIDR6,2001:559:c26b::/48,no-resolve
 IP-CIDR6,2001:559:c291::/48,no-resolve
 IP-CIDR6,2001:559:c292::/48,no-resolve
 IP-CIDR6,2001:559:c2::/48,no-resolve
-IP-CIDR6,2001:559:c2ac::/48,no-resolve
 IP-CIDR6,2001:559:c2c1::/48,no-resolve
 IP-CIDR6,2001:559:c2d8::/48,no-resolve
 IP-CIDR6,2001:559:c2e7::/48,no-resolve
@@ -306,7 +299,6 @@ IP-CIDR6,2001:559:c472::/48,no-resolve
 IP-CIDR6,2001:559:c488::/48,no-resolve
 IP-CIDR6,2001:559:c490::/47,no-resolve
 IP-CIDR6,2001:559:c492::/48,no-resolve
-IP-CIDR6,2001:559:c4aa::/48,no-resolve
 IP-CIDR6,2001:559:c4ae::/48,no-resolve
 IP-CIDR6,2001:559:c4bd::/48,no-resolve
 IP-CIDR6,2001:559:c4be::/48,no-resolve

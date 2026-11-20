@@ -3,7 +3,6 @@
 # Status: complete; emitted: 25; unsupported: 0
 IP-CIDR,151.241.129.0/24,no-resolve
 IP-CIDR,151.247.244.0/24,no-resolve
-IP-CIDR,187.5.5.0/24,no-resolve
 IP-CIDR,200.180.161.0/24,no-resolve
 IP-CIDR,200.180.164.0/24,no-resolve
 IP-CIDR,202.155.152.0/22,no-resolve
@@ -19,10 +18,11 @@ IP-CIDR6,2602:f864:212::/48,no-resolve
 IP-CIDR6,2602:f864:21c::/48,no-resolve
 IP-CIDR6,2602:f864:221::/48,no-resolve
 IP-CIDR6,2602:f864:223::/48,no-resolve
-IP-CIDR6,2602:f864:224::/47,no-resolve
+IP-CIDR6,2602:f864:224::/46,no-resolve
 IP-CIDR6,2602:f864:228::/46,no-resolve
 IP-CIDR6,2602:f864:22c::/47,no-resolve
 IP-CIDR6,2602:f864:22f::/48,no-resolve
 IP-CIDR6,2602:f864:242::/48,no-resolve
+IP-CIDR6,2602:f864:300::/44,no-resolve
 IP-CIDR6,2602:f864:a01::/48,no-resolve
 IP-CIDR6,2602:f864:e00::/40,no-resolve
