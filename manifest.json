@@ -3,14 +3,14 @@
   "upstream": {
     "repository": "MetaCubeX/meta-rules-dat",
     "branch": "sing",
-    "sha": "5891dc369503366ddced03d66246cbf0d6abed09",
-    "archive_sha256": "79c876e2f306fafa997b8de7dc419597b432de893f5bf30ab6776003525eb4ad"
+    "sha": "ece4b740c0df6c1775bdb15e9a17a5184fd34793",
+    "archive_sha256": "56745106f93e6835b114f4075544bd76053a331969de5e9dd7524d93c703cb71"
   },
   "converter_sha256": "37175e0bfa1af780179bdcee38618afdb27ea4f3ef3be08ed51651eb79aca4d0",
   "summary": {
     "rule_sets": 85804,
-    "source_rules": 2411370,
-    "emitted_rules": 2410016,
+    "source_rules": 2410904,
+    "emitted_rules": 2409550,
     "unsupported_rules": 405,
     "deduplicated_rules": 949,
     "merged_rule_sets": 27,
@@ -31,7 +31,7 @@
       "domain": 11639,
       "domain_keyword": 104,
       "domain_regex": 405,
-      "domain_suffix": 230395,
+      "domain_suffix": 229929,
       "ip_cidr": 2168827
     }
   },
@@ -922367,7 +922367,7 @@
     {
       "path": "geo/geosite/alibaba.list",
       "source": "geo/geosite/alibaba.json",
-      "source_sha256": "2dbfd1ab5f8737ebc55a679e08a8eb28e18154a0e5e6e2f6b97a98b397548c28",
+      "source_sha256": "3e418c408041ed2860626814589b9761dc7d2766ec6b5b8c671aa0b6d3abf5db",
       "sha256": "48b653b2d2ba50f3e96ed6e35fe5fcb2534a3d576f39535b00894d349cf481c8",
       "input_rules": 467,
       "rules": 467,
@@ -922378,7 +922378,7 @@
     {
       "path": "geo/geosite/alibaba@!cn.list",
       "source": "geo/geosite/alibaba@!cn.json",
-      "source_sha256": "e655cd199eefd4eba1dab9a5fc057348bb30ca23819136cf13d1daf17a7a7a0f",
+      "source_sha256": "b645eb45d4c7739b2e9d827715709f96876ce4d49e5d6659009a36a51a051ce4",
       "sha256": "78049fa135295fc6d6aeaf763346cf59fd043c858cfe796bd7885f87c461b4c1",
       "input_rules": 38,
       "rules": 38,
@@ -922389,7 +922389,7 @@
     {
       "path": "geo/geosite/alibaba@ads.list",
       "source": "geo/geosite/alibaba@ads.json",
-      "source_sha256": "e44f67cfc3a1e3f0b12d8f151dea630ec65e2cbc49a9e6fd8582baf9682d3c43",
+      "source_sha256": "c3596e4e19f8630b125f9848db965b3d9d1731319ec1195158ecb7e49b592aa9",
       "sha256": "d42603dae553e1c2432dcafd4b27391b6ac2f991b6666f1600dd4ce417c44886",
       "input_rules": 87,
       "rules": 87,
@@ -922411,7 +922411,7 @@
     {
       "path": "geo/geosite/alibaba@telemetry.list",
       "source": "geo/geosite/alibaba@telemetry.json",
-      "source_sha256": "3a7996d4271291a27a936376d44ebc1bf781b221d197c39936ac1f5cdaac717b",
+      "source_sha256": "4bfb456d3d7fbd3b8fa96f300cc76f984065fa9bbebb081713cf9c0ff23e8a34",
       "sha256": "5ae1f40e5d7175cae3b24bca28c0a9f741d4435411ee68871e88e98af392ead9",
       "input_rules": 47,
       "rules": 47,
@@ -922532,7 +922532,7 @@
     {
       "path": "geo/geosite/alphabet.list",
       "source": "geo/geosite/alphabet.json",
-      "source_sha256": "22e405806f4e29e648795d82b6c373a75efcbe87d61b41631645a5f9871019bf",
+      "source_sha256": "1e1c2671cef0564a254f8b8fab3eda1705b13f1b5204c446d66af147353e7d96",
       "sha256": "73e9509f10af1559bb166482e0a74eeb91d06816dc462c16073f1938aa15bb91",
       "input_rules": 1090,
       "rules": 1088,
@@ -922620,7 +922620,7 @@
     {
       "path": "geo/geosite/amazon.list",
       "source": "geo/geosite/amazon.json",
-      "source_sha256": "9243f24494d11547606d1879fb5dccb1514546d32260770bc389271ab66bc0e1",
+      "source_sha256": "2724b945aea4d338763371c3b32f9b7176bcd999bb291b4b524f2cacd98e90dc",
       "sha256": "8d04ed18120320c8d12b0ca6880c6fd128b93211356a23102c129bd5cbe6f892",
       "input_rules": 250,
       "rules": 247,
@@ -922642,7 +922642,7 @@
     {
       "path": "geo/geosite/amazon@cn.list",
       "source": "geo/geosite/amazon@cn.json",
-      "source_sha256": "5852b01b29f200c5022c2b9fa4f555bc7cc62f8d1e9de7e3afa2ea4ca8ede03f",
+      "source_sha256": "c24aa1df346ec413b8d648a11de54767e6455917a3bab0d9406b6f9872375913",
       "sha256": "315328edcb1ffddfa96bb0e80984b28e445451c31f79954563c60d8d82036a30",
       "input_rules": 57,
       "rules": 55,
@@ -923093,10 +923093,10 @@
     {
       "path": "geo/geosite/apple.list",
       "source": "geo/geosite/apple.json",
-      "source_sha256": "4958e226ab3e2258a53bd715fe00d5ef478c6ef24a46eadfe777fa96f7487662",
-      "sha256": "2b862d07af8f5edeb5f4102f057f91128260a3a1ca4d35363d2998495f473570",
-      "input_rules": 1798,
-      "rules": 1796,
+      "source_sha256": "9fd06496d2f0846dcc2be97bd34a22d1cfb75966996b5e6b977295b079ac3776",
+      "sha256": "ce18c87732b31ba42c411b9e8f4688d6fbb2404445d64bfcc9c556be5a39aac2",
+      "input_rules": 1668,
+      "rules": 1666,
       "unsupported": 0,
       "deduplicated": 2,
       "status": "complete"
@@ -923115,7 +923115,7 @@
     {
       "path": "geo/geosite/apple@cn.list",
       "source": "geo/geosite/apple@cn.json",
-      "source_sha256": "8ca65341922eec3baa9c09fc4326a37ffcafc23cc2708b581e44359f13627857",
+      "source_sha256": "071339b51b34c2c2b432392814e465aa70798f3989927c51cd759dc81f638cc6",
       "sha256": "d272207a285de30e222ccf7cb8f2fa50feb595e85d5baa3a0b941a3c9cb07ff0",
       "input_rules": 302,
       "rules": 302,
@@ -923687,10 +923687,10 @@
     {
       "path": "geo/geosite/beats.list",
       "source": "geo/geosite/beats.json",
-      "source_sha256": "a7d7dec051ed4ef5859313fcf330b02c514a20892fe0909cff8947dc5227c66e",
-      "sha256": "3603cad87d6c8b45d94aedbe8d4b8547d0cd9e19855eab5970a5c0bd1a7b40b8",
-      "input_rules": 716,
-      "rules": 716,
+      "source_sha256": "7f0d0ad6fd2369e8c46e7bbdacf9876ee245f692eb46076ef2627bf36ece55e6",
+      "sha256": "bef80e506a9e19ce86341da35471e25d13841ad9764871f55cd11d34db605e85",
+      "input_rules": 588,
+      "rules": 588,
       "unsupported": 0,
       "deduplicated": 0,
       "status": "complete"
@@ -924490,7 +924490,7 @@
     {
       "path": "geo/geosite/bytedance.list",
       "source": "geo/geosite/bytedance.json",
-      "source_sha256": "47b4fbfd13eaaa93f03393a299d5f88fa25b8428f72bdd62a392bc458c6c07e0",
+      "source_sha256": "bdebcf2a7b7463d9151cb1758328a6d4b610059568cf20fc22671425c54651ac",
       "sha256": "1bc8f055eb1e17d4f49393fe56068790427b1675d3e8d07aa705dedbe7fe3fa2",
       "input_rules": 961,
       "rules": 961,
@@ -924754,7 +924754,7 @@
     {
       "path": "geo/geosite/category-ads-all.list",
       "source": "geo/geosite/category-ads-all.json",
-      "source_sha256": "541922911b4f6868b685de12dc642135f700230be1bc49b88b6925c41c718f94",
+      "source_sha256": "e46ce72a5e97fa2db560a354f1e8cc4b745fb113e83b7f1f3079fbaf6f3efbcd",
       "sha256": "f4ab71922f386ad6e40192e150afa026e2da6625aba08fa42161c25cd184d1b5",
       "input_rules": 910,
       "rules": 909,
@@ -924765,7 +924765,7 @@
     {
       "path": "geo/geosite/category-ads-all@ads.list",
       "source": "geo/geosite/category-ads-all@ads.json",
-      "source_sha256": "91605cf78791a0255a8ccdd2ba45ce6a645a502a9a072e91b7e694b5bb8d5afa",
+      "source_sha256": "13f802ca86523d07d25cc01dec96ccbe8535e689afef101c7527303f148b3531",
       "sha256": "b83b81de9836a23c6dbf66bd545da86a46b19d2263af37a80cf11db85e051c27",
       "input_rules": 781,
       "rules": 780,
@@ -924776,7 +924776,7 @@
     {
       "path": "geo/geosite/category-ads-all@telemetry.list",
       "source": "geo/geosite/category-ads-all@telemetry.json",
-      "source_sha256": "c2e5f63c46b8a5e74eff7d1ff3c224d44920a128be6ba635eef795419c15d61d",
+      "source_sha256": "3cd035579ce217e9fd306b84226c14257741e836d6f6081c93a5c5d717e11b95",
       "sha256": "b628788cf4d4eea334baa23cf576ab8e51d020f7833ce693edfc5a2bb9d098ef",
       "input_rules": 196,
       "rules": 196,
@@ -924787,7 +924787,7 @@
     {
       "path": "geo/geosite/category-ads-and-telemetry.list",
       "source": "geo/geosite/category-ads-and-telemetry.json",
-      "source_sha256": "f8d5154f18b6e13b584053e19df03c793e68bafb547f687dbfd9d19f470976e0",
+      "source_sha256": "3ef6bd59b8ac2e78c235c58d421adb01de233ff6e68ac4d5d3e503d4c5069255",
       "sha256": "ac289fac50067b9e189c7fe0d3c1b50c76a0a4cf7582f082fa8a637b62715cfb",
       "input_rules": 1148,
       "rules": 890,
@@ -924798,7 +924798,7 @@
     {
       "path": "geo/geosite/category-ads-and-telemetry@ads.list",
       "source": "geo/geosite/category-ads-and-telemetry@ads.json",
-      "source_sha256": "6031c0941df88adf548556c65b3be4703792b044d876818b6e984b7eb2de2d9d",
+      "source_sha256": "2b03ac76d71248fcde5df7e94a3e0a4f4281be8548c4909f0f55117bbf6ffd60",
       "sha256": "16d5d6c459fdb9be17ee4c3a2468e6c22bff2b2ff0023b41633f9423e86579c8",
       "input_rules": 980,
       "rules": 736,
@@ -924820,7 +924820,7 @@
     {
       "path": "geo/geosite/category-ads-and-telemetry@telemetry.list",
       "source": "geo/geosite/category-ads-and-telemetry@telemetry.json",
-      "source_sha256": "5c671950c1b6072c1cd1fadc7b53645974022a1ddd10849e34d92ebf18ba1fcf",
+      "source_sha256": "25c6f691c57d64a21ef56d26bfac37099f74fc847dcd2bbeeff515022225e7c6",
       "sha256": "d2a3907c53ee9ec936f383a24f1710e45f45acbcd996f567ef6ee79fc2e26b7a",
       "input_rules": 494,
       "rules": 237,
@@ -924842,7 +924842,7 @@
     {
       "path": "geo/geosite/category-ads.list",
       "source": "geo/geosite/category-ads.json",
-      "source_sha256": "558a77776642d2e02d2742fa961a524b910466c8f6a17b84b42a8cad9a84c217",
+      "source_sha256": "5f661f184ca2223bec574f19e230d1cf05aa08126d7e304f2ffd7e2cce8ae57a",
       "sha256": "5403c811dd6d2ea7238d48b215aaaa99981d68cf0ac99950e7d7642a6097a9f4",
       "input_rules": 850,
       "rules": 849,
@@ -924853,7 +924853,7 @@
     {
       "path": "geo/geosite/category-ads@ads.list",
       "source": "geo/geosite/category-ads@ads.json",
-      "source_sha256": "22fd90ef1e6c181dd2276e7797cea2291bc41406852fe42c32e8d0227ad9040f",
+      "source_sha256": "b1691832cb8e7b4b3369ad82fec8056483b829a50ec3408b2e2ddc1fb90fd4f0",
       "sha256": "17808fe0483d7e5ef4ac0a3d0e22f05c10a5d32af9dc2959b6b86812ec90efe7",
       "input_rules": 737,
       "rules": 736,
@@ -924864,7 +924864,7 @@
     {
       "path": "geo/geosite/category-ads@telemetry.list",
       "source": "geo/geosite/category-ads@telemetry.json",
-      "source_sha256": "c2e5f63c46b8a5e74eff7d1ff3c224d44920a128be6ba635eef795419c15d61d",
+      "source_sha256": "3cd035579ce217e9fd306b84226c14257741e836d6f6081c93a5c5d717e11b95",
       "sha256": "28e3085299e89cfdccc1d73d8cb9d9a03bed1a4e2d09edf21d51e68cce95e4d7",
       "input_rules": 196,
       "rules": 196,
@@ -924875,7 +924875,7 @@
     {
       "path": "geo/geosite/category-ai-!cn.list",
       "source": "geo/geosite/category-ai-!cn.json",
-      "source_sha256": "f729b8fcc63ee982a7bad9622572912661b80f6f83b9dd09ef53646cfb8a8542",
+      "source_sha256": "3e03b10df0a53d6ca65e2e79a0c5149cd8614531e5575384d86b67670f4cee34",
       "sha256": "3a185fe5445e90f5656e343f55a9fa51399151311fc2c4038e21dd151868b676",
       "input_rules": 219,
       "rules": 218,
@@ -924908,7 +924908,7 @@
     {
       "path": "geo/geosite/category-ai-!cn@telemetry.list",
       "source": "geo/geosite/category-ai-!cn@telemetry.json",
-      "source_sha256": "21b15f75fadd41be5238a63221d86c2b01c4cb348ce3fe57be0df71b02fe09b0",
+      "source_sha256": "e9b856c1ce6ac2cbd8aa0908eb1e4fb520593f3598cd44239c8334772dee7f22",
       "sha256": "5ac86954d7a23c366cbe3feea252fed1485fa03bd42821726c82f96135fa4d5b",
       "input_rules": 7,
       "rules": 7,
@@ -924919,7 +924919,7 @@
     {
       "path": "geo/geosite/category-ai-chat-!cn.list",
       "source": "geo/geosite/category-ai-chat-!cn.json",
-      "source_sha256": "f729b8fcc63ee982a7bad9622572912661b80f6f83b9dd09ef53646cfb8a8542",
+      "source_sha256": "3e03b10df0a53d6ca65e2e79a0c5149cd8614531e5575384d86b67670f4cee34",
       "sha256": "137c88fc9c520ac0c273154b4616b3c8635feb04eae1b98b1d15b7d9719bab8f",
       "input_rules": 219,
       "rules": 218,
@@ -924952,7 +924952,7 @@
     {
       "path": "geo/geosite/category-ai-chat-!cn@telemetry.list",
       "source": "geo/geosite/category-ai-chat-!cn@telemetry.json",
-      "source_sha256": "21b15f75fadd41be5238a63221d86c2b01c4cb348ce3fe57be0df71b02fe09b0",
+      "source_sha256": "e9b856c1ce6ac2cbd8aa0908eb1e4fb520593f3598cd44239c8334772dee7f22",
       "sha256": "697a79b765d638da8950d69da9a87f5dcf7e0ef15d2853dd234a06a7cf2f3b9a",
       "input_rules": 7,
       "rules": 7,
@@ -924963,7 +924963,7 @@
     {
       "path": "geo/geosite/category-ai-cn.list",
       "source": "geo/geosite/category-ai-cn.json",
-      "source_sha256": "3851d4d6a3d029ea78f40e2861447b77f9832e4043c7cf26bdaa21112ce77270",
+      "source_sha256": "8f601e256e683107847364443af161f82016631f3f13914602e8481cba6bdc68",
       "sha256": "dc6ad78c02ebbca29e085bca2c8fa942f231d1089b27e2d9439fb7e08c56fd86",
       "input_rules": 129,
       "rules": 129,
@@ -924985,7 +924985,7 @@
     {
       "path": "geo/geosite/category-android-app-download.list",
       "source": "geo/geosite/category-android-app-download.json",
-      "source_sha256": "e53854df3287fb6fa06ebcac6604c496f730653f8c8215a4a042c3549758f9bb",
+      "source_sha256": "9d891d61d742e3ebca6f3110a86d2dbbbf5ce684afe95faf7a0117ef3500a7e7",
       "sha256": "fe7da4f60cc8b89d84505082e801a71e36803049b18cf7dd7d2fe099fef26df9",
       "input_rules": 11,
       "rules": 11,
@@ -924996,7 +924996,7 @@
     {
       "path": "geo/geosite/category-anticensorship.list",
       "source": "geo/geosite/category-anticensorship.json",
-      "source_sha256": "2f84c0c9b6e44bbbf244c255ea97a0a935332e34b1b1648a3e67eb8f4e384811",
+      "source_sha256": "9c4f5c851be63bb786658105975d260ccfebaeb57fce60a5c6e37b1c39b3f495",
       "sha256": "6690cc1819968e9a61d341d19700e2602ed313520dfe8d687dd7c799b03a69f3",
       "input_rules": 128,
       "rules": 128,
@@ -925007,7 +925007,7 @@
     {
       "path": "geo/geosite/category-antivirus.list",
       "source": "geo/geosite/category-antivirus.json",
-      "source_sha256": "5a325c3ca2e0f635138d20c5b90d12844a3f68956cfc2fea61f5c1978bbc2982",
+      "source_sha256": "af0d0aae33f92587a833f4060b7b47d8c2b7810ae006fcd9f58fac09457c83d7",
       "sha256": "4fb802467132a0bbf10c279cf8dad1d670113019e7e7e556e3cf3df136a1f4b2",
       "input_rules": 166,
       "rules": 166,
@@ -925029,10 +925029,10 @@
     {
       "path": "geo/geosite/category-automobile-cn.list",
       "source": "geo/geosite/category-automobile-cn.json",
-      "source_sha256": "7e08d2a9696f159fb2fe7038642f15269908f135ae6f7dfef4fd33e55efe2ece",
-      "sha256": "61c7f8bfbb96e72bc9c2a944b23c6663af78883bbaf2d51e53ace27e1ed64cab",
-      "input_rules": 51,
-      "rules": 51,
+      "source_sha256": "48277175ea13ed5f3886897b1a56fbb8e5d39583fc6d5f7af5255639723d5f4b",
+      "sha256": "3144d9149a7f5a72f1407f0d5abd99d0bd83ecfd4a6554937d548725be7221d3",
+      "input_rules": 52,
+      "rules": 52,
       "unsupported": 0,
       "deduplicated": 0,
       "status": "complete"
@@ -925084,7 +925084,7 @@
     {
       "path": "geo/geosite/category-bank-ru.list",
       "source": "geo/geosite/category-bank-ru.json",
-      "source_sha256": "8f9eb7a0a7a5ce53dc22db188473cf3b55186c17e15c93c92887c4b186eeaae3",
+      "source_sha256": "04877b0c8e5e6a1bc1e7c8b99cd79cc0de3230f9449ac12ba9df99274a4da909",
       "sha256": "ca95411b4b37c421a05da25a1e64bb6cb0c535a14caeaf8ac75b532ffb3ececc",
       "input_rules": 358,
       "rules": 358,
@@ -925150,7 +925150,7 @@
     {
       "path": "geo/geosite/category-browser-!cn.list",
       "source": "geo/geosite/category-browser-!cn.json",
-      "source_sha256": "c0d800f5cbf48d5a08c235ae03f16d80d2a3a02df42790d4f0048a2ec90b13aa",
+      "source_sha256": "0780bbcfb249a8e1ba5069e439d9108a49fc06cd768ef33daecbbd929982a541",
       "sha256": "2b43527746c15016c7b2cdae538174ad115f399eb17c64cac3196cd16775c72a",
       "input_rules": 37,
       "rules": 37,
@@ -925161,7 +925161,7 @@
     {
       "path": "geo/geosite/category-cas.list",
       "source": "geo/geosite/category-cas.json",
-      "source_sha256": "84f7d597a321fa2cbd891214084390ca168dcf4aee4537a53bc352fdf2ffbd35",
+      "source_sha256": "dfe0d584db3259f1831c6d068d2abee793cca519ff89c8123bd7371589b9657a",
       "sha256": "4ae0be213e83d0fc771d4adb33c279ccabce8f45b56ff40cb89673e6bd611951",
       "input_rules": 259,
       "rules": 259,
@@ -925172,7 +925172,7 @@
     {
       "path": "geo/geosite/category-cas@cn.list",
       "source": "geo/geosite/category-cas@cn.json",
-      "source_sha256": "e1ccc9ea914c0cd22b9332217c0474c8855d15a7cbc4d95f2a1165bdf0588070",
+      "source_sha256": "cae4d32471caf3b95b373595cfbb8a27aedf1759fe67447a06c525a6741dfe47",
       "sha256": "e78a35bd640bc698be54842686555c4a2fbbfb410d9e78b3a63b1e60536a2530",
       "input_rules": 31,
       "rules": 31,
@@ -925183,7 +925183,7 @@
     {
       "path": "geo/geosite/category-cdn-!cn.list",
       "source": "geo/geosite/category-cdn-!cn.json",
-      "source_sha256": "98df92b1dd0bf16e5c17416260a6afa824fc4d57df558cd3dcc07897e77744f5",
+      "source_sha256": "1618546b55b612e00217c930b048aa0cd10a47d452bb572bc97cd8ff22b0977f",
       "sha256": "26223ed06e08f7e4abcff0884491f49920b1199777683342f7ac29470582cc97",
       "input_rules": 195,
       "rules": 195,
@@ -925194,7 +925194,7 @@
     {
       "path": "geo/geosite/category-cdn-!cn@cn.list",
       "source": "geo/geosite/category-cdn-!cn@cn.json",
-      "source_sha256": "f5ab32ac3cc22d38ba253ceebe9e97a5e2e40cbae83fed6d1bae883681a528b2",
+      "source_sha256": "03253989600ebd3bf7a6ec994d1865af0dcaeffc167471d352d359d69496db95",
       "sha256": "c84b1dc54121eff98a83bbd35e3488f972d5607799e5ad4aa9f3e26e122c2c76",
       "input_rules": 30,
       "rules": 30,
@@ -925205,7 +925205,7 @@
     {
       "path": "geo/geosite/category-cdn-!cn@telemetry.list",
       "source": "geo/geosite/category-cdn-!cn@telemetry.json",
-      "source_sha256": "75aa5fba3bcd2f733c08169d1c3f41f30a94253e7fdf8f62be0f0c718a441295",
+      "source_sha256": "9a5e9f83ae3b72269d8ef2db0df19a83105a3761c881b302fa9c894f789b3ca6",
       "sha256": "ea3d93fe72e308845ac51ddd2ce1026a7d764607ae413f1265e7647783c6b004",
       "input_rules": 3,
       "rules": 3,
@@ -925216,7 +925216,7 @@
     {
       "path": "geo/geosite/category-cdn-cn.list",
       "source": "geo/geosite/category-cdn-cn.json",
-      "source_sha256": "e8d6457ab231cca1726233bdcffdad688f1b5f0ab33998721d073caf97f734c5",
+      "source_sha256": "5f95aceb923ea2f9b5367e75a4fe9ee7ef35a81160a132338f66afa65e27a24f",
       "sha256": "c2658e7880cd61c4d775b1acbf45193ee9e3f568119f6405cad61b45ebfe25fb",
       "input_rules": 99,
       "rules": 99,
@@ -925260,7 +925260,7 @@
     {
       "path": "geo/geosite/category-communication.list",
       "source": "geo/geosite/category-communication.json",
-      "source_sha256": "0e2df88c8c77c8e539b50f55ad816cb765baf7576fc44e6e1bdd6fa7c961444c",
+      "source_sha256": "3d0d2d7866ad108d5838448cd9ef6ec6ff2ce168eb190d4551bf39a971815998",
       "sha256": "b6ccec54807ed34796b4b7134fff1e4a3ed140e103f1547680eb50f4de3ee69a",
       "input_rules": 160,
       "rules": 160,
@@ -925282,10 +925282,10 @@
     {
       "path": "geo/geosite/category-companies.list",
       "source": "geo/geosite/category-companies.json",
-      "source_sha256": "99850609abd496380a991f51d3e9bceffb0a7bce4372fdb7ef64a98ccc48e63a",
-      "sha256": "6c657c852e8fa4874b5b12b2097eb32e8cd42f93a46460614c6f110553d2b7f7",
-      "input_rules": 8682,
-      "rules": 8672,
+      "source_sha256": "c15c9f4a80c76233eaa6ec463a26a8b497ed02af358388632fc0e282de7fed5c",
+      "sha256": "958f6cccd340354be38fe6a92d259ca057091f13a56c4fa55ec32c3d7456e7cd",
+      "input_rules": 8552,
+      "rules": 8542,
       "unsupported": 6,
       "deduplicated": 4,
       "status": "partial"
@@ -925304,7 +925304,7 @@
     {
       "path": "geo/geosite/category-companies@ads.list",
       "source": "geo/geosite/category-companies@ads.json",
-      "source_sha256": "a645c6f99a6abc77e9a3821cb2e1f99dc9ca3c32abea525ea3d505fca2fa3142",
+      "source_sha256": "7ba6a2d6f035e9886b0cc557d4aa1fb876b41411df6232289a063d0b3d57f17c",
       "sha256": "20387bd295ba897060511b8f05c9b7fb77caaea6a67142b608d8425eac4f7d9e",
       "input_rules": 223,
       "rules": 223,
@@ -925315,7 +925315,7 @@
     {
       "path": "geo/geosite/category-companies@cn.list",
       "source": "geo/geosite/category-companies@cn.json",
-      "source_sha256": "4e9c23131ce8af4d5b98e639e49b7ae31115673264a056f72a88864e47025f34",
+      "source_sha256": "0dbb61225e00a257e8bc72b9cdd76e90f1ff2a4f9d8245f42eeb932a433ce7e1",
       "sha256": "83078c33f6c487f7ae9383230a1d7b5631b253f619979a2a891ff3027c9809b1",
       "input_rules": 847,
       "rules": 843,
@@ -925326,7 +925326,7 @@
     {
       "path": "geo/geosite/category-companies@telemetry.list",
       "source": "geo/geosite/category-companies@telemetry.json",
-      "source_sha256": "619f1988446a2bd5827177126e36ae10e5c9bc137000a4afa27cbd69f3a5395e",
+      "source_sha256": "3f628142dfd8b861aec13987b211ae716179ab089ede3c93a46fd8f5f74d4194",
       "sha256": "638db5d62cb88c416f5c0cede807b57b8da85e215cc2c5a47aa73f112e737be4",
       "input_rules": 63,
       "rules": 63,
@@ -925359,7 +925359,7 @@
     {
       "path": "geo/geosite/category-cryptocurrency.list",
       "source": "geo/geosite/category-cryptocurrency.json",
-      "source_sha256": "bd96ea2e6a1185349c1f9219ff8a7d356a4d182621408b72b86c86ed77722053",
+      "source_sha256": "3e4cbdefb58ee928c9e192112493c83ad7d65c65338b9b688dda4680b42f3a6d",
       "sha256": "7c0905fdb3cd1d423c041293dcbab482a2b635b13c3bbe90f51e0bd7b9deabdb",
       "input_rules": 241,
       "rules": 241,
@@ -925381,7 +925381,7 @@
     {
       "path": "geo/geosite/category-ddns.list",
       "source": "geo/geosite/category-ddns.json",
-      "source_sha256": "edf10769d23f68a7b8d9c1f788bbdcae70a62cc7fd1403811468861c3f6efd74",
+      "source_sha256": "462e63c9eda3ac710b3e18fd09907f593a76527a441645ffd968feaa352d66a8",
       "sha256": "815d60c43f090687773b389ff27af4b5884d391576c19a0203d06551936c2483",
       "input_rules": 111,
       "rules": 111,
@@ -925392,7 +925392,7 @@
     {
       "path": "geo/geosite/category-dev-cn.list",
       "source": "geo/geosite/category-dev-cn.json",
-      "source_sha256": "eaff453467dfd93446ad48f385b9448938d89e10976d77cb84c9d7748dac1ef4",
+      "source_sha256": "126bae5f7fa1e3ade7e43ce094ba8a414b41448088a281e0fd84458cd3ed9e8a",
       "sha256": "a3e68de861a44e429b6a18ddb7a27625137f1c6a528ac26a4f98f8956ab0135b",
       "input_rules": 134,
       "rules": 134,
@@ -925425,7 +925425,7 @@
     {
       "path": "geo/geosite/category-dev.list",
       "source": "geo/geosite/category-dev.json",
-      "source_sha256": "7e67b973cb46116c910e8cf167128a5b1311ab85b75b7237650b8d82446eeab3",
+      "source_sha256": "53acfdc4f34b454c6c7fff9e9d3dc3ff4514ec97b26b446538290480da567762",
       "sha256": "6ab178a3d1f071ef70e55b6f756b75d73c167eb72bdb5da612f1a66c168ba233",
       "input_rules": 697,
       "rules": 696,
@@ -925447,7 +925447,7 @@
     {
       "path": "geo/geosite/category-dev@cn.list",
       "source": "geo/geosite/category-dev@cn.json",
-      "source_sha256": "1ba08d80237b50ae374904d759a3b6cc2b8011872108b682afc03d3513ba0a64",
+      "source_sha256": "2a33686b41121b16240578ce6a0df2df36947b1f84325c657a3c64f8ea89e7a5",
       "sha256": "1fc19da3d40f5b2955194ce6ca7597a506341d9c34f6d92835a0dec9c664332d",
       "input_rules": 25,
       "rules": 25,
@@ -925458,7 +925458,7 @@
     {
       "path": "geo/geosite/category-dev@telemetry.list",
       "source": "geo/geosite/category-dev@telemetry.json",
-      "source_sha256": "0b1bc564e0200d51a2cae2b73295a494937541b523d6506ec24ac173abac4d01",
+      "source_sha256": "6a6eadb73bd585cbcc9c4bc0989fe7ce9f637f5c62ca8bfa60efe69aeccaa38e",
       "sha256": "c3b814fc2cf206e7ec6b8e714f391f8bb4a0b511dccef0f7f9bcaa30dafe1829",
       "input_rules": 14,
       "rules": 14,
@@ -925491,7 +925491,7 @@
     {
       "path": "geo/geosite/category-ecommerce-ru.list",
       "source": "geo/geosite/category-ecommerce-ru.json",
-      "source_sha256": "08d00c47d87abc7577ce069084f571d28ca3af80863ef2ba6549a3d87fbfde6a",
+      "source_sha256": "e4838f5fa7283c568b0d6a7f2dd1698e69570f00789b7479829b245c2b455181",
       "sha256": "79dbe16ea10be7296d89c49610e80794f5f38d5d07a4d18c886b3e689a979c50",
       "input_rules": 201,
       "rules": 201,
@@ -925524,7 +925524,7 @@
     {
       "path": "geo/geosite/category-ecommerce.list",
       "source": "geo/geosite/category-ecommerce.json",
-      "source_sha256": "a6900697a8a308e0cd48bd5e5b48a7e96c478ab26a6cd41c2ffd3cc260692cf1",
+      "source_sha256": "0cb57a6bb6b5df5e367b537142532a50255d9814216d335db7719e625ed11d5f",
       "sha256": "a79d5597716709c0b92ccc5608b3b19070da48b1e519b63d557550ac98048e56",
       "input_rules": 1329,
       "rules": 1329,
@@ -925546,7 +925546,7 @@
     {
       "path": "geo/geosite/category-ecommerce@cn.list",
       "source": "geo/geosite/category-ecommerce@cn.json",
-      "source_sha256": "dc89eb13c2ac2c74d42b778a8cda8f2cd81805ed835cc238a4bb9e5d629a9609",
+      "source_sha256": "e5444f31d813d5386fce55c214c2bb0a0e8dfe9ec29fc3b1a41e1d0c51664f50",
       "sha256": "13f2a873df13143396c535b27ef699bc802dbe918902861187af49d65ca3f02e",
       "input_rules": 80,
       "rules": 80,
@@ -925568,7 +925568,7 @@
     {
       "path": "geo/geosite/category-education-cn.list",
       "source": "geo/geosite/category-education-cn.json",
-      "source_sha256": "72838d41236127b86b9efd6c295031c0c1a07cd57cace24ee0fac541cc16ba91",
+      "source_sha256": "02c1524c98460d51be75541440ceb743b0a712d0793dbb8372d79167a7822cec",
       "sha256": "f7c7814a1c5d97aae0df792e12a6acaa578bcd2c55bfeaef148b4a8db01c2bd1",
       "input_rules": 202,
       "rules": 202,
@@ -925612,7 +925612,7 @@
     {
       "path": "geo/geosite/category-electronic-cn.list",
       "source": "geo/geosite/category-electronic-cn.json",
-      "source_sha256": "59fd7b902525456164b4eea21c3d24327b16feda90d28d251635f51d8e4467c4",
+      "source_sha256": "ad1d1e79c7463439e54e01ff50d7f461a1597da52d88d0ff35e62812c343a661",
       "sha256": "96dec853fcbebd989009a4e418d54e01b2413047584b6793cb2e91fc9e4ddd92",
       "input_rules": 93,
       "rules": 93,
@@ -925634,7 +925634,7 @@
     {
       "path": "geo/geosite/category-enhance-gaming.list",
       "source": "geo/geosite/category-enhance-gaming.json",
-      "source_sha256": "f6f9e7cbd7b2ff6bb8548e21a824a2170509fa9d4e0bcf94c8a63ceed241512a",
+      "source_sha256": "c722f68fe58c812aa48f73bcbd82b58846e382d8b6b7ae77c192fdd0ecd16a17",
       "sha256": "50fac6161acab28dde8d596a7e57622010031cc703f29b51d824d246fb51d3fe",
       "input_rules": 18,
       "rules": 18,
@@ -925656,7 +925656,7 @@
     {
       "path": "geo/geosite/category-enterprise-query-platform-cn.list",
       "source": "geo/geosite/category-enterprise-query-platform-cn.json",
-      "source_sha256": "d79474142d48b1b23761c6d27bbb57d8357a0e74f804217fb392814b22918555",
+      "source_sha256": "413f29b4a5a56b7fb36d979d6898b8c2b533051e3b3e6369a7aecacc22610525",
       "sha256": "01002f7444a971a826eebc8ba72c81e3d24aa90736c825f902c1d37327d2d1f8",
       "input_rules": 13,
       "rules": 13,
@@ -925667,7 +925667,7 @@
     {
       "path": "geo/geosite/category-entertainment-cn.list",
       "source": "geo/geosite/category-entertainment-cn.json",
-      "source_sha256": "2cc7ee983d28fd26f6e6ce7b074d7566389ff6f57074c9b8fc84c4ceb5071374",
+      "source_sha256": "ab6d475ba7c48c595127ff80bd3c088312ec2ecd890baa60d6b0d8a754297242",
       "sha256": "70e4435b3ab11f689879583ea2a9715a5a6038ef5cd195a6e42b327469c4ea56",
       "input_rules": 714,
       "rules": 713,
@@ -925678,7 +925678,7 @@
     {
       "path": "geo/geosite/category-entertainment-cn@ads.list",
       "source": "geo/geosite/category-entertainment-cn@ads.json",
-      "source_sha256": "5c4ec383375f09601efeebe9b54018ed9e53dcf302cbe299554e32abc5b8890c",
+      "source_sha256": "a83152c50605f1c3525c0438ac0d89a3b047d25b31b2e5637a11fba4bf791535",
       "sha256": "6748ac423cc56e11a38d4a4330fc0f9544fc76eeb59a8dcf8bd3102c8b27b219",
       "input_rules": 52,
       "rules": 52,
@@ -925700,7 +925700,7 @@
     {
       "path": "geo/geosite/category-entertainment-cn@telemetry.list",
       "source": "geo/geosite/category-entertainment-cn@telemetry.json",
-      "source_sha256": "4d06e082aad1650050be8a8f08e6e50e7c249a8b3d9561d784715abbe1a76d69",
+      "source_sha256": "e36d4653a9e0dcc1e74b79413f129dcf1465bd80caf73cfc16546838dfad0ad9",
       "sha256": "132f5f95ef8deb54c2e82e989d31da28c46887a0d192a48c1bdb2ffed3985363",
       "input_rules": 18,
       "rules": 18,
@@ -925711,7 +925711,7 @@
     {
       "path": "geo/geosite/category-entertainment-ru.list",
       "source": "geo/geosite/category-entertainment-ru.json",
-      "source_sha256": "eab516433f6aa7009e0962c7b377d78fa55ad3e6bc1c257baf162a00bf603802",
+      "source_sha256": "458395565170296039b48d3d506882a18c75c759a0bee5a3d0e8af15a6cbc3fb",
       "sha256": "a424782b985d33c440ab95355844a060cec822ebc5ebf8eb74a8364e7261ac1d",
       "input_rules": 35,
       "rules": 35,
@@ -925722,7 +925722,7 @@
     {
       "path": "geo/geosite/category-entertainment.list",
       "source": "geo/geosite/category-entertainment.json",
-      "source_sha256": "74a7dd4b0b7c7cc745cf91a2faa469f8d5e71b1b3d4932407b08aea306c86994",
+      "source_sha256": "47a17e600c1fa6b5e069754d96b5a1e07bb56f8e541102f592091b94a53079fb",
       "sha256": "9b08b1ffb35ed0bc5bcaeebc1972248e6e5a745e2b88690e29825e93cbd90838",
       "input_rules": 2175,
       "rules": 2163,
@@ -925733,7 +925733,7 @@
     {
       "path": "geo/geosite/category-entertainment@!cn.list",
       "source": "geo/geosite/category-entertainment@!cn.json",
-      "source_sha256": "e153d42d0485a682433daf3b45a3b763284242b64af83ba144533d382c139955",
+      "source_sha256": "cdda3ee8ac7d4ec9d5a8568a5e1f06b527e09725041a1dd5c73aafc7163224d7",
       "sha256": "a410b49fd5f9a1785e17e62f50abeed994009e54e855ad47b61b19768a5a8164",
       "input_rules": 40,
       "rules": 40,
@@ -925744,7 +925744,7 @@
     {
       "path": "geo/geosite/category-entertainment@ads.list",
       "source": "geo/geosite/category-entertainment@ads.json",
-      "source_sha256": "04d8893d1ee84fa25c82bedb01c855443e1e2a173a59a5ceb2954f9955d89b93",
+      "source_sha256": "6822c6d376f308f7b8876df7abf84af82375574c327731303aaa3eb54eb750b3",
       "sha256": "9c50d43a697a65a10c702a1538a1f694ed6620d1cde4a5dfb31d1b197de184f2",
       "input_rules": 9,
       "rules": 9,
@@ -925755,7 +925755,7 @@
     {
       "path": "geo/geosite/category-entertainment@cn.list",
       "source": "geo/geosite/category-entertainment@cn.json",
-      "source_sha256": "9442395aabf101208a725fa30a98b805870b051471b5ce33ef6f7cfc1bceaae3",
+      "source_sha256": "8638d5faf4cbe0cd1b3c2f97184c617209014212947dc07bcd2853fec3116df6",
       "sha256": "e4223f3a75efe3d06417d08d9073e16dd5cb3b206a5ce941cfbc92549df44fe9",
       "input_rules": 105,
       "rules": 103,
@@ -925766,7 +925766,7 @@
     {
       "path": "geo/geosite/category-entertainment@telemetry.list",
       "source": "geo/geosite/category-entertainment@telemetry.json",
-      "source_sha256": "8895180bb5629f98acf1ba4d27adeab089c156d275cdb0c19585008350d328fa",
+      "source_sha256": "2eb36962f406c51a9daf499ccb411bd3c84108c9d048c83e31e2cb8e8e359ef0",
       "sha256": "4fee9a9c20991d3affa5638b4498fa6b4bc68259712a5c5d56a2852a8f84f195",
       "input_rules": 4,
       "rules": 4,
@@ -925777,7 +925777,7 @@
     {
       "path": "geo/geosite/category-finance.list",
       "source": "geo/geosite/category-finance.json",
-      "source_sha256": "f0a0f2dd90e0f18f8c3b8b917d5b157cbd4293ea9673982e64835b944f5f500d",
+      "source_sha256": "19f11d8ce9393c3cbf5cd503a749370f008c8209d2fbca15f2ebb3238782e591",
       "sha256": "2c48d5c8c38bd45faee471dcdd232149e79c66f725cf59251043859c18ddd8e8",
       "input_rules": 663,
       "rules": 663,
@@ -925898,7 +925898,7 @@
     {
       "path": "geo/geosite/category-forums.list",
       "source": "geo/geosite/category-forums.json",
-      "source_sha256": "dbeb115ea4c0a7c20360f03ee614b2c9951421ec0aa7e3a598e25a96ea652513",
+      "source_sha256": "4fa23bb3f847f7b5263c62739089272598445761adf22fcf6f08d391ff6f2d60",
       "sha256": "5cb885c6490ebf27fc3904877ce88474b58eecd239aa8557188b200ad186efe1",
       "input_rules": 114,
       "rules": 114,
@@ -925964,7 +925964,7 @@
     {
       "path": "geo/geosite/category-games-!cn.list",
       "source": "geo/geosite/category-games-!cn.json",
-      "source_sha256": "92c4a8044cb2d817b5e1108759f72bb757854c7d3559915cf7b8d040fd2ba1d2",
+      "source_sha256": "a1eaca25ede1ffe500204b72e16966f9b945c504da1b0b201af1f260a1e1b25f",
       "sha256": "43095e8a1ebe2d0f86d18ffb3691760944d3cf317dd05cbbb99a7cea46b1b78b",
       "input_rules": 885,
       "rules": 882,
@@ -925975,7 +925975,7 @@
     {
       "path": "geo/geosite/category-games-!cn@ads.list",
       "source": "geo/geosite/category-games-!cn@ads.json",
-      "source_sha256": "f8194d74aa3fcce333ff2fdd2988e6cac407d4e26797a87737de970d573045d7",
+      "source_sha256": "3784d544f8cf5e72ad66c757d149c8e04a00dfd12a85098e89c0e782e2ade916",
       "sha256": "7e134b7e18849f6b761303aee973ca5f061126a8aba0a64de1d08adea186375b",
       "input_rules": 2,
       "rules": 2,
@@ -925986,7 +925986,7 @@
     {
       "path": "geo/geosite/category-games-!cn@cn.list",
       "source": "geo/geosite/category-games-!cn@cn.json",
-      "source_sha256": "584df0d1d9c14ec9a0aaf13ea85f474f13c19a6f26b42af4c24fd907e9308035",
+      "source_sha256": "a87f3be96418d4624e51b32382250af7731787465cfa7f60504bf39a3b1151c0",
       "sha256": "7ddb7cce051024c49a3335f5177d03751e9cffdc9fa356478ec28fcf88656f25",
       "input_rules": 39,
       "rules": 37,
@@ -925997,7 +925997,7 @@
     {
       "path": "geo/geosite/category-games-!cn@telemetry.list",
       "source": "geo/geosite/category-games-!cn@telemetry.json",
-      "source_sha256": "21c6263cac50a94c4d4740f54fa2c6851f034dbd6b2ed7acfb54debd1fd25b03",
+      "source_sha256": "cd19fb18a5d7d682feb978462b3239d9e6ac3473e4a42ff3029f892c1350e2a4",
       "sha256": "e5952d13c064df69da2b21163e5aabfd9ce576c505b4912cdfb3328582700d09",
       "input_rules": 3,
       "rules": 3,
@@ -926008,7 +926008,7 @@
     {
       "path": "geo/geosite/category-games-cn.list",
       "source": "geo/geosite/category-games-cn.json",
-      "source_sha256": "5fc9a314367635e1e1a9a123ba832c4fee893c2975f8dbb0c22fde6a336562da",
+      "source_sha256": "074f1de6c58d8f5b517f98ea4a8f1ac62701ea2302d1498d9b1ea8a23a118f72",
       "sha256": "871297e205ee33917e9eced64ad4b52839c51e6b890236a2bdd9dfc81292d3e4",
       "input_rules": 181,
       "rules": 180,
@@ -926052,7 +926052,7 @@
     {
       "path": "geo/geosite/category-games.list",
       "source": "geo/geosite/category-games.json",
-      "source_sha256": "b9839804973b18b095be022c9790e71204e06f03724d0274c69465a4565078f6",
+      "source_sha256": "763ec94dbac85a561228be4237a509b732d9d4b52bb5e53f09956a137021837f",
       "sha256": "df327e42bc3e82d9f0c2391742fde327b32d07f175d442037933c3d72c2e900e",
       "input_rules": 1066,
       "rules": 1062,
@@ -926063,7 +926063,7 @@
     {
       "path": "geo/geosite/category-games@ads.list",
       "source": "geo/geosite/category-games@ads.json",
-      "source_sha256": "9d488c5d618c27f63291c5f97044058ecfd539a5d44136cf077f2559afb3342a",
+      "source_sha256": "d52b7c152f21db9192725db1f5f443862da55719fd5b93f2177d1f4dbf25265d",
       "sha256": "270074ae44c6cdbbdb405737751f147f6749de86bba437f9b485f2619dedd84c",
       "input_rules": 3,
       "rules": 3,
@@ -926074,7 +926074,7 @@
     {
       "path": "geo/geosite/category-games@cn.list",
       "source": "geo/geosite/category-games@cn.json",
-      "source_sha256": "e2b16a865157ac5dfaf287340b19da1c7dd9b148499dab77f693e1ff49bbfe5a",
+      "source_sha256": "608a92a2c8c2b0e1012edb4bae0d2f0505909e2c48c03dcd771a8f3066c542c5",
       "sha256": "94c4e1998b7bcb653381120d1bbfc4841cc58fbd1da6bbad276e99a87fcfe1f7",
       "input_rules": 40,
       "rules": 37,
@@ -926085,7 +926085,7 @@
     {
       "path": "geo/geosite/category-games@telemetry.list",
       "source": "geo/geosite/category-games@telemetry.json",
-      "source_sha256": "bb957f82b07a4474e0185e894a6cbe7b919efe2c23d168fe654efb31c69a3534",
+      "source_sha256": "98d80d2e2048a26a30d4abc4cde5f7e1c22bb579766ac1135020f279935e3b66",
       "sha256": "d5289c970fd440297151ae79dadde201defa373e0191b99d54520063535fc775",
       "input_rules": 4,
       "rules": 4,
@@ -926206,7 +926206,7 @@
     {
       "path": "geo/geosite/category-ir.list",
       "source": "geo/geosite/category-ir.json",
-      "source_sha256": "f61d464bbac9c83336ab9675b37bd9dbf6017e7ac907d0844999c9e388336cba",
+      "source_sha256": "65013dcff114bc7e567a35b1f3c855c4722da68620d7ce00012c756020e08e42",
       "sha256": "8cfccac988519ac02d931a8c575ef0cf1b123c643b47649466659daf614ea6ea",
       "input_rules": 190,
       "rules": 190,
@@ -926217,7 +926217,7 @@
     {
       "path": "geo/geosite/category-logistics-cn.list",
       "source": "geo/geosite/category-logistics-cn.json",
-      "source_sha256": "d27db58d4bd0f47f4f49fc360256b971f499a6dde71e4cd8eb348999449a62c2",
+      "source_sha256": "d898dac88efd6ef9d211c3360c1bdd791254bb0e0b958d328f1e7a6f74005cde",
       "sha256": "39f5cde71693caa565364af27b53222875f2d5e3cca3ffd39a732b4536eb0185",
       "input_rules": 158,
       "rules": 158,
@@ -926250,7 +926250,7 @@
     {
       "path": "geo/geosite/category-media-cn.list",
       "source": "geo/geosite/category-media-cn.json",
-      "source_sha256": "47418c35e56ca4a213ccf4a493aea5e56cd84a8ff44f3932694525279e008702",
+      "source_sha256": "69165aedd70b0e1f32df0571aeec624e344d964ac4f38c6c1f49a316423224c3",
       "sha256": "ed6a875812eb4a6ea8170fbd450a1dde3c5a0d0f9821b961c26ba7daee4c88eb",
       "input_rules": 461,
       "rules": 461,
@@ -926261,7 +926261,7 @@
     {
       "path": "geo/geosite/category-media-cn@ads.list",
       "source": "geo/geosite/category-media-cn@ads.json",
-      "source_sha256": "d19f8e29241f83c21a6681179f63502aa93752481da8c0f22cfd9ae777e38979",
+      "source_sha256": "1b0c6af9f6e199678e612394f7ca798e46b876ab3f18829c3be3d09da15d6e24",
       "sha256": "030186a2bfafcc0306a832e082dcb2108a3015832cfe8d7d2bd5afb55b8a5a21",
       "input_rules": 18,
       "rules": 18,
@@ -926305,7 +926305,7 @@
     {
       "path": "geo/geosite/category-media.list",
       "source": "geo/geosite/category-media.json",
-      "source_sha256": "d3fae7cd019d67d96f3e4da268ff31e23b1f6f4bb94b281cc1d899d7d9f6b466",
+      "source_sha256": "f41eb5a16865c50270e81ceaf8833b7df9bd278df976e0fe0d8b5ecb0ac8c34a",
       "sha256": "5f59aad2571836b891225d53524797c270319d7ada5febab6f026228a1d0f1fd",
       "input_rules": 1580,
       "rules": 1580,
@@ -926316,7 +926316,7 @@
     {
       "path": "geo/geosite/category-media@cn.list",
       "source": "geo/geosite/category-media@cn.json",
-      "source_sha256": "7fb7087aa1f8aa0804ba2163220c3ec7af0ed4db9bcf5c9dce8cb49561f16103",
+      "source_sha256": "2764f22dc448dc2f64fc90afd83ab750079b9b52ccbd5bd3f2f769bf0646ba7c",
       "sha256": "0d2a11deb77f62f44c859e9aba78316c7eae12990c29604e5c09e060fea96f2e",
       "input_rules": 5,
       "rules": 5,
@@ -926338,7 +926338,7 @@
     {
       "path": "geo/geosite/category-mobile-repair.list",
       "source": "geo/geosite/category-mobile-repair.json",
-      "source_sha256": "b5bb171b9bf7638a841fd7cfcee7680b5ab9ea9bbe26d72c0b52d26538a96e7f",
+      "source_sha256": "86f1fadec4d28f5a197d05906b07b38a1e96e49aeba57cb7c68e55c10a3dd8b1",
       "sha256": "58bb8438dc101ba2e82b657787cccc917232904bbcc577385e307ff973ecec1e",
       "input_rules": 9,
       "rules": 9,
@@ -926360,7 +926360,7 @@
     {
       "path": "geo/geosite/category-netdisk-!cn.list",
       "source": "geo/geosite/category-netdisk-!cn.json",
-      "source_sha256": "e2daa28b5cc41eaadb91cdcfebd523b1bc9d655edc1f5f5a4adbb5fe2db8bd7c",
+      "source_sha256": "532d4693f5b8887538ba17aa089c6736c8b05098aeb9803b958cd45a4c151251",
       "sha256": "a8c9ac5d1c494b1fc32314d1690cb16e34899f17b4ecf8f22d6d130fd96efa27",
       "input_rules": 67,
       "rules": 67,
@@ -926393,7 +926393,7 @@
     {
       "path": "geo/geosite/category-netdisk-cn.list",
       "source": "geo/geosite/category-netdisk-cn.json",
-      "source_sha256": "891ce5b79da70f7c80543aed8f03654995dbe21e194551bb72627acee1386911",
+      "source_sha256": "6735224ac86d842f9d02b729ea861cc123a9b9844fe3e35ed988d0661f223271",
       "sha256": "010faf955701fef02f94152c7002b2e1e868c26741a6c06b5830851b471d5955",
       "input_rules": 91,
       "rules": 91,
@@ -926514,7 +926514,7 @@
     {
       "path": "geo/geosite/category-orgs.list",
       "source": "geo/geosite/category-orgs.json",
-      "source_sha256": "7faca2d0b0cbd34f4b1db78c72a98075d3253fb1dd760b22cdaa703253663bf2",
+      "source_sha256": "cb622b0d510aac5e8dafeee65feef990b9c142fa53751b7d52b4fa92a0c798f5",
       "sha256": "16dd42be15423571b1eb8f0350383d970c0f7245a06d745c734279d13fff80ce",
       "input_rules": 131,
       "rules": 131,
@@ -926547,7 +926547,7 @@
     {
       "path": "geo/geosite/category-password-management.list",
       "source": "geo/geosite/category-password-management.json",
-      "source_sha256": "b3448024a88b57a8a97f617197c2eb5bbcb3e8f42ad23e915a60c20e1320de6e",
+      "source_sha256": "47281fc5d93f9ffc273aa3c3658d748caac24be77bb9325e7beefb016f254ec8",
       "sha256": "8625517c2bba04a2139e25b877d604f17f66fb708cfef550ff0f209ddc16e9f6",
       "input_rules": 32,
       "rules": 32,
@@ -926569,7 +926569,7 @@
     {
       "path": "geo/geosite/category-porn.list",
       "source": "geo/geosite/category-porn.json",
-      "source_sha256": "343d5cfc419f502626cd8c2b62cf1c88df193d05c14308710b657fbac09e26db",
+      "source_sha256": "ff8006580a06b67fae87e66266bca95a4b9f960b49b01b395a40459d1f3c716a",
       "sha256": "d49f04b1d94e5c1d9d536708563d04cead83f73d9b0af06ead060fadfacfa2d6",
       "input_rules": 6661,
       "rules": 6521,
@@ -926602,7 +926602,7 @@
     {
       "path": "geo/geosite/category-proxy-tunnels.list",
       "source": "geo/geosite/category-proxy-tunnels.json",
-      "source_sha256": "4ee54efe1cd143e1677f949f800814361075f22121d03dd7ebd16ce076381f99",
+      "source_sha256": "e609bdddc167654ea0b11f2726de8858a58c08ee62c9e671d26210637bd77605",
       "sha256": "9db17ed61b6e48be054e9c58418217f844d759f9013a90ee1aa86fd565689e51",
       "input_rules": 16,
       "rules": 16,
@@ -926701,7 +926701,7 @@
     {
       "path": "geo/geosite/category-ru.list",
       "source": "geo/geosite/category-ru.json",
-      "source_sha256": "6d8000a2f1bcd64594f0e7e4b40fade59f387ec43e4eb8d8019e6fd7b83fd68a",
+      "source_sha256": "9f72b77fac04aa5a4aa742feb49ed7fc96e765199fef3349f4d91bba38ad857e",
       "sha256": "573416071c6bd8c5bc35a955fb1dfd24979936706156212a0b8834d56141a814",
       "input_rules": 1166,
       "rules": 1161,
@@ -926712,7 +926712,7 @@
     {
       "path": "geo/geosite/category-ru@ads.list",
       "source": "geo/geosite/category-ru@ads.json",
-      "source_sha256": "e4cfd363ee8d327e22dbbcd787cda5d8f28df7a49c4c7c139db373f256a66b7f",
+      "source_sha256": "feaa986ecbd851bc9ce7eabf65bd18d31ca323c41cfac51bcca333693fcb0a9a",
       "sha256": "048023729a2b07c99520cd58111e89a23e2b150f57d64743e47b9438516d1b72",
       "input_rules": 192,
       "rules": 189,
@@ -926734,7 +926734,7 @@
     {
       "path": "geo/geosite/category-ru@telemetry.list",
       "source": "geo/geosite/category-ru@telemetry.json",
-      "source_sha256": "64249ecbc900f4068c6710ed4d0e8dccb7f11409d835b2773aa1b4ba777a7f77",
+      "source_sha256": "b77dd393bc71785540799ab3f0c998f6e5ed52aa2fc08e2769c1f7564c13c23b",
       "sha256": "7a9c63f2604056ed01c7a064de0a555d9e916880b8f2716853df99f29de149f7",
       "input_rules": 51,
       "rules": 50,
@@ -926745,7 +926745,7 @@
     {
       "path": "geo/geosite/category-scholar-!cn.list",
       "source": "geo/geosite/category-scholar-!cn.json",
-      "source_sha256": "b36378773d7909c749accadb17a4e4331e7f90ab9fb4407a4d901f629d33c280",
+      "source_sha256": "76685da3749c80be2c7e3c45a889c4ebeab462ce62208d7d049a82258afbdc5e",
       "sha256": "75c645aa19501145af4655f8e7f68b8f2a0998ee33a97a4826bbe14f86e138d7",
       "input_rules": 466,
       "rules": 466,
@@ -926822,7 +926822,7 @@
     {
       "path": "geo/geosite/category-social-media-!cn.list",
       "source": "geo/geosite/category-social-media-!cn.json",
-      "source_sha256": "bc4a271a3dab842739e48c596952620f381f4ec239dfaf7447e77e7e3f4b5477",
+      "source_sha256": "25de5376be9cc00750721be5615b9e46883488a540fbd64f9afca97c01b42920",
       "sha256": "7149211699a35b3bc6b145fdbaf4b9b64e0035359605fc04be8039f972ec7e3a",
       "input_rules": 627,
       "rules": 627,
@@ -926833,7 +926833,7 @@
     {
       "path": "geo/geosite/category-social-media-!cn@ads.list",
       "source": "geo/geosite/category-social-media-!cn@ads.json",
-      "source_sha256": "acc718c7967b31f4bb45edf12611bb687b1d0ef1b0233e846d890d7e9cc69d83",
+      "source_sha256": "b0acae5d823edd33444ce69ef3d6a372c80d645cfe4ed6e5569ba8d5a07edbb9",
       "sha256": "25d9942e24f4df0367de9ba625e9abb3b09ba304fdc6d5d1a41aca88ee31d089",
       "input_rules": 21,
       "rules": 21,
@@ -926866,7 +926866,7 @@
     {
       "path": "geo/geosite/category-social-media-cn.list",
       "source": "geo/geosite/category-social-media-cn.json",
-      "source_sha256": "547dfcd5793637b5f2b9b4a85b940d9037b7516b281973be979fec487e52c5bd",
+      "source_sha256": "cd627408de5aaf707b0cec924afab9bb74d3f326de20d7fe813852c907bd20a5",
       "sha256": "8111786fc558b63644ec802198ae9dcaf268e08cc98497eedcdf011109753ccd",
       "input_rules": 54,
       "rules": 54,
@@ -927009,7 +927009,7 @@
     {
       "path": "geo/geosite/category-telemetry.list",
       "source": "geo/geosite/category-telemetry.json",
-      "source_sha256": "05e3e10a6b6d799527949ab79ff78d339536042279d95020fb283d6f7f01b568",
+      "source_sha256": "391bcf01a87db2542e494912f082920ac64d0ac9e9d0bf554c38e8f280d11316",
       "sha256": "252ed110896e1c84a5cb096541033a67c4240c6632be16189bb07247965bb379",
       "input_rules": 298,
       "rules": 237,
@@ -927020,7 +927020,7 @@
     {
       "path": "geo/geosite/category-telemetry@ads.list",
       "source": "geo/geosite/category-telemetry@ads.json",
-      "source_sha256": "909f22df9ab0d78fa4ae079e5da998e2018772db6e14b5fe55d1221c903e7cd0",
+      "source_sha256": "aaec9d45d090ff659c9f740979c00c17b6c5bb042d4ca1a2fa97a73c3f535922",
       "sha256": "df55a4ceca55bd5ed09dfea37d1b6961883f8913f38699701f978d907d12e35b",
       "input_rules": 243,
       "rules": 196,
@@ -927042,7 +927042,7 @@
     {
       "path": "geo/geosite/category-telemetry@telemetry.list",
       "source": "geo/geosite/category-telemetry@telemetry.json",
-      "source_sha256": "05e3e10a6b6d799527949ab79ff78d339536042279d95020fb283d6f7f01b568",
+      "source_sha256": "391bcf01a87db2542e494912f082920ac64d0ac9e9d0bf554c38e8f280d11316",
       "sha256": "0c107670600c7fb85b1841a7d10061d510f17763648aee40c52ff20f7ca6a08c",
       "input_rules": 298,
       "rules": 237,
@@ -927108,7 +927108,7 @@
     {
       "path": "geo/geosite/category-vpnservices.list",
       "source": "geo/geosite/category-vpnservices.json",
-      "source_sha256": "4d2e5c41411a3a92b2f619b9fa7a730f647f4c2a19fa918a5dc3c08839f06d95",
+      "source_sha256": "0d892aa2eed188222b0722a7d06bfe430b1d658e3c314f72a76081b312c5b4d1",
       "sha256": "5057d3ab83720160a66ae33a773f0ab53c333a68ff6cc6b17803d1a4eb59ddcd",
       "input_rules": 69,
       "rules": 69,
@@ -928681,7 +928681,7 @@
     {
       "path": "geo/geosite/digicert.list",
       "source": "geo/geosite/digicert.json",
-      "source_sha256": "5da8b26ef7402addc75d1c1612c72cbc98bfbb847142d2804d9b0a1e83b17a54",
+      "source_sha256": "1938913c395db6d2ae3f15fa4145005a169bce5eee1d9295184a1d8c3e5fb65d",
       "sha256": "8d32648b7ac689cabc869c57b39462814901c469e7b239cd9963ad4ddf9d4644",
       "input_rules": 74,
       "rules": 74,
@@ -928791,7 +928791,7 @@
     {
       "path": "geo/geosite/disney.list",
       "source": "geo/geosite/disney.json",
-      "source_sha256": "ded7332d1f23df54de0b201655223f4a3126454dee6779f31d71668ca4ca7d95",
+      "source_sha256": "8a694a3e9672ddb844f6c0dfb1bb8f00f56403a1eddcbc7a577143cdd3009230",
       "sha256": "016eea55dc1dd8a3a0d1683ffbc568d708aab2520776699b4844e0c7a77e642a",
       "input_rules": 225,
       "rules": 224,
@@ -930650,10 +930650,10 @@
     {
       "path": "geo/geosite/geolocation-!cn.list",
       "source": "geo/geosite/geolocation-!cn.json",
-      "source_sha256": "4f110c86777bd0f6df8f99eabc557bc233b64858dadc26ff022608d0391634d8",
-      "sha256": "211305a88057b82a61b7b05833f9e823110eb0ec46edf8e7c66702aefa24798a",
-      "input_rules": 27466,
-      "rules": 27315,
+      "source_sha256": "0c07c9d28fbc55d873ebcbd16130bac9ead8c41bc14e931a9888e08ba3a69551",
+      "sha256": "0c3e6261b4543278a3cc3a7233f9ffc7ca1b43cdcfa14958a045f91cba8c5cce",
+      "input_rules": 27355,
+      "rules": 27204,
       "unsupported": 151,
       "deduplicated": 0,
       "status": "partial"
@@ -930661,10 +930661,10 @@
     {
       "path": "geo/geosite/geolocation-cn.list",
       "source": "geo/geosite/geolocation-cn.json",
-      "source_sha256": "1df11bb8c16864497fdd37ca05e560e9ee6b9ceba08c90c80f23e8665db0f82c",
-      "sha256": "33124b47b459dd80fbd8f1d9363a9e2c34977bfbe4605097975f23762aafa67e",
-      "input_rules": 5452,
-      "rules": 5449,
+      "source_sha256": "6f81725dbe6a85ef66f85f5ceaffbe39508fd0f6f24396aee05a56109c611336",
+      "sha256": "b6bc6a0cd6847c53c6210512a91887e4f3b19806424d3a0342d8e768c4d72ded",
+      "input_rules": 5456,
+      "rules": 5453,
       "unsupported": 3,
       "deduplicated": 0,
       "status": "partial"
@@ -930672,7 +930672,7 @@
     {
       "path": "geo/geosite/geolocation-cn@cn.list",
       "source": "geo/geosite/geolocation-cn@cn.json",
-      "source_sha256": "c14463a519861738f2b4dfb876a73a3d5e60031b36f3d0587bf42f8125251d86",
+      "source_sha256": "ec568d72d4570689925fbd5d6d769f386fccf6c69c1488549a3741909d481a1c",
       "sha256": "271138cf0bd7e38b202a1eec59a40cc7477c04ced40d28962fd1c3107afcc800",
       "input_rules": 76,
       "rules": 73,
@@ -930683,7 +930683,7 @@
     {
       "path": "geo/geosite/geolocation-cn@telemetry.list",
       "source": "geo/geosite/geolocation-cn@telemetry.json",
-      "source_sha256": "5910f8b314b0f01bcbe94245ab1a8513ecde4f2b1edf31a3a579ed99bf85e582",
+      "source_sha256": "dada1978215ca0257fd479bb883eda52581c6733307dc8934bbf50e959726a63",
       "sha256": "32653dc6e00198da52b24992834e44714145f0e851cc3e90031d664b1f74f6d3",
       "input_rules": 12,
       "rules": 12,
@@ -930716,10 +930716,10 @@
     {
       "path": "geo/geosite/gfw.list",
       "source": "geo/geosite/gfw.json",
-      "source_sha256": "bc2baee36fcccf1b06ea5ab535f212b8eec7754007bcc84b70c40ba2b52ffda4",
-      "sha256": "4190ad6a9ef13db0b0367712fbd9ef3be78cbe527383ae15af0788e94520adaa",
-      "input_rules": 4434,
-      "rules": 4434,
+      "source_sha256": "bf02d4fb211c63640c1eca125ae152630ff4908bd8a5cbac93f6d342af6fd3e2",
+      "sha256": "19074bcf8aff7de3ce19073ed1c746172038a90979422d09815ff424ca6a852e",
+      "input_rules": 4462,
+      "rules": 4462,
       "unsupported": 0,
       "deduplicated": 0,
       "status": "complete"
@@ -930848,7 +930848,7 @@
     {
       "path": "geo/geosite/github.list",
       "source": "geo/geosite/github.json",
-      "source_sha256": "fa2228474b14254cf7869c48cf16ee4fdcf276c4348b228d2b8e5cb5cfe059f9",
+      "source_sha256": "838d8385ba91deaad79d679813368eb6ff7b2cb699750907afc4fce299b553eb",
       "sha256": "c4b9b403a855f9844738ea47119370d540a483cf425c9ec7a954a9040dcf35e7",
       "input_rules": 66,
       "rules": 66,
@@ -931178,7 +931178,7 @@
     {
       "path": "geo/geosite/google.list",
       "source": "geo/geosite/google.json",
-      "source_sha256": "57869f4ce428d85fcf4cd87ef72479a100b4e4322b550d632e315465d66d9fc7",
+      "source_sha256": "5b8a558599929af2dd1ef4c1c689cdd1bf5d88cd72d160a677f8529a824500df",
       "sha256": "cd0d2c5c9d3d0d058477b112e07a5918a2632b27a22d9e18a86221c2122b5afa",
       "input_rules": 1080,
       "rules": 1078,
@@ -933466,7 +933466,7 @@
     {
       "path": "geo/geosite/kingsoft.list",
       "source": "geo/geosite/kingsoft.json",
-      "source_sha256": "a3887a104d8c6a4bfbe177302d76e9781c2c113a7bbbdcf405905f91b67c91eb",
+      "source_sha256": "ced600999478bb73f9e9d924cd91da64c5883aa7ff6694835e162364386dd8f7",
       "sha256": "4f700dc0424fb46f9b066eac0438ebb5fee2a3f051a64a8a6c037ed21db44d90",
       "input_rules": 45,
       "rules": 45,
@@ -933873,7 +933873,7 @@
     {
       "path": "geo/geosite/lark.list",
       "source": "geo/geosite/lark.json",
-      "source_sha256": "c9571e2c3037302b981ab4b00f5d8e125a5e17ee3e8e143ec65f6b272b4f01e7",
+      "source_sha256": "09b6062ea1dcf834544624d32632f4b5b84b1c46511beb98745ed2370e1d9579",
       "sha256": "7ba478d25e8cfafc275846d5b6dcd0bb5592d8e39fbe9369768ff663bf14682e",
       "input_rules": 88,
       "rules": 88,
@@ -934852,7 +934852,7 @@
     {
       "path": "geo/geosite/meta.list",
       "source": "geo/geosite/meta.json",
-      "source_sha256": "30e1cd7c613718114498f4368380b3e87d5eb244ae8751dbf9edd80c9a38d5a9",
+      "source_sha256": "103f27aefc9481c4c670ac18d06fb6cc9ad869510f31930f56a7fca452535646",
       "sha256": "790edfc32563c1a4954c5873981af97a24dcc52b4e33934d34ff57928f836922",
       "input_rules": 556,
       "rules": 556,
@@ -934863,7 +934863,7 @@
     {
       "path": "geo/geosite/meta@ads.list",
       "source": "geo/geosite/meta@ads.json",
-      "source_sha256": "61ec0ecc325720d42da80b0feb2069db013bc2c664b575ea3067929bd424bc6c",
+      "source_sha256": "1398719eeb17a7d4b24cba22a38fffab7b97a462d88e1d4a76140c1cd646fdc5",
       "sha256": "3ab59bf338292ba4d3f0d727560f72dab188de8c958ca7d91d8faa9d5a5f8fad",
       "input_rules": 5,
       "rules": 5,
@@ -934962,7 +934962,7 @@
     {
       "path": "geo/geosite/microsoft.list",
       "source": "geo/geosite/microsoft.json",
-      "source_sha256": "b1042eb0c3445fc66c741acebb3b47df209a72808e4835cce1254fb9766df2ea",
+      "source_sha256": "d782421e9cef3dc1c04a95adaa3f42be39093b1814f3dd7f52282d30b2f3a5ad",
       "sha256": "e92faf2487b5bb31d90407de21a69449f880160eaf8706321480a25fd86bb829",
       "input_rules": 762,
       "rules": 760,
@@ -934973,7 +934973,7 @@
     {
       "path": "geo/geosite/microsoft@ads.list",
       "source": "geo/geosite/microsoft@ads.json",
-      "source_sha256": "19903d2bcafb85ed15c604e376a86c3f243a9619adb8d0c576169bae24131524",
+      "source_sha256": "01bff4b9f84d98e729e9e9e1e1f27b04f1cd261f07337aca0a088526268129c9",
       "sha256": "1c69890293efeece5eb77241b4110e9b52c027a817bf6283f76e0a706fdb9690",
       "input_rules": 7,
       "rules": 7,
@@ -934984,7 +934984,7 @@
     {
       "path": "geo/geosite/microsoft@cn.list",
       "source": "geo/geosite/microsoft@cn.json",
-      "source_sha256": "c45f3dbf8ba1ed3f6241b94fc5dbad2183f61931b8fab436dd3ae4b935ac1719",
+      "source_sha256": "669a1aef4b0e0516ceb64d0ee4f565a6a9890fb9f8116c8ed80796f72e4c30ee",
       "sha256": "7a94d2f1d2e25bb88133b553fe7c07cc3778015b4a2790d91885a57047f30603",
       "input_rules": 189,
       "rules": 189,
@@ -934995,7 +934995,7 @@
     {
       "path": "geo/geosite/microsoft@telemetry.list",
       "source": "geo/geosite/microsoft@telemetry.json",
-      "source_sha256": "b7d04d30a8e6e94c985815de97179be179aa290323d0eba28b3bd8c6964feb88",
+      "source_sha256": "ff25255d154d23be31c3aaebcf469c8d9f1a2a9e25697553e1e9c08918d8a515",
       "sha256": "645213d6a0c61b4850e341f8e0f379cf9babb1d75fcf2902bc9a4849cbb8fa9f",
       "input_rules": 17,
       "rules": 17,
@@ -935061,7 +935061,7 @@
     {
       "path": "geo/geosite/mihoyo.list",
       "source": "geo/geosite/mihoyo.json",
-      "source_sha256": "b3ffb179b5fb809454258666ee6b7d0b220448991dc540fb5b30d78828f0a209",
+      "source_sha256": "397b34e579fb32df65dbed5f05c04b104fc135df1af7e91db3d392cb158110e4",
       "sha256": "f1eb44446e11617aa63236ab77a2677447dea626138d7423f24fe9fc04ff935c",
       "input_rules": 26,
       "rules": 25,
@@ -935072,7 +935072,7 @@
     {
       "path": "geo/geosite/mihoyo@ads.list",
       "source": "geo/geosite/mihoyo@ads.json",
-      "source_sha256": "748a54d6a4916a695fc1f22e3b7de956ae1a02940518ff8e171477425bbfe08b",
+      "source_sha256": "484e1a9d765997376161e01f2466587bbf3ed99f0e54f7a57d39f06c4ce6ecf8",
       "sha256": "96384175066e463867c783cc66dd4e198ff75ca1f20bd24e1604c929756a5681",
       "input_rules": 2,
       "rules": 2,
@@ -935094,7 +935094,7 @@
     {
       "path": "geo/geosite/mihoyo@telemetry.list",
       "source": "geo/geosite/mihoyo@telemetry.json",
-      "source_sha256": "748a54d6a4916a695fc1f22e3b7de956ae1a02940518ff8e171477425bbfe08b",
+      "source_sha256": "484e1a9d765997376161e01f2466587bbf3ed99f0e54f7a57d39f06c4ce6ecf8",
       "sha256": "8a9b8c79af5f300ec2d1c0e7810dc4b42bd0ac2ba1b16f2cf0656b76303ede65",
       "input_rules": 2,
       "rules": 2,
@@ -935149,7 +935149,7 @@
     {
       "path": "geo/geosite/mindgeek-porn.list",
       "source": "geo/geosite/mindgeek-porn.json",
-      "source_sha256": "f49732142da35e88b2e101a1d2b6f94359c1d3006315eb789ee964518322f611",
+      "source_sha256": "bf8d57caf65e8667ae2c242b726bc8ca8b726624f3e6f9e1ac293354a2e8f2b2",
       "sha256": "dd92831de251cf1b4e65c3b1516e5d6eead5c16645ce264da8ab075075cff2b4",
       "input_rules": 46,
       "rules": 46,
@@ -935160,7 +935160,7 @@
     {
       "path": "geo/geosite/mindgeek.list",
       "source": "geo/geosite/mindgeek.json",
-      "source_sha256": "a7d6b06dbcffd266a1f6b55b74b5d5766b1be13aff609cc4f744300f01ed3dd9",
+      "source_sha256": "57ebd94277e52109eb5c3f61c37999ac0376516a21f6ca7b7d9e0bca653e118a",
       "sha256": "b30d7ff5fcee73122bd32c185bafc46606c839044a7141edebb09f004cdedaae",
       "input_rules": 47,
       "rules": 47,
@@ -935369,7 +935369,7 @@
     {
       "path": "geo/geosite/monotype.list",
       "source": "geo/geosite/monotype.json",
-      "source_sha256": "f3c1a4930a26ee167f214bcf7113cbd27d15dd9060e43958539e34145e793817",
+      "source_sha256": "d254f0d9b72034032384deeac0a39b5deb5db69bd3f47c5dae0482054642340b",
       "sha256": "802b83b7970fe906b7a7232cd7e782b462db0502f6693739a7d8cd4f664dca68",
       "input_rules": 14,
       "rules": 14,
@@ -935952,7 +935952,7 @@
     {
       "path": "geo/geosite/newscorp.list",
       "source": "geo/geosite/newscorp.json",
-      "source_sha256": "37068953737fd7c0c76d489ce2978ac2d967b0da6b5a346b7bea3814a97ef23c",
+      "source_sha256": "2282a79bbbaa6961bd864e78e2f835b8f5e2ca4af37f39db2c5a6f5c89c61fc0",
       "sha256": "4455cbb596483f9741c8f3829d0f59ef9844f5cea87664bedae2cc41f064d1c4",
       "input_rules": 152,
       "rules": 152,
@@ -936656,7 +936656,7 @@
     {
       "path": "geo/geosite/openjsfoundation.list",
       "source": "geo/geosite/openjsfoundation.json",
-      "source_sha256": "fb80d51e14087712b18058663502865da4d7b89f1e99ec00c780cbead3ed2962",
+      "source_sha256": "58ee1cd8d34b1d6983fdfb9700e67d96c32ff10a067605a2a920ac587ea03242",
       "sha256": "4bdfab94d7cf16f05a21690b440b39254ddfc2789a81389ded29ae9c1ee84c10",
       "input_rules": 13,
       "rules": 13,
@@ -938086,7 +938086,7 @@
     {
       "path": "geo/geosite/rb.list",
       "source": "geo/geosite/rb.json",
-      "source_sha256": "81f3206ed6a3e7727e7677454d52475644f245b1804033edc7ba44a349edb92e",
+      "source_sha256": "84e0c9173619c7ecbc7b392020a199f45b7960429665d2969bb76de47d0339ab",
       "sha256": "13d5d94623c083b972cb509913ffff463d47d95b84e6e4323651ef045098fce3",
       "input_rules": 457,
       "rules": 457,
@@ -938097,7 +938097,7 @@
     {
       "path": "geo/geosite/rb@cn.list",
       "source": "geo/geosite/rb@cn.json",
-      "source_sha256": "1bf2f6779bbc8bc0b9e472dcfffcbccb9cc26e019da3851d2c149b677eeda3bd",
+      "source_sha256": "6a1cb86d8e31259e282e1c0810e19a114d3c49e5f862c3aedbe749aa2f7ea70f",
       "sha256": "37fb54e1dc8e2185efae685a90b7325e630e7304d21070490cdaccf32ea85404",
       "input_rules": 28,
       "rules": 28,
@@ -938647,7 +938647,7 @@
     {
       "path": "geo/geosite/sber.list",
       "source": "geo/geosite/sber.json",
-      "source_sha256": "1c8164e842625e62e1e3df3aca4b6e8b7cfc99633b75db4f1b8b915c0d8be8d7",
+      "source_sha256": "5f316117cfb8cf4802702244f5133fc95c9a3bb921ca5595c3641ebcdfb34966",
       "sha256": "f13dd556558972d322705799b6eb1e3fe85fa45fb1f0789643dceb3d333c128c",
       "input_rules": 100,
       "rules": 100,
@@ -940594,7 +940594,7 @@
     {
       "path": "geo/geosite/tencent.list",
       "source": "geo/geosite/tencent.json",
-      "source_sha256": "f12488bd9068e4c2368cb859dab6ec4a09ac10acf66cb69007f80e6b469883c4",
+      "source_sha256": "0a26a744a1e4975d2ca5723d2cdd74fe5fa7cdc49663b06a8f8b92ed82b4cd2d",
       "sha256": "9337bfdca119e2c23bd51a2744b2909d37655b87ccf3a610779165bac421f071",
       "input_rules": 689,
       "rules": 689,
@@ -940605,7 +940605,7 @@
     {
       "path": "geo/geosite/tencent@!cn.list",
       "source": "geo/geosite/tencent@!cn.json",
-      "source_sha256": "6b0c6e048b1e18b48d0471d1620b63c36ea173ebcbc0ea37acca6bb9ce5ce151",
+      "source_sha256": "e8d1aaa17f69032a9b605adb0e064f03531e9d60acf2dd5be12a353f4293991e",
       "sha256": "160f210af2b48487c33285b3e4082e7d25c3d635e4569bb1ca62b422674f71fb",
       "input_rules": 72,
       "rules": 72,
@@ -940616,7 +940616,7 @@
     {
       "path": "geo/geosite/tencent@ads.list",
       "source": "geo/geosite/tencent@ads.json",
-      "source_sha256": "42f9974c4226fe098a18a1f0a9f646f6f5af82662cdb0652a51fa0d77e675308",
+      "source_sha256": "03739b2f883c96c2d41c143e40fa76417d854ededd1a6d13b26103559a713879",
       "sha256": "a3ca3fe779ab99949d5e65e9db2acc1c1a92ffa0a90c5b12f4dc929dc984b5e5",
       "input_rules": 73,
       "rules": 73,
@@ -940627,7 +940627,7 @@
     {
       "path": "geo/geosite/tencent@telemetry.list",
       "source": "geo/geosite/tencent@telemetry.json",
-      "source_sha256": "51e9b9a3b1f42aed0395338b0aa9978db6d9ca9dfe3c7336596186507ee7145e",
+      "source_sha256": "ded6165b2f3da6a56c340ab68ffdf2981c7d62e6ca932bfa1d706a95d2c2033a",
       "sha256": "39bde445bb04d41d2fb3062d6b22b3fe790db1044ca18cc681ec5ff9e0bb737a",
       "input_rules": 18,
       "rules": 18,
@@ -940792,7 +940792,7 @@
     {
       "path": "geo/geosite/thelinuxfoundation.list",
       "source": "geo/geosite/thelinuxfoundation.json",
-      "source_sha256": "7c233947e7437fd1d3a99a4b3abaeaccdc74ba6dc7f7757011b05542349f635f",
+      "source_sha256": "607e923bb7448cfe52a568246e8462c11b5a4d893d75eb399dfeec7e7038924c",
       "sha256": "b9c2d2215cd1da11e41dcda4964b254d9be0dbb7f5335ae7ba64e1e10a7c1471",
       "input_rules": 17,
       "rules": 17,
@@ -942871,7 +942871,7 @@
     {
       "path": "geo/geosite/xbox.list",
       "source": "geo/geosite/xbox.json",
-      "source_sha256": "2058116cc840ce1828e422ae22bf9943f67293afffb30201d57dd5c709152f86",
+      "source_sha256": "4a5b2f48326453474c8599afd434b0ae8825250bc8bd0490754c6b27164c444e",
       "sha256": "4b0ce10d564c72864f8d862e13b5af357c3db2f19aa5313d14ee56087a4e228b",
       "input_rules": 42,
       "rules": 42,

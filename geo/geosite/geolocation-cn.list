@@ -1,6 +1,6 @@
 # Generated Surge RULE-SET. No policy is embedded.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-cn.json
-# Status: partial; emitted: 5449; unsupported: 3
+# Status: partial; emitted: 5453; unsupported: 3
 # DOMAIN-REGEX entries are preserved in unsupported.json, not approximated.
 DOMAIN,ai.zhaomi.cn
 DOMAIN,api.blipsandchitz.me
@@ -1690,6 +1690,7 @@ DOMAIN-SUFFIX,ebscn.com
 DOMAIN-SUFFIX,ebtrust.com
 DOMAIN-SUFFIX,eceshi.com
 DOMAIN-SUFFIX,echargenet.com
+DOMAIN-SUFFIX,echooai.com
 DOMAIN-SUFFIX,ecjobhome.com
 DOMAIN-SUFFIX,eckwai.com
 DOMAIN-SUFFIX,ecloud-gdu.com
@@ -1791,8 +1792,10 @@ DOMAIN-SUFFIX,fastcom.com.cn
 DOMAIN-SUFFIX,favonis.cloud
 DOMAIN-SUFFIX,favonis.com
 DOMAIN-SUFFIX,favonis.space
+DOMAIN-SUFFIX,faw-vw.com
 DOMAIN-SUFFIX,faw.cn
 DOMAIN-SUFFIX,faxingbao.com
+DOMAIN-SUFFIX,fazhipro.com
 DOMAIN-SUFFIX,fbank.com
 DOMAIN-SUFFIX,fbstatic.cn
 DOMAIN-SUFFIX,fcbox.com
@@ -3946,6 +3949,7 @@ DOMAIN-SUFFIX,rwkv.cn
 DOMAIN-SUFFIX,rwkv.com
 DOMAIN-SUFFIX,rzrc114.com
 DOMAIN-SUFFIX,s0n.cn
+DOMAIN-SUFFIX,saasfz.com
 DOMAIN-SUFFIX,saasops.tech
 DOMAIN-SUFFIX,saayaa.com
 DOMAIN-SUFFIX,saduck.top
